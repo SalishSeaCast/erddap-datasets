@@ -1,0 +1,17 @@
+# conda environment description
+#
+# Use:
+#
+#   conda env create -f environment.yaml
+#
+# to create an environment in which you can run the ERDDAP_datasets notebook.
+
+name: erddap-datasets
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - lxml
+  - notebook
