@@ -5382,5 +5382,93 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnFridayHarborSSH15mV16-10" active="true">
+  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
+  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <recursive>true</recursive>
+  <fileNameRegex>.*FridayHarbor\.nc$</fileNameRegex>
+  <metadataFrom>last</metadataFrom>
+  <matchAxisNDigits>20</matchAxisNDigits>
+  <fileTableInMemory>false</fileTableInMemory>
+  <accessibleViaFiles>false</accessibleViaFiles>
+  <!-- sourceAttributes>
+        <att name="Conventions">CF-1.5</att>
+        <att name="description">10min interval SSH for tides</att>
+        <att name="name">FridayHarbor</att>
+        <att name="production">An IPSL model</att>
+        <att name="timeStamp">2016-Dec-12 11:15:37 PST</att>
+        <att name="title">10min interval SSH for tides</att>
+    </sourceAttributes -->
+  <addAttributes>
+    <att name="cdm_data_type">Grid</att>
+    <att name="coverage_content_type">modelResult</att>
+    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
+    <att name="institution">UBC EOAS</att>
+    <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+    <att name="keywords">model results, height, sea surface height, sossheig, surface, time, time_counter</att>
+    <att name="keywords_vocabulary">GCMD Science Keywords</att>
+    <att name="license">The Salish Sea MEOPAR NEMO model results are copyright 2013-2016
+by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="summary">Nowcast, Friday Harbor, WA, Sea Surface Height, 15min, v16-10
+
+Sea surface height values averaged over 15 minutes intervals from
+Salish Sea NEMO model nowcast runs. The values are calculated at the model grid point
+closest to the Friday Harbor, WA tide gauge station at San Juan Island in Haro Strait,
+near Friday Harbor, Washington.
+Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V1-07 dataset.
+
+v1: ssh variable
+
+v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.</att>
+    <att name="title">Nowcast, Friday Harbor, WA, Sea Surface Height, 15min, v16-10</att>
+    <att name="project">Salish Sea MEOPAR NEMO Model</att>
+    <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
+    <att name="creator_email">sallen@eos.ubc.ca</att>
+    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+    <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="drawLandMask">over</att>
+  </addAttributes>
+  <axisVariable>
+    <sourceName>time_counter</sourceName>
+    <destinationName>time</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="int">1</att>
+            <att name="axis">T</att>
+            <att name="bounds">time_counter_bounds</att>
+            <att name="calendar">gregorian</att>
+            <att name="long_name">Time axis</att>
+            <att name="standard_name">time</att>
+            <att name="time_origin">1900-01-01 00:00:00</att>
+            <att name="units">seconds since 1900-01-01 00:00:00</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSize">null</att>
+      <att name="bounds">null</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>nav_lon</sourceName>
+    <destinationName>longitude</destinationName>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>nav_lat</sourceName>
+    <destinationName>latitude</destinationName>
+  </axisVariable>
+  <dataVariable>
+    <sourceName>sossheig</sourceName>
+    <destinationName>ssh</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="_ChunkSize">null</att>
+      <att name="coordinates">null</att>
+    </addAttributes>
+  </dataVariable>
+</dataset>
+
 
 </erddapDatasets>
