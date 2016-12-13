@@ -4813,7 +4813,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnPointAtkinsonSSH15mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnPointAtkinsonSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
@@ -4849,9 +4849,9 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Nowcast, Point Atkinson, Sea Surface Height, 15min, v16-10
+    <att name="summary">Nowcast, Point Atkinson, Sea Surface Height, 10min, v16-10
 
-Sea surface height values averaged over 15 minute intervals from
+Sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model nowcast runs. The values are calculated at the model grid point
 closest to the Point Atkinson tide gauge station on the north side of English Bay,
 near Vancouver, British Columbia.
@@ -4860,7 +4860,7 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 v1: ssh variable
 
 v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.</att>
-    <att name="title">Nowcast, Point Atkinson, Sea Surface Height, 15min, v16-10</att>
+    <att name="title">Nowcast, Point Atkinson, Sea Surface Height, 10min, v16-10</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eos.ubc.ca</att>
@@ -5206,7 +5206,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCampbellRiverSSH15mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCampbellRiverSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
@@ -5238,9 +5238,9 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Nowcast, Campbell River, Sea Surface Height, 15min, v16-10
+    <att name="summary">Nowcast, Campbell River, Sea Surface Height, 10min, v16-10
 
-Sea surface height values averaged over 15 minutes intervals from
+Sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model nowcast runs. The values are calculated at the model grid point
 closest to the Campbell River tide gauge station at the north end of the Strait of Georgia,
 near Campbell River, British Columbia.
@@ -5249,7 +5249,7 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 v1: ssh variable
 
 v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.</att>
-    <att name="title">Nowcast, Campbell River, Sea Surface Height, 15min, v16-10</att>
+    <att name="title">Nowcast, Campbell River, Sea Surface Height, 10min, v16-10</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eos.ubc.ca</att>
@@ -5294,7 +5294,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCherryPointSSH15mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCherryPointSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
@@ -5326,9 +5326,9 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Nowcast, Cherry Point, WA, Sea Surface Height, 15min, v16-10
+    <att name="summary">Nowcast, Cherry Point, WA, Sea Surface Height, 10min, v16-10
 
-Sea surface height values averaged over 15 minutes intervals from
+Sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model nowcast runs. The values are calculated at the model grid point
 closest to the Cherry Point, WA tide gauge station in the southern Strait of Georgia,
 near Birch Bay, Washington.
@@ -5337,7 +5337,7 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 v1: ssh variable
 
 v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.</att>
-    <att name="title">Nowcast, Cherry Point, WA, Sea Surface Height, 15min, v16-10</att>
+    <att name="title">Nowcast, Cherry Point, WA, Sea Surface Height, 10min, v16-10</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eos.ubc.ca</att>
@@ -5382,7 +5382,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnFridayHarborSSH15mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnFridayHarborSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
@@ -5414,9 +5414,9 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Nowcast, Friday Harbor, WA, Sea Surface Height, 15min, v16-10
+    <att name="summary">Nowcast, Friday Harbor, WA, Sea Surface Height, 10min, v16-10
 
-Sea surface height values averaged over 15 minutes intervals from
+Sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model nowcast runs. The values are calculated at the model grid point
 closest to the Friday Harbor, WA tide gauge station at San Juan Island in Haro Strait,
 near Friday Harbor, Washington.
@@ -5425,7 +5425,7 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 v1: ssh variable
 
 v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.</att>
-    <att name="title">Nowcast, Friday Harbor, WA, Sea Surface Height, 15min, v16-10</att>
+    <att name="title">Nowcast, Friday Harbor, WA, Sea Surface Height, 10min, v16-10</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eos.ubc.ca</att>
@@ -5470,7 +5470,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNanaimoSSH15mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNanaimoSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
@@ -5502,9 +5502,9 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Nowcast, Nanaimo, Sea Surface Height, 15min, v16-10
+    <att name="summary">Nowcast, Nanaimo, Sea Surface Height, 10min, v16-10
 
-Sea surface height values averaged over 15 minutes intervals from
+Sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model nowcast runs. The values are calculated at the model grid point
 closest to the Nanaimo tide gauge station on the west side of the central Strait of Georgia,
 near Nanaimo, British Columbia.
@@ -5513,7 +5513,7 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 v1: ssh variable
 
 v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.</att>
-    <att name="title">Nowcast, Nanaimo, Sea Surface Height, 15min, v16-10</att>
+    <att name="title">Nowcast, Nanaimo, Sea Surface Height, 10min, v16-10</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eos.ubc.ca</att>
@@ -5558,7 +5558,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNeahBaySSH15mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNeahBaySSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
@@ -5590,9 +5590,9 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Nowcast, Neah Bay, WA, Sea Surface Height, 15min, v16-10
+    <att name="summary">Nowcast, Neah Bay, WA, Sea Surface Height, 10min, v16-10
 
-Sea surface height values averaged over 15 minutes intervals from
+Sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model nowcast runs. The values are calculated at the model grid point
 closest to the Neah Bay, WA tide gauge station on the south side of the west end of the Juan de Fuca Strait,
 near Neah Bay, Washington.
@@ -5601,7 +5601,7 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 v1: ssh variable
 
 v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.</att>
-    <att name="title">Nowcast, Neah Bay, WA, Sea Surface Height, 15min, v16-10</att>
+    <att name="title">Nowcast, Neah Bay, WA, Sea Surface Height, 10min, v16-10</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eos.ubc.ca</att>
