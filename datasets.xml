@@ -1325,8 +1325,7 @@ Environment Canada HRDPS atmospheric forcing model that are used to force the Sa
 The model grid includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
 Geo-location data for the atmospheric forcing grid are available in the ubcSSaAtmosphereGridV1 dataset.
-Atmospheric field values are interpolated on to the Salish Sea NEMO model grid (ubcSSnBathymetry2V1 dataset)
-on-the-fly by NEMO.
+Atmospheric field values are interpolated on to the Salish Sea NEMO model grid on-the-fly by NEMO.
 
 v1: atmospheric pressure, precipitation rate, 2m specific humidity, 2m air temperature,
 short-wave radiation flux, long-wave radiation flux, 10m u wind component, 10m v wind component variables</att>
@@ -4379,7 +4378,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 from Salish Sea NEMO model nowcast runs. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V1 dataset.
+Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V16-07 dataset.
 
 v1: uVelocity variable
 
@@ -4513,7 +4512,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 from Salish Sea NEMO model nowcast runs. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V1 dataset.
+Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V16-07 dataset.
 
 v1: vVelocity variable
 
@@ -4649,7 +4648,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 from Salish Sea NEMO model nowcast runs. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V1 dataset.
+Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V16-07 dataset.
 
 v1: wVelocity variable
 
@@ -4855,7 +4854,7 @@ Sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model nowcast runs. The values are calculated at the model grid point
 closest to the Point Atkinson tide gauge station on the north side of English Bay,
 near Vancouver, British Columbia.
-Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V1 dataset.
+Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V16-07 dataset.
 
 v1: ssh variable
 
@@ -4962,7 +4961,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 from Salish Sea NEMO model nowcast runs. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V1 dataset.
+Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V16-07 dataset.
 
 v1: salinity (practical) and temperature variables
 
