@@ -15,3 +15,8 @@ channels:
 dependencies:
   - lxml
   - notebook
+  - pip
+  - python=3.6
+
+  - pip:
+      - yapf
