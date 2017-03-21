@@ -6360,4 +6360,219 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   </dataVariable>
 </dataset>
 
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwVelocity1hV17-02" active="true">
+  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
+  <fileDir>/results/SalishSea/hindcast/</fileDir>
+  <recursive>true</recursive>
+  <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_W\.nc$</fileNameRegex>
+  <metadataFrom>last</metadataFrom>
+  <matchAxisNDigits>20</matchAxisNDigits>
+  <fileTableInMemory>false</fileTableInMemory>
+  <accessibleViaFiles>false</accessibleViaFiles>
+  <!-- sourceAttributes>
+        <att name="Conventions">CF-1.5</att>
+        <att name="description">ocean W grid variables</att>
+        <att name="history">Thu Mar  2 21:52:59 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_grid_W_20140912-20140912.nc SalishSea_1h_20140912_20140912_grid_W_20140912-20140912.nc</att>
+        <att name="name">SalishSea_1h_20140912_20140912</att>
+        <att name="NCO">4.3.9</att>
+        <att name="production">An IPSL model</att>
+        <att name="timeStamp">2017-Mar-02 18:34:59 MST</att>
+        <att name="title">ocean W grid variables</att>
+    </sourceAttributes -->
+  <addAttributes>
+    <att name="cdm_data_type">Grid</att>
+    <att name="coverage_content_type">modelResult</att>
+    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
+    <att name="institution">UBC EOAS</att>
+    <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+    <att name="keywords">circulation, currents, depthw, vertical eddy diffusion, vertical eddy diffusivity, turbulent kinetic energy dissipation, downwelling, grid, kinetic energy, momentum, ocean, ocean_vertical_heat_diffusivity, ocean_vertical_momentum_diffusivity, oceans,
+Oceans &gt; Ocean Circulation &gt; Diffusion,
+Oceans &gt; Ocean Circulation &gt; Ocean Currents,
+Oceans &gt; Ocean Circulation &gt; Upwelling/Downwelling,
+upward, upward_sea_water_velocity, upwelling, seawater w velocity, vert_eddy_diff, vert_eddy_visc, vertical eddy viscosity, vovecrtz</att>
+    <att name="keywords_vocabulary">GCMD Science Keywords</att>
+    <att name="license">The Salish Sea MEOPAR NEMO model results are copyright 2013-2016
+by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="summary">Green, Salish Sea, 3d w Velocity Field, Hourly, v17-02
+
+**WARNING** This is a provisional dataset. Use for review &amp; testing only.
+
+3d vertical (w) component velocity field values averaged over 1 hour intervals
+from Salish Sea NEMO model runs with physics and biology. The values are calculated for the entire model grid
+that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
+and Johnstone Strait on the coasts of Washington State and British Columbia.
+Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetryV17-02 dataset.
+
+v1: wVelocity variable
+v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.
+        Renamed eddy viscosity &amp; diffusivity variables to vert_eddy_visc &amp; vert_eddy_diff
+        Added turbulent kinetic energy dissipation rate variable.
+v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+</att>
+    <att name="title">Green, Salish Sea, 3d w Velocity Field, Hourly, v17-02</att>
+    <att name="project">Salish Sea MEOPAR NEMO Model</att>
+    <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
+    <att name="creator_email">sallen@eos.ubc.ca</att>
+    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+    <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="drawLandMask">over</att>
+  </addAttributes>
+  <axisVariable>
+    <sourceName>time_counter</sourceName>
+    <destinationName>time</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="int">1</att>
+            <att name="axis">T</att>
+            <att name="bounds">time_counter_bounds</att>
+            <att name="calendar">gregorian</att>
+            <att name="long_name">Time axis</att>
+            <att name="standard_name">time</att>
+            <att name="time_origin">1900-01-01 00:00:00</att>
+            <att name="units">seconds since 1900-01-01 00:00:00</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSize">null</att>
+      <att name="bounds">null</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>depthw</sourceName>
+    <destinationName>depth</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="int">40</att>
+            <att name="axis">Z</att>
+            <att name="bounds">depthw_bounds</att>
+            <att name="long_name">Vertical W levels</att>
+            <att name="positive">down</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSize">null</att>
+      <att name="bounds">null</att>
+      <att name="standard_name">depth</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>y</sourceName>
+    <destinationName>gridY</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Y</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>x</sourceName>
+    <destinationName>gridX</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">X</att>
+    </addAttributes>
+  </axisVariable>
+  <dataVariable>
+    <sourceName>dissipation</sourceName>
+    <destinationName>dissipation</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 12 285 126</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="coordinates">time_centered depthw nav_lon nav_lat</att>
+            <att name="interval_operation">20 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">turbulent kinetic energy dissipation rate</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="units">m2/s3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="standard_name">ocean_turbulent_kinetic_energy_dissipation_rate</att>
+      <att name="_ChunkSize">null</att>
+      <att name="coordinates">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>vert_eddy_diff</sourceName>
+    <destinationName>vert_eddy_diff</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 12 285 126</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="coordinates">time_centered depthw nav_lon nav_lat</att>
+            <att name="interval_operation">20 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">vertical eddy diffusivity</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">ocean_vertical_heat_diffusivity</att>
+            <att name="units">m2/s</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSize">null</att>
+      <att name="colorBarMaximum" type="double">10.0</att>
+      <att name="colorBarMinimum" type="double">-10.0</att>
+      <att name="coordinates">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>vert_eddy_visc</sourceName>
+    <destinationName>vert_eddy_visc</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 12 285 126</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="coordinates">time_centered depthw nav_lon nav_lat</att>
+            <att name="interval_operation">20 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">vertical eddy viscosity</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">ocean_vertical_momentum_diffusivity</att>
+            <att name="units">m2/s</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSize">null</att>
+      <att name="colorBarMaximum" type="double">10.0</att>
+      <att name="colorBarMinimum" type="double">-10.0</att>
+      <att name="coordinates">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>vovecrtz</sourceName>
+    <destinationName>wVelocity</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 12 285 126</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="coordinates">time_centered depthw nav_lon nav_lat</att>
+            <att name="interval_operation">20 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">ocean vertical velocity</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">upward_sea_water_velocity</att>
+            <att name="units">m/s</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSize">null</att>
+      <att name="colorBarMaximum" type="double">0.5</att>
+      <att name="colorBarMinimum" type="double">-0.5</att>
+      <att name="coordinates">null</att>
+    </addAttributes>
+  </dataVariable>
+</dataset>
+
 </erddapDatasets>
