@@ -6268,7 +6268,7 @@ that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetryV17-02 dataset.
 
-v1: uVelocity variable
+v1: vVelocity variable
 v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
 </att>
