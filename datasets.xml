@@ -6395,7 +6395,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwVelocity1hV17-02" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1hV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/hindcast/</fileDir>
@@ -6406,41 +6406,43 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   <fileTableInMemory>false</fileTableInMemory>
   <accessibleViaFiles>false</accessibleViaFiles>
   <!-- sourceAttributes>
-        <att name="Conventions">CF-1.5</att>
+        <att name="Conventions">CF-1.6</att>
         <att name="description">ocean W grid variables</att>
-        <att name="history">Thu Mar  2 21:52:59 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_grid_W_20140912-20140912.nc SalishSea_1h_20140912_20140912_grid_W_20140912-20140912.nc</att>
+        <att name="history">Thu Apr 13 22:40:02 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_grid_W.nc SalishSea_1h_20140912_20140912_grid_W.nc</att>
         <att name="name">SalishSea_1h_20140912_20140912</att>
-        <att name="NCO">4.3.9</att>
-        <att name="production">An IPSL model</att>
-        <att name="timeStamp">2017-Mar-02 18:34:59 MST</att>
+        <att name="NCO">&quot;4.5.2&quot;</att>
+        <att name="timeStamp">2017-Apr-14 02:39:22 GMT</att>
         <att name="title">ocean W grid variables</att>
+        <att name="uuid">644e6273-d3b9-44d8-be88-417530501ea1</att>
     </sourceAttributes -->
   <addAttributes>
     <att name="cdm_data_type">Grid</att>
-    <att name="coverage_content_type">modelResult</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-    <att name="keywords">circulation, currents, depthw, vertical eddy diffusion, vertical eddy diffusivity, turbulent kinetic energy dissipation, downwelling, grid, kinetic energy, momentum, ocean, ocean_vertical_heat_diffusivity, ocean_vertical_momentum_diffusivity, oceans,
-Oceans &gt; Ocean Circulation &gt; Diffusion,
-Oceans &gt; Ocean Circulation &gt; Ocean Currents,
-Oceans &gt; Ocean Circulation &gt; Upwelling/Downwelling,
-upward, upward_sea_water_velocity, upwelling, seawater w velocity, vert_eddy_diff, vert_eddy_visc, vertical eddy viscosity, vovecrtz</att>
+    <att name="keywords">circulation, currents, depthw, vertical eddy diffusivity, downwelling, w grid, ocean, oceans,
+Oceans &amp;gt; Ocean Circulation &amp;gt; Diffusion,
+Oceans &amp;gt; Ocean Circulation &amp;gt; Ocean Currents,
+Oceans &amp;gt; Ocean Circulation &amp;gt; Upwelling/Downwelling,
+sea, seawater, time_counter, turbulent kinetic energy dissipation rate, upward, upward_sea_water_velocity, upwelling,
+w velocity component, velocity along z-axis, vert_eddy_diff, vert_eddy_visc, vertical eddy viscosity,
+vovecrtz</att>
     <att name="keywords_vocabulary">GCMD Science Keywords</att>
-    <att name="license">The Salish Sea MEOPAR NEMO model results are copyright 2013-2016
+    <att name="license">The Salish Sea MEOPAR NEMO model results are copyright
 by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Green, Salish Sea, 3d w Velocity Field, Hourly, v17-02
+    <att name="summary">Green, Salish Sea, 3d w Grid Variable Fields, Hourly, v17-02
 
 **WARNING** This is a provisional dataset. Use for review &amp; testing only.
 
-3d vertical (w) component velocity field values averaged over 1 hour intervals
+Variable values at the 3d vertical (w) component velocity grid points averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics and biology. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
+The time values are the centre of the intervals over which the calculated model results are averaged.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetryV17-02 dataset.
 
 v1: wVelocity variable
@@ -6449,10 +6451,10 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
         Added turbulent kinetic energy dissipation rate variable.
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
 </att>
-    <att name="title">Green, Salish Sea, 3d w Velocity Field, Hourly, v17-02</att>
+    <att name="title">Green, Salish Sea, 3d w Grid Variable Fields, Hourly, v17-02</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
-    <att name="creator_email">sallen@eos.ubc.ca</att>
+    <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="drawLandMask">over</att>
@@ -6473,6 +6475,9 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <addAttributes>
       <att name="_ChunkSize">null</att>
       <att name="bounds">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="comment">time value is centre of interval over which calculated model results are averaged</att>
+      <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
   <axisVariable>
@@ -6483,6 +6488,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
             <att name="axis">Z</att>
             <att name="bounds">depthw_bounds</att>
             <att name="long_name">Vertical W levels</att>
+            <att name="name">depthw</att>
             <att name="positive">down</att>
             <att name="units">m</att>
         </sourceAttributes -->
@@ -6490,6 +6496,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
       <att name="_ChunkSize">null</att>
       <att name="bounds">null</att>
       <att name="standard_name">depth</att>
+      <att name="coverage_content_type">modelResult</att>
     </addAttributes>
   </axisVariable>
   <axisVariable>
@@ -6499,6 +6506,8 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Y</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
   <axisVariable>
@@ -6508,6 +6517,8 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">X</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
   <dataVariable>
@@ -6515,11 +6526,11 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <destinationName>dissipation</destinationName>
     <dataType>float</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 12 285 126</att>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
             <att name="cell_methods">time: mean (interval: 20 s)</att>
-            <att name="coordinates">time_centered depthw nav_lon nav_lat</att>
+            <att name="coordinates">time_centered depthw nav_lat nav_lon</att>
             <att name="interval_operation">20 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">turbulent kinetic energy dissipation rate</att>
@@ -6528,9 +6539,15 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
             <att name="units">m2/s3</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="standard_name">ocean_turbulent_kinetic_energy_dissipation_rate</att>
       <att name="_ChunkSize">null</att>
       <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">physical_oceanography</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
@@ -6538,11 +6555,11 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <destinationName>vert_eddy_diff</destinationName>
     <dataType>float</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 12 285 126</att>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
             <att name="cell_methods">time: mean (interval: 20 s)</att>
-            <att name="coordinates">time_centered depthw nav_lon nav_lat</att>
+            <att name="coordinates">time_centered depthw nav_lat nav_lon</att>
             <att name="interval_operation">20 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">vertical eddy diffusivity</att>
@@ -6556,6 +6573,13 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
       <att name="colorBarMaximum" type="double">10.0</att>
       <att name="colorBarMinimum" type="double">-10.0</att>
       <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">physical_oceanography</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
@@ -6563,11 +6587,11 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <destinationName>vert_eddy_visc</destinationName>
     <dataType>float</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 12 285 126</att>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
             <att name="cell_methods">time: mean (interval: 20 s)</att>
-            <att name="coordinates">time_centered depthw nav_lon nav_lat</att>
+            <att name="coordinates">time_centered depthw nav_lat nav_lon</att>
             <att name="interval_operation">20 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">vertical eddy viscosity</att>
@@ -6581,6 +6605,13 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
       <att name="colorBarMaximum" type="double">10.0</att>
       <att name="colorBarMinimum" type="double">-10.0</att>
       <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">physical_oceanography</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
@@ -6588,11 +6619,11 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <destinationName>wVelocity</destinationName>
     <dataType>float</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 12 285 126</att>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
             <att name="cell_methods">time: mean (interval: 20 s)</att>
-            <att name="coordinates">time_centered depthw nav_lon nav_lat</att>
+            <att name="coordinates">time_centered depthw nav_lat nav_lon</att>
             <att name="interval_operation">20 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">ocean vertical velocity</att>
@@ -6606,6 +6637,13 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
       <att name="colorBarMaximum" type="double">0.5</att>
       <att name="colorBarMinimum" type="double">-0.5</att>
       <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">currents</att>
     </addAttributes>
   </dataVariable>
 </dataset>
