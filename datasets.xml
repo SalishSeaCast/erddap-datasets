@@ -6877,18 +6877,17 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   <fileTableInMemory>false</fileTableInMemory>
   <accessibleViaFiles>false</accessibleViaFiles>
   <!-- sourceAttributes>
-        <att name="Conventions">CF-1.5</att>
+        <att name="Conventions">CF-1.6</att>
         <att name="description">ocean T grid variables</att>
-        <att name="history">Mon Mar 27 13:47:41 2017: ncks -4 -L4 -O SalishSea_1h_20141019_20141028_grid_T_20141019-20141019.nc SalishSea_1h_20141019_20141028_grid_T_20141019-20141019.nc</att>
-        <att name="name">SalishSea_1h_20141019_20141028</att>
-        <att name="NCO">4.3.9</att>
-        <att name="production">An IPSL model</att>
-        <att name="timeStamp">2017-Mar-19 16:55:14 MDT</att>
+        <att name="history">Thu Apr 13 22:39:58 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_grid_T.nc SalishSea_1h_20140912_20140912_grid_T.nc</att>
+        <att name="name">SalishSea_1h_20140912_20140912</att>
+        <att name="NCO">&quot;4.5.2&quot;</att>
+        <att name="timeStamp">2017-Apr-14 02:39:19 GMT</att>
         <att name="title">ocean T grid variables</att>
+        <att name="uuid">c1b94255-9537-48e2-9951-b744f6184bdc</att>
     </sourceAttributes -->
   <addAttributes>
     <att name="cdm_data_type">Grid</att>
-    <att name="coverage_content_type">modelResult</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
     <att name="institution">UBC EOAS</att>
@@ -6900,10 +6899,10 @@ mixed_depth, mixed_layer_depth, ocean_mixed_layer_thickness_defined_by_sigma_the
 mixed layer depth (dsigma = 0.01 wrt 10m),
 sea surface height, sea_surface_height_above_geoid, sea water, seawater, ssh,
 sossheig, time_counter, water</att>
-    <att name="license">The Salish Sea MEOPAR NEMO model results are copyright 2013-2016
+    <att name="license">The Salish Sea MEOPAR NEMO model results are copyright
 by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
 
-They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
     <att name="summary">Green, Salish Sea, Surface Tracer Fields, Hourly, v17-02
 
@@ -6913,6 +6912,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 from Salish Sea NEMO model runs with physics and biology. The values are calculated for the surface of the model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
+The time values are the centre of the intervals over which the calculated model results are averaged.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 v1: sea surface height and rainfall rate variables
@@ -6923,10 +6923,11 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <att name="title">Green, Salish Sea, Surface Tracer Fields, Hourly, v17-02</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
-    <att name="creator_email">sallen@eos.ubc.ca</att>
+    <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="drawLandMask">over</att>
+    <att name="history">null</att>
   </addAttributes>
   <axisVariable>
     <sourceName>time_counter</sourceName>
@@ -6944,6 +6945,9 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <addAttributes>
       <att name="_ChunkSize">null</att>
       <att name="bounds">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="comment">time values are the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
   <axisVariable>
@@ -6953,6 +6957,8 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Y</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
   <axisVariable>
@@ -6962,6 +6968,8 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">X</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
   <dataVariable>
@@ -6972,6 +6980,15 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
       <att name="_ChunkSize">null</att>
       <att name="coordinates">null</att>
       <att name="ioos_category">sea_level</att>
+      <att name="colorBarMinimum" type="double">-4.0</att>
+      <att name="colorBarMaximum" type="double">4.0</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">sea_level</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
@@ -6981,6 +6998,15 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <addAttributes>
       <att name="_ChunkSize">null</att>
       <att name="coordinates">null</att>
+      <att name="ioos_category">physical_oceanography</att>
+      <att name="colorBarMinimum" type="double">0</att>
+      <att name="colorBarMaximum" type="double">30.0</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
       <att name="ioos_category">physical_oceanography</att>
     </addAttributes>
   </dataVariable>
@@ -7069,6 +7095,7 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="drawLandMask">over</att>
+    <att name="history">null</att>
   </addAttributes>
   <axisVariable>
     <sourceName>time_counter</sourceName>
