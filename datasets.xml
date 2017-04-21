@@ -6928,6 +6928,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
+    <att name="NCO">null</att>
   </addAttributes>
   <axisVariable>
     <sourceName>time_counter</sourceName>
