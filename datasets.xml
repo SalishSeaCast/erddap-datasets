@@ -6661,12 +6661,12 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   <!-- sourceAttributes>
         <att name="Conventions">CF-1.6</att>
         <att name="description">ocean T grid variables</att>
-        <att name="history">Thu Apr 13 22:39:58 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_grid_T.nc SalishSea_1h_20140912_20140912_grid_T.nc</att>
+        <att name="history">Wed Apr 26 21:34:53 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_grid_T.nc SalishSea_1h_20140912_20140912_grid_T.nc</att>
         <att name="name">SalishSea_1h_20140912_20140912</att>
         <att name="NCO">&quot;4.5.2&quot;</att>
-        <att name="timeStamp">2017-Apr-14 02:39:19 GMT</att>
+        <att name="timeStamp">2017-Apr-27 03:53:38 GMT</att>
         <att name="title">ocean T grid variables</att>
-        <att name="uuid">c1b94255-9537-48e2-9951-b744f6184bdc</att>
+        <att name="uuid">3d5c0584-cd03-4eb1-83b6-a5915ff08093</att>
     </sourceAttributes -->
   <addAttributes>
     <att name="cdm_data_type">Grid</att>
@@ -6675,18 +6675,16 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
     <att name="keywords">buoy_n2, density, deptht, squared buoyancy frequency, grid, ocean, oceans,
-Oceans &amp;gt; Ocean Temperature &amp;gt; Conservative Temperature,
-Oceans &amp;gt; Salinity/Density &amp;gt; Salinity,
+Oceans &gt; Ocean Temperature &gt; Conservative Temperature,
+Oceans &gt; Salinity/Density &gt; Salinity,
 reference salinity, sea water, sea_water_conservative_temperature, sea_water_reference_salinity, seawater,
 conservative temperature, time_counter, vosaline, votemper, water</att>
     <att name="license">The Salish Sea MEOPAR NEMO model results are copyright
 by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
 
-They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
     <att name="summary">Green, Salish Sea, 3d Tracer Fields, Hourly, v17-02
-
-**WARNING** This is a provisional dataset. Use for review &amp; testing only.
 
 3d salinity, water temperature, and squared buoyancy frequency field values averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics and biology. The values are calculated for the entire model grid
@@ -6708,6 +6706,9 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="drawLandMask">over</att>
+    <att name="history">null</att>
+    <att name="NCO">null</att>
+    <att name="name">null</att>
   </addAttributes>
   <axisVariable>
     <sourceName>time_counter</sourceName>
@@ -6726,7 +6727,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
       <att name="_ChunkSize">null</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time value is centre of interval over which calculated model results are averaged</att>
+      <att name="comment">time values are the centre of the intervals over which the calculated model results are averaged</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -6779,9 +6780,9 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Buoyancy frequency squared</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -6808,9 +6809,9 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">salinity</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -6840,9 +6841,9 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">temperature</att>
             <att name="missing_value" type="float">1.0E20</att>
