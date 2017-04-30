@@ -6255,12 +6255,12 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   <!-- sourceAttributes>
         <att name="Conventions">CF-1.6</att>
         <att name="description">ocean V grid variables</att>
-        <att name="history">Thu Apr 13 22:40:01 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_grid_V.nc SalishSea_1h_20140912_20140912_grid_V.nc</att>
+        <att name="history">Wed Apr 26 21:35:02 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_grid_V.nc SalishSea_1h_20140912_20140912_grid_V.nc</att>
         <att name="name">SalishSea_1h_20140912_20140912</att>
         <att name="NCO">&quot;4.5.2&quot;</att>
-        <att name="timeStamp">2017-Apr-14 02:39:21 GMT</att>
+        <att name="timeStamp">2017-Apr-27 03:53:40 GMT</att>
         <att name="title">ocean V grid variables</att>
-        <att name="uuid">6684ddae-a5da-405e-bc5a-d2c1f2bbf4ad</att>
+        <att name="uuid">af8b1096-0090-466e-8aa0-806c6cd7856c</att>
     </sourceAttributes -->
   <addAttributes>
     <att name="cdm_data_type">Grid</att>
@@ -6269,17 +6269,15 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
     <att name="keywords">circulation, current, currents, depthv, v grid, ocean, oceans,
-Oceans &amp;gt; Ocean Circulation &amp;gt; Ocean Currents,
+Oceans &gt; Ocean Circulation &gt; Ocean Currents,
 sea, sea_water_y_velocity, seawater, time_counter, v velocity component, velocity along y-axis, vomecrty</att>
     <att name="keywords_vocabulary">GCMD Science Keywords</att>
     <att name="license">The Salish Sea MEOPAR NEMO model results are copyright
 by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
 
-They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
     <att name="summary">Green, Salish Sea, 3d v Grid Variable Fields, Hourly, v17-02
-
-**WARNING** This is a provisional dataset. Use for review &amp; testing only.
 
 Variable values at the 3d meridional (v) component velocity grid points averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics and biology. The values are calculated for the entire model grid
@@ -6299,6 +6297,9 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="drawLandMask">over</att>
+    <att name="history">null</att>
+    <att name="NCO">null</att>
+    <att name="name">null</att>
   </addAttributes>
   <axisVariable>
     <sourceName>time_counter</sourceName>
@@ -6317,7 +6318,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
       <att name="_ChunkSize">null</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time value is centre of interval over which calculated model results are averaged</att>
+      <att name="comment">time values are the centre of the intervals over which the calculated model results are averaged</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -6370,9 +6371,9 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered depthv nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">ocean current along y-axis</att>
             <att name="missing_value" type="float">1.0E20</att>
