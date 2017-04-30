@@ -6880,12 +6880,12 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   <!-- sourceAttributes>
         <att name="Conventions">CF-1.6</att>
         <att name="description">ocean T grid variables</att>
-        <att name="history">Thu Apr 13 22:39:58 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_grid_T.nc SalishSea_1h_20140912_20140912_grid_T.nc</att>
+        <att name="history">Wed Apr 26 21:34:53 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_grid_T.nc SalishSea_1h_20140912_20140912_grid_T.nc</att>
         <att name="name">SalishSea_1h_20140912_20140912</att>
         <att name="NCO">&quot;4.5.2&quot;</att>
-        <att name="timeStamp">2017-Apr-14 02:39:19 GMT</att>
+        <att name="timeStamp">2017-Apr-27 03:53:38 GMT</att>
         <att name="title">ocean T grid variables</att>
-        <att name="uuid">c1b94255-9537-48e2-9951-b744f6184bdc</att>
+        <att name="uuid">3d5c0584-cd03-4eb1-83b6-a5915ff08093</att>
     </sourceAttributes -->
   <addAttributes>
     <att name="cdm_data_type">Grid</att>
@@ -6906,8 +6906,6 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
     <att name="summary">Green, Salish Sea, Surface Tracer Fields, Hourly, v17-02
-
-**WARNING** This is a provisional dataset. Use for review &amp; testing only.
 
 2d sea surface height and mixed layer depth field values averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics and biology. The values are calculated for the surface of the model grid
