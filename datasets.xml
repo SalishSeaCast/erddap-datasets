@@ -7027,13 +7027,13 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   <accessibleViaFiles>false</accessibleViaFiles>
   <!-- sourceAttributes>
         <att name="Conventions">CF-1.6</att>
-        <att name="description">sog variables</att>
-        <att name="history">Thu Apr 13 22:40:39 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_ptrc_T.nc SalishSea_1h_20140912_20140912_ptrc_T.nc</att>
+        <att name="description">biogeochemical variables</att>
+        <att name="history">Wed Apr 26 21:36:58 2017: ncks -4 -L4 -O SalishSea_1h_20140912_20140912_ptrc_T.nc SalishSea_1h_20140912_20140912_ptrc_T.nc</att>
         <att name="name">SalishSea_1h_20140912_20140912</att>
         <att name="NCO">&quot;4.5.2&quot;</att>
-        <att name="timeStamp">2017-Apr-14 02:39:23 GMT</att>
-        <att name="title">sog variables</att>
-        <att name="uuid">1e420c5f-ff0e-4ff1-a30e-71706fd4026a</att>
+        <att name="timeStamp">2017-Apr-27 03:53:42 GMT</att>
+        <att name="title">biogeochemical variables</att>
+        <att name="uuid">79947fa3-8c38-409b-8076-534e9a23cb43</att>
     </sourceAttributes -->
   <addAttributes>
     <att name="cdm_data_type">Grid</att>
@@ -7042,9 +7042,9 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
     <att name="keywords">ammonia, ammonium, aquatic, biogenic, biogenic_silicon, biological,
-Biological Classification &amp;gt; Protists &amp;gt; Diatoms,
+Biological Classification &gt; Protists &gt; Diatoms,
 biosphere,
-Biosphere &amp;gt; Aquatic Ecosystems &amp;gt; Plankton &amp;gt; Zooplankton,
+Biosphere &gt; Aquatic Ecosystems &gt; Plankton &gt; Zooplankton,
 chemistry, ciliates, concentration, deptht, detritus, diatoms, dissolved, dissolved_organic_nitrogen, ecosystems,
 flagellates, Fraser_tracer, Fraser River, marine, mesodinium rubrum, mesozooplankton, microzooplankton,
 mole_concentration_of_ammonium_in_sea_water, fraser_river_turbidity_tracer,
@@ -7057,14 +7057,14 @@ mole_concentration_of_nitrate_in_sea_water, mole_concentration_of_organic_detrit
 mole_concentration_of_organic_detritus_expressed_as_silicon_in_sea_water,
 mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water,
 mole_concentration_of_silicate_in_sea_water, n02, nh4, nitrate, nitrogen, no3, ocean, oceans,
-Oceans &amp;gt; Marine Sediments &amp;gt; Sediment Chemistry,
-Oceans &amp;gt; Marine Sediments &amp;gt; Sediment Composition,
-Oceans &amp;gt; Marine Sediments &amp;gt; Suspended Solids,
-Oceans &amp;gt; Ocean Chemistry &amp;gt; Ammonia,
-Oceans &amp;gt; Ocean Chemistry &amp;gt; Nitrate,
-Oceans &amp;gt; Ocean Chemistry &amp;gt; Nitrogen,
-Oceans &amp;gt; Ocean Chemistry &amp;gt; Organic Matter,
-Oceans &amp;gt; Ocean Chemistry &amp;gt; Silicate,
+Oceans &gt; Marine Sediments &gt; Sediment Chemistry,
+Oceans &gt; Marine Sediments &gt; Sediment Composition,
+Oceans &gt; Marine Sediments &gt; Suspended Solids,
+Oceans &gt; Ocean Chemistry &gt; Ammonia,
+Oceans &gt; Ocean Chemistry &gt; Nitrate,
+Oceans &gt; Ocean Chemistry &gt; Nitrogen,
+Oceans &gt; Ocean Chemistry &gt; Organic Matter,
+Oceans &gt; Ocean Chemistry &gt; Silicate,
 organic, particulate, particulate_organic_nitrogen, plankton, protists, river, sea, seawater, sediment, sediments,
 silicate, silicon, solids, suspended, time_counter, tracer, turbidity, water, zooplankton
 </att>
@@ -7072,11 +7072,9 @@ silicate, silicon, solids, suspended, time_counter, tracer, turbidity, water, zo
     <att name="license">The Salish Sea MEOPAR NEMO model results are copyright
 by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
 
-They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0</att>
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
     <att name="summary">Green, Salish Sea, 3d Biology Fields, Hourly, v17-02
-
-**WARNING** This is a provisional dataset. Use for review &amp; testing only.
 
 3d SMELT biological model field values averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics and biology. The values are calculated for the entire model grid
@@ -7099,6 +7097,8 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
+    <att name="NCO">null</att>
+    <att name="name">null</att>
   </addAttributes>
   <axisVariable>
     <sourceName>time_counter</sourceName>
@@ -7117,7 +7117,7 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
       <att name="_ChunkSize">null</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time value is centre of interval over which calculated model results are averaged</att>
+      <att name="comment">time values are the centre of the intervals over which the calculated model results are averaged</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -7170,15 +7170,15 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Fraser River Turbidity Tracer</att>
             <att name="missing_value" type="float">1.0E20</att>
             <att name="online_operation">average</att>
-            <att name="standard_name">mole_concentration_of_artificial_river_turbidity_tracer</att>
-            <att name="units">1</att>
+            <att name="standard_name">fraser_river_turbidity_tracer</att>
+            <att name="units">NTU</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSize">null</att>
@@ -7199,9 +7199,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Ammonium Concentration</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -7231,9 +7231,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Biogenic Silicon Concentration</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -7263,9 +7263,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Mesodinium rubrum Concentration</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -7293,9 +7293,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Diatoms Concentration</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -7325,9 +7325,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Dissolved Organic N Concentration</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -7355,9 +7355,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Flagellates Concentration</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -7387,9 +7387,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Mesozooplankton Concentration</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -7417,9 +7417,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Microzooplankton Concentration</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -7447,9 +7447,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Nitrate Concentration</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -7479,9 +7479,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Particulate Organic N Concentration</att>
             <att name="missing_value" type="float">1.0E20</att>
@@ -7509,9 +7509,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
             <att name="_ChunkSize" type="intList">1 40 898 398</att>
             <att name="_FillValue" type="float">1.0E20</att>
             <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 20 s)</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
             <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">20 s</att>
+            <att name="interval_operation">40 s</att>
             <att name="interval_write">1 h</att>
             <att name="long_name">Silicon Concentration</att>
             <att name="missing_value" type="float">1.0E20</att>
