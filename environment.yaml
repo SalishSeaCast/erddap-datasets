@@ -13,10 +13,15 @@ channels:
   - conda-forge
 
 dependencies:
+  - bottleneck
+  - hdf4
+  - jupyter_contrib_nbextensions
   - lxml
+  - netcdf4
   - notebook
   - pip
   - python=3.6
+  - xarray
 
   - pip:
       - yapf
