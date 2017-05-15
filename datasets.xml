@@ -7625,9 +7625,9 @@ https://bitbucket.org/salishsea/nemo-forcing/src/tip/grid/bathymetery_201702.nc
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-    <att name="keywords">bathymetry, coordinates, dept, depth, direction, e3t, e3t_0, e3u, e3u_0, e3v, e3v_0, e3w, e3w_0,
-f-grid, fmask, gdept, gdept_0, gdepu, gdepv, gdepw, gdepw_0, grid, grid parameters, mesh mask, NEMO, ocean, Salish Sea,
-sea, spacing, t-grid, tmask, u-grid, umask, v-grid, vmask, vorticity, vorticity-grid, w, w-grid</att>
+    <att name="keywords">bathymetry, coordinates, depth, e3t_0, e3u_0, e3v_0, e3w_0, f-grid, fmask, gdept_0, gdepu, gdepv,
+gdepw_0, grid, grid parameters, mesh mask, NEMO, ocean, Salish Sea, sea, spacing, t-grid, tmask, u-grid, umask,
+v-grid, vmask, vorticity-grid, w-grid</att>
     <att name="license">The Salish Sea MEOPAR NEMO model results are copyright
 by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
 
