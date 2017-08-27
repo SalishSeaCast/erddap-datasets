@@ -8479,7 +8479,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNearSurfaceUVelocity20mV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-dev/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-green/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*Slab_U\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -8630,7 +8630,7 @@ v17-02: uVelocity variable; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see inf
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNearSurfaceVVelocity20mV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-dev/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-green/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*Slab_V\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
