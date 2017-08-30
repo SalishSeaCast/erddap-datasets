@@ -57,7 +57,7 @@ into a public sourceUrl (http://oceanwatch.pfeg.noaa.gov/thredds/dodsC/satellite
 -->
 
 
-.<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DTracerFields1hV1" active="true">
+.<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DTracerFields1hV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -218,7 +218,7 @@ v1: longitude, latitude, salinity (practical), and temperature variables</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DuVelocity1hV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DuVelocity1hV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -348,7 +348,7 @@ v1: uVelocity variable</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DvVelocity1hV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DvVelocity1hV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -478,7 +478,7 @@ v1: vVelocity variable</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DwVelocity1hV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DwVelocity1hV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -783,7 +783,7 @@ v2: Added eddy viscosity &amp; diffusivity variables ve_eddy_visc &amp; ve_eddy_
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnPointAtkinsonSSH15mV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnPointAtkinsonSSH15mV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -877,7 +877,7 @@ v1: ssh variable</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnSurfaceTracerFields1hV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnSurfaceTracerFields1hV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -982,7 +982,7 @@ v1: sea surface height and rainfall rate variables</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnBathymetry2V1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnBathymetry2V1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/nowcast-sys/NEMO-forcing/grid/</fileDir>
@@ -1184,7 +1184,7 @@ v1: longitude and latitude variables</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCampbellRiverSSH15mV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCampbellRiverSSH15mV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -1548,7 +1548,7 @@ short-wave radiation flux, long-wave radiation flux, 10m u wind component, 10m v
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCherryPointSSH15mV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCherryPointSSH15mV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -1643,7 +1643,7 @@ v1: ssh variable</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnFridayHarborSSH15mV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnFridayHarborSSH15mV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -1738,7 +1738,7 @@ v1: ssh variable</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNanaimoSSH15mV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNanaimoSSH15mV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -1833,7 +1833,7 @@ v1: ssh variable</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNeahBaySSH15mV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNeahBaySSH15mV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -1928,7 +1928,7 @@ v1: ssh variable</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnVictoriaSSH15mV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnVictoriaSSH15mV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -2023,7 +2023,7 @@ v1: ssh variable</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnSandHeadsSSH15mV1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnSandHeadsSSH15mV1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast/</fileDir>
@@ -2118,7 +2118,7 @@ v1: ssh variable</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMask2V1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMask2V1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/nowcast-sys/NEMO-forcing/grid/</fileDir>
@@ -2432,7 +2432,7 @@ v1: e1t, e2t, e1u, e2u, e1v, e2v, e1f, e2f, glamt, gphit, glamu, gphiu, glamv, g
 	</dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DMeshMask2V1" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DMeshMask2V1" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/nowcast-sys/NEMO-forcing/grid/</fileDir>
