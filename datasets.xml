@@ -5821,7 +5821,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DuVelocity1hV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DuVelocity1hV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/forecast/latest/</fileDir>
