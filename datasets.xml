@@ -4339,7 +4339,7 @@ v16-07: e3t, e3u, e3v, e3w, gdept, gdepu, gdepv, gdepw, tmask, umask, vmask, fma
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DuVelocity1hV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_U\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -4473,7 +4473,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DvVelocity1hV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_V\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -4607,7 +4607,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DwVelocity1hV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_W\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -4815,7 +4815,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnPointAtkinsonSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*PointAtkinson\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -4922,7 +4922,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DTracerFields1hV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -5105,7 +5105,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnSurfaceTracerFields1hV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -5208,7 +5208,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCampbellRiverSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*CampbellRiver\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -5296,7 +5296,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCherryPointSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*CherryPoint\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -5384,7 +5384,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnFridayHarborSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*FridayHarbor\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -5472,7 +5472,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNanaimoSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*Nanaimo\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -5560,7 +5560,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNeahBaySSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*NeahBay\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -5648,7 +5648,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnVictoriaSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*Victoria\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -5736,7 +5736,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnSandHeadsSSH10mV16-10" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-blue/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*Sandheads\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
