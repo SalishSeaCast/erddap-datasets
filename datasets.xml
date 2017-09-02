@@ -6141,7 +6141,7 @@ v17-02: same variables,
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1hV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/hindcast/</fileDir>
+<fileDir>/results/SalishSea/nowcast-green/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_U\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -6296,7 +6296,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DvGridFields1hV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/hindcast/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-green/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_V\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -6451,7 +6451,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1hV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/hindcast/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-green/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_W\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -6705,7 +6705,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DTracerFields1hV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/hindcast/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-green/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -6924,7 +6924,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSgSurfaceTracerFields1hV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/hindcast/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-green/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -7071,7 +7071,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DBiologyFields1hV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/hindcast/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-green/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_ptrc_T\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -8349,7 +8349,7 @@ v17-02: tmaskutil, umaskutil, vmaskutil, fmaskutil, glamt, glamu, glamv, glamf, 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSgPointAtkinsonSSH10mV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/hindcast/</fileDir>
+  <fileDir>/results/SalishSea/nowcast-green/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*PointAtkinson\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
