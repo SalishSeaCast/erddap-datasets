@@ -4336,7 +4336,7 @@ v16-07: e3t, e3u, e3v, e3w, gdept, gdepu, gdepv, gdepw, tmask, umask, vmask, fma
     </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DuVelocity1hV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DuVelocity1hV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -4470,7 +4470,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DvVelocity1hV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DvVelocity1hV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -4604,7 +4604,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DwVelocity1hV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DwVelocity1hV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -4812,7 +4812,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnPointAtkinsonSSH10mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnPointAtkinsonSSH10mV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -4919,7 +4919,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DTracerFields1hV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DTracerFields1hV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -5102,7 +5102,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnSurfaceTracerFields1hV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnSurfaceTracerFields1hV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -5205,7 +5205,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCampbellRiverSSH10mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCampbellRiverSSH10mV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -5293,7 +5293,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCherryPointSSH10mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnCherryPointSSH10mV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -5381,7 +5381,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnFridayHarborSSH10mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnFridayHarborSSH10mV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -5469,7 +5469,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNanaimoSSH10mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNanaimoSSH10mV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -5557,7 +5557,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNeahBaySSH10mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNeahBaySSH10mV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -5645,7 +5645,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnVictoriaSSH10mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnVictoriaSSH10mV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
@@ -5733,7 +5733,7 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnSandHeadsSSH10mV16-10" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnSandHeadsSSH10mV16-10" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-blue.16-10</fileDir>
