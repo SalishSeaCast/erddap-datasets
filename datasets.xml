@@ -3606,7 +3606,7 @@ temperature, temperature standard deviation, temperature sample counts variables
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnBathymetry2V16-07" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnBathymetry2V16-07" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/nowcast-sys/NEMO-forcing/grid/</fileDir>
@@ -3743,7 +3743,7 @@ v16-07: same variables,
     </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMask2V16-07" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMask2V16-07" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/nowcast-sys/NEMO-forcing/grid/</fileDir>
@@ -4076,7 +4076,7 @@ v16-07: e1t, e2t, e1u, e2u, e1v, e2v, e1f, e2f, glamt, gphit, glamu, gphiu, glam
     </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DMeshMask2V16-07" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DMeshMask2V16-07" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/nowcast-sys/NEMO-forcing/grid/</fileDir>
