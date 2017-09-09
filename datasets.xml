@@ -8476,7 +8476,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNearSurfaceUVelocity20mV17-02" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceUVelocity20mV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-green/</fileDir>
@@ -8509,7 +8509,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Nowcast, Salish Sea, 3d Near Surface u Velocity Field, 20min, v17-02
+    <att name="summary">Green, Salish Sea, 3d Near Surface u Velocity Field, 20min, v17-02
 
 Variable values at the 3d zonal (u) component velocity grid points
 of the surface-most 5 layers, averaged over 20 minute intervals from Salish Sea NEMO model physics-only runs.
@@ -8520,7 +8520,7 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 
 v17-02: uVelocity variable; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
 </att>
-    <att name="title">Nowcast, Salish Sea, 3d Near Surface u Velocity Field, 20min, v17-02</att>
+    <att name="title">Green, Salish Sea, 3d Near Surface u Velocity Field, 20min, v17-02</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -8627,7 +8627,7 @@ v17-02: uVelocity variable; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see inf
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnNearSurfaceVVelocity20mV17-02" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceVVelocity20mV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/nowcast-green/</fileDir>
@@ -8660,7 +8660,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Nowcast, Salish Sea, 3d Near Surface v Velocity Field, 20min, v17-02
+    <att name="summary">Green, Salish Sea, 3d Near Surface v Velocity Field, 20min, v17-02
 
 Variable values at the 3d meridional (v) component velocity grid points
 of the surface-most 5 layers, averaged over 20 minute intervals from Salish Sea NEMO model physics-only runs.
@@ -8671,7 +8671,7 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 
 v17-02: vVelocity variable; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
 </att>
-    <att name="title">Nowcast, Salish Sea, 3d Near Surface v Velocity Field, 20min, v17-02</att>
+    <att name="title">Green, Salish Sea, 3d Near Surface v Velocity Field, 20min, v17-02</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
