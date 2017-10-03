@@ -8779,7 +8779,7 @@ v17-02: vVelocity variable; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see inf
 </dataset>
 
 <dataset type="EDDTableFromNcFiles" datasetID="ubcONCTWDP1mV1" active="true">
-  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <reloadEveryNMinutes>10800</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/observations/ONC/ferries/TWDP/</fileDir>
   <recursive>false</recursive>
@@ -8796,10 +8796,11 @@ v17-02: vVelocity variable; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see inf
   <!-- sourceAttributes>
         <att name="_NCProperties">version=1|netcdflibversion=4.4.1|hdf5libversion=1.8.17</att>
         <att name="ferry_route_name">Tsawwassen - Duke Point</att>
-        <att name="history">2017-09-04 13:45:01 Download raw data from ONC scalardata API.
-2017-09-04 13:45:01 Filter to exclude data with qaqcFlag != 1.
-2017-09-04 13:45:01 Resample data to 1 minute intervals using mean, standard deviation and count as aggregation functions.
-2017-09-04 13:45:01 Store as netCDF4 file.
+        <att name="history">2017-10-03 13:36:06 Download raw data from ONC scalardata API.
+2017-10-03 13:36:06 Filter to exclude data with qaqcFlag != 1.
+2017-10-03 13:36:06 Resample data to 1 minute intervals using mean, standard deviation and
+count as aggregation functions.
+2017-10-03 13:36:06 Store as netCDF4 file.
 </att>
         <att name="ONC_stationDescription">Mobile Platforms, British Columbia Ferries, Tsawwassen - Duke Point</att>
     </sourceAttributes -->
@@ -8836,7 +8837,8 @@ mass_fraction_of_cdom_fluorescence_in_sea_water, mass_fraction_of_cdom_fluoresce
 mass_fraction_of_cdom_fluorescence_in_sea_water_standard_deviation,
 mole_fraction_of_carbon_dioxide_in_sea_water, mole_fraction_of_carbon_dioxide_in_sea_water_sample_count,
 mole_fraction_of_carbon_dioxide_in_sea_water_standard_deviation,
-O2, o2_concentration_corrected, o2_concentration_corrected_sample_count, o2_concentration_corrected_std_dev,
+O2, O2 sensor temperature,
+o2_concentration_corrected, o2_concentration_corrected_sample_count, o2_concentration_corrected_std_dev,
 o2_saturation, o2_saturation_sample_count, o2_saturation_std_dev,
 ocean, on_crossing_mask, optical properties, organic, oxygen, partial pressure,
 reference salinity, salinity, salinity_sample_count, salinity_std_dev, sea water,
@@ -8849,7 +8851,10 @@ sea_water_turbidity, sea_water_turbidity_sample_count, sea_water_turbidity_stand
 seawater, surface_partial_pressure_of_carbon_dioxide_in_sea_water,
 surface_partial_pressure_of_carbon_dioxide_in_sea_water_sample_count,
 surface_partial_pressure_of_carbon_dioxide_in_sea_water_standard_deviation,
-temperature, temperature_sample_count, temperature_std_dev, time, turbidity,
+temperature, temperature_sample_count, temperature_std_dev,
+temperature_of_sensor_for_oxygen_in_sea_water, temperature_of_sensor_for_oxygen_in_sea_water_sample_count,
+temperature_of_sensor_for_oxygen_in_sea_water_standard_deviation,
+time, turbidity,
 volume_fraction_of_oxygen_in_sea_water, volume_fraction_of_oxygen_in_sea_water_sample_count,
 volume_fraction_of_oxygen_in_sea_water_standard_deviation</att>
     <att name="keywords_vocabulary">GCMD Science Keywords</att>
@@ -8875,6 +8880,7 @@ v1: on_crossing_mask, crossing_number,
     reference salinity, reference salinity standard deviation, reference salinity sample counts,
     O2 saturation, O2 saturation standard deviation, O2 saturation sample counts,
     corrected O2 concentration, corrected O2 concentration standard deviation, corrected O2 concentration sample counts,
+    O2 sensor temperature, O2 sensor temperature standard deviation, O2 sensor temperature sample counts,
     CDOM fluorescence, CDOM fluorescence standard deviation, CDOM fluorescence sample counts,
     chlorophyll, chlorophyll standard deviation, chlorophyll sample counts,
     turbidity, turbidity standard deviation, turbidity sample counts,
@@ -8895,12 +8901,10 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>time</destinationName>
     <dataType>long</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">512</att>
             <att name="calendar">proleptic_gregorian</att>
             <att name="units">minutes since 1970-01-01</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
       <att name="long_name">Time</att>
       <att name="standard_name">time</att>
       <att name="cf_role">timeseries_id</att>
@@ -8911,12 +8915,11 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>longitude</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
-            <att name="ioos_category">Location</att>
+            <att name="ioos_category">location</att>
             <att name="long_name">Longitude</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP.N1&amp;deviceCategory=NAV</att>
             <att name="ONC_stationCode">TWDP.N1</att>
@@ -8924,7 +8927,6 @@ v1: on_crossing_mask, crossing_number,
             <att name="units">degree_east</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
       <att name="colorBarMaximum" type="double">180.0</att>
       <att name="colorBarMinimum" type="double">-180.0</att>
       <att name="units">degrees_east</att>
@@ -8935,12 +8937,11 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>latitude</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
-            <att name="ioos_category">Location</att>
+            <att name="ioos_category">location</att>
             <att name="long_name">Latitude</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP.N1&amp;deviceCategory=NAV</att>
             <att name="ONC_stationCode">TWDP.N1</att>
@@ -8948,7 +8949,6 @@ v1: on_crossing_mask, crossing_number,
             <att name="units">degree_north</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
       <att name="colorBarMaximum" type="double">90.0</att>
       <att name="colorBarMinimum" type="double">-90.0</att>
       <att name="units">degrees_north</att>
@@ -8959,7 +8959,6 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>on_crossing_mask</destinationName>
     <dataType>byte</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">1440</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
@@ -8967,21 +8966,18 @@ v1: on_crossing_mask, crossing_number,
             <att name="flag_meanings">in berth, on crossing</att>
             <att name="flag_values">0, 1</att>
             <att name="ioos_category">identifier</att>
-            <att name="long_name">on crossing</att>
+            <att name="long_name">On Crossing</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP</att>
-            <att name="ONC_stationCode">TWDP</att>
+            <att name="ONC_stationCode">TWDP.N1</att>
             <att name="standard_name">on_crossing_mask</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>crossing_number</sourceName>
     <destinationName>crossing_number</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
@@ -8990,13 +8986,12 @@ v1: on_crossing_mask, crossing_number,
             <att name="flag_meanings">UTC day crossing number</att>
             <att name="flag_values">0.0, 1.0, 2.0, ...</att>
             <att name="ioos_category">identifier</att>
-            <att name="long_name">crossing number</att>
+            <att name="long_name">Crossing Number</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP</att>
-            <att name="ONC_stationCode">TWDP</att>
+            <att name="ONC_stationCode">TWDP.N1</att>
             <att name="standard_name">crossing_number</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
       <att name="colorBarMaximum" type="double">10.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
     </addAttributes>
@@ -9006,12 +9001,11 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>temperature</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
-            <att name="ioos_category">Temperature</att>
+            <att name="ioos_category">temperature</att>
             <att name="long_name">temperature</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
             <att name="ONC_stationCode">TWDP</att>
@@ -9019,8 +9013,7 @@ v1: on_crossing_mask, crossing_number,
             <att name="units">degrees_Celcius</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
-      <att name="colorBarMaximum" type="double">20.0</att>
+      <att name="colorBarMaximum" type="double">25.0</att>
       <att name="colorBarMinimum" type="double">4.0</att>
     </addAttributes>
   </dataVariable>
@@ -9029,63 +9022,54 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>temperature_std_dev</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">standard deviation</att>
-            <att name="ioos_category">Temperature</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">temperature</att>
             <att name="long_name">temperature standard deviation</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">sea_water_temperature_standard_deviation</att>
             <att name="units">degrees_Celcius</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>temperature_sample_count</sourceName>
     <destinationName>temperature_sample_count</destinationName>
-    <dataType>double</dataType>
+    <dataType>int</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
-            <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">count</att>
-            <att name="ioos_category">Temperature</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">temperature</att>
             <att name="long_name">temperature sample count</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">sea_water_temperature_sample_count</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>conductivity</sourceName>
     <destinationName>conductivity</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
-            <att name="ioos_category">Salinity</att>
-            <att name="long_name">electrical conductivity</att>
+            <att name="ioos_category">salinity</att>
+            <att name="long_name">conductivity</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
             <att name="ONC_stationCode">TWDP</att>
-            <att name="standard_name">sea_water_electrical_conductivity</att>
+            <att name="standard_name">sea_water_electical_conductivity</att>
             <att name="units">S/m</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
-      <att name="colorBarMaximum" type="double">5.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="colorBarMaximum" type="double">5.0</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
@@ -9093,53 +9077,45 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>conductivity_std_dev</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">standard deviation</att>
-            <att name="ioos_category">Salinity</att>
-            <att name="long_name">electrical conductivity standard deviation</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">salinity</att>
+            <att name="long_name">conductivity standard deviation</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
             <att name="ONC_stationCode">TWDP</att>
-            <att name="standard_name">sea_water_electrical_conductivity_standard_deviation</att>
+            <att name="standard_name">sea_water_electical_conductivity_standard_deviation</att>
             <att name="units">S/m</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>conductivity_sample_count</sourceName>
     <destinationName>conductivity_sample_count</destinationName>
-    <dataType>double</dataType>
+    <dataType>int</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
-            <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">count</att>
-            <att name="ioos_category">Salinity</att>
-            <att name="long_name">electrical conductivity sample count</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">salinity</att>
+            <att name="long_name">conductivity sample count</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
             <att name="ONC_stationCode">TWDP</att>
-            <att name="standard_name">sea_water_electrical_conductivity_sample_count</att>
+            <att name="standard_name">sea_water_electical_conductivity_sample_count</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>salinity</sourceName>
     <destinationName>salinity</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
-            <att name="ioos_category">Salinity</att>
+            <att name="ioos_category">salinity</att>
             <att name="long_name">reference salinity</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
             <att name="ONC_stationCode">TWDP</att>
@@ -9147,7 +9123,6 @@ v1: on_crossing_mask, crossing_number,
             <att name="units">g/kg</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
       <att name="colorBarMaximum" type="double">34.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
     </addAttributes>
@@ -9157,62 +9132,53 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>salinity_std_dev</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">standard deviation</att>
-            <att name="ioos_category">Salinity</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">salinity</att>
             <att name="long_name">reference salinity standard deviation</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">sea_water_reference_salinity_standard_deviation</att>
             <att name="units">g/kg</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>salinity_sample_count</sourceName>
     <destinationName>salinity_sample_count</destinationName>
-    <dataType>double</dataType>
+    <dataType>int</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
-            <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">count</att>
-            <att name="ioos_category">Salinity</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">salinity</att>
             <att name="long_name">reference salinity sample count</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">sea_water_reference_salinity_sample_count</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>o2_saturation</sourceName>
     <destinationName>o2_saturation</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
             <att name="ioos_category">dissolved_o2</att>
             <att name="long_name">O2 saturation</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=OXYSENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
-            <att name="standard_name">fractional_saturation_of_oxygen_in_sea_water</att>
+            <att name="standard_name">percent_saturation_of_oxygen_in_sea_water</att>
             <att name="units">&#37;</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
-      <att name="colorBarMaximum" type="double">100.0</att>
+      <att name="colorBarMaximum" type="double">180.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="units">percent</att>
     </addAttributes>
@@ -9222,65 +9188,56 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>o2_saturation_std_dev</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">standard deviation</att>
+            <att name="aggregation_operation">mean</att>
             <att name="ioos_category">dissolved_o2</att>
             <att name="long_name">O2 saturation standard deviation</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=OXYSENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
-            <att name="standard_name">fractional_saturation_of_oxygen_in_sea_water_standard_deviation</att>
+            <att name="standard_name">percent_saturation_of_oxygen_in_sea_water_standard_deviation</att>
             <att name="units">&#37;</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
       <att name="units">percent</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
     <sourceName>o2_saturation_sample_count</sourceName>
     <destinationName>o2_saturation_sample_count</destinationName>
-    <dataType>double</dataType>
+    <dataType>int</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
-            <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">count</att>
+            <att name="aggregation_operation">mean</att>
             <att name="ioos_category">dissolved_o2</att>
             <att name="long_name">O2 saturation sample count</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=OXYSENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
-            <att name="standard_name">fractional_saturation_of_oxygen_in_sea_water_sample_count</att>
+            <att name="standard_name">percent_saturation_of_oxygen_in_sea_water_sample_count</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>o2_concentration_corrected</sourceName>
     <destinationName>o2_concentration_corrected</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
             <att name="ioos_category">dissolved_o2</att>
             <att name="long_name">corrected O2 concentration</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=OXYSENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">volume_fraction_of_oxygen_in_sea_water</att>
             <att name="units">ml/l</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
-      <att name="colorBarMaximum" type="double">100.0</att>
+      <att name="colorBarMaximum" type="double">1.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
-      <att name="units">ml/l</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
@@ -9288,54 +9245,100 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>o2_concentration_corrected_std_dev</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">standard deviation</att>
+            <att name="aggregation_operation">mean</att>
             <att name="ioos_category">dissolved_o2</att>
             <att name="long_name">corrected O2 concentration standard deviation</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=OXYSENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">volume_fraction_of_oxygen_in_sea_water_standard_deviation</att>
             <att name="units">ml/l</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-      <att name="units">ml/l</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>o2_concentration_corrected_sample_count</sourceName>
     <destinationName>o2_concentration_corrected_sample_count</destinationName>
-    <dataType>double</dataType>
+    <dataType>int</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
-            <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">count</att>
+            <att name="aggregation_operation">mean</att>
             <att name="ioos_category">dissolved_o2</att>
             <att name="long_name">corrected O2 concentration sample count</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TSG</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=OXYSENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">volume_fraction_of_oxygen_in_sea_water_sample_count</att>
         </sourceAttributes -->
+    <addAttributes/>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>o2_temperature</sourceName>
+    <destinationName>o2_temperature</destinationName>
+    <dataType>double</dataType>
+    <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">dissolved_o2</att>
+            <att name="long_name">O2 sensor temperature</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=OXYSENSOR</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">temperature_of_sensor_for_oxygen_in_sea_water</att>
+            <att name="units">degrees_Celcius</att>
+        </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
+      <att name="colorBarMaximum" type="double">500.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
     </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>o2_temperature_std_dev</sourceName>
+    <destinationName>o2_temperature_std_dev</destinationName>
+    <dataType>double</dataType>
+    <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">dissolved_o2</att>
+            <att name="long_name">O2 sensor temperature standard deviation</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=OXYSENSOR</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">temperature_of_sensor_for_oxygen_in_sea_water_standard_deviation</att>
+            <att name="units">degrees_Celcius</att>
+        </sourceAttributes -->
+    <addAttributes/>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>o2_temperature_sample_count</sourceName>
+    <destinationName>o2_temperature_sample_count</destinationName>
+    <dataType>int</dataType>
+    <!-- sourceAttributes>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">dissolved_o2</att>
+            <att name="long_name">O2 sensor temperature sample count</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=OXYSENSOR</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">temperature_of_sensor_for_oxygen_in_sea_water_sample_count</att>
+        </sourceAttributes -->
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>cdom_fluorescence</sourceName>
     <destinationName>cdom_fluorescence</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
-            <att name="ioos_category">Optical Properties</att>
+            <att name="ioos_category">optical properties</att>
             <att name="long_name">CDOM fluorescence mass fraction</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
             <att name="ONC_stationCode">TWDP</att>
@@ -9343,7 +9346,6 @@ v1: on_crossing_mask, crossing_number,
             <att name="units">ppb</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
       <att name="colorBarMaximum" type="double">1.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
     </addAttributes>
@@ -9353,61 +9355,54 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>cdom_fluorescence_std_dev</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">standard deviation</att>
-            <att name="ioos_category">Optical Properties</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">optical properties</att>
             <att name="long_name">CDOM fluorescence standard deviation</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">mass_fraction_of_cdom_fluorescence_in_sea_water_standard_deviation</att>
             <att name="units">ppb</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>cdom_fluorescence_sample_count</sourceName>
     <destinationName>cdom_fluorescence_sample_count</destinationName>
-    <dataType>double</dataType>
+    <dataType>int</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
-            <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">count</att>
-            <att name="ioos_category">Optical Properties</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">optical properties</att>
             <att name="long_name">CDOM fluorescence sample count</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">mass_fraction_of_cdom_fluorescence_in_sea_water_sample_count</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>chlorophyll</sourceName>
     <destinationName>chlorophyll</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
-            <att name="ioos_category">Optical Properties</att>
+            <att name="ioos_category">optical properties</att>
             <att name="long_name">chlorophyll concentration</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
             <att name="ONC_stationCode">TWDP</att>
-            <att name="standard_name">mass_concentration_of_chlorophyl_in_sea_water</att>
+            <att name="standard_name">mass_fraction_of_chlorophyll_in_sea_water</att>
             <att name="units">ug/l</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
+      <att name="colorBarMaximum" type="double">70.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
@@ -9415,185 +9410,158 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>chlorophyll_std_dev</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">standard deviation</att>
-            <att name="ioos_category">Optical Properties</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">optical properties</att>
             <att name="long_name">chlorophyll concentration standard deviation</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
             <att name="ONC_stationCode">TWDP</att>
-            <att name="standard_name">mass_concentration_of_chlorophyl_in_sea_water_standard_deviation</att>
+            <att name="standard_name">mass_fraction_of_chlorophyll_in_sea_water_standard_deviation</att>
             <att name="units">ug/l</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>chlorophyll_sample_count</sourceName>
     <destinationName>chlorophyll_sample_count</destinationName>
-    <dataType>double</dataType>
+    <dataType>int</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
-            <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">count</att>
-            <att name="ioos_category">Optical Properties</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">optical properties</att>
             <att name="long_name">chlorophyll concentration sample count</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
             <att name="ONC_stationCode">TWDP</att>
-            <att name="standard_name">mass_concentration_of_chlorophyl_in_sea_water_sample_count</att>
+            <att name="standard_name">mass_fraction_of_chlorophyll_in_sea_water_sample_count</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>turbidity</sourceName>
     <destinationName>turbidity</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
-            <att name="ioos_category">Optical Properties</att>
-            <att name="long_name">turbidity</att>
+            <att name="ioos_category">optical properties</att>
+            <att name="long_name">turbidity </att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">sea_water_turbidity</att>
             <att name="units">NTU</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+        </addAttributes>
   </dataVariable>
   <dataVariable>
     <sourceName>turbidity_std_dev</sourceName>
     <destinationName>turbidity_std_dev</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">standard deviation</att>
-            <att name="ioos_category">Optical Properties</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">optical properties</att>
             <att name="long_name">turbidity standard deviation</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">sea_water_turbidity_standard_deviation</att>
             <att name="units">NTU</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>turbidity_sample_count</sourceName>
     <destinationName>turbidity_sample_count</destinationName>
-    <dataType>double</dataType>
+    <dataType>int</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
-            <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">count</att>
-            <att name="ioos_category">Optical Properties</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">optical properties</att>
             <att name="long_name">turbidity sample count</att>
             <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">sea_water_turbidity_sample_count</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>co2_partial_pressure</sourceName>
     <destinationName>co2_partial_pressure</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
             <att name="ioos_category">CO2</att>
-            <att name="long_name">CO2 partial pressure</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
+            <att name="long_name">CO2 partial pressure </att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=CO2SENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">surface_partial_pressure_of_carbon_dioxide_in_sea_water</att>
             <att name="units">pCO2 uatm</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+        </addAttributes>
   </dataVariable>
   <dataVariable>
     <sourceName>co2_partial_pressure_std_dev</sourceName>
     <destinationName>co2_partial_pressure_std_dev</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">standard deviation</att>
+            <att name="aggregation_operation">mean</att>
             <att name="ioos_category">CO2</att>
             <att name="long_name">CO2 partial pressure standard deviation</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=CO2SENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">surface_partial_pressure_of_carbon_dioxide_in_sea_water_standard_deviation</att>
             <att name="units">pCO2 uatm</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>co2_partial_pressure_sample_count</sourceName>
     <destinationName>co2_partial_pressure_sample_count</destinationName>
-    <dataType>double</dataType>
+    <dataType>int</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
-            <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">count</att>
+            <att name="aggregation_operation">mean</att>
             <att name="ioos_category">CO2</att>
             <att name="long_name">CO2 partial pressure sample count</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=CO2SENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">surface_partial_pressure_of_carbon_dioxide_in_sea_water_sample_count</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>co2_concentration_linearized</sourceName>
     <destinationName>co2_concentration_linearized</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
             <att name="aggregation_operation">mean</att>
             <att name="ioos_category">CO2</att>
-            <att name="long_name">linearized CO2 concentration</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
+            <att name="long_name">CO2 partial pressure </att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=CO2SENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">mole_fraction_of_carbon_dioxide_in_sea_water</att>
             <att name="units">umol/mol</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
       <att name="colorBarMaximum" type="double">1.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
     </addAttributes>
@@ -9603,41 +9571,34 @@ v1: on_crossing_mask, crossing_number,
     <destinationName>co2_concentration_linearized_std_dev</destinationName>
     <dataType>double</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">standard deviation</att>
+            <att name="aggregation_operation">mean</att>
             <att name="ioos_category">CO2</att>
-            <att name="long_name">linearized CO2 concentration standard deviation</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
+            <att name="long_name">CO2 partial pressure standard deviation</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=CO2SENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">mole_fraction_of_carbon_dioxide_in_sea_water_standard_deviation</att>
             <att name="units">umol/mol</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
   <dataVariable>
     <sourceName>co2_concentration_linearized_sample_count</sourceName>
     <destinationName>co2_concentration_linearized_sample_count</destinationName>
-    <dataType>double</dataType>
+    <dataType>int</dataType>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">480</att>
-            <att name="_FillValue" type="double">NaN</att>
             <att name="aggregation_interval" type="long">60</att>
             <att name="aggregation_interval_units">seconds</att>
-            <att name="aggregation_operation">count</att>
+            <att name="aggregation_operation">mean</att>
             <att name="ioos_category">CO2</att>
-            <att name="long_name">linearized CO2 concentration sample count</att>
-            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
+            <att name="long_name">CO2 partial pressure sample count</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=CO2SENSOR</att>
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">mole_fraction_of_carbon_dioxide_in_sea_water_sample_count</att>
         </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-    </addAttributes>
+    <addAttributes/>
   </dataVariable>
 </dataset>
 
