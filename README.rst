@@ -9,6 +9,21 @@ chiefly a Jupyter notebook,
 used to maintain the ``datasets.xml`` file,
 and notes in this file about maintenance of the datasets file and the ERDDAP server.
 
+`ERDDAP_datasets.ipynb`_
+========================
+
+.. _ERDDAP_datasets.ipynb: http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/erddap-datasets/raw/tip/ERDDAP_datasets.ipynb
+
+**Building ERDDAP Datasets**
+
+This notebook documents the process of creating XML fragments for nowcast system run results files for inclusion in ``/results/erddap-datasets/datasets.xml`` which is symlinked to ``/opt/tomcat/content/erddap/datasets.xml`` on the ``skookum`` ERDDAP server instance.
+
+The contents are a combination of:
+
+* instructions for using the ``GenerateDatasetsXml.sh`` tool found in the ``/opt/tomcat/webapps/erddap/WEB-INF/`` directory
+* code and metadata to transform the output of ``GenerateDatasetsXml.sh`` into XML fragments that are ready for inclusion in ``/results/erddap-datasets/datasets.xml``
+* instructions for forcing the server to update the datasets collection via the ``/results/erddap/flags/`` directory
+
 
 License
 =======
