@@ -37,6 +37,7 @@ http://coastwatch.pfel.noaa.gov/erddap/download/setupDatasetsXml.html
 
 <!-- If you want to prevent specific people from using the email/URL subscription
      system, uncomment the following tag and add their email addresses to the comma-separated list.
+     You can use the name "*" to blacklist an entire domain, e.g., *@example.com .
 <subscriptionEmailBlacklist>some.name@company.com, another.name@company.com</subscriptionEmailBlacklist>
 -->
 
