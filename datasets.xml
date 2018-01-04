@@ -5684,12 +5684,12 @@ v17-02: vVelocity variable; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see inf
   </dataVariable>
 </dataset>
 
-<dataset type="EDDTableFromNcFiles" datasetID="ubcONCTWDP1mV1" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="ubcONCTWDP1mV18-01" active="true">
   <reloadEveryNMinutes>10800</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/observations/ONC/ferries/TWDP/</fileDir>
   <recursive>false</recursive>
-  <fileNameRegex>.*TWDP_TSG_O2_TURBCHLFL_CO2_1m_\d{8}.nc$</fileNameRegex>
+  <fileNameRegex>.*TWDP_TSG_O2_TURBCHLFL_CO2_METEO_1m_\d{8}.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
   <preExtractRegex/>
   <postExtractRegex/>
@@ -5724,10 +5724,18 @@ count as aggregation functions.
     <att name="keywords">1min aggregation, ONC Mobile Platforms, British Columbia Ferries,
 Tsawwassen - Duke Point route, Ocean Networks Canada,
 UBC EOAS, Strait of Georgia, latitude, longitude, ocean, observations,
+Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure,
+Atmosphere &gt; Atmospheric Radiation &gt; Longwave Radiation,
+Atmosphere &gt; Atmospheric Radiation &gt; Shortwave Radiation,
+Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature,
+Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature,
+Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity,
 Oceans &amp;gt; Ocean Temperature &amp;gt; Water Temperature,
 Oceans &amp;gt; Salinity/Density &amp;gt; Conductivity,
 Oceans &amp;gt; Ocean Chemistry &amp;gt; Carbon Dioxide,
 Oceans &amp;gt; Ocean Chemistry &amp;gt; Oxygen,
+air_temperature, air_temperature_sample_count, air_temperature_standard_deviations, air_temperature_std_dev, atmosphere,
+barometric_pressure, barometric_pressure_sample_count, barometric_pressure_std_dev,
 carbon dioxide, cdom, cdom_fluorescence, cdom_fluorescence_sample_count, cdom_fluorescence_std_dev,
 chemistry, chlorophyl, chlorophyll, chlorophyll_sample_count, chlorophyll_std_dev,
 CO2, co2_concentration_linearized, co2_concentration_linearized_sample_count, co2_concentration_linearized_std_dev,
@@ -5737,6 +5745,7 @@ dissolved O2, electrical conductivity,
 fluorescence, fractional_saturation_of_oxygen_in_sea_water, fractional_saturation_of_oxygen_in_sea_water_sample_count,
 fractional_saturation_of_oxygen_in_sea_water_standard_deviation,
 latitude, longitude,
+longwave_radiation, longwave_radiation_sample_count, longwave_radiation_std_dev,
 mass_concentration_of_chlorophyl_in_sea_water, mass_concentration_of_chlorophyl_in_sea_water_sample_count,
 mass_concentration_of_chlorophyl_in_sea_water_standard_deviation,
 mass_fraction_of_cdom_fluorescence_in_sea_water, mass_fraction_of_cdom_fluorescence_in_sea_water_sample_count,
@@ -5748,13 +5757,18 @@ o2_concentration_corrected, o2_concentration_corrected_sample_count, o2_concentr
 o2_saturation, o2_saturation_sample_count, o2_saturation_std_dev,
 ocean, on_crossing_mask, optical properties, organic, oxygen, partial pressure,
 reference salinity, salinity, salinity_sample_count, salinity_std_dev, sea water,
+relative_humidity, relative_humidity_sample_count, relative_humidity_standard_deviation, relative_humidity_std_dev,
 sea water electrical conductivity, sea_water_electrical_conductivity,
 sea_water_electrical_conductivity_sample_count, sea_water_electrical_conductivity_standard_deviation,
 sea_water_reference_salinity, sea_water_reference_salinity_sample_count,
 sea_water_reference_salinity_standard_deviation,
 sea_water_temperature, sea_water_temperature_sample_count, sea_water_temperature_standard_deviation,
 sea_water_turbidity, sea_water_turbidity_sample_count, sea_water_turbidity_standard_deviation,
-seawater, surface_partial_pressure_of_carbon_dioxide_in_sea_water,
+solar_radiation, solar_radiation_sample_count, solar_radiation_std_dev,
+seawater,
+surface_air_pressure, surface_air_pressure_sample_count, surface_air_pressure_standard_deviation,
+surface_downwelling_longwave_flux_in_air, surface_downwelling_longwave_flux_in_air_standard_deviation, surface_downwelling_shortwave_flux_in_air, surface_downwelling_shortwave_flux_in_air_sample_count, surface_downwelling_shortwave_flux_in_air_standard_deviation,
+surface_partial_pressure_of_carbon_dioxide_in_sea_water,
 surface_partial_pressure_of_carbon_dioxide_in_sea_water_sample_count,
 surface_partial_pressure_of_carbon_dioxide_in_sea_water_standard_deviation,
 temperature, temperature_sample_count, temperature_std_dev,
@@ -5772,7 +5786,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 Raw instrument data on which this dataset is based were provided by Ocean Networks Canada.</att>
     <att name="sourceUrl">(local files)</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">ONC, Strait of Georgia, BC Ferries, Tsawwassen - Duke Point, 1min, v1
+    <att name="summary">ONC, Strait of Georgia, BC Ferries, Tsawwassen - Duke Point, 1min, v18-01
 
 Data from the Ocean Networks Canada (ONC)
 Strait of Georgia Mobile Platforms, British Columbia Ferries, Tsawwassen - Duke Point route.
@@ -5792,8 +5806,15 @@ v1: on_crossing_mask, crossing_number,
     turbidity, turbidity standard deviation, turbidity sample counts,
     CO2 partial pressure, CO2 partial pressure standard deviation, CO2 partial pressure sample counts,
     linearized CO2 concentration, linearized CO2 concentration standard deviation, linearized CO2 concentration sample counts,
-    variables</att>
-    <att name="title">ONC, Strait of Georgia, BC Ferries, Tsawwassen - Duke Point, 1min, v1</att>
+    variables
+v18-01: Add air temperature, air temperature standard deviation, air temperature sample counts,
+        relative humidity, relative humidity standard deviation, relative humidity sample counts,
+        barometric pressure, barometric pressure standard deviation, barometric pressure sample counts,
+        solar radiation, solar radiation standard deviation, solar radiation sample counts,
+        longwave radiation, longwave radiation standard deviation, longwave radiation sample counts,
+        variables
+    </att>
+    <att name="title">ONC, Strait of Georgia, BC Ferries, Tsawwassen - Duke Point, 1min, v18-01</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eos.ubc.ca</att>
@@ -6506,6 +6527,357 @@ v1: on_crossing_mask, crossing_number,
         </sourceAttributes -->
     <addAttributes/>
   </dataVariable>
+    <dataVariable>
+        <sourceName>air_temperature</sourceName>
+        <destinationName>air_temperature</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">480</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">meteorology</att>
+            <att name="long_name">air temperature</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TEMPHUMID</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">air_temperature</att>
+            <att name="units">degrees_Celcius</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">40.0</att>
+            <att name="colorBarMinimum" type="double">-10.0</att>
+            <att name="ioos_category">Meteorology</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>air_temperature_std_dev</sourceName>
+        <destinationName>air_temperature_std_dev</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">480</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">meteorology</att>
+            <att name="long_name">air temperature standard deviation</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TEMPHUMID</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">air_temperature_standard_deviations</att>
+            <att name="units">degrees_Celcius</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Meteorology</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>air_temperature_sample_count</sourceName>
+        <destinationName>air_temperature_sample_count</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">720</att>
+            <att name="_FillValue" type="int">0</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">meteorology</att>
+            <att name="long_name">air temperature sample count</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TEMPHUMID</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">air_temperature_sample_count</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Meteorology</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>relative_humidity</sourceName>
+        <destinationName>relative_humidity</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">480</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">meteorology</att>
+            <att name="long_name">relative humidity</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TEMPHUMID</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">relative_humidity</att>
+            <att name="units">&#37;</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Meteorology</att>
+            <att name="units">percent</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>relative_humidity_std_dev</sourceName>
+        <destinationName>relative_humidity_std_dev</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">480</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">meteorology</att>
+            <att name="long_name">relative humidity standard deviation</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TEMPHUMID</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">relative_humidity_standard_deviation</att>
+            <att name="units">&#37;</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">5.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Meteorology</att>
+            <att name="units">percent</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>relative_humidity_sample_count</sourceName>
+        <destinationName>relative_humidity_sample_count</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">720</att>
+            <att name="_FillValue" type="int">0</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">meteorology</att>
+            <att name="long_name">relative humidity sample count</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=TEMPHUMID</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">relative_humidity_sample_count</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Meteorology</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>barometric_pressure</sourceName>
+        <destinationName>barometric_pressure</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">480</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">pressure</att>
+            <att name="long_name">barometric pressure</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=BARPRESS</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">surface_air_pressure</att>
+            <att name="units">hPa</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">1050.0</att>
+            <att name="colorBarMinimum" type="double">950.0</att>
+            <att name="ioos_category">Pressure</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>barometric_pressure_std_dev</sourceName>
+        <destinationName>barometric_pressure_std_dev</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">480</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">pressure</att>
+            <att name="long_name">barometric pressure standard deviation</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=BARPRESS</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">surface_air_pressure_standard_deviation</att>
+            <att name="units">hPa</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Pressure</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>barometric_pressure_sample_count</sourceName>
+        <destinationName>barometric_pressure_sample_count</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">720</att>
+            <att name="_FillValue" type="int">0</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">pressure</att>
+            <att name="long_name">barometric pressure sample count</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=BARPRESS</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">surface_air_pressure_sample_count</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Pressure</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>solar_radiation</sourceName>
+        <destinationName>solar_radiation</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">480</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">Meteorology</att>
+            <att name="long_name">solar radiation</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=PYRANOMETER</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">surface_downwelling_shortwave_flux_in_air</att>
+            <att name="units">W/m^2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">500.0</att>
+            <att name="colorBarMinimum" type="double">-500.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>solar_radiation_std_dev</sourceName>
+        <destinationName>solar_radiation_std_dev</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">480</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">Meteorology</att>
+            <att name="long_name">solar radiation standard deviation</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=PYRANOMETER</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">surface_downwelling_shortwave_flux_in_air_standard_deviation</att>
+            <att name="units">W/m^2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>solar_radiation_sample_count</sourceName>
+        <destinationName>solar_radiation_sample_count</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">720</att>
+            <att name="_FillValue" type="int">0</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">Meteorology</att>
+            <att name="long_name">solar radiation sample count</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=PYRANOMETER</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">surface_downwelling_shortwave_flux_in_air_sample_count</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longwave_radiation</sourceName>
+        <destinationName>longwave_radiation</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">480</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">Meteorology</att>
+            <att name="long_name">longwave radiation</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=PYRGEOMETER</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">surface_downwelling_longwave_flux_in_air</att>
+            <att name="units">W/m^2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">500.0</att>
+            <att name="colorBarMinimum" type="double">-500.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longwave_radiation_std_dev</sourceName>
+        <destinationName>longwave_radiation_std_dev</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">480</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">Meteorology</att>
+            <att name="long_name">longwave radiation standard deviation</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=PYRGEOMETER</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">surface_downwelling_longwave_flux_in_air_standard_deviation</att>
+            <att name="units">W/m^2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longwave_radiation_sample_count</sourceName>
+        <destinationName>longwave_radiation_sample_count</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">720</att>
+            <att name="_FillValue" type="int">0</att>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">Meteorology</att>
+            <att name="long_name">longwave radiation sample count</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=TWDP&amp;deviceCategory=PYRGEOMETER</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">surface_downwelling_longwave_flux_in_air_sample_count</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+        </addAttributes>
+    </dataVariable>
 </dataset>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfBoundaryBaySSH10mV17-02" active="true">
