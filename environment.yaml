@@ -9,16 +9,15 @@
 name: erddap-datasets
 
 channels:
-  - defaults
   - conda-forge
+  - defaults
 
 dependencies:
   - bottleneck
-  - hdf4
+  - jupyterlab
   - jupyter_contrib_nbextensions
   - lxml
   - netcdf4
-  - notebook
   - pip
   - python=3.6
   - xarray
