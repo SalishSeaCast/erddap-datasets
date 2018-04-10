@@ -9201,7 +9201,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/climatology/</fileDir>
-  <fileNameRegex>.*seasonal-30_\d{4}\.nc$</fileNameRegex>
+  <fileNameRegex>.*seasonal_ts-30_\d{4}\.nc$</fileNameRegex>
   <recursive>true</recursive>
   <pathRegex>.*</pathRegex>
   <metadataFrom>last</metadataFrom>
