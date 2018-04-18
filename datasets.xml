@@ -9420,23 +9420,28 @@ They are licensed under the Apache License, Version 2.0. https://www.apache.org/
     <att name="stop_date">null</att>
     <att name="summary">Forecast, Salish Sea, 2d Wave Fields, 30min, v17-02
 
-2d wave field values calculated at 30 minute intervals
+Rolling daily forecast of 2d wave field values calculated at 30 minute intervals
 from the most recent Strait of Georgia WaveWatch3(TM) model forecast runs.
 The values are calculated for a model grid that covers the Strait of Georgia
 on the coast of British Columbia. The time values are UTC.
 
+The Strait of Georgia WaveWatch3(TM) model grid and configuration were developed
+by Johannes Gemmrich at the University of Victoria. The WaveWatch3(TM) model
+is forced with currents from the Salish Sea NEMO model and the same ECCC HRDPS
+GEM 2.5km resolution winds that are used to force the NEMO model.
+
 This dataset is updated daily to move it forward 1 day in time.
-It starts at 00:0:00 UTC 5 days prior to the most recently completed forecast run,
+It starts at 00:00:00 UTC 5 days prior to the most recently completed forecast run,
 and extends to 11:30:00 UTC on the 2nd day after the forecast run date.
 So, for example, after completion of the 10-Nov-2017 forecast run,
 this dataset included data from 2017-11-05 00:00:00 UTC to 2017-11-12 11:30:00 UTC.
 
-v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details: uVelocity variable
+v17-02: WaveWatch3(TM)-5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
 </att>
     <att name="title">Forecast, Salish Sea, 2d Wave Fields, 30min, v17-02</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
-    <att name="creator_email">sallen@eoas.ubc.ca</att>
+    <att name="creator_email">gemmrich@uvic.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="drawLandMask">over</att>
