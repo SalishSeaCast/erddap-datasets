@@ -160,6 +160,7 @@ created by wgrib2</att>
         <att name="NCO">4.4.2</att>
     </sourceAttributes -->
   <addAttributes>
+    <att name="testOutOfDate">now-12hours</att>
     <att name="cdm_data_type">Grid</att>
     <att name="coverage_content_type">modelResult</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
@@ -447,6 +448,7 @@ short-wave radiation flux, long-wave radiation flux, 10m u wind component, 10m v
         <att name="subsetVariables">station, longitude, latitude</att>
     -->
   <addAttributes>
+    <att name="testOutOfDate">now-2days</att>
     <att name="cdm_data_type">TimeSeries</att>
     <att name="cdm_timeseries_variables">depth, longitude, latitude</att>
     <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
@@ -672,6 +674,7 @@ temperature, temperature standard deviation, temperature sample counts variables
         <att name="subsetVariables">station, longitude, latitude</att>
     -->
   <addAttributes>
+    <att name="testOutOfDate">now-2days</att>
     <att name="cdm_data_type">TimeSeries</att>
     <att name="cdm_timeseries_variables">depth, longitude, latitude</att>
     <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
@@ -1122,6 +1125,7 @@ temperature, temperature standard deviation, temperature sample counts variables
         <att name="subsetVariables">station, longitude, latitude</att>
     -->
   <addAttributes>
+    <att name="testOutOfDate">now-2days</att>
     <att name="cdm_data_type">TimeSeries</att>
     <att name="cdm_timeseries_variables">depth, longitude, latitude</att>
     <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
@@ -2906,6 +2910,7 @@ v17-02: same variables,
         <att name="uuid">617d7ef5-1edd-4aa2-8297-13fdd83dcb8c</att>
     </sourceAttributes -->
   <addAttributes>
+    <att name="testOutOfDate">now-16hours</att>
     <att name="cdm_data_type">Grid</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
@@ -3061,6 +3066,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
         <att name="uuid">af8b1096-0090-466e-8aa0-806c6cd7856c</att>
     </sourceAttributes -->
   <addAttributes>
+    <att name="testOutOfDate">now-16hours</att>
     <att name="cdm_data_type">Grid</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
@@ -3216,6 +3222,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
         <att name="uuid">a8e3972b-a9e6-4dc6-b5a2-8433a457a8a7</att>
     </sourceAttributes -->
   <addAttributes>
+    <att name="testOutOfDate">now-16hours</att>
     <att name="cdm_data_type">Grid</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
@@ -3470,6 +3477,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
         <att name="uuid">3d5c0584-cd03-4eb1-83b6-a5915ff08093</att>
     </sourceAttributes -->
   <addAttributes>
+    <att name="testOutOfDate">now-16hours</att>
     <att name="cdm_data_type">Grid</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
@@ -3689,6 +3697,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
         <att name="uuid">3d5c0584-cd03-4eb1-83b6-a5915ff08093</att>
     </sourceAttributes -->
   <addAttributes>
+    <att name="testOutOfDate">now-16hours</att>
     <att name="cdm_data_type">Grid</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
@@ -3836,6 +3845,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
         <att name="uuid">3d5c0584-cd03-4eb1-83b6-a5915ff08093</att>
     </sourceAttributes -->
   <addAttributes>
+    <att name="testOutOfDate">now+24hours</att>
     <att name="cdm_data_type">Grid</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
@@ -3990,6 +4000,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
         <att name="uuid">79947fa3-8c38-409b-8076-534e9a23cb43</att>
     </sourceAttributes -->
   <addAttributes>
+    <att name="testOutOfDate">now-16hours</att>
     <att name="cdm_data_type">Grid</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
@@ -5266,6 +5277,7 @@ v17-02: tmaskutil, umaskutil, vmaskutil, fmaskutil, glamt, glamu, glamv, glamf, 
         <att name="uuid">7510ff60-a97b-48d4-812f-f8f70b102feb</att>
     </sourceAttributes -->
   <addAttributes>
+    <att name="testOutOfDate">now-16hours</att>
     <att name="cdm_data_type">Grid</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
@@ -5417,6 +5429,7 @@ v17-02: uVelocity variable; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see inf
         <att name="uuid">51f90ad8-7ffa-4c66-bdaa-62ddfa191d8a</att>
     </sourceAttributes -->
   <addAttributes>
+    <att name="testOutOfDate">now-16hours</att>
     <att name="cdm_data_type">Grid</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
