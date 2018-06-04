@@ -8010,7 +8010,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
     <att name="easternmost_longitude">null</att>
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
-    <att name="institution">UBC EOAS</att>
+    <att name="institution">UBC EOAS &amp; DFO IOS</att>
     <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
     <att name="keywords">atmosphere,
 Atmosphere &amp;gt; Atmospheric Winds &amp;gt; Surface Winds,
@@ -8032,7 +8032,7 @@ swell, t02, time, ucur, utwo, uuss, uwnd, variance, vcur, velocity, vtwo, vuss, 
 waves, wcc, wch, whitecap coverage, whitecap_coverage, wind, winds</att>
     <att name="keywords_vocabulary">GCMD Science Keywords</att>
     <att name="latitude_resolution">null</att>
-    <att name="license">The Salish Sea MEOPAR NEMO model results are copyright
+    <att name="license">The SalishSeaCast model results are copyright
 by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
@@ -8067,7 +8067,7 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; 
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">gemmrich@uvic.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="acknowledgement">Fisheries &amp; Oceans Canada, MEOPAR, ONC, Compute Canada</att>
     <att name="drawLandMask">over</att>
     <att name="westernmost_longitude">null</att>
     <att name="NCO">null</att>
@@ -8562,9 +8562,9 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; 
         <att name="sourceUrl">(local files)</att>
         <att name="subsetVariables">fileType</att>
         <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
-        <att name="institution">UBC EOAS and DFO IOS</att>
+        <att name="institution">UBC EOAS &amp; DFO IOS</att>
         <att name="keywords">model results, file, identifier, lastModified, modified, name, size, time</att>
-        <att name="license">The Salish Sea MEOPAR NEMO model results are copyright
+        <att name="license">The SalishSeaCast model results are copyright
 by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
@@ -8587,7 +8587,7 @@ v2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for
         <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
         <att name="creator_email">Michael.Dunphy@dfo-mpo.gc.ca</att>
         <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-        <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+        <att name="acknowledgement">Fisheries &amp; Oceans Canada, MEOPAR, ONC, Compute Canada</att>
         <att name="history">null</att>
     </addAttributes>
     <dataVariable>
