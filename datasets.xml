@@ -2499,7 +2499,7 @@ They are licensed under the Apache License, Version 2.0. https://www.apache.org/
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
     <att name="summary">Forecast, Salish Sea, Surface Tracer Fields, Hourly, v17-02
 
-2d sea surface height and mixed layer depth field values averaged over 1 hour intervals
+Rolling daily forecast of 2d sea surface height and mixed layer depth field values averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics and biology. The values are calculated for the surface of the model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
@@ -8766,6 +8766,195 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; 
             <att name="extractGroup" type="int">1</att>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">File Type</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
+
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfDepthAvgdCurrents1hV17-02" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
+    <fileNameRegex>.*CHS_currents\.nc$</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <matchAxisNDigits>20</matchAxisNDigits>
+    <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>false</accessibleViaFiles>
+    <!-- sourceAttributes>
+        <att name="creation_date">2018-09-13T15:31:16.027375-07:00</att>
+        <att name="history">CHS currents file made by nowcast worker: make_CHS_currents_file.py</att>
+    </sourceAttributes -->
+    <addAttributes>
+        <att name="testOutOfDate">now+24hours</att>
+        <att name="cdm_data_type">Grid</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
+        <att name="institution">UBC EOAS</att>
+        <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+        <att name="keywords">circulation, current, currents, east, eastward,
+eastward_sea_water_velocity_upper_10_grid_levels,
+eastward_sea_water_velocity_upper_5_grid_levels,
+north, northward, northward_sea_water_velocity_upper_10_grid_levels,
+northward_sea_water_velocity_upper_5_grid_levels,
+ocean, oceans, Oceans &gt; Ocean Circulation &gt; Ocean Currents, sea, seawater, time,
+VelEast10, VelEast5, VelNorth10, VelNorth5, velocity, water</att>
+        <att name="license">The SalishSeaCast model results are copyright
+    by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
+
+    They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+        <att name="summary">Forecast, Salish Sea, Near-surface Depth Averaged Currents, 1h, v17-02
+
+Rolling daily forecast of eastward and northward water current component field values averaged over 1 hour intervals for the upper 5 and 10 metres of depth from Salish Sea NEMO model runs with physics and biology.
+The values are calculated for the entire model grid that includes the Juan de Fuca Strait,
+the Strait of Georgia, Puget Sound,
+and Johnstone Strait on the coasts of Washington State and British Columbia.
+The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The velocity component values are averaged over the upper 5 and 10 metre depths.
+Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
+
+This dataset is updated daily to move it forward 1 day in time.
+It starts at 00:00:00 UTC 5 days prior to the most recently completed forecast run,
+and extends to 11:30:00 UTC on the 2nd day after the forecast run date.
+So, for example, after completion of the 10-Nov-2017 forecast run,
+this dataset included data from 2017-11-05 00:00:00 UTC to 2017-11-12 11:30:00 UTC.
+
+v17-02: VelEast10, VelEast5, VelNorth10, VelNorth5 variables; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+    </att>
+        <att name="title">Forecast, Salish Sea, Near-surface Depth Averaged Currents, 1h, v17-02</att>
+        <att name="project">Salish Sea MEOPAR NEMO Model</att>
+        <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
+        <att name="creator_email">sallen@eoas.ubc.ca</att>
+        <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+        <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+        <att name="drawLandMask">over</att>
+        <att name="creation_date">null</att>
+    </addAttributes>
+    <axisVariable>
+        <sourceName>time_counter</sourceName>
+        <destinationName>time</destinationName>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">512</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="axis">T</att>
+            <att name="calendar">proleptic_gregorian</att>
+            <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Time axis</att>
+            <att name="standard_name">time</att>
+            <att name="time_origin">1970-01-01 00:00</att>
+            <att name="units">minutes since 1970-01-01</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="units">minutes since 1970-01-01T00:00:00Z</att>
+            <att name="coverage_content_type">modelResult</att>
+            <att name="time_zone">UTC</att>
+            <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+            <att name="ioos_category">time</att>
+        </addAttributes>
+    </axisVariable>
+    <axisVariable>
+        <sourceName>gridY</sourceName>
+        <destinationName>gridY</destinationName>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+          <att name="long_name">Y</att>
+          <att name="coverage_content_type">modelResult</att>
+          <att name="ioos_category">location</att>
+        </addAttributes>
+    </axisVariable>
+    <axisVariable>
+        <sourceName>gridX</sourceName>
+        <destinationName>gridX</destinationName>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+          <att name="long_name">X</att>
+          <att name="coverage_content_type">modelResult</att>
+          <att name="ioos_category">location</att>
+        </addAttributes>
+    </axisVariable>
+    <dataVariable>
+        <sourceName>VelEast10</sourceName>
+        <destinationName>VelEast10</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 898 398</att>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="comment">Average velocity over the upper 10 grid levels, nominally 10 m</att>
+            <att name="ioos_category">currents</att>
+            <att name="long_name">Upper 10 grid levels East Velocity</att>
+            <att name="standard_name">eastward_sea_water_velocity_upper_10_grid_levels</att>
+            <att name="units">m/s</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">8.0</att>
+            <att name="colorBarMinimum" type="double">-8.0</att>
+            <att name="ioos_category">Currents</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>VelNorth10</sourceName>
+        <destinationName>VelNorth10</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 898 398</att>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="comment">Average velocity over the upper 10 grid levels, nominally 10 m</att>
+            <att name="ioos_category">currents</att>
+            <att name="long_name">Upper 10 grid levels North Velocity</att>
+            <att name="standard_name">northward_sea_water_velocity_upper_10_grid_levels</att>
+            <att name="units">m/s</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">8.0</att>
+            <att name="colorBarMinimum" type="double">-8.0</att>
+            <att name="ioos_category">Currents</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>VelNorth5</sourceName>
+        <destinationName>VelNorth5</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 898 398</att>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="comment">Average velocity over the upper 5 grid levels, nominally 5 m</att>
+            <att name="ioos_category">currents</att>
+            <att name="long_name">Upper 5 grid levels North Velocity</att>
+            <att name="standard_name">northward_sea_water_velocity_upper_5_grid_levels</att>
+            <att name="units">m/s</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">8.0</att>
+            <att name="colorBarMinimum" type="double">-8.0</att>
+            <att name="ioos_category">Currents</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>VelEast5</sourceName>
+        <destinationName>VelEast5</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 898 398</att>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="comment">Average velocity over the upper 5 grid levels, nominally 5 m</att>
+            <att name="ioos_category">currents</att>
+            <att name="long_name">Upper 5 grid levels East Velocity</att>
+            <att name="standard_name">eastward_sea_water_velocity_upper_5_grid_levels</att>
+            <att name="units">m/s</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">8.0</att>
+            <att name="colorBarMinimum" type="double">-8.0</att>
+            <att name="ioos_category">Currents</att>
         </addAttributes>
     </dataVariable>
 </dataset>
