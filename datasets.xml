@@ -8673,10 +8673,10 @@ v2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for
 </dataset>
 
 <dataset type="EDDTableFromFileNames" datasetID="ubcSSWaveWatch3-SoGFilesV17-02" active="true">
-    <fileDir>/opp/wwatch3/nowcast/</fileDir>
+    <fileDir>/opp/wwatch3/</fileDir>
+    <pathRegex>/opp/wwatch3/(|nowcast/.*|most_recent_forecast/)</pathRegex>
     <fileNameRegex>.*SoG_ww3_.*\.nc$</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>.*</pathRegex>
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <!-- sourceAttributes>
     </sourceAttributes -->
