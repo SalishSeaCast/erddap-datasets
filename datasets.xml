@@ -8574,9 +8574,9 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; 
 
 <dataset type="EDDTableFromFileNames" datasetID="ubcSSFVCOM-VHFRLowFilesV2" active="true">
     <fileDir>/opp/fvcom/</fileDir>
+    <pathRegex>/opp/fvcom/(|nowcast/.*|most_recent_forecast/)</pathRegex>
     <fileNameRegex>.*vhfr_low_v2_[0s].*\.nc$</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>.*</pathRegex>
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <!-- sourceAttributes>
     </sourceAttributes -->
