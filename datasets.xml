@@ -8963,7 +8963,7 @@ v17-02: VelEast10, VelEast5, VelNorth10, VelNorth5 variables; NEMO-3.6; ubcSSnBa
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/opp/observations/AISDATA/netcdf/</fileDir>
-    <fileNameRegex>VFPA_2ND_NARROWS_HADCP_2s_201810.nc</fileNameRegex>
+    <fileNameRegex>.*VFPA_2ND_NARROWS_HADCP_2s_\d{6}\.nc$</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
