@@ -9691,10 +9691,10 @@ v18-06: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DTracerFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DTracerFields1hV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-green/</fileDir>
+  <fileDir>/results2/SalishSea/hindcast/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -9718,9 +9718,9 @@ v18-06: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-    <att name="keywords">buoy_n2, density, deptht, squared buoyancy frequency, grid, ocean, oceans,
+    <att name="keywords">deptht, grid, ocean, oceans,
 Oceans &gt; Ocean Temperature &gt; Conservative Temperature,
-Oceans &gt; Salinity/Density &gt; Salinity,
+Oceans &gt; Salinity,
 reference salinity, sea water, sea_water_conservative_temperature, sea_water_reference_salinity, seawater,
 conservative temperature, time_counter, vosaline, votemper, water</att>
     <att name="license">The Salish Sea MEOPAR NEMO model results are copyright
@@ -9728,13 +9728,14 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Green, Salish Sea, 3d Tracer Fields, Hourly, v17-02
+    <att name="summary">Green, Salish Sea, 3d Tracer Fields, Hourly, v18-06
 
-3d salinity, water temperature, and squared buoyancy frequency field values averaged over 1 hour intervals
-from Salish Sea NEMO model runs with physics and biology. The values are calculated for the entire model grid
+3d salinity and water temperature field values averaged over 1 hour intervals
+from Salish Sea NEMO model runs with physics, biology and chemistry. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-The time values are the centre of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centre of the intervals over which the calculated model results are averaged.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 v1: salinity (practical) and temperature variables
@@ -9742,8 +9743,11 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
         Changed salinity variable to reference salinity.
         Changed temperature variable to conservative temperature.
         Added squared buoyancy frequency variable.
-v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.</att>
-    <att name="title">Green, Salish Sea, 3d Tracer Fields, Hourly, v17-02</att>
+v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+v18-06: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+        Removed squared buoyancy frequency variable.
+</att>
+    <att name="title">Green, Salish Sea, 3d Tracer Fields, Hourly, v18-06</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -9761,7 +9765,7 @@ Temperature and salinity fields from the SalishSeaCast model
 (Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSg3DTracerFields1hV17-02.
+on DATE from dataset ubcSSg3DTracerFields1hV18-06.
 
 Citations:
 
@@ -9794,7 +9798,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="_ChunkSize">null</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values areUTC at the centre of the intervals over which the calculated model results are averaged</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -9839,35 +9843,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
-  <dataVariable>
-    <sourceName>buoy_n2</sourceName>
-    <destinationName>buoy_n2</destinationName>
-    <dataType>float</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 40 898 398</att>
-            <att name="_FillValue" type="float">1.0E20</att>
-            <att name="cell_measures">area: area</att>
-            <att name="cell_methods">time: mean (interval: 40 s)</att>
-            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-            <att name="interval_operation">40 s</att>
-            <att name="interval_write">1 h</att>
-            <att name="long_name">Buoyancy frequency squared</att>
-            <att name="missing_value" type="float">1.0E20</att>
-            <att name="online_operation">average</att>
-            <att name="standard_name">sea_water_square_of_buoyancy_frequency</att>
-            <att name="units">s-2</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-      <att name="coordinates">null</att>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
   <dataVariable>
     <sourceName>vosaline</sourceName>
     <destinationName>salinity</destinationName>
