@@ -9123,7 +9123,7 @@ v1: current speed and direction variables</att>
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1hV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-<fileDir>/results2/SalishSea/hindcast/</fileDir>
+<fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_U\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -9280,7 +9280,7 @@ v18-06: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DvGridFields1hV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results2/SalishSea/hindcast/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_V\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -9437,7 +9437,7 @@ v18-06: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1hV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results2/SalishSea/hindcast/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_W\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -9694,7 +9694,7 @@ v18-06: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DTracerFields1hV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results2/SalishSea/hindcast/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -9912,7 +9912,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSgSurfaceTracerFields1hV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results2/SalishSea/hindcast/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -10717,7 +10717,7 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceUVelocity20mV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results2/SalishSea/hindcast/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*Slab_U\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -10870,7 +10870,7 @@ v18-06: uVelocity variable; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see inf
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceVVelocity20mV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results2/SalishSea/hindcast/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*Slab_V\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
