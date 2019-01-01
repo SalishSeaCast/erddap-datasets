@@ -10193,10 +10193,10 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DBiologyFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DBiologyFields1hV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/SalishSea/nowcast-green/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_ptrc_T\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -10253,13 +10253,14 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Green, Salish Sea, 3d Biology Fields, Hourly, v17-02
+    <att name="summary">Green, Salish Sea, 3d Biology Fields, Hourly, v18-06
 
 3d SMELT biological model field values averaged over 1 hour intervals
-from Salish Sea NEMO model runs with physics and biology. The values are calculated for the entire model grid
+from Salish Sea NEMO model runs with physics, biology and chemistry. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-The time values are the centre of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centre of the intervals over which the calculated model results are averaged.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesodinium rubrum),
@@ -10267,8 +10268,9 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
         nitrate, particulate organic nitrogen, silicon.
         Fraser River water turbidity tracer.
         NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+v18-06: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
 </att>
-    <att name="title">Green, Salish Sea, 3d Biology Fields, Hourly, v17-02</att>
+    <att name="title">Green, Salish Sea, 3d Biology Fields, Hourly, v18-06</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -10296,7 +10298,7 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
       <att name="_ChunkSize">null</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
