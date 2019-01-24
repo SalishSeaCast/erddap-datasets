@@ -8573,8 +8573,8 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; 
 </dataset>
 
 <dataset type="EDDTableFromFileNames" datasetID="ubcSSFVCOM-VHFRLowFilesV2" active="true">
-    <fileDir>/opp/fvcom/</fileDir>
-    <pathRegex>/opp/fvcom/(|nowcast/.*|most_recent_forecast/)</pathRegex>
+    <fileDir>/opp/fvcom/nowcast/</fileDir>
+    <pathRegex>.*</pathRegex>
     <fileNameRegex>.*vhfr_low_v2_[0s].*\.nc$</fileNameRegex>
     <recursive>true</recursive>
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
@@ -8591,21 +8591,22 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; 
 by the Salish Sea MEOPAR Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-        <att name="title">Files, FVCOM, Vancouver Harbour and Fraser River, V2</att>
-        <att name="summary">Files, FVCOM, Vancouver Harbour and Fraser River, V2
+        <att name="title">Files, FVCOM, Vancouver Harbour and Fraser River, Barotropic, V2</att>
+        <att name="summary">Files, FVCOM, Vancouver Harbour and Fraser River, Barotropic, V2
 
-Barotropic sea surface height and currents from VHFR configuration FVCOM model runs.
+Barotropic sea surface height, and currents from VHFR low resolution V2 configuration
+FVCOM model runs.
 The values are calculated for an unstructured model grid that covers Vancouver Harbour,
 English Bay, and the lower Fraser River on the coast of British Columbia.
 The time values are UTC.
 
-The Vancouver Harbour and Fraser River (VHFR) FVCOM model grid and configuration
+The Vancouver Harbour and Fraser River (VHFR) FVCOM model grid and configurations
 were developed by Michael Dunphy, et al at the Institute of Ocean Sciences.
 The VHFR FVCOM model uses currents, sea surface height, temperature, and salinity
 from the Salish Sea NEMO model as boundary conditions, and the same ECCC HRDPS
 GEM 2.5km resolution winds that are used to force the NEMO model.
 
-v2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+V2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
 </att>
         <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
         <att name="creator_email">Michael.Dunphy@dfo-mpo.gc.ca</att>
@@ -8706,7 +8707,7 @@ The VHFR FVCOM model uses currents, sea surface height, temperature, and salinit
 from the Salish Sea NEMO model as boundary conditions, and the same ECCC HRDPS
 GEM 2.5km resolution winds that are used to force the NEMO model.
 
-x2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+X2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
 </att>
         <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
         <att name="creator_email">Michael.Dunphy@dfo-mpo.gc.ca</att>
