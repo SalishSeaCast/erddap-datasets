@@ -8699,6 +8699,9 @@ Baroclinic sea surface height, currents, temperature, and salinity from
 VHFR X2 configuration FVCOM model runs.
 The values are calculated for an unstructured model grid that covers Vancouver Harbour,
 English Bay, and the lower Fraser River on the coast of British Columbia.
+From 2019-02-06 onward the model runs include Fraser River discharge forcing based on
+daily average discharges from river gauge at Hope with a 1 day lag.
+The river temperature is climatological.
 The time values are UTC.
 
 The Vancouver Harbour and Fraser River (VHFR) FVCOM model grid and configurations
