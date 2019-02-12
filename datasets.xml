@@ -10143,7 +10143,7 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bath
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSurfaceTracerFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSurfaceTracerFields1hV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -11130,7 +11130,7 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bath
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfBoundaryBaySSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfBoundaryBaySSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -11285,7 +11285,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfCampbellRiverSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfCampbellRiverSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -11440,7 +11440,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfCherryPointSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfCherryPointSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -11595,7 +11595,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfFridayHarborSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfFridayHarborSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -11751,7 +11751,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfHalfmoonBaySSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfHalfmoonBaySSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -11906,7 +11906,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNanaimoSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNanaimoSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -12061,7 +12061,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNeahBaySSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNeahBaySSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -12216,7 +12216,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNewWestminsterSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNewWestminsterSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -12371,7 +12371,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPatriciaBaySSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPatriciaBaySSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -12526,7 +12526,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPointAtkinsonSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPointAtkinsonSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -12683,7 +12683,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPortRenfrewSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPortRenfrewSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -12838,7 +12838,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSandHeadsSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSandHeadsSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -12993,7 +12993,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSandyCoveSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSandyCoveSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -13148,7 +13148,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSquamishSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSquamishSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -13303,7 +13303,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfVictoriaSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfVictoriaSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -13458,7 +13458,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfWoodwardsLandingSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfWoodwardsLandingSSH10mV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -13613,7 +13613,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DuGridFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DuGridFields1hV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -13774,7 +13774,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DvGridFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DvGridFields1hV18-06" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -13935,7 +13935,7 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfDepthAvgdCurrents1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfDepthAvgdCurrents1hV18-06" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
