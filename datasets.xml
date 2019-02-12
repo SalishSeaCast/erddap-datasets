@@ -1320,7 +1320,7 @@ temperature, temperature standard deviation, temperature sample counts variables
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnBathymetryV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/nowcast-sys/grid/</fileDir>
+  <fileDir>/SalishSeaCast/grid/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*bathymetry_201702\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -3137,7 +3137,7 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DMeshMaskV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/nowcast-sys/grid/</fileDir>
+  <fileDir>/SalishSeaCast/grid/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*mesh_mask201702\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -3520,7 +3520,7 @@ v17-02: tmask, umask, vmask, fmask, e3t_0, e3u_0, e3v_0, e3w_0, gdept_0, gdepu, 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMaskV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/nowcast-sys/grid/</fileDir>
+  <fileDir>/SalishSeaCast/grid/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*mesh_mask201702\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
