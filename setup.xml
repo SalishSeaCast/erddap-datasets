@@ -605,13 +605,11 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   Daily model runs changed from the <code>V17-02</code> to the <code>V18-06</code> version of the model on 1-Jan-2019.
 </p>
 <p>
-  The <code>V17-02</code> datasets will be removed on 15-Jan-2019.
+  The <code>V17-02</code> datasets were removed on 12-Feb-2019.
 </p>
 <p>
-  Time series datasets like hourly grid, surface, and biology variables will have co-existing <code>V17-02</code> and <code>V18-06</code> versions until 15-Jan-2019,
-  after which time the <code>V17-02</code> datasets will be removed.
   The rolling forecast datasets fully changed from <code>V17-02</code> to <code>V18-06</code> on 6-Jan-2019.
-  Their dataset ids will be changed by 10-Jan-2019.
+  Their dataset ids changed on 12-Feb-2019.
 </p>
 
 <h2>Citing SalishSeaCast Datasets</h2>
