@@ -594,22 +594,27 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   for more information about the model and the SalishSeaCast system.
 </p>
 
-<h2>Model Updates on 1-Jan-2019</h2>
+<h2>Model Updates Coming Soon!</h2>
 <p>
-  A new, improved version of the SalishSeaCast NEMO model has been running since mid-2018.
-  A hindcast using that model configuration has been completed from 2014-11-13 to present.
+  A new, improved version of the SalishSeaCast NEMO model has been running since late-2018.
+  A hindcast using that model configuration has been completed from 2015-01-01 to present.
   We are gradually adding datasets from that hindcast.
-  They are identified with a <code>V18-06</code> version string in their dataset ids, titles, summaries, etc.
+  They are identified with a <code>V18-12</code> version string in their dataset ids, titles, summaries, etc.
 </p>
 <p>
-  Daily model runs changed from the <code>V17-02</code> to the <code>V18-06</code> version of the model on 1-Jan-2019.
+  Daily model runs changed from the <code>V18-06</code> to the <code>V18-12</code> version of the model on 21-Jun-2019.
 </p>
 <p>
-  The <code>V17-02</code> datasets were removed on 12-Feb-2019.
+  Time series datasets like hourly grid, surface, and biology variables will have co-existing <code>V18-06</code> and <code>V18-12</code> versions until late-July 2019,
+  after which time the <code>V18-06</code> datasets will be removed.
 </p>
 <p>
-  The rolling forecast datasets fully changed from <code>V17-02</code> to <code>V18-06</code> on 6-Jan-2019.
-  Their dataset ids changed on 12-Feb-2019.
+  The rolling forecast datasets instantaneously changed from <code>V18-06</code> to a mixture of <code>V18-06</code> and <<code>V18-12</code> on 21-Jun-2019 when the daily model runs changed.
+  They will fully change to <code>V18-12</code> as the forecast date rolls forward to 26-Jun-2019.
+  Their dataset ids will change in late-July 2019.
+</p>
+<p>
+  Exact dates of dataset change events will be announced here.
 </p>
 
 <h2>Citing SalishSeaCast Datasets</h2>
