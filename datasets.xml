@@ -5707,8 +5707,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Salish Sea, Surface Tracer Fields, Hourly, v17-02
-
+    <att name="summary">Forecast, Salish Sea, Surface Tracer Fields, Hourly, v18-06
 Rolling daily forecast of 2d sea surface height and mixed layer depth field values averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics and biology. The values are calculated for the surface of the model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
@@ -5726,8 +5725,11 @@ v1: sea surface height and rainfall rate variables
 v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.
         Deleted rainfall rate variable.
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-        Added mixed layer depth variable (dsigma = 0.01 wrt 10m)</att>
-    <att name="title">Forecast, Salish Sea, Surface Tracer Fields, Hourly, v17-02</att>
+        Added mixed layer depth variable (dsigma = 0.01 wrt 10m)
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+</att>
+
+    <att name="title">Forecast, Salish Sea, Surface Tracer Fields, Hourly, v18-06</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -9172,7 +9174,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Salish Sea, 3d u Grid Variable Fields, Hourly, v17-02
+    <att name="summary">Forecast, Salish Sea, 3d u Grid Variable Fields, Hourly, v18-06
 
 3d zonal (u) component velocity field values averaged over 1 hour intervals
 from the most recent Salish Sea NEMO model forecast run. The values are calculated for the entire model grid
@@ -9188,8 +9190,10 @@ So, for example, after completion of the 10-Nov-2017 forecast run,
 this dataset included data from 2017-11-05 00:30:00 UTC to 2017-11-12 11:30:00 UTC.
 
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details: uVelocity variable
-</att>
-    <att name="title">Forecast, Salish Sea, 3d u Grid Variable Fields, Hourly, v17-02</att>
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Salish Sea, 3d u Grid Variable Fields, Hourly, v18-06</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -9333,7 +9337,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Salish Sea, 3d v Grid Variable Fields, Hourly, v17-02
+    <att name="summary">Forecast, Salish Sea, 3d v Grid Variable Fields, Hourly, v18-06
 
 3d meridional (v) component velocity field values averaged over 1 hour intervals
 from the most recent Salish Sea NEMO model forecast run. The values are calculated for the entire model grid
@@ -9349,8 +9353,10 @@ So, for example, after completion of the 10-Nov-2017 forecast run,
 this dataset included data from 2017-11-05 00:30:00 UTC to 2017-11-12 11:30:00 UTC.
 
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details: vVelocity variable
-</att>
-    <att name="title">Forecast, Salish Sea, 3d v Grid Variable Fields, Hourly, v17-02</att>
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Salish Sea, 3d v Grid Variable Fields, Hourly, v18-06</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -9494,8 +9500,7 @@ VelEast10, VelEast5, VelNorth10, VelNorth5, velocity, water</att>
 
     They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-        <att name="summary">Forecast, Salish Sea, Near-surface Depth Averaged Currents, 1h, v17-02
-
+        <att name="summary">Forecast, Salish Sea, Near-surface Depth Averaged Currents, 1h, v18-106
 Rolling daily forecast of eastward and northward water current component field values averaged over 1 hour intervals for the upper 5 and 10 metres of depth from Salish Sea NEMO model runs with physics and biology.
 The values are calculated for the entire model grid that includes the Juan de Fuca Strait,
 the Strait of Georgia, Puget Sound,
@@ -9511,8 +9516,10 @@ So, for example, after completion of the 10-Nov-2017 forecast run,
 this dataset included data from 2017-11-05 00:00:00 UTC to 2017-11-12 11:30:00 UTC.
 
 v17-02: VelEast10, VelEast5, VelNorth10, VelNorth5 variables; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
+        see infoUrl link for full details.
     </att>
-        <att name="title">Forecast, Salish Sea, Near-surface Depth Averaged Currents, 1h, v17-02</att>
+        <att name="title">Forecast, Salish Sea, Near-surface Depth Averaged Currents, 1h, v18-06</att>
         <att name="project">Salish Sea MEOPAR NEMO Model</att>
         <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
         <att name="creator_email">sallen@eoas.ubc.ca</att>
