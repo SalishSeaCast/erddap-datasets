@@ -5606,11 +5606,11 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Woodwards Landing from the SalishSeaCast model
+Sea surface height time series from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfWoodwardsLandingSSH10mV18-06.
+on DATE from dataset ubcSSgSurfaceTracerFields1hV18-06.
 
 Citation:
 
@@ -5746,14 +5746,32 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
         Added mixed layer depth variable (dsigma = 0.01 wrt 10m)
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-</att>
-
+        Removed mixed layer depth variable</att>
     <att name="title">Forecast, Salish Sea, Surface Tracer Fields, Hourly, v18-06</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include a citation of the publication below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+Sea surface height time series from the SalishSeaCast model
+(Soontiens et al, 2016)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSfSurfaceTracerFields1hV18-06.
+
+Citation:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899</att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
@@ -5821,25 +5839,6 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bath
       <att name="interval_write">null</att>
       <att name="online_operation">null</att>
       <att name="ioos_category">sea_level</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>mixed_depth</sourceName>
-    <destinationName>mixed_layer_depth</destinationName>
-    <dataType>float</dataType>
-    <addAttributes>
-      <att name="_ChunkSize">null</att>
-      <att name="coordinates">null</att>
-      <att name="ioos_category">physical_oceanography</att>
-      <att name="colorBarMinimum" type="double">0</att>
-      <att name="colorBarMaximum" type="double">30.0</att>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-      <att name="ioos_category">physical_oceanography</att>
     </addAttributes>
   </dataVariable>
 </dataset>
