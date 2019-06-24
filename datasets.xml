@@ -5598,6 +5598,25 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bath
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include a citation of the publication below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+Sea surface height time series at Woodwards Landing from the SalishSeaCast model
+(Soontiens et al, 2016)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSfWoodwardsLandingSSH10mV18-06.
+
+Citation:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899</att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
@@ -9199,6 +9218,25 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bat
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include a citation of the publication below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+Sea surface height time series at Woodwards Landing from the SalishSeaCast model
+(Soontiens et al, 2016)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSfWoodwardsLandingSSH10mV18-06.
+
+Citation:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899</att>
     <att name="drawLandMask">over</att>
     <att name="uuid">null</att>
     <att name="NCO">null</att>
@@ -9362,6 +9400,25 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bat
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include a citation of the publication below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+Sea surface height time series at Woodwards Landing from the SalishSeaCast model
+(Soontiens et al, 2016)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSfWoodwardsLandingSSH10mV18-06.
+
+Citation:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899</att>
     <att name="drawLandMask">over</att>
     <att name="uuid">null</att>
     <att name="NCO">null</att>
@@ -9525,6 +9582,25 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bat
         <att name="creator_email">sallen@eoas.ubc.ca</att>
         <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
         <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include a citation of the publication below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+Sea surface height time series at Woodwards Landing from the SalishSeaCast model
+(Soontiens et al, 2016)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSfWoodwardsLandingSSH10mV18-06.
+
+Citation:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899</att>
         <att name="drawLandMask">over</att>
         <att name="creation_date">null</att>
     </addAttributes>
