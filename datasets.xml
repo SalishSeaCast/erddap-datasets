@@ -5606,7 +5606,7 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series from the SalishSeaCast model
+Sea surface height field from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
@@ -5761,7 +5761,7 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series from the SalishSeaCast model
+Sea surface height field from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
@@ -9225,11 +9225,11 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Woodwards Landing from the SalishSeaCast model
+3d zonal (u) component velocity fields from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfWoodwardsLandingSSH10mV18-06.
+on DATE from dataset ubcSSf3DuGridFields1hV18-06.
 
 Citation:
 
@@ -9407,11 +9407,11 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Woodwards Landing from the SalishSeaCast model
+3d meridional (v) component velocity fields from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfWoodwardsLandingSSH10mV18-06.
+on DATE from dataset ubcSSf3DvGridFields1hV18-06.
 
 Citation:
 
@@ -9589,11 +9589,11 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Woodwards Landing from the SalishSeaCast model
+Near-surface depth averaged water current component fields from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfWoodwardsLandingSSH10mV18-06.
+on DATE from dataset ubcSSfDepthAvgdCurrents1hV18-06.
 
 Citation:
 
