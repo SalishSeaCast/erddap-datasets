@@ -611,7 +611,10 @@ All of the information in [standardShortDescriptionHtml] is also contained in
 <p>
   The rolling forecast datasets instantaneously changed from <code>V18-06</code> to a mixture of <code>V18-06</code> and <<code>V18-12</code> on 21-Jun-2019 when the daily model runs changed.
   They will fully change to <code>V18-12</code> as the forecast date rolls forward to 26-Jun-2019.
-  Their dataset ids will change in late-July 2019.
+</p>
+<p>
+  The version part of the rolling forecast dataset ids will be dropped on 2-Jul-2019 to reflect the fact that they transition smoothly from one model version to the next.
+  Please see the summary metadata item to what model version is producing the most recent fields in the rolling forecast datasets.
 </p>
 <p>
   Exact dates of dataset change events will be announced here.
