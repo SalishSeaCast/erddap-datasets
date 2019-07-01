@@ -5687,7 +5687,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSurfaceTracerFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSurfaceTracerFields1h" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -5726,7 +5726,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Salish Sea, Surface Tracer Fields, Hourly, v18-06
+    <att name="summary">Forecast, Salish Sea, Surface Tracer Fields, Hourly
 Rolling daily forecast of 2d sea surface height and mixed layer depth field values averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics and biology. The values are calculated for the surface of the model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
@@ -5746,8 +5746,10 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
         Added mixed layer depth variable (dsigma = 0.01 wrt 10m)
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-        Removed mixed layer depth variable</att>
-    <att name="title">Forecast, Salish Sea, Surface Tracer Fields, Hourly, v18-06</att>
+        Removed mixed layer depth variable
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Salish Sea, Surface Tracer Fields, Hourly</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -5765,7 +5767,7 @@ Sea surface height field from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfSurfaceTracerFields1hV18-06.
+on DATE from dataset ubcSSfSurfaceTracerFields1h.
 
 Citation:
 
@@ -6675,7 +6677,7 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bath
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfBoundaryBaySSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfBoundaryBaySSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -6707,7 +6709,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Boundary Bay, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Boundary Bay, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -6725,8 +6727,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Boundary Bay, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Boundary Bay, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -6744,7 +6749,7 @@ Sea surface height time series at Boundary Bay from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfBoundaryBaySSH10mV18-06.
+on DATE from dataset ubcSSfBoundaryBaySSH10m.
 
 Citation:
 
@@ -6830,7 +6835,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfCampbellRiverSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfCampbellRiverSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -6862,7 +6867,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Campbell River, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Campbell River, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -6880,8 +6885,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Campbell River, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Campbell River, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -6899,7 +6907,7 @@ Sea surface height time series at Campbell River from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfCampbellRiverSSH10mV18-06.
+on DATE from dataset ubcSSfCampbellRiverSSH10m.
 
 Citation:
 
@@ -6985,7 +6993,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfCherryPointSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfCherryPointSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -7017,7 +7025,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Cherry Point, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Cherry Point, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -7035,8 +7043,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Cherry Point, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Cherry Point, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -7054,7 +7065,7 @@ Sea surface height time series at Cherry Point from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfCherryPointSSH10mV18-06.
+on DATE from dataset ubcSSfCherryPointSSH10m.
 
 Citation:
 
@@ -7140,7 +7151,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfFridayHarborSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfFridayHarborSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -7172,7 +7183,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Friday Harbor, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Friday Harbor, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -7191,8 +7202,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Friday Harbor, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Friday Harbor, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -7210,7 +7224,7 @@ Sea surface height time series at Friday Harbor from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfFridayHarborSSH10mV18-06.
+on DATE from dataset ubcSSfFridayHarborSSH10m.
 
 Citation:
 
@@ -7296,7 +7310,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfHalfmoonBaySSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfHalfmoonBaySSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -7328,7 +7342,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Halfmoon Bay, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Halfmoon Bay, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -7346,8 +7360,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Halfmoon Bay, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Halfmoon Bay, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -7365,7 +7382,7 @@ Sea surface height time series at Halfmoon Bay from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfHalfmoonBaySSH10mV18-06.
+on DATE from dataset ubcSSfHalfmoonBaySSH10m.
 
 Citation:
 
@@ -7451,7 +7468,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNanaimoSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNanaimoSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -7483,7 +7500,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Nanaimo, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Nanaimo, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -7501,8 +7518,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Nanaimo, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Nanaimo, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -7520,7 +7540,7 @@ Sea surface height time series at Nanaimo from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfNanaimoSSH10mV18-06.
+on DATE from dataset ubcSSfNanaimoSSH10m.
 
 Citation:
 
@@ -7606,7 +7626,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNeahBaySSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNeahBaySSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -7638,7 +7658,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Neah Bay, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Neah Bay, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -7656,8 +7676,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Neah Bay, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Neah Bay, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -7675,7 +7698,7 @@ Sea surface height time series at Neah Bay from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfNeahBaySSH10mV18-06.
+on DATE from dataset ubcSSfNeahBaySSH10m.
 
 Citation:
 
@@ -7761,7 +7784,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNewWestminsterSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNewWestminsterSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -7793,7 +7816,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, New Westminster, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, New Westminster, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -7811,8 +7834,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, New Westminster, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, New Westminster, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -7830,7 +7856,7 @@ Sea surface height time series at New Westminster from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfNewWestminsterSSH10mV18-06.
+on DATE from dataset ubcSSfNewWestminsterSSH10m.
 
 Citation:
 
@@ -7916,7 +7942,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPatriciaBaySSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPatriciaBaySSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -7948,7 +7974,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Patricia Bay, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Patricia Bay, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -7966,8 +7992,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Patricia Bay, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Patricia Bay, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -7985,7 +8014,7 @@ Sea surface height time series at Patricia Bay from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfPatriciaBaySSH10mV18-06.
+on DATE from dataset ubcSSfPatriciaBaySSH10m.
 
 Citation:
 
@@ -8071,7 +8100,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPointAtkinsonSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPointAtkinsonSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -8105,7 +8134,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Point Atkinson, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Point Atkinson, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -8123,8 +8152,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Point Atkinson, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Point Atkinson, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -8142,7 +8174,7 @@ Sea surface height time series at Point Atkinson from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfPointAtkinsonSSH10mV18-06.
+on DATE from dataset ubcSSfPointAtkinsonSSH10m.
 
 Citation:
 
@@ -8228,7 +8260,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPortRenfrewSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPortRenfrewSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -8260,7 +8292,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Port Renfrew, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Port Renfrew, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -8278,8 +8310,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Port Renfrew, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Port Renfrew, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -8297,7 +8332,7 @@ Sea surface height time series at Port Renfrew from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfPortRenfrewSSH10mV18-06.
+on DATE from dataset ubcSSfPortRenfrewSSH10m.
 
 Citation:
 
@@ -8383,7 +8418,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSandHeadsSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSandHeadsSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -8415,7 +8450,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Sand Heads, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Sand Heads, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -8433,8 +8468,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Sand Heads, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Sand Heads, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -8452,7 +8490,7 @@ Sea surface height time series at Sand Heads from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfSandHeadsSSH10mV18-06.
+on DATE from dataset ubcSSfSandHeadsSSH10m.
 
 Citation:
 
@@ -8538,7 +8576,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSandyCoveSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSandyCoveSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -8570,7 +8608,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Sandy Cove, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Sandy Cove, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -8588,8 +8626,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Sandy Cove, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Sandy Cove, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -8607,7 +8648,7 @@ Sea surface height time series at Sandy Cove from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfSandyCoveSSH10mV18-06.
+on DATE from dataset ubcSSfSandyCoveSSH10m.
 
 Citation:
 
@@ -8693,7 +8734,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSquamishSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSquamishSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -8725,7 +8766,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Squamish, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Squamish, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -8743,8 +8784,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Squamish, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Squamish, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -8762,7 +8806,7 @@ Sea surface height time series at Squamish from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfSquamishSSH10mV18-06.
+on DATE from dataset ubcSSfSquamishSSH10m.
 
 Citation:
 
@@ -8848,7 +8892,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfVictoriaSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfVictoriaSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -8880,7 +8924,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Victoria, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Victoria, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -8898,8 +8942,11 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Victoria, Sea Surface Height, 10min, v18-06</att>
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Forecast, Victoria, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -8917,7 +8964,7 @@ Sea surface height time series at Victoria from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfVictoriaSSH10mV18-06.
+on DATE from dataset ubcSSfVictoriaSSH10m.
 
 Citation:
 
@@ -9003,7 +9050,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfWoodwardsLandingSSH10mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfWoodwardsLandingSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -9035,7 +9082,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Woodwards Landing, Sea Surface Height, 10min, v18-06
+    <att name="summary">Forecast, Woodwards Landing, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
@@ -9053,8 +9100,10 @@ this dataset included data from 2017-11-05 00:05:00 UTC to 2017-11-12 11:55:00 U
 v17-02: sea surface height variable;
         NEMO-3.6; ubcSSnBathymetry2V17-02 bathymetry; see infoUrl link for full details.
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
-        see infoUrl link for full details.</att>
-    <att name="title">Forecast, Woodwards Landing, Sea Surface Height, 10min, v18-06</att>
+        v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+see infoUrl link for full details.</att>
+    <att name="title">Forecast, Woodwards Landing, Sea Surface Height, 10min</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -9072,7 +9121,7 @@ Sea surface height time series at Woodwards Landing from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSfWoodwardsLandingSSH10mV18-06.
+on DATE from dataset ubcSSfWoodwardsLandingSSH10m.
 
 Citation:
 
@@ -9158,7 +9207,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DuGridFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DuGridFields1h" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -9192,7 +9241,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Salish Sea, 3d u Grid Variable Fields, Hourly, v18-06
+    <att name="summary">Forecast, Salish Sea, 3d u Grid Variable Fields, Hourly
 
 3d zonal (u) component velocity field values averaged over 1 hour intervals
 from the most recent Salish Sea NEMO model forecast run. The values are calculated for the entire model grid
@@ -9210,8 +9259,10 @@ this dataset included data from 2017-11-05 00:30:00 UTC to 2017-11-12 11:30:00 U
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details: uVelocity variable
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
         see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
     </att>
-    <att name="title">Forecast, Salish Sea, 3d u Grid Variable Fields, Hourly, v18-06</att>
+    <att name="title">Forecast, Salish Sea, 3d u Grid Variable Fields, Hourly</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -9229,7 +9280,7 @@ Reference wording:
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSf3DuGridFields1hV18-06.
+on DATE from dataset ubcSSf3DuGridFields1h.
 
 Citation:
 
@@ -9340,7 +9391,7 @@ https://dx.doi.org/10.1080/07055900.2015.1108899</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DvGridFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DvGridFields1h" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
@@ -9374,7 +9425,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Forecast, Salish Sea, 3d v Grid Variable Fields, Hourly, v18-06
+    <att name="summary">Forecast, Salish Sea, 3d v Grid Variable Fields, Hourly
 
 3d meridional (v) component velocity field values averaged over 1 hour intervals
 from the most recent Salish Sea NEMO model forecast run. The values are calculated for the entire model grid
@@ -9392,8 +9443,10 @@ this dataset included data from 2017-11-05 00:30:00 UTC to 2017-11-12 11:30:00 U
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details: vVelocity variable
 v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bathymetry;
         see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
     </att>
-    <att name="title">Forecast, Salish Sea, 3d v Grid Variable Fields, Hourly, v18-06</att>
+    <att name="title">Forecast, Salish Sea, 3d v Grid Variable Fields, Hourly</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -9411,7 +9464,7 @@ Reference wording:
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSf3DvGridFields1hV18-06.
+on DATE from dataset ubcSSf3DvGridFields1h.
 
 Citation:
 
