@@ -4750,10 +4750,10 @@ v1: current speed and direction variables</att>
     </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1hV18-12" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-<fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
+<fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_U\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -4786,7 +4786,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Green, Salish Sea, 3d u Grid Variable Fields, Hourly, v18-06
+    <att name="summary">Green, Salish Sea, 3d u Grid Variable Fields, Hourly, v18-12
 
 Variable values at the 3d zonal (u) component velocity grid points averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics, biology and chemistry. The values are calculated for the entire model grid
@@ -4798,9 +4798,12 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 v1: uVelocity variable
 v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
 </att>
-    <att name="title">Green, Salish Sea, 3d u Grid Variable Fields, Hourly, v18-06</att>
+    <att name="title">Green, Salish Sea, 3d u Grid Variable Fields, Hourly, v18-12</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -4907,10 +4910,10 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bath
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DvGridFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DvGridFields1hV18-12" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_V\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -4943,7 +4946,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Green, Salish Sea, 3d v Grid Variable Fields, Hourly, v18-06
+    <att name="summary">Green, Salish Sea, 3d v Grid Variable Fields, Hourly, v18-12
 
 Variable values at the 3d meridional (v) component velocity grid points averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics, biology and chemistry. The values are calculated for the entire model grid
@@ -4955,9 +4958,12 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 v1: vVelocity variable
 v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-</att>
-    <att name="title">Green, Salish Sea, 3d v Grid Variable Fields, Hourly, v18-06</att>
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Green, Salish Sea, 3d v Grid Variable Fields, Hourly, v18-12</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -5064,10 +5070,10 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bath
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1hV18-12" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_W\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -5104,7 +5110,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Green, Salish Sea, 3d w Grid Variable Fields, Hourly, v18-06
+    <att name="summary">Green, Salish Sea, 3d w Grid Variable Fields, Hourly, v18-12
 
 Variable values at the 3d vertical (w) component velocity grid points averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics, biology and chemistry. The values are calculated for the entire model grid
@@ -5119,9 +5125,12 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
         Renamed eddy viscosity &amp; diffusivity variables to vert_eddy_visc &amp; vert_eddy_diff
         Added turbulent kinetic energy dissipation rate variable.
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-</att>
-    <att name="title">Green, Salish Sea, 3d w Grid Variable Fields, Hourly, v18-06</att>
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Green, Salish Sea, 3d w Grid Variable Fields, Hourly, v18-12</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -5374,9 +5383,10 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
         Changed temperature variable to conservative temperature.
         Added squared buoyancy frequency variable.
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
         Removed squared buoyancy frequency variable.
-</att>
+    </att>
     <att name="title">Green, Salish Sea, 3d Tracer Fields, Hourly, v18-06</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
@@ -5539,10 +5549,10 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgSurfaceTracerFields1hV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgSurfaceTracerFields1hV18-12" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -5575,7 +5585,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Green, Salish Sea, Surface Tracer Fields, Hourly, v18-06
+    <att name="summary">Green, Salish Sea, Surface Tracer Fields, Hourly, v18-12
 
 2d sea surface height values averaged over 1 hour intervals
 from Salish Sea NEMO model runs with physics, biology and chemistry. The values are calculated for the surface of the model grid
@@ -5590,9 +5600,13 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
         Deleted rainfall rate variable.
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
         Added mixed layer depth variable (dsigma = 0.01 wrt 10m)
-v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-        Removed mixed layer depth variable</att>
-    <att name="title">Green, Salish Sea, Surface Tracer Fields, Hourly, v18-06</att>
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+        Removed mixed layer depth variable.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Green, Salish Sea, Surface Tracer Fields, Hourly, v18-12</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -5610,7 +5624,7 @@ Sea surface height field from the SalishSeaCast model
 (Soontiens et al, 2016)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSgSurfaceTracerFields1hV18-06.
+on DATE from dataset ubcSSgSurfaceTracerFields1hV18-12.
 
 Citation:
 
@@ -6368,10 +6382,10 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bath
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceUVelocity20mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceUVelocity20mV18-12" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*Slab_U\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -6402,7 +6416,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Green, Salish Sea, 3d Near Surface u Velocity Field, 20min, v18-06
+    <att name="summary">Green, Salish Sea, 3d Near Surface u Velocity Field, 20min, v18-12
 
 Variable values at the 3d zonal (u) component velocity grid points
 of the surface-most 5 layers, averaged over 20 minute intervals from Salish Sea NEMO model physics-only runs.
@@ -6413,9 +6427,12 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 
 v17-02: uVelocity variable;
         NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-</att>
-    <att name="title">Green, Salish Sea, 3d Near Surface u Velocity Field, 20min, v18-06</att>
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Green, Salish Sea, 3d Near Surface u Velocity Field, 20min, v18-12</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -6522,10 +6539,10 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bath
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceVVelocity20mV18-06" active="false">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceVVelocity20mV18-12" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results2/SalishSea/nowcast-green.201806/</fileDir>
+  <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*Slab_V\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -6556,7 +6573,7 @@ by the Salish Sea MEOPAR Project Contributors and The University of British Colu
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Green, Salish Sea, 3d Near Surface v Velocity Field, 20min, v18-06
+    <att name="summary">Green, Salish Sea, 3d Near Surface v Velocity Field, 20min, v18-12
 
 Variable values at the 3d meridional (v) component velocity grid points
 of the surface-most 5 layers, averaged over 20 minute intervals from Salish Sea NEMO model physics-only runs.
@@ -6568,9 +6585,12 @@ Geo-location and depth data for the Salish Sea NEMO model grid are available in 
 
 v17-02: vVelocity variable;
         NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-</att>
-    <att name="title">Green, Salish Sea, 3d Near Surface v Velocity Field, 20min, v18-06</att>
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Green, Salish Sea, 3d Near Surface v Velocity Field, 20min, v18-12</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -10067,9 +10087,11 @@ v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesod
         nitrate, particulate organic nitrogen, silicon.
         Fraser River water turbidity tracer.
         NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-</att>
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
     <att name="title">Green, Salish Sea, 3d Biology Fields, Hourly, v18-12</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
@@ -10540,10 +10562,12 @@ v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full 
         Changed temperature variable to conservative temperature.
         Added squared buoyancy frequency variable.
 v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
         Removed squared buoyancy frequency variable.
-v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-</att>
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+    </att>
     <att name="title">Green, Salish Sea, 3d Tracer Fields, Hourly, v18-12</att>
     <att name="project">Salish Sea MEOPAR NEMO Model</att>
     <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
