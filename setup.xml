@@ -609,7 +609,7 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   The <code>V18-06</code> datasets were removed on 2-Jul-2019.
 </p>
 <p>
-  The rolling forecast datasets instantaneously changed from <code>V18-06</code> to a mixture of <code>V18-06</code> and <<code>V18-12</code> on 21-Jun-2019 when the daily model runs changed,
+  The rolling forecast datasets instantaneously changed from <code>V18-06</code> to a mixture of <code>V18-06</code> and <code>V18-12</code> on 21-Jun-2019 when the daily model runs changed,
   and then fully changed to <code>V18-12</code> on as the forecast date rolled forward to 26-Jun-2019.
 </p>
 <p>
