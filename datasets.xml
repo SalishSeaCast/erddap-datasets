@@ -3881,9 +3881,10 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; 
             <att name="valid_min" type="int">0</att>
         </sourceAttributes -->
     <addAttributes>
+      <att name="long_name">significant height of wind waves</att>
       <att name="_ChunkSizes">null</att>
       <att name="add_offset">null</att>
-      <att name="colorBarMaximum" type="double">10.0</att>
+      <att name="colorBarMaximum" type="double">2.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="scale_factor">null</att>
     </addAttributes>
