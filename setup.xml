@@ -594,24 +594,27 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   for more information about the model and the SalishSeaCast system.
 </p>
 
-<h2>NEMO Model Updates Coming Soon!</h2>
+<h2>NEMO Model Updates Are Arriving!</h2>
 <p>
   A new, improved version of the SalishSeaCast NEMO model has been running since mid-2019.
   A hindcast using that model configuration has been completed from 2013-01-01 to present.
-  New NEMO datasets from that model configuration will be added to this ERDDAP in early November 2019.
-  They will be identified with a <code>V19-05</code> version string in their dataset ids, titles, summaries, etc.
+  New NEMO datasets from that model configuration are being added to this ERDDAP starting in January 2020.
+  They are identified with a <code>V19-05</code> version string in their dataset ids, titles, summaries, etc.
 </p>
 <p>
-  A hindcast using the <code>V19-05</code> model configuration starting from 2007-01-01 is in progress.
-  Results from that hindcast will also be included in the <code>V19-05</code> datasets.
-  The gap between the end of that hindcast section and 2013-01-01 will decrease as that those hindcast runs proceed.
+  A hindcast using the <code>V19-05</code> model configuration starting from 2007-01-01 has been completed.
+  Results from that hindcast are included in the <code>V19-05</code> datasets.
+  Those datasets presently include results from 2 periods: 2007-01-01 through 2012-12-31, and 2017-01-01 through 2020-01-10.
+  The period from 2013-01-01 through 2016-12-31 will be added soon,
+  after some server storage issues are resolved.
+  Those datasets will also soon be extended and transitioned to become the daily-updated datasets from the near-real-time model runs.
 </p>
 <p>
-  Both hindcast sections were spun up for 2 years with their first year's forcing and boundary conditions.
+  The hindcast was spun up for 2 years with its first year's forcing and boundary conditions.
   The spin-up years are <em>not</em> included in the <code>V19-05</code> datasets.
 </p>
 <p>
-  Time series datasets like hourly grid, surface, and biology variables will have co-existing <code>V18-12</code> and <code>V19-05</code> versions until at least 30-Nov-19,.
+  Time series datasets like hourly grid, surface, and biology variables will have co-existing <code>V18-12</code> and <code>V19-05</code> versions until at least 29-Feb-20,.
   after which time the <code>V18-12</code> datasets will be removed.
 </p>
 <p>
@@ -669,7 +672,7 @@ All of the information in [standardShortDescriptionHtml] is also contained in
 
 <h3>Publications to Cite</h3>
 <p>
-  Olson, Elise M., Allen, Susan E., Do, Vy, Dunphy, Michael, and Ianson, Debby, 2019. Nutrient Supply by a Tidal Jet in the Salish Sea Based on a Highly Resolved Biogeochemical Model. Submitted to J. Geophys. Res. Oceans.
+  Olson, E. M., Allen, S. E., Do, Vy, Dunphy, M., and Ianson, D., 2019. Nutrient Supply by a Tidal Jet in the Salish Sea Based on a Highly Resolved Biogeochemical Model. Submitted to J. Geophys. Res. Oceans.
 </p>
 <p>
   Soontiens, N. and Allen, S., 2017. Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32. <a href="https://dx.doi.org/10.1016/j.ocemod.2017.02.008">https://dx.doi.org/10.1016/j.ocemod.2017.02.008</a>
@@ -679,7 +682,7 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   <a href="https://dx.doi.org/10.1080/07055900.2015.1108899">https://dx.doi.org/10.1080/07055900.2015.1108899</a>
 </p>
 <p>
-  Moore-Maley, B. L., S. E. Allen, and D. Ianson, 2016. Locally-driven interannual variability of near-surface pH and ΩA in the Strait of Georgia. J. Geophys. Res. Oceans, 121(3), 1600–1625. <a href="https://dx.doi.org/10.1002/2015JC011118">https://dx.doi.org/10.1002/2015JC011118</a>
+  Moore-Maley, B. L., Allen, S. E., and IansonD., 2016. Locally-driven interannual variability of near-surface pH and ΩA in the Strait of Georgia. J. Geophys. Res. Oceans, 121(3), 1600–1625. <a href="https://dx.doi.org/10.1002/2015JC011118">https://dx.doi.org/10.1002/2015JC011118</a>
 </p>
 
 [standardShortDescriptionHtml]
