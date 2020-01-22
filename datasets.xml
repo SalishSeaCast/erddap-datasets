@@ -4810,6 +4810,29 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include citations of the publications below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+3d zonal (u) component velocity fields from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSg3DuGridFields1hV18-12.
+
+Citations:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
@@ -5150,6 +5173,29 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include citations of the publications below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+3d meridional (v) component velocity fields from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSg3DvGridFields1hV18-12.
+
+Citations:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
@@ -5317,6 +5363,29 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include citations of the publications below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+3d vertical (w) component velocity and turbulence fields from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSg3DuGridFields1hV18-12.
+
+Citations:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
@@ -5581,23 +5650,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height field from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height fields from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfSurfaceTracerFields1h.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
@@ -5731,23 +5804,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; changed biology; see infoUr
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series from the SalishSeaCast model
-(Soontiens et al, 2016)
+Sea surface height fields from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSgSurfaceTracerFields1hV18-12.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
@@ -5875,6 +5952,29 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include citations of the publications below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+Near-surface 3d zonal (u) component velocity fields from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSgNearSurfaceUVelocity20mV18-12.
+
+Citations:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -6033,6 +6133,29 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include citations of the publications below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+Near-surface 3d meridional (v) component velocity fields from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSgNearSurfaceVVelocity20mV18-12.
+
+Citations:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -6196,23 +6319,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Boundary Bay from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Boundary Bay from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfBoundaryBaySSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -6354,23 +6481,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Campbell River from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Campbell River from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfCampbellRiverSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -6512,23 +6643,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Cherry Point from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Cherry Point from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfCherryPointSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -6671,23 +6806,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Friday Harbor from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Friday Harbor from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfFridayHarborSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -6829,23 +6968,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Halfmoon Bay from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Halfmoon Bay from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfHalfmoonBaySSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -6987,23 +7130,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Nanaimo from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Nanaimo from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfNanaimoSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -7145,23 +7292,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Neah Bay from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Neah Bay from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfNeahBaySSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -7303,23 +7454,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at New Westminster from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at New Westminster from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfNewWestminsterSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -7461,23 +7616,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Patricia Bay from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Patricia Bay from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfPatriciaBaySSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -7621,23 +7780,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Point Atkinson from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Point Atkinson from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfPointAtkinsonSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -7779,23 +7942,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Port Renfrew from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Port Renfrew from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfPortRenfrewSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -7937,23 +8104,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Sand Heads from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Sand Heads from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfSandHeadsSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -8095,23 +8266,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Sandy Cove from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Sandy Cove from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfSandyCoveSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -8253,23 +8428,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Squamish from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Squamish from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfSquamishSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -8411,23 +8590,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Victoria from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Victoria from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfVictoriaSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -8568,23 +8751,27 @@ see infoUrl link for full details.</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height time series at Woodwards Landing from the SalishSeaCast model
-(Soontiens et al, 2016)
+Forecasted sea surface height time series at Woodwards Landing from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfWoodwardsLandingSSH10m.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -8727,23 +8914,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
 3d zonal (u) component velocity fields from the SalishSeaCast model
-(Soontiens et al, 2016)
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSf3DuGridFields1h.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="uuid">null</att>
     <att name="NCO">null</att>
@@ -8911,23 +9102,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
 3d meridional (v) component velocity fields from the SalishSeaCast model
-(Soontiens et al, 2016)
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSf3DvGridFields1h.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="drawLandMask">over</att>
     <att name="uuid">null</att>
     <att name="NCO">null</att>
@@ -9093,23 +9288,27 @@ v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetry2V17-02 bat
         <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
 Near-surface depth averaged water current component fields from the SalishSeaCast model
-(Soontiens et al, 2016)
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfDepthAvgdCurrents1hV18-06.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
         <att name="drawLandMask">over</att>
         <att name="creation_date">null</att>
     </addAttributes>
@@ -9304,23 +9503,27 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetry2V17-02 bat
         <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
-and include a citation of the publication below.
+and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
 Near-surface depth averaged water current component fields from the SalishSeaCast model
-(Soontiens et al, 2016)
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSfDepthAvgdCurrents1h.
 
-Citation:
+Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
 Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
-https://dx.doi.org/10.1080/07055900.2015.1108899</att>
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
         <att name="drawLandMask">over</att>
         <att name="creation_date">null</att>
     </addAttributes>
