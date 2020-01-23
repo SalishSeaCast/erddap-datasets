@@ -660,7 +660,7 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   Example reference for biological datasets:
 </p>
 <blockquote>
-  Nitrate, silicon, and diatom fields from the SalishSeaCast model (Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017, Olson et al, 2019) were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code> from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
+  Nitrate, silicon, and diatom fields from the SalishSeaCast model (Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020) were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code> from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
 </blockquote>
 <p>
   In either case,
@@ -672,7 +672,7 @@ All of the information in [standardShortDescriptionHtml] is also contained in
 
 <h3>Publications to Cite</h3>
 <p>
-  Olson, E. M., Allen, S. E., Do, Vy, Dunphy, M., and Ianson, D., 2019. Nutrient Supply by a Tidal Jet in the Salish Sea Based on a Highly Resolved Biogeochemical Model. Submitted to J. Geophys. Res. Oceans.
+  Olson, E. M., Allen, S. E., Do, Vy, Dunphy, M., and Ianson, D., 2020. Nutrient Supply by a Tidal Jet in the Salish Sea Based on a Highly Resolved Biogeochemical Model. In revision for J. Geophys. Res. Oceans.
 </p>
 <p>
   Soontiens, N. and Allen, S., 2017. Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32. <a href="https://dx.doi.org/10.1016/j.ocemod.2017.02.008">https://dx.doi.org/10.1016/j.ocemod.2017.02.008</a>
