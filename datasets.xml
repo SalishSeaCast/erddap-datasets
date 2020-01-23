@@ -3516,6 +3516,29 @@ v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full d
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
     <att name="drawLandMask">over</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include citations of the publications below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+3 month seasonal-averaged 2d depth-averaged salinity and water temperature fields from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSg2DTracerFieldsSeasonalV17-02.
+
+Citations:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="uuid">null</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
