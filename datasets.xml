@@ -8910,7 +8910,7 @@ They are licensed under the Apache License, Version 2.0. https://www.apache.org/
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
     <att name="summary">Forecast, Salish Sea, 3d u Grid Variable Fields, Hourly
 
-3d zonal (u) component velocity field values averaged over 1 hour intervals
+Forecasted 3d zonal (u) component velocity field values averaged over 1 hour intervals
 from the most recent Salish Sea NEMO model forecast run. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
@@ -8943,7 +8943,7 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-3d zonal (u) component velocity fields from the SalishSeaCast model
+Forecasted 3d zonal (u) component velocity fields from the SalishSeaCast model
 (Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
@@ -9098,7 +9098,7 @@ They are licensed under the Apache License, Version 2.0. https://www.apache.org/
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
     <att name="summary">Forecast, Salish Sea, 3d v Grid Variable Fields, Hourly
 
-3d meridional (v) component velocity field values averaged over 1 hour intervals
+Forecasted 3d meridional (v) component velocity field values averaged over 1 hour intervals
 from the most recent Salish Sea NEMO model forecast run. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
@@ -9131,7 +9131,7 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-3d meridional (v) component velocity fields from the SalishSeaCast model
+Forecasted 3d meridional (v) component velocity fields from the SalishSeaCast model
 (Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
@@ -9317,7 +9317,7 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Near-surface depth averaged water current component fields from the SalishSeaCast model
+Forecasted near-surface depth averaged water current component fields from the SalishSeaCast model
 (Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
@@ -9532,7 +9532,7 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Near-surface depth averaged water current component fields from the SalishSeaCast model
+Forecasted near-surface depth averaged water current component fields from the SalishSeaCast model
 (Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
