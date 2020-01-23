@@ -9761,6 +9761,38 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include citations of the publications below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+3d SMELT biological model field values from the SalishSeaCast model
+(Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017, Olson et al, 2020)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSfBoundaryBaySSH10m.
+
+Citations:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Moore-Maley, B. L., Allen, S. E., and IansonD., 2016.
+Locally-driven interannual variability of near-surface pH and ΩA in the Strait of Georgia.
+J. Geophys. Res. Oceans, 121(3), 1600–1625.
+https://dx.doi.org/10.1002/2015JC011118
+
+Soontiens, N. and Allen, S., 2017.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008
+
+Olson, E. M., Allen, S. E., Do, Vy, Dunphy, M., and Ianson, D., 2020.
+Nutrient Supply by a Tidal Jet in the Salish Sea Based on a Highly Resolved Biogeochemical Model.
+In revision for J. Geophys. Res. Oceans. </att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
