@@ -9865,7 +9865,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfDepthAvgdCurrents1hV18-06" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSfDepthAvgdCurrents1hV18-06" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
