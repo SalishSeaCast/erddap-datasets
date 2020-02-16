@@ -594,7 +594,24 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   for more information about the model and the SalishSeaCast system.
 </p>
 
-<h2>NEMO Model Updates Are Arriving!</h2>
+<h2>V19-05 NEMO Model is Live!</h2>
+
+<p>
+  The <code>V19-05</code> version of the NEMO model went into daily production on 2020-02-16;
+  please see details below.
+  <ul>
+    <li>
+      2020-02-15 is the last date for which run results are included in the <code>V18-12</code> datasets
+    </li>
+    <li>
+      The <code>V18-12</code> datasets will be removed after 29-Feb-20.
+    </li>
+    <li>
+      2020-02-16 is the first date of <code>V19-05</code> results in the rolling forecast datasets.
+    </li>
+  </ul>
+</p>
+
 <p>
   A new, improved version of the SalishSeaCast NEMO model has been running since mid-2019.
   A hindcast using that model configuration has been completed from 2013-01-01 to present.
@@ -614,16 +631,13 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   The spin-up years are <em>not</em> included in the <code>V19-05</code> datasets.
 </p>
 <p>
-  Time series datasets like hourly grid, surface, and biology variables will have co-existing <code>V18-12</code> and <code>V19-05</code> versions until at least 29-Feb-20,.
+  Time series datasets like hourly grid, surface, and biology variables will have co-existing <code>V18-12</code> and <code>V19-05</code> versions until at least 29-Feb-20.
   after which time the <code>V18-12</code> datasets will be removed.
 </p>
 <p>
   The rolling forecast datasets will transition smoothly from <code>V18-12</code> results to <code>V19-05</code> results over a 5-day period.
   The version part of the rolling forecast dataset ids was dropped on 2-Jul-2019 to reflect the fact that those datasets transition smoothly from one model version to the next.
   Please see the summary metadata item to learn what model version is producing the most recent fields in the rolling forecast datasets.
-</p>
-<p>
-  Exact dates of dataset change events will be announced here.
 </p>
 
 <h3>Changes Between <code>V18-12</code> and <code>V19-05</code></h3>
