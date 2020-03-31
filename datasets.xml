@@ -4774,7 +4774,7 @@ v1: current speed and direction variables</att>
     </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1hV18-12" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1hV18-12" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
 <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
@@ -5137,7 +5137,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DvGridFields1hV18-12" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DvGridFields1hV18-12" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
@@ -5500,7 +5500,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1hV18-12" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1hV18-12" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
@@ -6225,7 +6225,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgSurfaceTracerFields1hV18-12" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgSurfaceTracerFields1hV18-12" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
@@ -6533,7 +6533,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceUVelocity20mV18-12" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceUVelocity20mV18-12" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
@@ -6713,7 +6713,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceVVelocity20mV18-12" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgNearSurfaceVVelocity20mV18-12" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
@@ -10080,7 +10080,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DBiologyFields1hV18-12" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DBiologyFields1hV18-12" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
@@ -11129,7 +11129,7 @@ In revision for J. Geophys. Res. Oceans. </att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DTracerFields1hV18-12" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DTracerFields1hV18-12" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201812/</fileDir>
