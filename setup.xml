@@ -595,47 +595,21 @@ All of the information in [standardShortDescriptionHtml] is also contained in
 </p>
 
 <h2>V19-05 NEMO Model is Live!</h2>
-
 <p>
   The <code>V19-05</code> version of the NEMO model went into daily production on 2020-02-16;
   please see details below.
-  <ul>
-    <li>
-      2020-02-15 is the last date for which run results are included in the <code>V18-12</code> datasets
-    </li>
-    <li>
-      The <code>V18-12</code> datasets will be removed after 29-Feb-20.
-    </li>
-    <li>
-      2020-02-16 is the first date of <code>V19-05</code> results in the rolling forecast datasets.
-    </li>
-  </ul>
-</p>
-
-<p>
-  A new, improved version of the SalishSeaCast NEMO model has been running since mid-2019.
-  A hindcast using that model configuration has been completed from 2013-01-01 to present.
-  New NEMO datasets from that model configuration are being added to this ERDDAP starting in January 2020.
-  They are identified with a <code>V19-05</code> version string in their dataset ids, titles, summaries, etc.
+  The <code>V18-12</code> datasets were removed from this ERDDAP on 31-Mar-20.
 </p>
 <p>
   A hindcast using the <code>V19-05</code> model configuration starting from 2007-01-01 has been completed.
   Results from that hindcast are included in the <code>V19-05</code> datasets.
-  Those datasets presently include results from 2 periods: 2007-01-01 through 2012-12-31, and 2017-01-01 through 2020-01-10.
-  The period from 2013-01-01 through 2016-12-31 will be added soon,
-  after some server storage issues are resolved.
-  Those datasets will also soon be extended and transitioned to become the daily-updated datasets from the near-real-time model runs.
 </p>
 <p>
   The hindcast was spun up for 2 years with its first year's forcing and boundary conditions.
   The spin-up years are <em>not</em> included in the <code>V19-05</code> datasets.
 </p>
 <p>
-  Time series datasets like hourly grid, surface, and biology variables will have co-existing <code>V18-12</code> and <code>V19-05</code> versions until at least 29-Feb-20.
-  after which time the <code>V18-12</code> datasets will be removed.
-</p>
-<p>
-  The rolling forecast datasets will transition smoothly from <code>V18-12</code> results to <code>V19-05</code> results over a 5-day period.
+  The rolling forecast datasets have transitioned to results from the <code>V19-05</code> model configuration.
   The version part of the rolling forecast dataset ids was dropped on 2-Jul-2019 to reflect the fact that those datasets transition smoothly from one model version to the next.
   Please see the summary metadata item to learn what model version is producing the most recent fields in the rolling forecast datasets.
 </p>
@@ -681,12 +655,12 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   you substitute in the <code>DATE</code>(s) on which you downloaded the fields,
   and the <code>DATASETID</code>(s) you downloaded from.
   The <code>DATE</code>(s) and <code>DATASETID</code>(s) help to ensure reproducibility of your work.
-  <code>DATASETID</code>(s) look like <code>ubcSSg3DTracerFields1hV18-12</code> and are listed in the rightmost column of the table at <a href="https://salishsea.eos.ubc.ca/erddap/info/index.html">https://salishsea.eos.ubc.ca/erddap/info/index.html</a>
+  <code>DATASETID</code>(s) look like <code>ubcSSg3DTracerFields1hV19-05</code> and are listed in the rightmost column of the table at <a href="https://salishsea.eos.ubc.ca/erddap/info/index.html">https://salishsea.eos.ubc.ca/erddap/info/index.html</a>
 </p>
 
 <h3>Publications to Cite</h3>
 <p>
-  Olson, E. M., Allen, S. E., Do, Vy, Dunphy, M., and Ianson, D., 2020. Nutrient Supply by a Tidal Jet in the Salish Sea Based on a Highly Resolved Biogeochemical Model. In revision for J. Geophys. Res. Oceans.
+  Olson, E. M., Allen, S. E., Do, Vy, Dunphy, M., and Ianson, D., 2020. Nutrient Supply by a Tidal Jet in the Salish Sea Based on a Highly Resolved Biogeochemical Model. Submitted in revised form to J. Geophys. Res. Oceans.
 </p>
 <p>
   Soontiens, N. and Allen, S., 2017. Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32. <a href="https://dx.doi.org/10.1016/j.ocemod.2017.02.008">https://dx.doi.org/10.1016/j.ocemod.2017.02.008</a>
