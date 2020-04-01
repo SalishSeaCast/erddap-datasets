@@ -11587,4 +11587,296 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DAuxiliaryFields1hV19-05" active="true">
+  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
+  <fileDir>/results2/SalishSea/nowcast-green.201905/</fileDir>
+  <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_carp_T\.nc$</fileNameRegex>
+  <recursive>true</recursive>
+  <pathRegex>.*</pathRegex>
+  <metadataFrom>last</metadataFrom>
+  <matchAxisNDigits>20</matchAxisNDigits>
+  <fileTableInMemory>false</fileTableInMemory>
+  <accessibleViaFiles>false</accessibleViaFiles>
+  <!-- sourceAttributes>
+        <att name="Conventions">CF-1.6</att>
+        <att name="description">auxilary variables</att>
+        <att name="name">SalishSea_1h_20191026_20191031</att>
+        <att name="timeStamp">2019-Dec-23 01:14:38 GMT</att>
+        <att name="title">auxilary variables</att>
+        <att name="uuid">90073893-253b-428b-9580-0d96b111ab45</att>
+    </sourceAttributes -->
+  <addAttributes>
+    <att name="testOutOfDate">now-16hours</att>
+    <att name="cdm_data_type">Grid</att>
+    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="infoUrl">https://salishsea-meopar-docs.readthedocs.io/en/latest/results_server/index.html#salish-sea-model-results</att>
+    <att name="institution">UBC EOAS</att>
+    <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+    <att name="keywords">auxilary, cell_thickness, density, deptht,
+downwelling_photosynthetic_photon_radiance_in_sea_water, e3t,
+Oceans &gt; Ocean Chemistry &gt; Inorganic Matter,
+Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation,
+Oceans &gt; Ocean Optics &gt; Radiance,
+Oceans &gt; Salinity/Density &gt; Density,
+Oceans &gt; Marine Sediments &gt; Suspended Solids,
+Fraser_tracer, Fraser River, fraser_river_turbidity_tracer, ocean, oceans, optics,
+PAR, photon, photosynthetic, photosynthetically, radiance, radiation, river,
+sea, sea_water_sigma_theta, seawater, sediment, sediments, sigma, sigma0, sigma_theta, solids, suspended,
+t-cell, thickness, time_counter, tracer, turbidity, water
+</att>
+    <att name="keywords_vocabulary">GCMD Science Keywords</att>
+    <att name="license">The SalishSeaCast MEOPAR NEMO model results are copyright
+by the SalishSeaCast MEOPAR Project Contributors and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="summary">Green, Salish Sea, 3d Auxiliary Fields, Hourly, v19-05
+
+3d auxiliary model field values averaged over 1 hour intervals
+from SalishSeaCast NEMO model runs with physics, biology, and chemistry.
+The values are calculated for the entire model grid that includes Juan de Fuca Strait,
+he Strait of Georgia, Puget Sound, and Johnstone Strait on the coasts of
+Washington State and British Columbia.
+The time values are the centre of the intervals over which the calculated model results are averaged.
+Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
+
+v19-05: Photosynthetically available radiation (PAR), Potential density anomaly (sigma_theta),
+        Time-varying z-layer thickness (NEMO e3t), Fraser River water turbidity.
+        NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+</att>
+    <att name="title">Green, Salish Sea, 3d Auxiliary Fields, Hourly, v19-05</att>
+    <att name="project">Salish Sea MEOPAR NEMO Model</att>
+    <att name="creator_name">Salish Sea MEOPAR Project Contributors</att>
+    <att name="creator_email">sallen@eoas.ubc.ca</att>
+    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+    <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include citations of the publications below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+Temperature and salinity fields from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSg3DAuxiliaryFields1hV19-05.
+
+Citations:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S., 2017.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
+    <att name="drawLandMask">over</att>
+    <att name="uuid">null</att>
+    <att name="NCO">null</att>
+    <att name="history">null</att>
+    <att name="name">null</att>
+  </addAttributes>
+  <axisVariable>
+    <sourceName>time_counter</sourceName>
+    <destinationName>time</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">1</att>
+            <att name="axis">T</att>
+            <att name="bounds">time_counter_bounds</att>
+            <att name="calendar">gregorian</att>
+            <att name="long_name">Time axis</att>
+            <att name="standard_name">time</att>
+            <att name="time_origin">1900-01-01 00:00:00</att>
+            <att name="units">seconds since 1900-01-01 00:00:00</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="bounds">null</att>
+      <att name="source_name">time_counter</att>
+      <att name="units">seconds since 1900-01-01T00:00:00Z</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="ioos_category">time</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>deptht</sourceName>
+    <destinationName>depth</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">40</att>
+            <att name="axis">Z</att>
+            <att name="bounds">deptht_bounds</att>
+            <att name="long_name">Vertical T levels</att>
+            <att name="name">deptht</att>
+            <att name="positive">down</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="bounds">null</att>
+      <att name="source_name">deptht</att>
+      <att name="standard_name">depth</att>
+      <att name="coverage_content_type">modelResult</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>y</sourceName>
+    <destinationName>gridY</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Y</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>x</sourceName>
+    <destinationName>gridX</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">X</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <dataVariable>
+    <sourceName>PAR</sourceName>
+    <destinationName>PAR</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Photosynthetically Available Radiation</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="units">W/m2</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">photosynthetically available radiation</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="colorBarMaximum" type="double">350.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="coordinates">null</att>
+      <att name="standard_name">downwelling_photosynthetic_photon_radiance_in_sea_water</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">optical_properties</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>sigma_theta</sourceName>
+    <destinationName>sigma_theta</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">potential density (sigma0)</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">sea_water_sigma_theta</att>
+            <att name="units">kg/m3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">potential density anomaly</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="colorBarMaximum" type="double">26.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">physical_oceanography</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e3t</sourceName>
+    <destinationName>e3t</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">T-cell thickness</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">cell_thickness</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">time-varying z-layer thickness</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="coordinates">null</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="colorBarMaximum" type="double">30.0</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">numerics</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>Fraser_tracer</sourceName>
+    <destinationName>fraserTurbidity</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Fraser River Turbidity Tracer</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">fraser_river_turbidity_tracer</att>
+            <att name="units">NTU</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Fraser River turbidity</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="coordinates">null</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="colorBarMaximum" type="double">30.0</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">optical_properties</att>
+    </addAttributes>
+  </dataVariable>
+</dataset>
+
 </erddapDatasets>
