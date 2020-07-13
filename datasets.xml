@@ -11658,7 +11658,7 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Temperature and salinity fields from the SalishSeaCast model
+Potential density anomaly (sigma_theta) field from the SalishSeaCast model
 (Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
