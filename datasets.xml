@@ -2554,6 +2554,7 @@ v18-01: Add air temperature, air temperature standard deviation, air temperature
             <att name="units">degrees_Celcius</att>
         </sourceAttributes -->
     <addAttributes>
+      <att name="long_name">potential temperature</att>
       <att name="colorBarMaximum" type="double">25.0</att>
       <att name="colorBarMinimum" type="double">4.0</att>
     </addAttributes>
@@ -2574,7 +2575,9 @@ v18-01: Add air temperature, air temperature standard deviation, air temperature
             <att name="standard_name">sea_water_temperature_standard_deviation</att>
             <att name="units">degrees_Celcius</att>
         </sourceAttributes -->
-    <addAttributes/>
+    <addAttributes>
+      <att name="long_name">potential temperature standard deviation</att>
+    </addAttributes>
   </dataVariable>
   <dataVariable>
     <sourceName>temperature_sample_count</sourceName>
@@ -2590,7 +2593,9 @@ v18-01: Add air temperature, air temperature standard deviation, air temperature
             <att name="ONC_stationCode">TWDP</att>
             <att name="standard_name">sea_water_temperature_sample_count</att>
         </sourceAttributes -->
-    <addAttributes/>
+    <addAttributes>
+      <att name="long_name">potential temperature sample count</att>
+    </addAttributes>
   </dataVariable>
   <dataVariable>
     <sourceName>conductivity</sourceName>
