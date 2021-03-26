@@ -2456,6 +2456,46 @@ v18-01: Add air temperature, air temperature standard deviation, air temperature
     </addAttributes>
   </dataVariable>
   <dataVariable>
+    <sourceName>nemo_grid_j</sourceName>
+    <destinationName>nemo_grid_j</destinationName>
+    <dataType>short</dataType>
+    <!-- sourceAttributes>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">location</att>
+            <att name="long_name">NEMO grid j index</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?deviceCategory=NAV</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">nemo_grid_j</att>
+            <att name="units">grid cells in NEMO SalishSeaCast</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="units">count</att>
+      <att name="comment">-999 mean a longitude outside of the SalishSeaCast NEMO grid; typically a NaN from the nav instrument</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>nemo_grid_i</sourceName>
+    <destinationName>nemo_grid_i</destinationName>
+    <dataType>short</dataType>
+    <!-- sourceAttributes>
+            <att name="aggregation_interval" type="long">60</att>
+            <att name="aggregation_interval_units">seconds</att>
+            <att name="aggregation_operation">mean</att>
+            <att name="ioos_category">location</att>
+            <att name="long_name">NEMO grid i index</att>
+            <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?deviceCategory=NAV</att>
+            <att name="ONC_stationCode">TWDP</att>
+            <att name="standard_name">nemo_grid_i</att>
+            <att name="units">grid cells in NEMO SalishSeaCast</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="units">count</att>
+      <att name="comment">-999 mean a latitude outside of the SalishSeaCast NEMO grid; typically a NaN from the nav instrument</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
     <sourceName>on_crossing_mask</sourceName>
     <destinationName>on_crossing_mask</destinationName>
     <dataType>byte</dataType>
