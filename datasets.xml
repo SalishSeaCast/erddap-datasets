@@ -2971,7 +2971,7 @@ v18-01: Add air temperature, air temperature standard deviation, air temperature
         </sourceAttributes -->
     <addAttributes>
       <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
-    <addAttributes>
+    </addAttributes>
   </dataVariable>
   <dataVariable>
     <sourceName>chlorophyll</sourceName>
@@ -3069,7 +3069,7 @@ v18-01: Add air temperature, air temperature standard deviation, air temperature
             <att name="standard_name">sea_water_turbidity_standard_deviation</att>
             <att name="units">NTU</att>
         </sourceAttributes -->
-    <addAttributes/
+    <addAttributes>
       <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=TWDP&amp;deviceCategory=TURBCHLFL</att>
     </addAttributes>
   </dataVariable>
@@ -3129,7 +3129,7 @@ v18-01: Add air temperature, air temperature standard deviation, air temperature
         </sourceAttributes -->
     <addAttributes>
       <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=TWDP&amp;deviceCategory=CO2SENSOR</att>
-    <addAttributes>
+    </addAttributes>
   </dataVariable>
   <dataVariable>
     <sourceName>co2_partial_pressure_sample_count</sourceName>
@@ -3207,7 +3207,7 @@ v18-01: Add air temperature, air temperature standard deviation, air temperature
         </sourceAttributes -->
     <addAttributes>
       <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=TWDP&amp;deviceCategory=CO2SENSOR</att>
-    <addAttributes>
+    </addAttributes>
   </dataVariable>
     <dataVariable>
         <sourceName>air_temperature</sourceName>
