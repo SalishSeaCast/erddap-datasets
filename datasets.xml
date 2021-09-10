@@ -3630,7 +3630,9 @@ averaged over 3 month seasonal intervals from Salish Sea NEMO model nowcast runs
 The values are calculated for the entire model grid that includes the Juan de Fuca Strait,
 the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-The time values are UTC. They are the centre of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 The variable values are averaged over the upper 22 layers of the model grid,
 approximately 0 to 30 metres depth.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
@@ -3693,7 +3695,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="bounds">null</att>
       <att name="source_name">time_counter</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -4943,7 +4945,9 @@ Variable values at the 3d zonal (u) component velocity grid points averaged over
 from Salish Sea NEMO model runs with physics, biology and chemistry. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-The time values are UTC. They are the centre of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetryV17-02 dataset.
 
 v1: uVelocity variable
@@ -5007,7 +5011,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="_ChunkSize">null</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -5304,7 +5308,9 @@ Variable values at the 3d meridional (v) component velocity grid points averaged
 from Salish Sea NEMO model runs with physics, biology and chemistry. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-The time values are UTC. They are the centre of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetryV17-02 dataset.
 
 v1: vVelocity variable
@@ -5368,7 +5374,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="_ChunkSize">null</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are the centre of the intervals over which ttime values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -5669,7 +5675,8 @@ from Salish Sea NEMO model runs with physics, biology and chemistry. The values 
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
 The time values are UTC.
-They are the centre of the intervals over which the calculated model results are averaged.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetryV17-02 dataset.
 
 v1: wVelocity variable
@@ -5735,7 +5742,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="_ChunkSize">null</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -6228,7 +6235,9 @@ Rolling daily forecast of 2d sea surface height and mixed layer depth field valu
 from Salish Sea NEMO model runs with physics and biology. The values are calculated for the surface of the model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-The time values are UTC. They are the centre of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -6299,7 +6308,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -6386,7 +6395,8 @@ from Salish Sea NEMO model runs with physics, biology and chemistry. The values 
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
 The time values are UTC.
-They are the centre of the intervals over which the calculated model results are averaged.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 v1: sea surface height and rainfall rate variables
@@ -6455,7 +6465,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -6543,7 +6553,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Boundary Bay tide gauge station on a US boundary marker buoy,
 south of Delta, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -6604,7 +6615,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -6706,7 +6717,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Campbell River tide gauge station at the north end of the Strait of Georgia,
 near Campbell River, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -6767,7 +6779,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -6869,7 +6881,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Cherry Point tide gauge station at the south end of the Strait of Georgia,
 near Birch Bay, Washington.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -6930,7 +6943,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -7032,7 +7045,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Friday Harbor tide gauge station in the San Juan Islands,
 near Friday Harbor, Washington.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -7094,7 +7108,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -7196,7 +7210,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Halfmoon Bay tide gauge station on the Sunshine Coast side of the Strait of Georgia,
 near Halfmoon Bay, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -7257,7 +7272,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -7359,7 +7374,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Nanaimo tide gauge station on the Vancouver Island side of the Strait of Georgia,
 near Nanaimo, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -7420,7 +7436,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -7522,7 +7538,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Neah Bay tide gauge station on the south side of the western end of the Juan de Fuca Strait,
 near Neah Bay, Washington.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -7583,7 +7600,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -7685,7 +7702,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the New Westminster tide gauge station in the lower Fraser River,
 near New Westminster, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -7746,7 +7764,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -7848,7 +7866,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Patricia Bay tide gauge station in Saanich Inlet,
 near the Institute of Ocean Sciences and Victoria International Airport, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -7909,7 +7928,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -8013,7 +8032,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Point Atkinson tide gauge station on the north side of English Bay,
 near Vancouver, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -8074,7 +8094,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -8176,7 +8196,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Port Renfrew tide gauge station on the north side of the western end of the Juan de Fuca Strait,
 near Port Renfrew, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -8237,7 +8258,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -8339,7 +8360,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Sand Heads tide gauge station near the mouth of the main arm of the Fraser River,
 near Steveston, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -8400,7 +8422,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -8502,7 +8524,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Sandy Cove tide gauge station on the north side of English Bay,
 near Vancouver, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -8563,7 +8586,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -8665,7 +8688,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Squamish tide gauge station at the head of Howe Sound,
 near Squamish, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -8726,7 +8750,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -8828,7 +8852,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Victoria tide gauge station in Esquimalt Harbour,
 near Victoria, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -8889,7 +8914,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -8991,7 +9016,8 @@ Rolling daily forecast of sea surface height values averaged over 10 minute inte
 Salish Sea NEMO model runs with physics and biology. The values are calculated at the model grid point
 closest to the Woodwards Landing tide gauge station in lower Fraser River,
 on the south side of Richmond, British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -9052,7 +9078,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
       <att name="time_zone">UTC</att>
-      <att name="comment">time values are UTC at the centres of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z</att>
       <att name="ioos_category">time</att>
       <att name="coverage_content_type">modelResult</att>
     </addAttributes>
@@ -9156,7 +9182,9 @@ Forecasted 3d zonal (u) component velocity field values averaged over 1 hour int
 from the most recent Salish Sea NEMO model forecast run. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-The time values are UTC. They are the centre of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -9224,7 +9252,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="bounds">null</att>
       <att name="source_name">time_counter</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -9347,7 +9375,9 @@ Forecasted 3d meridional (v) component velocity field values averaged over 1 hou
 from the most recent Salish Sea NEMO model forecast run. The values are calculated for the entire model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-The time values are UTC. They are the centre of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
@@ -9415,7 +9445,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="bounds">null</att>
       <att name="source_name">time_counter</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -9536,7 +9566,9 @@ Rolling daily forecast of eastward and northward water current component field v
 The values are calculated for the entire model grid that includes the Juan de Fuca Strait,
 the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
-The time values are UTC. They are the centres of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centres of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 The velocity component values are averaged over the upper 5 and 10 metre depths.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
@@ -9604,7 +9636,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
             <att name="units">minutes since 1970-01-01T00:00:00Z</att>
             <att name="coverage_content_type">modelResult</att>
             <att name="time_zone">UTC</att>
-            <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+            <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
             <att name="ioos_category">time</att>
         </addAttributes>
     </axisVariable>
@@ -9773,7 +9805,8 @@ from Salish Sea NEMO model runs with physics, biology and chemistry. The values 
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
 The time values are UTC.
-They are the centre of the intervals over which the calculated model results are averaged.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesodinium rubrum),
@@ -10797,7 +10830,8 @@ from Salish Sea NEMO model runs with physics, biology and chemistry. The values 
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
 The time values are UTC.
-They are the centre of the intervals over which the calculated model results are averaged.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 v1: salinity (practical) and temperature variables
@@ -11240,7 +11274,9 @@ from SalishSeaCast NEMO model runs with physics, biology, and chemistry.
 The values are calculated for the entire model grid that includes Juan de Fuca Strait,
 he Strait of Georgia, Puget Sound, and Johnstone Strait on the coasts of
 Washington State and British Columbia.
-The time values are the centre of the intervals over which the calculated model results are averaged.
+The time values are UTC.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 Geo-location and depth data for the Salish Sea NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
 
 v19-05: Photosynthetically available radiation (PAR), Potential density anomaly (sigma_theta),
@@ -11301,7 +11337,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="source_name">time_counter</att>
       <att name="units">seconds since 1900-01-01T00:00:00Z</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
