@@ -4768,7 +4768,7 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; 
         <att name="cdm_timeseries_variables">speed, direction</att>
         <att name="institution">UCB EOAS, DFO IOS</att>
         <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia, Fisheries and Oceans Canada, Institute of Ocean Sciences</att>
-        <att name="license">The Salish Sea MEOPAR observation datasets are copyright 2013-2018 by the Salish Sea MEOPAR Project Contributors, The University of British Columbia, and the Vancouver Fraser Port Authority. They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0. Raw instrument data on which this dataset is based were provided by Vancouver Fraser Port Authority.</att>
+        <att name="license">The Salish Sea MEOPAR observation datasets are copyright by the Salish Sea MEOPAR Project Contributors, The University of British Columbia, and the Vancouver Fraser Port Authority. They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0. Raw instrument data on which this dataset is based were provided by Vancouver Fraser Port Authority.</att>
         <att name="source">Hourly AIS email feed created by DFO IOS.</att>
         <att name="summary">VFPA, Vancouver Harbour, 2nd Narrows Rail Bridge, Current, 2sec, v1 Current data from Vancouver Fraser Port Authority (VFPA) horizontal acoustic doppler current profiler (HADCP) instrument located at the 2nd Narrows Rail Bridge. The time values are UTC. v1: current speed and direction variables</att>
         <att name="title">VFPA, Vancouver Harbour, 2nd Narrows Rail Bridge, Current, 2sec, v1</att>
