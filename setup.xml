@@ -49,7 +49,7 @@ You MUST CHANGE these to the appropriate browser administrator for your site.
 Whether or not you set up the email system, all potential email messages
 are logged to an emailLogYEAR-MONTH.txt file in [bigParentDirectory]/logs/.
 -->
-<emailEverythingTo>ckrzysik@eos.ubc.ca,dlatorne@eos.ubc.ca</emailEverythingTo>
+<emailEverythingTo>ckrzysik@eos.ubc.ca,dlatornell@eoas.ubc.ca</emailEverythingTo>
 <emailDailyReportsTo>ckrzysik@eos.ubc.ca</emailDailyReportsTo>
 
 <!-- This lets you specify a regular expression which determines which datasetIDs
