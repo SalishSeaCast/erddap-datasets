@@ -11407,7 +11407,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="colorBarMaximum" type="double">350.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
-      <att name="standard_name">downwelling_photosynthetic_photon_radiance_in_sea_water</att>
+      <att name="standard_name">downwelling_photosynthetic_radiative_flux_in_sea_water</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
       <att name="cell_methods">null</att>
