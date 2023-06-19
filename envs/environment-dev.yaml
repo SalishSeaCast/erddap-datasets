@@ -17,4 +17,5 @@ dependencies:
   - netcdf4
   - pip
   - python=3.11
+  - pyyaml
   - xarray

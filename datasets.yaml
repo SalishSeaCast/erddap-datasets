@@ -1,0 +1,9 @@
+# Directory tree containing dataset XMl fragments
+datasets tree: datasets/
+
+# Prefix and postfix fragments for datasets.xml
+prefix: prefix.xml
+postfix: postfix.xml
+
+# Dataset descriptions:
+datasets: []
