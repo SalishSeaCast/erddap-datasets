@@ -9,3 +9,4 @@ postfix: postfix.xml
 datasets:
   # Atmospheric forcing
   - atmospheric/ubcSSaAtmosphereGridV1.xml
+  - atmospheric/ubcSSaSurfaceAtmosphereFieldsV1.xml
