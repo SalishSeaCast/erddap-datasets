@@ -1,9 +1,9 @@
-<dataset type="EDDTableFromNcFiles" datasetID="ubcONCLSBBLCTD15mV1" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="ubcONCUSDDLCTD15mV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/results/observations/ONC/CTD/LSBBL/</fileDir>
+  <fileDir>/results/observations/ONC/CTD/USDDL/</fileDir>
   <recursive>false</recursive>
-  <fileNameRegex>.*LSBBL_CTD_15m_\d{8}\.nc$</fileNameRegex>
+  <fileNameRegex>.*USDDL_CTD_15m_\d{8}\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
   <preExtractRegex/>
   <postExtractRegex/>
@@ -22,10 +22,10 @@
 2016-09-10 15:28:46 Resample data to 15 minute intervals using mean, standard deviation and count as aggregation functions.
 2016-09-10 15:28:46 Store as netCDF4 file.
         </att>
-        <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=LSBBL&amp;deviceCategory=CTD</att>
-        <att name="ONC_station">Delta Lower Slope BBL</att>
-        <att name="ONC_stationCode">LSBBL</att>
-        <att name="ONC_stationDescription">Pacific, Salish Sea, Strait of Georgia, Delta, Lower Slope, Bottom Boundary Layer</att>
+        <att name="ONC_data_product_url">http://dmas.uvic.ca/DataSearch?location=USDDL&amp;deviceCategory=CTD</att>
+        <att name="ONC_station">Delta Upper Slope DDL</att>
+        <att name="ONC_stationCode">USDDL</att>
+        <att name="ONC_stationDescription">Pacific, Salish Sea, Strait of Georgia, Delta, Upper Slope, Delta Dynamics Laboratory</att>
     </sourceAttributes -->
   <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
         <att name="cdm_timeseries_variables">station, longitude, latitude</att>
@@ -40,12 +40,12 @@
     <att name="creator_email">sallen@eos.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Ocean Networks Canada (ONC)</att>
-    <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=LSBBL&amp;deviceCategory=CTD</att>
+    <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=USDDL&amp;deviceCategory=CTD</att>
     <att name="drawLandMask">over</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-    <att name="keywords">15min aggregation, ONC Fraser River Delta Lower Slope Node Bottom Boundary Layer Station, Ocean Networks Canada,
-depth, UBC EOAS, Strait of Georgia, latitude, longitude, ocean, LSBBL, observations, CTD,
+    <att name="keywords">15min aggregation, ONC Fraser River Delta Upper Slope Node Delta Dynamics Laboratory Station, Ocean Networks Canada,
+depth, UBC EOAS, Strait of Georgia, latitude, longitude, ocean, USDDL, observations, CTD,
 Oceans &amp;gt; Ocean Temperature &amp;gt; Water Temperature,
 reference salinity, salinity_sample_count, salinity_std_dev, sea_water_reference_salinity,
 sea_water_reference_salinity_sample_count, sea_water_reference_salinity_standard_deviation,
@@ -60,17 +60,17 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 Raw instrument data on which this dataset is based were provided by Ocean Networks Canada.</att>
     <att name="sourceUrl">(local files)</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">ONC, Strait of Georgia, Fraser River Delta Lower Slope BBL Node, Salinity and Temperature, 15min, v1
+    <att name="summary">ONC, Strait of Georgia, Fraser River Delta Upper Sloper DDL Node, Salinity and Temperature, 15min, v1
 
 Temperature and salinity data from the Ocean Networks Canada (ONC)
-Fraser River Delta Lower Slope Bottom Boundary Layer Node CTD.
+Fraser River Delta Upper Slope Delta Dynamics Laboratory Node CTD.
 The data are resampled from the raw instrument data to 15 minute mean values.
 They are accompanied by standard deviations and sample counts for each of the 15 minute
 aggregation intervals.
 
 v1: reference salinity, reference salinity standard deviation, reference salinity sample counts,
 temperature, temperature standard deviation, temperature sample counts variables</att>
-    <att name="title">ONC, Strait of Georgia, Fraser River Delta Lower Slope BBL Node, Salinity and Temperature, 15min, v1</att>
+    <att name="title">ONC, Strait of Georgia, Fraser River Delta Upper Slope DDL Node, Salinity and Temperature, 15min, v1</att>
     <att name="project">SalishSeaCast NEMO Model</att>
     <att name="history">
 Download raw data from ONC scalardata API.
