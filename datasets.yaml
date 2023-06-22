@@ -13,3 +13,4 @@ datasets:
 
   # ONC observations
   - onc-observations/ubcONCSCVIPCTD15mV1.xml
+  - onc-observations/ubcONCSEVIPCTD15mV1.xml
