@@ -10,3 +10,6 @@ datasets:
   # Atmospheric forcing
   - atmospheric/ubcSSaAtmosphereGridV1.xml
   - atmospheric/ubcSSaSurfaceAtmosphereFieldsV1.xml
+
+  # ONC observations
+  - onc-observations/ubcONCSCVIPCTD15mV1.xml
