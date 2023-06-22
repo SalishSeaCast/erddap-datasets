@@ -72,12 +72,12 @@ v1: reference salinity, reference salinity standard deviation, reference salinit
 temperature, temperature standard deviation, temperature sample counts variables</att>
     <att name="title">ONC, Strait of Georgia, East Node, Salinity and Temperature, 15min, v1</att>
     <att name="project">SalishSeaCast NEMO Model</att>
-        <att name="history">
+    <att name="history">
 Download raw data from ONC scalardata API.
 Filter to exclude data with qaqcFlag != 1.
 Resample data to 15 minute intervals using mean, standard deviation and count as aggregation functions.
 Store as netCDF4 file.
-        </att>
+  </att>
   </addAttributes>
   <dataVariable>
     <sourceName>time</sourceName>
