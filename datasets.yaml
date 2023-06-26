@@ -7,6 +7,9 @@ postfix: postfix.xml
 
 # Dataset descriptions:
 datasets:
+  # Bathymetry and NEMO mesh mask
+  - nemo-grid/ubcSSnBathymetryV17-02.xml
+
   # Atmospheric forcing
   - atmospheric/ubcSSaAtmosphereGridV1.xml
   - atmospheric/ubcSSaSurfaceAtmosphereFieldsV1.xml
