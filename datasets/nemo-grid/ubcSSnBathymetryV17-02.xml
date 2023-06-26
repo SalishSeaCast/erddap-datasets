@@ -79,6 +79,7 @@ v17-02: same variables,
     <att name="title">SalishSeaCast NEMO Model Grid, Geo-location and Bathymetry, v17-02</att>
     <att name="project">SalishSeaCast NEMO Model</att>
     <att name="references">https://github.com/SalishSeaCast/grid/blob/main/bathymetry_201702.nc</att>
+    <att name="source">https://github.com/SalishSeaCast/tools/blob/main/bathymetry/ProcessNewRiverBathymetry.ipynb</att>
     <att name="NCO">null</att>
     <att name="comment">null</att>
   </addAttributes>
