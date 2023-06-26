@@ -23,6 +23,7 @@ created by wgrib2</att>
     <att name="History">null</att>
     <att name="history">Files generated daily by 
 `python3 -m nowcast.workers.grib_to_netcdf $NOWCAST_YAML nowcast+`</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
     <att name="keywords">model results, atmosphere,

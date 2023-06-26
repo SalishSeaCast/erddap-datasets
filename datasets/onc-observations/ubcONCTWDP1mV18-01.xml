@@ -33,6 +33,7 @@ count as aggregation functions.
     <att name="cdm_data_type">TimeSeries</att>
     <att name="cdm_timeseries_variables">longitude, latitude, on_crossing_mask, crossing_number</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
     <att name="keywords">1min aggregation, ONC Mobile Platforms, British Columbia Ferries,

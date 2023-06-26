@@ -22,6 +22,7 @@
     <att name="History">null</att>
     <att name="history">[Mon Mar  7 10:07:34 2016] ncks -4 -L4 -O /results/forcing/atmospheric/GEM2.5/operational/ops_y2016m03d07.nc /results/forcing/atmospheric/GEM2.5/operational/ops_y2016m03d07.nc
     [Mon Mar  7 10:07:00 2016] created by wgrib2</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
     <att name="keywords">atmosphere, model results, HRDPS, latitude, longitude, polar-stereographic grid, Salish Sea</att>
