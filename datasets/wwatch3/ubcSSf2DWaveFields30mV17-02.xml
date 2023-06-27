@@ -1,0 +1,598 @@
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSf2DWaveFields30mV17-02" active="true">
+  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
+  <fileDir>/results/SalishSea/rolling-forecasts/</fileDir>
+  <fileNameRegex>.*SoG_ww3_fields_\d{8}_\d{8}\.nc$</fileNameRegex>
+  <recursive>true</recursive>
+  <pathRegex>.*</pathRegex>
+  <metadataFrom>last</metadataFrom>
+  <matchAxisNDigits>20</matchAxisNDigits>
+  <fileTableInMemory>false</fileTableInMemory>
+  <accessibleViaFiles>false</accessibleViaFiles>
+  <!-- sourceAttributes>
+        <att name="altitude_resolution">n/a</att>
+        <att name="area">SoG_BCgrid_00500m</att>
+        <att name="easternmost_longitude">237.996994</att>
+        <att name="history">Wed Apr 11 20:51:01 2018: ncrcat -4 -L4 -o SoG_ww3_fields_20180411_20180413.nc SoG_ww3_fields_20180411.nc SoG_ww3_fields_20180412.nc SoG_ww3_fields_20180413.nc</att>
+        <att name="latitude_resolution">4.50000027E-03</att>
+        <att name="longitude_resolution">6.99999975E-03</att>
+        <att name="maximum_altitude">9000 m</att>
+        <att name="minimum_altitude">-12000 m</att>
+        <att name="nco_openmp_thread_number" type="int">1</att>
+        <att name="northernmost_latitude">50.9700012</att>
+        <att name="product_name">SoG_ww3_fields_20180411.nc</att>
+        <att name="southernmost_latitude">48.0000000</att>
+        <att name="start_date">2018-04-11 00:00:00</att>
+        <att name="stop_date">2018-04-11 23:30:00</att>
+        <att name="WAVEWATCH_III_switches">F90 NOGRB NOPA LRB4 NC4 DIST MPI PR3 UQ FLX0 LN1 ST4 STAB0 NL1 BT0 DB1 TR0 BS0 IC0 IS0 REF1 XX0 WNT1 WNX1 RWND CRT1 CRX1 O0 O1 O2</att>
+        <att name="WAVEWATCH_III_version_number">5.16</att>
+        <att name="westernmost_longitude">234.000000</att>
+    </sourceAttributes -->
+  <addAttributes>
+    <att name="testOutOfDate">now+24hours</att>
+    <att name="altitude_resolution">null</att>
+    <att name="cdm_data_type">Grid</att>
+    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="easternmost_longitude">null</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
+    <att name="institution">UBC EOAS &amp; DFO IOS</att>
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia, 
+    Fisheries and Oceans Canada, Institute of Ocean Sciences</att>
+    <att name="keywords">atmosphere,
+Atmosphere &amp;gt; Atmospheric Winds &amp;gt; Surface Winds,
+atmospheric, breaking wave height, circulation, currents, direction, drift,
+eastward_sea_water_velocity, eastward_surface_stokes_drift, eastward_wave_to_ocean_stress, eastward_wind,
+energy, flux, foc, frequency, height, latitude, length, local, longitude, mean, mean_wave_length, moment,
+northward, northward_sea_water_velocity, northward_surface_stokes_drift, northward_wave_to_ocean_stress, northward_wind, ocean, oceans,
+Oceans &amp;gt; Ocean Circulation &amp;gt; Ocean Currents,
+Oceans &amp;gt; Ocean Waves &amp;gt; Significant Wave Height,
+Oceans &amp;gt; Ocean Waves &amp;gt; Wave Frequency,
+Oceans &amp;gt; Ocean Waves &amp;gt; Wave Period,
+Oceans &amp;gt; Ocean Waves &amp;gt; Wave Spectra,
+Oceans &amp;gt; Ocean Waves &amp;gt; Wave Speed/Direction,
+Oceans &amp;gt; Ocean Waves &amp;gt; Wind Waves,
+peak, period, sea, sea_surface_wave_from_direction, sea_surface_wave_peak_direction, sea_surface_wave_peak_frequency,
+sea_surface_wave_significant_height, sea_surface_wind_wave_mean_period_from_variance_spectral_density_second_frequency_moment,
+seawater, second, significant, significant_breaking_wave_height, source, spectra, spectral, speed, stokes, stress, surface,
+swell, t02, time, ucur, utwo, uuss, uwnd, variance, vcur, velocity, vtwo, vuss, vwnd, water, wave, wave_to_ocean_energy_flux,
+waves, wcc, wch, whitecap coverage, whitecap_coverage, wind, winds</att>
+    <att name="keywords_vocabulary">GCMD Science Keywords</att>
+    <att name="latitude_resolution">null</att>
+    <att name="license">The SalishSeaCast model results are copyright by the SalishSeaCast Project Contributors and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
+    <att name="longitude_resolution">null</att>
+    <att name="maximum_altitude">null</att>
+    <att name="minimum_altitude">null</att>
+    <att name="nco_openmp_thread_number" type="int">null</att>
+    <att name="northernmost_latitude">null</att>
+    <att name="product_name">null</att>
+    <att name="southernmost_latitude">null</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="start_date">null</att>
+    <att name="stop_date">null</att>
+    <att name="summary">Forecast, Salish Sea, 2d Wave Fields, 30min, v17-02
+
+Rolling daily forecast of 2d wave field values calculated at 30 minute intervals
+from the most recent Strait of Georgia WaveWatch III&#174; model forecast runs.
+The values are calculated for a model grid that covers the Strait of Georgia
+on the coast of British Columbia. The time values are UTC.
+
+The Strait of Georgia WaveWatch III&#174; model grid and configuration were developed
+by Johannes Gemmrich at the University of Victoria. The WaveWatch III&#174; model
+is forced with currents from the SalishSeaCast NEMO model and the same ECCC HRDPS
+GEM 2.5km resolution winds that are used to force the NEMO model.
+
+This dataset is updated daily to move it forward 1 day in time.
+It starts at 00:00:00 UTC 5 days prior to the most recently completed forecast run,
+and extends to 11:30:00 UTC on the 2nd day after the forecast run date.
+So, for example, after completion of the 10-Nov-2017 forecast run,
+this dataset included data from 2017-11-05 00:00:00 UTC to 2017-11-12 11:30:00 UTC.
+
+v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+</att>
+    <att name="title">Forecast, Salish Sea, 2d Wave Fields, 30min, v17-02</att>
+    <att name="project">SalishSeaCast NEMO Model</att>
+    <att name="creator_name">SalishSeaCast Project Contributors</att>
+    <att name="creator_email">gemmrich@uvic.ca</att>
+    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+    <att name="acknowledgement">Fisheries &amp; Oceans CanadaCast, 
+Ocean Networks Canada (ONC), 
+Compute Canada</att>
+    <att name="drawLandMask">over</att>
+    <att name="westernmost_longitude">null</att>
+    <att name="NCO">null</att>
+    <att name="history">null</att>
+    <att name="name">null</att>
+  </addAttributes>
+  <axisVariable>
+    <sourceName>time</sourceName>
+    <destinationName>time</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">1</att>
+            <att name="axis">T</att>
+            <att name="conventions">relative julian days with decimal part (as parts of the day )</att>
+            <att name="long_name">julian day (UT)</att>
+            <att name="standard_name">time</att>
+            <att name="units">days since 1990-01-01 00:00:00</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Julian Day (UT)</att>
+      <att name="comment">time values are UTC</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>latitude</sourceName>
+    <destinationName>latitude</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">661</att>
+            <att name="axis">Y</att>
+            <att name="long_name">latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degree_north</att>
+            <att name="valid_max" type="float">180.0</att>
+            <att name="valid_min" type="float">-90.0</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Latitude</att>
+      <att name="units">degrees_north</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>longitude</sourceName>
+    <destinationName>longitude</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">572</att>
+            <att name="axis">X</att>
+            <att name="long_name">longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degree_east</att>
+            <att name="valid_max" type="float">360.0</att>
+            <att name="valid_min" type="float">-180.0</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Longitude</att>
+      <att name="units">degrees_east</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </axisVariable>
+  <dataVariable>
+    <sourceName>ucur</sourceName>
+    <destinationName>ucur</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="comment">cur=sqrt(U**2+V**2)</att>
+            <att name="globwave_name">eastward_sea_water_velocity</att>
+            <att name="long_name">eastward current</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">eastward_sea_water_velocity</att>
+            <att name="units">m s-1</att>
+            <att name="valid_max" type="int">990</att>
+            <att name="valid_min" type="int">-990</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Eastward Current</att>
+      <att name="colorBarMaximum" type="double">0.5</att>
+      <att name="colorBarMinimum" type="double">-0.5</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>vcur</sourceName>
+    <destinationName>vcur</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="comment">cur=sqrt(U**2+V**2)</att>
+            <att name="globwave_name">northward_sea_water_velocity</att>
+            <att name="long_name">northward current</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">northward_sea_water_velocity</att>
+            <att name="units">m s-1</att>
+            <att name="valid_max" type="int">990</att>
+            <att name="valid_min" type="int">-990</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Northward Current</att>
+      <att name="colorBarMaximum" type="double">0.5</att>
+      <att name="colorBarMinimum" type="double">-0.5</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>uwnd</sourceName>
+    <destinationName>uwnd</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="comment">wind=sqrt(U10**2+V10**2)</att>
+            <att name="globwave_name">eastward_wind</att>
+            <att name="long_name">eastward_wind</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">eastward_wind</att>
+            <att name="units">m s-1</att>
+            <att name="valid_max" type="int">990</att>
+            <att name="valid_min" type="int">-990</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Eastward Wind</att>
+      <att name="colorBarMaximum" type="double">15.0</att>
+      <att name="colorBarMinimum" type="double">-15.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>vwnd</sourceName>
+    <destinationName>vwnd</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="comment">wind=sqrt(U10**2+V10**2)</att>
+            <att name="globwave_name">northward_wind</att>
+            <att name="long_name">northward_wind</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">northward_wind</att>
+            <att name="units">m s-1</att>
+            <att name="valid_max" type="int">990</att>
+            <att name="valid_min" type="int">-990</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Northward Wind</att>
+      <att name="colorBarMaximum" type="double">15.0</att>
+      <att name="colorBarMinimum" type="double">-15.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>hs</sourceName>
+    <destinationName>hs</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="globwave_name">significant_wave_height</att>
+            <att name="long_name">significant height of wind and swell waves</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">sea_surface_wave_significant_height</att>
+            <att name="units">m</att>
+            <att name="valid_max" type="int">32000</att>
+            <att name="valid_min" type="int">0</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Significant Height of Wind Waves</att>
+      <att name="colorBarMaximum" type="double">2.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>lm</sourceName>
+    <destinationName>lm</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="globwave_name">mean_wave_length</att>
+            <att name="long_name">mean wave length</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">mean_wave_length</att>
+            <att name="units">m</att>
+            <att name="valid_max" type="int">3200</att>
+            <att name="valid_min" type="int">0</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Mean Wave Length</att>
+      <att name="colorBarMaximum" type="double">4000.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>t02</sourceName>
+    <destinationName>t02</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="globwave_name">mean_period_t02</att>
+            <att name="long_name">mean period T02</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">sea_surface_wind_wave_mean_period_from_variance_spectral_density_second_frequency_moment</att>
+            <att name="units">s</att>
+            <att name="valid_max" type="int">5000</att>
+            <att name="valid_min" type="int">0</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Mean Period T02</att>
+      <att name="colorBarMaximum" type="double">50.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>fp</sourceName>
+    <destinationName>fp</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="globwave_name">dominant_wave_frequency</att>
+            <att name="long_name">wave peak frequency</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">sea_surface_wave_peak_frequency</att>
+            <att name="units">s-1</att>
+            <att name="valid_max" type="int">10000</att>
+            <att name="valid_min" type="int">0</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Wave Peak Frequency</att>
+      <att name="colorBarMaximum" type="double">15000.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>dir</sourceName>
+    <destinationName>dir</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="globwave_name">wave_from_direction</att>
+            <att name="long_name">wave mean direction</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">sea_surface_wave_from_direction</att>
+            <att name="units">degree</att>
+            <att name="valid_max" type="int">3600</att>
+            <att name="valid_min" type="int">0</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Wave Mean Direction</att>
+      <att name="colorBarMaximum" type="double">360.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>dp</sourceName>
+    <destinationName>dp</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="globwave_name">dominant_wave_direction</att>
+            <att name="long_name">peak direction</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">sea_surface_wave_peak_direction</att>
+            <att name="units">degree</att>
+            <att name="valid_max" type="int">360</att>
+            <att name="valid_min" type="int">0</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Peak Direction</att>
+      <att name="colorBarMaximum" type="double">360.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>wcc</sourceName>
+    <destinationName>wcc</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="globwave_name">whitecap_coverage</att>
+            <att name="long_name">whitecap coverage</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">whitecap_coverage</att>
+            <att name="units">1</att>
+            <att name="valid_max" type="int">10000</att>
+            <att name="valid_min" type="int">0</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Whitecap Coverage</att>
+      <att name="colorBarMaximum" type="double">1.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>wch</sourceName>
+    <destinationName>wch</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="globwave_name">significant_breaking_wave_height</att>
+            <att name="long_name">significant breaking wave height</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">significant_breaking_wave_height</att>
+            <att name="units">m</att>
+            <att name="valid_max" type="int">32000</att>
+            <att name="valid_min" type="int">0</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Significant Breaking Wave Height</att>
+      <att name="colorBarMaximum" type="double">4.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>utwo</sourceName>
+    <destinationName>utwo</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="comment">two=sqrt(utwo**2+vtwo**2)</att>
+            <att name="globwave_name">eastward_wave_to_ocean_stress</att>
+            <att name="long_name">eastward wave to ocean stress</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">eastward_wave_to_ocean_stress</att>
+            <att name="units">m2 s-2</att>
+            <att name="valid_max" type="int">32000</att>
+            <att name="valid_min" type="int">-32000</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Eastward Wave to Ocean Stress</att>
+      <att name="colorBarMaximum" type="double">40000.0</att>
+      <att name="colorBarMinimum" type="double">-40000.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>vtwo</sourceName>
+    <destinationName>vtwo</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="comment">two=sqrt(utwo**2+vtwo**2)</att>
+            <att name="globwave_name">northward_wave_to_ocean_stress</att>
+            <att name="long_name">northward wave to ocean stress</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">northward_wave_to_ocean_stress</att>
+            <att name="units">m2 s-2</att>
+            <att name="valid_max" type="int">32000</att>
+            <att name="valid_min" type="int">-32000</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Northward Wave to Ocean Stress</att>
+      <att name="colorBarMaximum" type="double">40000.0</att>
+      <att name="colorBarMinimum" type="double">-40000.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>foc</sourceName>
+    <destinationName>foc</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="globwave_name">wave_to_ocean_energy_flux</att>
+            <att name="long_name">wave to ocean energy flux</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">wave_to_ocean_energy_flux</att>
+            <att name="units">W m-2</att>
+            <att name="valid_max" type="int">9990</att>
+            <att name="valid_min" type="int">0</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Wave to Ocean Energy Flux</att>
+      <att name="colorBarMaximum" type="double">12000.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>uuss</sourceName>
+    <destinationName>uuss</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="comment">uss=sqrt(uuss**2+vuss**2)</att>
+            <att name="globwave_name">eastward_surface_stokes_drift</att>
+            <att name="long_name">eastward surface stokes drift</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">eastward_surface_stokes_drift</att>
+            <att name="units">m s-1</att>
+            <att name="valid_max" type="int">9900</att>
+            <att name="valid_min" type="int">-9900</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Eastward Surface Stokes Drift</att>
+      <att name="colorBarMaximum" type="double">15000.0</att>
+      <att name="colorBarMinimum" type="double">-15000.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>vuss</sourceName>
+    <destinationName>vuss</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">1 661 572</att>
+            <att name="_FillValue" type="float">9.96921E36</att>
+            <att name="add_offset" type="float">0.0</att>
+            <att name="comment">uss=sqrt(uuss**2+vuss**2)</att>
+            <att name="globwave_name">northward_surface_stokes_drift</att>
+            <att name="long_name">northward surface stokes drift</att>
+            <att name="scale_factor" type="float">1.0</att>
+            <att name="standard_name">northward_surface_stokes_drift</att>
+            <att name="units">m s-1</att>
+            <att name="valid_max" type="int">9900</att>
+            <att name="valid_min" type="int">-9900</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Northward Surface Stokes Drift</att>
+      <att name="colorBarMaximum" type="double">15000.0</att>
+      <att name="colorBarMinimum" type="double">-15000.0</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="add_offset">null</att>
+      <att name="scale_factor">null</att>
+    </addAttributes>
+  </dataVariable>
+</dataset>

@@ -16,6 +16,9 @@ datasets:
   - atmospheric/ubcSSaAtmosphereGridV1.xml
   - atmospheric/ubcSSaSurfaceAtmosphereFieldsV1.xml
 
+  # WaveWatch III results
+  - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
+
   # ONC observations
   - onc-observations/ubcONCSCVIPCTD15mV1.xml
   - onc-observations/ubcONCSEVIPCTD15mV1.xml
