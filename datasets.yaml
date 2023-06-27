@@ -10,6 +10,7 @@ datasets:
   # Bathymetry and NEMO mesh mask
   - nemo-grid/ubcSSnBathymetryV17-02.xml
   - nemo-grid/ubcSSn2DMeshMaskV17-02.xml
+  - nemo-grid/ubcSSn3DMeshMaskV17-02.xml
 
   # Atmospheric forcing
   - atmospheric/ubcSSaAtmosphereGridV1.xml
