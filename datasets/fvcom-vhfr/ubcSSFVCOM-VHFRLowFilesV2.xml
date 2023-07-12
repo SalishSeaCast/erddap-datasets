@@ -1,7 +1,7 @@
-<dataset type="EDDTableFromFileNames" datasetID="ubcSSWaveWatch3-SoGFilesV17-02" active="true">
-  <fileDir>/opp/wwatch3/</fileDir>
-  <pathRegex>/opp/wwatch3/(|nowcast/.*|most_recent_forecast/)</pathRegex>
-  <fileNameRegex>.*SoG_ww3_.*\.nc$</fileNameRegex>
+<dataset type="EDDTableFromFileNames" datasetID="ubcSSFVCOM-VHFRLowFilesV2" active="true">
+  <fileDir>/opp/fvcom/nowcast/</fileDir>
+  <pathRegex>.*</pathRegex>
+  <fileNameRegex>.*vhfr_low_v2_[0s].*\.nc$</fileNameRegex>
   <recursive>true</recursive>
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <!-- sourceAttributes>
@@ -20,24 +20,27 @@
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="title">Files, WAVEWATCH III&#174;, Strait of Georgia, V17-02</att>
-    <att name="summary">Files, WAVEWATCH III&#174;, Strait of Georgia, V17-02
+    <att name="title">Files, FVCOM, Vancouver Harbour and Fraser River, Barotropic, V2</att>
+    <att name="summary">Files, FVCOM, Vancouver Harbour and Fraser River, Barotropic, V2
 
-2d wave field values from the Strait of Georgia WaveWatch III&#174; model runs.
-The values are calculated for a model grid that covers the Strait of Georgia
-on the coast of British Columbia. The time values are UTC.
+Barotropic sea surface height, and currents from VHFR low resolution V2 configuration
+FVCOM model runs.
+The values are calculated for an unstructured model grid that covers Vancouver Harbour,
+English Bay, and the lower Fraser River on the coast of British Columbia.
+The time values are UTC.
 
-The Strait of Georgia WaveWatch III&#174; model grid and configuration were developed
-by Johannes Gemmrich at the University of Victoria. The WaveWatch III&#174; model
-is forced with currents from the SalishSeaCast NEMO model and the same ECCC HRDPS
+The Vancouver Harbour and Fraser River (VHFR) FVCOM model grid and configurations
+were developed by Michael Dunphy, et al at the Institute of Ocean Sciences.
+The VHFR FVCOM model uses currents, sea surface height, temperature, and salinity
+from the SalishSeaCast NEMO model as boundary conditions, and the same ECCC HRDPS
 GEM 2.5km resolution winds that are used to force the NEMO model.
 
-v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+V2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
 </att>
     <att name="creator_name">SalishSeaCast Project Contributors</att>
-    <att name="creator_email">gemmrish@uvic.ca</att>
+    <att name="creator_email">Michael.Dunphy@dfo-mpo.gc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Fisheries &amp; Oceans CanadaCast, 
+    <att name="acknowledgement">Fisheries &amp; Oceans Canada, 
 Ocean Networks Canada (ONC), 
 Digital Research Alliance of Canada</att>
     <att name="history">null</att>
@@ -47,8 +50,8 @@ Digital Research Alliance of Canada</att>
     <destinationName>url</destinationName>
     <dataType>String</dataType>
     <!-- sourceAttributes>
-      <att name="ioos_category">Identifier</att>
-      <att name="long_name">URL</att>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">URL</att>
     </sourceAttributes -->
     <addAttributes>
     </addAttributes>
