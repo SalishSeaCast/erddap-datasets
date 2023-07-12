@@ -97,8 +97,7 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; 
     <att name="creator_email">gemmrich@uvic.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Fisheries &amp; Oceans CanadaCast, 
-Ocean Networks Canada (ONC), 
-Compute Canada</att>
+Ocean Networks Canada (ONC)</att>
     <att name="drawLandMask">over</att>
     <att name="westernmost_longitude">null</att>
     <att name="NCO">null</att>

@@ -18,6 +18,7 @@ datasets:
 
   # WaveWatch III results
   - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
+  - wwatch3/ubcSSWaveWatch3-SoGFilesV17-02.xml
 
   # ONC observations
   - onc-observations/ubcONCSCVIPCTD15mV1.xml
