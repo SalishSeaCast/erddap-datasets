@@ -22,6 +22,7 @@ datasets:
 
   # FVCOM Vancouver Harbour and Lower Fraser River (VHFR) results
   - fvcom-vhfr/ubcSSFVCOM-VHFRLowFilesV2.xml
+  - fvcom-vhfr/ubcSSFVCOM-VHFR-BaroclinicX2.xml
 
   # ONC observations
   - onc-observations/ubcONCSCVIPCTD15mV1.xml

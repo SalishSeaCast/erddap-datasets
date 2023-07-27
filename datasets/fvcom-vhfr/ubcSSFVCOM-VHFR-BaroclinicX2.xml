@@ -1,7 +1,7 @@
-<dataset type="EDDTableFromFileNames" datasetID="ubcSSFVCOM-VHFRLowFilesV2" active="true">
-  <fileDir>/opp/fvcom/nowcast/</fileDir>
-  <pathRegex>.*</pathRegex>
-  <fileNameRegex>.*vhfr_low_v2_[0s].*\.nc$</fileNameRegex>
+<dataset type="EDDTableFromFileNames" datasetID="ubcSSFVCOM-VHFR-BaroclinicX2" active="true">
+  <fileDir>/opp/fvcom/</fileDir>
+  <pathRegex>/opp/fvcom/(|nowcast-x2/.*|most_recent_forecast/)</pathRegex>
+  <fileNameRegex>.*vh_x2_[0s].*\.nc$</fileNameRegex>
   <recursive>true</recursive>
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <!-- sourceAttributes>
@@ -20,22 +20,25 @@
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="title">Files, FVCOM, Vancouver Harbour and Fraser River, Barotropic, V2</att>
-    <att name="summary">Files, FVCOM, Vancouver Harbour and Fraser River, Barotropic, V2
+    <att name="title">Files, FVCOM, Vancouver Harbour and Fraser River, Baroclinic, X2</att>
+    <att name="summary">Files, FVCOM, Vancouver Harbour and Fraser River, Baroclinic, X2
 
-Barotropic sea surface height, and currents from VHFR low resolution V2 configuration
-FVCOM model runs.
+Baroclinic sea surface height, currents, temperature, and salinity from
+VHFR X2 configuration FVCOM model runs.
 The values are calculated for an unstructured model grid that covers Vancouver Harbour,
 English Bay, and the lower Fraser River on the coast of British Columbia.
+From 2019-02-06 onward the model runs include Fraser River discharge forcing based on
+daily average discharges from river gauge at Hope with a 1 day lag.
+The river temperature is climatological.
 The time values are UTC.
 
 The Vancouver Harbour and Fraser River (VHFR) FVCOM model grid and configurations
 were developed by Michael Dunphy, et al at the Institute of Ocean Sciences.
 The VHFR FVCOM model uses currents, sea surface height, temperature, and salinity
-from the SalishSeaCast NEMO model as boundary conditions, and the same ECCC HRDPS
+from the Salish Sea NEMO model as boundary conditions, and the same ECCC HRDPS
 GEM 2.5km resolution winds that are used to force the NEMO model.
 
-V2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry.
+X2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry.
 </att>
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">Michael.Dunphy@dfo-mpo.gc.ca</att>
