@@ -31,3 +31,6 @@ datasets:
   - onc-observations/ubcONCLSBBLCTD15mV1.xml
   - onc-observations/ubcONCUSDDLCTD15mV1.xml
   - onc-observations/ubcONCTWDP1mV18-01.xml
+
+  # 2nd Narrows Rail Bridge HADCP observations
+  - 2ndNarrowsHADCP-observations/ubcVFPA2ndNarrowsCurrent2sV1.xml
