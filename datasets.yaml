@@ -19,6 +19,7 @@ datasets:
   # SalishSeaCast NEMO v2019-05 results
   - ssc-nemo-201905/ubcSSg3DuGridFields1hV19-05.xml
   - ssc-nemo-201905/ubcSSg3DvGridFields1hV19-05.xml
+  - ssc-nemo-201905/ubcSSg3DwGridFields1hV19-05.xml
 
   # WaveWatch III results
   - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
