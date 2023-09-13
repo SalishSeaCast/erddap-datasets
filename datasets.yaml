@@ -17,6 +17,7 @@ datasets:
   - atmospheric/ubcSSaSurfaceAtmosphereFieldsV1.xml
 
   # SalishSeaCast NEMO v2019-05 results
+  # hour-averaged fields
   - ssc-nemo-201905/ubcSSg3DuGridFields1hV19-05.xml
   - ssc-nemo-201905/ubcSSg3DvGridFields1hV19-05.xml
   - ssc-nemo-201905/ubcSSg3DwGridFields1hV19-05.xml
@@ -24,6 +25,8 @@ datasets:
   - ssc-nemo-201905/ubcSSg3DBiologyFields1hV19-05.xml
   - ssc-nemo-201905/ubcSSg3DTracerFields1hV19-05.xml
   - ssc-nemo-201905/ubcSSg3DAuxiliaryFields1hV19-05.xml
+  # month-averaged fields
+  - ssc-nemo-201905/month-average/ubcSSg3DuGridFields1moV19-05.xml
 
   # WaveWatch III results
   - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
