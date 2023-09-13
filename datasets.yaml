@@ -27,6 +27,7 @@ datasets:
   - ssc-nemo-201905/ubcSSg3DAuxiliaryFields1hV19-05.xml
   # month-averaged fields
   - ssc-nemo-201905/month-average/ubcSSg3DuGridFields1moV19-05.xml
+  - ssc-nemo-201905/month-average/ubcSSg3DvGridFields1moV19-05.xml
 
   # WaveWatch III results
   - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
