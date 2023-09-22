@@ -31,6 +31,8 @@ datasets:
   - ssc-nemo-201905/month-average/ubcSSg3DwGridFields1moV19-05.xml
   - ssc-nemo-201905/month-average/ubcSSg3DBiologyFields1moV19-05.xml
   - ssc-nemo-201905/month-average/ubcSSg3DTracerFields1moV19-05.xml
+  # rolling forecasts for fields and tide gauge station water levels
+  - ssc-nemo-201905/rolling-forecasts/ubcSSf3DuGridFields1h.xml
 
   # WaveWatch III results
   - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
