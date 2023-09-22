@@ -18,4 +18,6 @@ dependencies:
   - pip
   - python=3.11
   - pyyaml
+  - rich
+  - structlog
   - xarray

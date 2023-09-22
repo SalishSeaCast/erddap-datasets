@@ -18,10 +18,14 @@
 
 """Build ERDDAP `datasets.xml` file described in `datasets.yaml` file.
 """
+import logging
+import os
 from pathlib import Path
 
+import structlog
 import yaml
 
+logger = structlog.get_logger()
 
 def main(config_path, datasets_xml):
     with config_path.open("rt") as _config:
@@ -32,19 +36,25 @@ def main(config_path, datasets_xml):
     postfix = ds_tree / config["postfix"]
     ds_descs = [ds_tree/ds_desc for ds_desc in config["datasets"]]
 
+    logger.info("starting to write", datasets_xml=os.fspath(datasets_xml))
     with datasets_xml.open("wt") as _datasets_xml:
         _write_section(prefix, _datasets_xml)
         for ds_desc in ds_descs:
             _write_section(ds_desc, _datasets_xml)
         _write_section(postfix, _datasets_xml, end="")
+    logger.info("finished writing", datasets_xml=os.fspath(datasets_xml))
 
 def _write_section(section, _datasets_xml, end="\n"):
     with section.open("rt") as _section:
         _datasets_xml.write(_section.read())
     _datasets_xml.write(end)
+    logger.info("appended", section=os.fspath(section))
 
 
 if __name__ == "__main__":
+    structlog.configure(
+        wrapper_class=structlog.make_filtering_bound_logger(min_level=logging.DEBUG)
+    )
     config_path = Path("datasets.yaml")
     datasets_xml = Path("test_datasets.xml")
     main(config_path, datasets_xml)
