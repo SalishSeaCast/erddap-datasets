@@ -36,6 +36,7 @@ datasets:
   # rolling forecasts for fields and tide gauge station water levels
   - rolling-forecasts/ubcSSf3DuGridFields1h.xml
   - rolling-forecasts/ubcSSf3DvGridFields1h.xml
+  - rolling-forecasts/ubcSSfSurfaceTracerFields1h.xml
   - rolling-forecasts/ubcSSfDepthAvgdCurrents1h.xml
 
   # WaveWatch III results
