@@ -40,6 +40,7 @@ datasets:
   - rolling-forecasts/ubcSSfDepthAvgdCurrents1h.xml
   - rolling-forecasts/ubcSSfBoundaryBaySSH10m.xml
   - rolling-forecasts/ubcSSfCampbellRiverSSH10m.xml
+  - rolling-forecasts/ubcSSfCherryPointSSH10m.xml
 
   # WaveWatch III results
   - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
