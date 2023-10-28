@@ -42,6 +42,7 @@ datasets:
   - rolling-forecasts/ubcSSfCampbellRiverSSH10m.xml
   - rolling-forecasts/ubcSSfCherryPointSSH10m.xml
   - rolling-forecasts/ubcSSfFridayHarborSSH10m.xml
+  - rolling-forecasts/ubcSSfHalfmoonBaySSH10m.xml
 
   # WaveWatch III results
   - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
