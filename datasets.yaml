@@ -44,6 +44,7 @@ datasets:
   - rolling-forecasts/ubcSSfFridayHarborSSH10m.xml
   - rolling-forecasts/ubcSSfHalfmoonBaySSH10m.xml
   - rolling-forecasts/ubcSSfNanaimoSSH10m.xml
+  - rolling-forecasts/ubcSSfNeahBaySSH10m.xml
 
   # WaveWatch III results
   - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
