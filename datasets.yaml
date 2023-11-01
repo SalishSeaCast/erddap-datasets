@@ -48,6 +48,7 @@ datasets:
   - rolling-forecasts/ubcSSfNewWestminsterSSH10m.xml
   - rolling-forecasts/ubcSSfPatriciaBaySSH10m.xml
   - rolling-forecasts/ubcSSfPointAtkinsonSSH10m.xml
+  - rolling-forecasts/ubcSSfPortRenfrewSSH10m.xml
 
   # WaveWatch III results
   - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
