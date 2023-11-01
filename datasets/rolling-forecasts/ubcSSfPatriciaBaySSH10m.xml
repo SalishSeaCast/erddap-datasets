@@ -98,6 +98,8 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="axis">T</att>
       <att name="standard_name">time</att>
       <att name="long_name">Time axis</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
       <att name="calendar">gregorian</att>
       <att name="units">seconds since 1900-01-01 00:00:00</att>
       <att name="time_origin">1900-01-01 00:00:00</att>
