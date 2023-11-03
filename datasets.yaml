@@ -51,6 +51,7 @@ datasets:
   - rolling-forecasts/ubcSSfPortRenfrewSSH10m.xml
   - rolling-forecasts/ubcSSfSandHeadsSSH10m.xml
   - rolling-forecasts/ubcSSfSandyCoveSSH10m.xml
+  - rolling-forecasts/ubcSSfSquamishSSH10m.xml
 
   # WaveWatch III results
   - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
