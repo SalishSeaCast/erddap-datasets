@@ -53,6 +53,7 @@ datasets:
   - rolling-forecasts/ubcSSfSandyCoveSSH10m.xml
   - rolling-forecasts/ubcSSfSquamishSSH10m.xml
   - rolling-forecasts/ubcSSfVictoriaSSH10m.xml
+  - rolling-forecasts/ubcSSfWoodwardsLandingSSH10m.xml
 
   # WaveWatch III results
   - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
