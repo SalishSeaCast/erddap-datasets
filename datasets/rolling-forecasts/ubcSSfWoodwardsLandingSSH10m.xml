@@ -62,7 +62,7 @@ see infoUrl link for full details.</att>
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">MEOPAR, ONC, Compute Canada</att>
+    <att name="acknowledgement">MEOPAR, Ocean Networks Canada (ONC), Digital Research Alliance of Canada</att>
     <att name="comment">If you use this dataset in your research,
 please reference it with wording similar to the example below,
 and include citations of the publications below.
