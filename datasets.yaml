@@ -16,6 +16,10 @@ datasets:
   - atmospheric/ubcSSaAtmosphereGridV1.xml
   - atmospheric/ubcSSaSurfaceAtmosphereFieldsV1.xml
 
+  # SalishSeaCast NEMO v2017-02 results
+  # season-averaged fields
+  - ssc-nemo-201702/ubcSSg2DTracerFieldsSeasonalV17-02.xml
+
   # SalishSeaCast NEMO v2019-05 results
   # hour-averaged fields
   - ssc-nemo-201905/ubcSSg3DuGridFields1hV19-05.xml
