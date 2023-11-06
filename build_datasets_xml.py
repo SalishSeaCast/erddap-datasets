@@ -56,5 +56,5 @@ if __name__ == "__main__":
         wrapper_class=structlog.make_filtering_bound_logger(min_level=logging.DEBUG)
     )
     config_path = Path("datasets.yaml")
-    datasets_xml = Path("test_datasets.xml")
+    datasets_xml = Path("datasets.xml")
     main(config_path, datasets_xml)
