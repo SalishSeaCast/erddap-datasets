@@ -10,13 +10,9 @@ channels:
   - nodefaults
 
 dependencies:
-  - bottleneck
-  - jupyterlab
   - lxml
-  - netcdf4
   - pip
   - python=3.12
   - pyyaml
   - rich
   - structlog
-  - xarray
