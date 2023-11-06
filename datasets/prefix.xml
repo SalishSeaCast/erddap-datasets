@@ -8,6 +8,8 @@
   See your ERDDAP daily report for a list/tally of the most active requesters.
 -->
 <requestBlacklist>
+  <!-- dataforseo.com, an Estonian SEO company; swamped server with request failures on 22sep23 -->
+  136.243.228.193
 </requestBlacklist>
 
 <!-- If you want to prevent specific people from using the email/URL subscription
