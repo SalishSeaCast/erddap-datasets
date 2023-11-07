@@ -3,9 +3,6 @@ name: check-datasets-xml
 on:
   push:
     branches: [ '*' ]
-  # Enable workflow to be triggered from GitHub CLI, browser, or via API
-  # primarily for testing conda env solution for new Python versions
-  workflow_dispatch:
 
 jobs:
   check-datasets-xml:
