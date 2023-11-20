@@ -1,18 +1,61 @@
-*************************************
-Salish Sea NEMO Model ERDDAP Datasets
-*************************************
+*****************************
+SalishSeaCast ERDDAP Datasets
+*****************************
 
-This repo contains the ``datasets.xml`` file that provides the dataset descriptions
-for the Salish Sea NEMO Model ERDDAP server at https://salishsea.eos.ubc.ca/erddap/.
+This repo contains files related to the configuration and maintenance of the SalishSeaCast
+ERDDAP server at https://salishsea.eos.ubc.ca/erddap/.
 
-Also in the repo are files,
-chiefly a Jupyter notebook,
-used to maintain the ``datasets.xml`` file,
-and notes in this file about maintenance of the datasets file and the ERDDAP server.
+The key configuration files are:
 
+* ``datasets.xml`` that defines the collection of datasets that the ERDDAP instance serves
+* ``setup.xml`` that includes the HTML for the server landing page that provides information
+  about the SalishSeaCast ERDDAP server as well as about ERDDAP in general
+
+Also in the repo are:
+
+* the collection of XML fragments for each dataset that are composed to create ``datasets.xml``
+* Python scripts to check that the XML fragments are well-formed,
+  and to build ``datasets.xml`` from the dataset description fragments
+* Jupyter notebooks that are used to generate and maintain the dataset description fragments
+* conda environment description YAML files to build conda environment in which the above code 
+  can be executed
+
+
+Python Scripts
+==============
+
+``check_datasets_xml.py``
+-------------------------
+
+Script that checks that the datasets described in ``datasets.yaml`` file are well-formed XML.
+Execution::
+
+  conda activate erddap-datasets-dev
+  python -m check_datasets_xml
+
+The ``check_datasets_xml.py`` is run by a `GitHub Action`_ whenever changes are pushed to the repo
+on GitHub.
+The results of those runs are at
+https://github.com/SalishSeaCast/erddap-datasets/actions/workflows/check-datasets-xml.yaml
+
+.. _GitHub Action: https://github.com/SalishSeaCast/erddap-datasets/blob/main/.github/workflows/check-datasets-xml.yaml
+
+
+``build_datasets_xml.py``
+-------------------------
+
+Script that builds the ERDDAP ``datasets.xml`` file described in the ``datasets.yaml`` file.
+Execution::
+
+  conda activate erddap-datasets-dev
+  python -m build_datasets_xml
+
+
+Jupyter Notebooks
+=================
 
 `ERDDAP_datasets.ipynb`_
-========================
+-------------------------
 
 .. _ERDDAP_datasets.ipynb: https://nbviewer.org/github/SalishSeaCast/erddap-datasets/blob/main/ERDDAP_datasets.ipynb
 
@@ -34,7 +77,7 @@ The contents are a combination of:
 
 
 `WWatch3_datasets.ipynb`_
-=========================
+-------------------------
 
 .. _WWatch3_datasets.ipynb: https://nbviewer.org/github/SalishSeaCast/erddap-datasets/blob/main/WWatch3_datasets.ipynb
 
@@ -58,10 +101,10 @@ The contents are a combination of:
 License
 =======
 
-The Salish Sea NEMO model nowcast system code and documentation are copyright 2013 – present
-by the `Salish Sea MEOPAR Project Contributors`_ and The University of British Columbia.
+The SalishSeaCast ocean model automation system code and documentation  are copyright 2013 – present
+by the `SalishSeaCast Project Contributors`_ and The University of British Columbia.
 
-.. _Salish Sea MEOPAR Project Contributors: https://github.com/SalishSeaCast/docs/blob/main/CONTRIBUTORS.rst
+.. _SalishSeaCast Project Contributors: https://github.com/SalishSeaCast/docs/blob/main/CONTRIBUTORS.rst
 
 They are licensed under the Apache License, Version 2.0.
 http://www.apache.org/licenses/LICENSE-2.0
