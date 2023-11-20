@@ -1,0 +1,35 @@
+name: check-datasets-xml
+
+on:
+  push:
+    branches: [ '*' ]
+
+jobs:
+  check-datasets-xml:
+    permissions:
+      contents: read
+      pull-requests: write
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [ '3.12' ]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Conda environment with Micromamba
+        uses: mamba-org/setup-micromamba@54d4d5980e1a4aa7cdc8b050cf2d19b7e262ce18
+        with:
+           environment-file: envs/environment-test.yaml
+           environment-name: erddap-datasets-test
+           cache-environment: true
+           cache-downloads: true
+           # persist downloads cache for 1 day
+           cache-downloads-key: downloads-${{ steps.date.outputs.date }}
+           create-args: >-
+             python=${{ inputs.python-version }}
+
+      - name: Run check_datasets_xml.py
+        run: python check_datasets_xml.py
+        shell: bash -el {0}

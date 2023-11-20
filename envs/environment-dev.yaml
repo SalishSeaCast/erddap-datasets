@@ -1,0 +1,24 @@
+# conda environment description erddap-datasets dev environment
+#
+# Use:
+#
+#   conda env create -f envs/environment-dev.yaml
+
+name: erddap-datasets-dev
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - bottleneck
+  - docutils
+  - jupyterlab
+  - lxml
+  - netcdf4
+  - pip
+  - python=3.12
+  - pyyaml
+  - rich
+  - structlog
+  - xarray

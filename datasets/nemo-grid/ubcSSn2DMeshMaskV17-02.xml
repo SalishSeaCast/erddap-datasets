@@ -1,0 +1,393 @@
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMaskV17-02" active="true">
+  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
+  <fileDir>/SalishSeaCast/grid/</fileDir>
+  <recursive>false</recursive>
+  <fileNameRegex>.*mesh_mask201702\.nc$</fileNameRegex>
+  <metadataFrom>last</metadataFrom>
+  <matchAxisNDigits>20</matchAxisNDigits>
+  <fileTableInMemory>false</fileTableInMemory>
+  <accessibleViaFiles>false</accessibleViaFiles>
+  <!-- sourceAttributes>
+        <att name="Conventions">CF-1.6</att>
+        <att name="file_name">NEMO-forcing/grid/mesh_mask201702.nc</att>
+        <att name="history">[2017-04-13 22:37] ncks -4 -L4 -O mesh_mask.nc mesh_mask201702.nc
+[2017-05-15 12:41] Added metadata to variable in preparation for creation of ERDDAP datasets.</att>
+        <att name="institution">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+        <att name="references">https://salishsea.eos.ubc.ca/erddap/info/
+https://bitbucket.org/salishsea/nemo-forcing/src/tip/grid/bathymetery_201702.nc
+</att>
+        <att name="source">NEMO-3.6 Salish Sea configuration</att>
+        <att name="TimeStamp">13/04/2017 22:37:31 -0700</att>
+        <att name="title">Salish Sea NEMO bathymetry_201702 Bathymetry Mesh Mask</att>
+    </sourceAttributes -->
+  <addAttributes>
+    <att name="cdm_data_type">Grid</att>
+    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="creator_name">SalishSeaCast Project Contributors</att>
+    <att name="creator_email">sallen@eoas.ubc.ca</att>
+    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
+National Ocean and Atmospheric Administration (NOAA), 
+United States Geological Service (USGS), 
+Digital Research Alliance of Canada
+
+This product has been produced by the University of British Columbia based in part on 
+Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
+No. 2016-0504-1260-U.
+
+The incorporation of data sourced from CHS in this product shall not be construed as
+constituting an endorsement of CHS of this product.
+
+This product does not meet the requirements of Charts and Nautical Publications Regulations,
+1995 under the Canadian Shipping Act, 2001.
+Official charts and publications, corrected and up-to-data,
+must be used to meet the requirements of those regulations.</att>
+    <att name="drawLandMask">over</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
+    <att name="institution">UBC EOAS</att>
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+    <att name="keywords">bathymetry, coordinates, depth, e1t, e1u, e1v, e1f, e2t, e2u, e2v, e2f, ff, f-grid, fmaskutil,
+glamt, glamu, glamv, glamf, gphit, gphiu, gphiv, gphif, grid, grid parameters, mbathy, mesh mask, NEMO, ocean,
+Salish Sea, sea, spacing, t-grid, tmaskutil, u-grid, umaskutil, v-grid, vmaskutil, vorticity-grid</att>
+    <att name="license">The SalishSeaCast NEMO model results are copyright
+by the SalishSeaCast Project Contributors and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="summary">SalishSeaCast NEMO Model Grid, 2D Mesh Mask, v17-02
+
+NEMO grid variable value for the u-v plane of the
+SalishSeaCast NEMO model Arakawa-C grid.
+The values are those calculated by NEMO from the input coordinates and bathymetry files.
+The variable names are those used by NEMO-3.6,
+see the NEMO-3.6 book (http://www.nemo-ocean.eu/Media/Files/NEMO_book_V3_6.pdf) for details,
+or the long_name attributes of the variables for succinct descriptions of the variables.
+The model grid includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
+and Johnstone Strait on the coasts of Washington State and British Columbia.
+
+v1: e1t, e2t, e1u, e2u, e1v, e2v, e1f, e2f, glamt, gphit, glamu, gphiu, glamv, gphiv,
+    tmaskutil, umaskutil, vmaskutil, fmaskutil, ff, mbathy variables
+v16-07: e1t, e2t, e1u, e2u, e1v, e2v, e1f, e2f, glamt, gphit, glamu, gphiu, glamv, gphiv,
+        glamf, gphif, tmaskutil, umaskutil, vmaskutil, fmaskutil, ff, mbathy variables
+v17-02: tmaskutil, umaskutil, vmaskutil, fmaskutil, glamt, glamu, glamv, glamf, gphit, gphiu, gphiv, gphif,
+        e1t, e1u, e1v, e1f, e2t, e2u, e2v, e2f, ff, mbathy variables</att>
+    <att name="title">SalishSeaCast NEMO Model Grid, 2D Mesh Mask, v17-02</att>
+    <att name="project">SalishSeaCast NEMO Model</att>
+    <att name="references">https://github.com/SalishSeaCast/grid/blob/main/mesh_mask201702.nc</att>
+    <att name="NCO">null</att>
+    <att name="history">null</att>
+    <att name="name">null</att>
+    <att name="comment">null</att>
+  </addAttributes>
+  <axisVariable>
+    <sourceName>t</sourceName>
+    <destinationName>time</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Time Axis</att>
+      <att name="standard_name">time</att>
+      <att name="calendar">proleptic_gregorian</att>
+      <att name="time_origin">2014-09-12 00:30:00</att>
+      <att name="units">seconds since 2014-09-12 00:30:00</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>y</sourceName>
+    <destinationName>gridY</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Grid Y</att>
+      <att name="standard_name">y</att>
+      <att name="units">count</att>
+      <att name="comment">gridY values are grid indices in the model y-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>x</sourceName>
+    <destinationName>gridX</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Grid X</att>
+      <att name="standard_name">x</att>
+      <att name="units">count</att>
+      <att name="comment">gridX values are grid indices in the model x-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <dataVariable>
+    <sourceName>tmaskutil</sourceName>
+    <destinationName>tmaskutil</destinationName>
+    <dataType>byte</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Dry Land Mask for T-grid and W-grid</att>
+      <att name="standard_name">tmaskutil</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>umaskutil</sourceName>
+    <destinationName>umaskutil</destinationName>
+    <dataType>byte</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Dry Land Mask for U-grid</att>
+      <att name="standard_name">umaskutil</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>vmaskutil</sourceName>
+    <destinationName>vmaskutil</destinationName>
+    <dataType>byte</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Dry Land Mask for V-grid</att>
+      <att name="standard_name">vmaskutil</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>fmaskutil</sourceName>
+    <destinationName>fmaskutil</destinationName>
+    <dataType>byte</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Dry Land Mask for vorticity-grid</att>
+      <att name="standard_name">fmaskutil</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>glamt</sourceName>
+    <destinationName>glamt</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Longitude of T-grid Points</att>
+      <att name="standard_name">glamt</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_east</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>glamu</sourceName>
+    <destinationName>glamu</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Longitude of U-grid Points</att>
+      <att name="standard_name">glamu</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_east</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>glamv</sourceName>
+    <destinationName>glamv</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Longitude of V-grid Points</att>
+      <att name="standard_name">glamv</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_east</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>glamf</sourceName>
+    <destinationName>glamf</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Longitude of Vorticity-grid Points</att>
+      <att name="standard_name">glamf</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_east</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gphit</sourceName>
+    <destinationName>gphit</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Latitude of T-grid Points</att>
+      <att name="standard_name">gphit</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_north</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gphiu</sourceName>
+    <destinationName>gphiu</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Latitude of U-grid Points</att>
+      <att name="standard_name">gphiu</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_north</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gphiv</sourceName>
+    <destinationName>gphiv</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Latitude of V-grid Points</att>
+      <att name="standard_name">gphiv</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_north</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gphif</sourceName>
+    <destinationName>gphif</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Latitude of Vorticity-grid Points</att>
+      <att name="standard_name">gphif</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_north</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e1t</sourceName>
+    <destinationName>e1t</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on T-grid in u Direction</att>
+      <att name="standard_name">e1t</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e1u</sourceName>
+    <destinationName>e1u</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on U-grid in u Direction</att>
+      <att name="standard_name">e1u</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e1v</sourceName>
+    <destinationName>e1v</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on V-grid in u Direction</att>
+      <att name="standard_name">e1v</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e1f</sourceName>
+    <destinationName>e1f</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on Vorticity-grid in u Direction</att>
+      <att name="standard_name">e1f</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e2t</sourceName>
+    <destinationName>e2t</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on T-grid in v Direction</att>
+      <att name="standard_name">e2t</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e2u</sourceName>
+    <destinationName>e2u</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on U-grid in v Direction</att>
+      <att name="standard_name">e2u</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e2v</sourceName>
+    <destinationName>e2v</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on V-grid in v Direction</att>
+      <att name="standard_name">e2v</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e2f</sourceName>
+    <destinationName>e2f</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on Vorticity-grid in v Direction</att>
+      <att name="standard_name">e2f</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>ff</sourceName>
+    <destinationName>ff</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Coriolis parameter on Vorticity-grid</att>
+      <att name="standard_name">ff</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">s-1</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>mbathy</sourceName>
+    <destinationName>mbathy</destinationName>
+    <dataType>short</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Fortran Index of Deepest Water Cell, T-grid</att>
+      <att name="standard_name">mbathy</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">count</att>
+    </addAttributes>
+  </dataVariable>
+</dataset>

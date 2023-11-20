@@ -1,0 +1,79 @@
+# Directory tree containing dataset XMl fragments
+datasets tree: datasets/
+
+# Prefix and postfix fragments for datasets.xml
+prefix: prefix.xml
+postfix: postfix.xml
+
+# Dataset descriptions:
+datasets:
+  # Bathymetry and NEMO mesh mask
+  - nemo-grid/ubcSSnBathymetryV17-02.xml
+  - nemo-grid/ubcSSn2DMeshMaskV17-02.xml
+  - nemo-grid/ubcSSn3DMeshMaskV17-02.xml
+
+  # Atmospheric forcing
+  - atmospheric/ubcSSaAtmosphereGridV1.xml
+  - atmospheric/ubcSSaSurfaceAtmosphereFieldsV1.xml
+
+  # SalishSeaCast NEMO v2017-02 results
+  # season-averaged fields
+  - ssc-nemo-201702/ubcSSg2DTracerFieldsSeasonalV17-02.xml
+
+  # SalishSeaCast NEMO v2019-05 results
+  # hour-averaged fields
+  - ssc-nemo-201905/ubcSSg3DuGridFields1hV19-05.xml
+  - ssc-nemo-201905/ubcSSg3DvGridFields1hV19-05.xml
+  - ssc-nemo-201905/ubcSSg3DwGridFields1hV19-05.xml
+  - ssc-nemo-201905/ubcSSgSurfaceTracerFields1hV19-05.xml
+  - ssc-nemo-201905/ubcSSg3DBiologyFields1hV19-05.xml
+  - ssc-nemo-201905/ubcSSg3DTracerFields1hV19-05.xml
+  - ssc-nemo-201905/ubcSSg3DAuxiliaryFields1hV19-05.xml
+  # month-averaged fields
+  - ssc-nemo-201905/month-average/ubcSSg3DuGridFields1moV19-05.xml
+  - ssc-nemo-201905/month-average/ubcSSg3DvGridFields1moV19-05.xml
+  - ssc-nemo-201905/month-average/ubcSSg3DwGridFields1moV19-05.xml
+  - ssc-nemo-201905/month-average/ubcSSg3DBiologyFields1moV19-05.xml
+  - ssc-nemo-201905/month-average/ubcSSg3DTracerFields1moV19-05.xml
+
+  # SalishSeaCast NEMO non-versioned results
+  # rolling forecasts for fields and tide gauge station water levels
+  - rolling-forecasts/ubcSSf3DuGridFields1h.xml
+  - rolling-forecasts/ubcSSf3DvGridFields1h.xml
+  - rolling-forecasts/ubcSSfSurfaceTracerFields1h.xml
+  - rolling-forecasts/ubcSSfDepthAvgdCurrents1h.xml
+  - rolling-forecasts/ubcSSfBoundaryBaySSH10m.xml
+  - rolling-forecasts/ubcSSfCampbellRiverSSH10m.xml
+  - rolling-forecasts/ubcSSfCherryPointSSH10m.xml
+  - rolling-forecasts/ubcSSfFridayHarborSSH10m.xml
+  - rolling-forecasts/ubcSSfHalfmoonBaySSH10m.xml
+  - rolling-forecasts/ubcSSfNanaimoSSH10m.xml
+  - rolling-forecasts/ubcSSfNeahBaySSH10m.xml
+  - rolling-forecasts/ubcSSfNewWestminsterSSH10m.xml
+  - rolling-forecasts/ubcSSfPatriciaBaySSH10m.xml
+  - rolling-forecasts/ubcSSfPointAtkinsonSSH10m.xml
+  - rolling-forecasts/ubcSSfPortRenfrewSSH10m.xml
+  - rolling-forecasts/ubcSSfSandHeadsSSH10m.xml
+  - rolling-forecasts/ubcSSfSandyCoveSSH10m.xml
+  - rolling-forecasts/ubcSSfSquamishSSH10m.xml
+  - rolling-forecasts/ubcSSfVictoriaSSH10m.xml
+  - rolling-forecasts/ubcSSfWoodwardsLandingSSH10m.xml
+
+  # WaveWatch III results
+  - wwatch3/ubcSSf2DWaveFields30mV17-02.xml
+  - wwatch3/ubcSSWaveWatch3-SoGFilesV17-02.xml
+
+  # FVCOM Vancouver Harbour and Lower Fraser River (VHFR) results
+  - fvcom-vhfr/ubcSSFVCOM-VHFRLowFilesV2.xml
+  - fvcom-vhfr/ubcSSFVCOM-VHFR-BaroclinicX2.xml
+  - fvcom-vhfr/ubcSSFVCOM-VHFR-BaroclinicR12.xml
+
+  # ONC observations
+  - onc-observations/ubcONCSCVIPCTD15mV1.xml
+  - onc-observations/ubcONCSEVIPCTD15mV1.xml
+  - onc-observations/ubcONCLSBBLCTD15mV1.xml
+  - onc-observations/ubcONCUSDDLCTD15mV1.xml
+  - onc-observations/ubcONCTWDP1mV18-01.xml
+
+  # 2nd Narrows Rail Bridge HADCP observations
+  - 2ndNarrowsHADCP-observations/ubcVFPA2ndNarrowsCurrent2sV1.xml

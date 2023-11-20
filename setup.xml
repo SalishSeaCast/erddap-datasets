@@ -49,8 +49,8 @@ You MUST CHANGE these to the appropriate browser administrator for your site.
 Whether or not you set up the email system, all potential email messages
 are logged to an emailLogYEAR-MONTH.txt file in [bigParentDirectory]/logs/.
 -->
-<emailEverythingTo>ckrzysik@eos.ubc.ca,dlatornell@eoas.ubc.ca</emailEverythingTo>
-<emailDailyReportsTo>ckrzysik@eos.ubc.ca</emailDailyReportsTo>
+<emailEverythingTo>dlatornell@eoas.ubc.ca</emailEverythingTo>
+<emailDailyReportsTo>dlatornell@eoas.ubc.ca</emailDailyReportsTo>
 
 <!-- This lets you specify a regular expression which determines which datasetIDs
 in the datasets.xml file should be loaded.
@@ -176,15 +176,15 @@ You MUST CHANGE these to describe your installation.
 -->
 <adminInstitution>EOAS UBC</adminInstitution>
 <adminInstitutionUrl>https://www.eoas.ubc.ca</adminInstitutionUrl>
-<adminIndividualName>Charles Krzysik EOAS Systems Analyst</adminIndividualName>
+<adminIndividualName>Doug Latornell</adminIndividualName>
 <adminPosition>ERDDAP administrator</adminPosition>
-<adminPhone>604 822 9110</adminPhone>
-<adminAddress>113M-6339 Stores Rd</adminAddress>
+<adminPhone>604 822 2449</adminPhone>
+<adminAddress>2020 – 2207 Main Mall</adminAddress>
 <adminCity>Vancouver</adminCity>
 <adminStateOrProvince>BC</adminStateOrProvince>
 <adminPostalCode>V6T1Z4</adminPostalCode>
 <adminCountry>Canada</adminCountry>
-<adminEmail>ckrzysik@eos.ubc.ca</adminEmail>
+<adminEmail>dlatornell@eoas.ubc.ca</adminEmail>
 
 <!--
 These default accessConstraints, fees, and keywords are used by

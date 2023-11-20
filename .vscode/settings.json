@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "erddap",
+        "jupyterlab",
+        "lxml",
+        "pyyaml",
+        "structlog"
+    ],
+    "esbonio.sphinx.confDir": ""
+}
