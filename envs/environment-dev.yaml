@@ -12,6 +12,7 @@ channels:
 
 dependencies:
   - bottleneck
+  - docutils
   - jupyterlab
   - lxml
   - netcdf4
