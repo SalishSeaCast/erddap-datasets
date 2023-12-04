@@ -81,10 +81,10 @@ The contents are a combination of:
 
 .. _WWatch3_datasets.ipynb: https://nbviewer.org/github/SalishSeaCast/erddap-datasets/blob/main/WWatch3_datasets.ipynb
 
-**Building WaveWatch3®(TM) ERDDAP Datasets**
+**Building WaveWatch III® ERDDAP Datasets**
 
 This notebook documents the process of creating XML fragments for SalishSeaCast
-rolling forecast WaveWatch3® run results files for inclusion in
+rolling forecast WaveWatch III® run results files for inclusion in
 /results/erddap-datasets/datasets.xml which is symlinked to /opt/tomcat/content/erddap/datasets.xml
 on the skookum ERDDAP server instance.
 
