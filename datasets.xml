@@ -1672,7 +1672,7 @@ v21-08: tmaskutil, umaskutil, vmaskutil, fmaskutil, glamt, glamu, glamv, glamf, 
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/SalishSeaCast/grid/</fileDir>
   <recursive>false</recursive>
-  <fileNameRegex>.*mesh_mask201702\.nc$</fileNameRegex>
+  <fileNameRegex>.*mesh_mask202108\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
   <matchAxisNDigits>20</matchAxisNDigits>
   <fileTableInMemory>false</fileTableInMemory>
