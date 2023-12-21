@@ -54,6 +54,16 @@ Execution::
 Jupyter Notebooks
 =================
 
+`mesh_mask202108_metadata.ipynb`_
+---------------------------------
+
+.. _mesh_mask202108_metadata.ipynb: https://nbviewer.org/github/SalishSeaCast/tools/blob/main/bathymetry/mesh_mask202108_metadata.ipynb
+
+**mesh_mask202108.nc Metadata**
+
+Add metadata to the NEMO-generated mesh mask file for the 202108 bathymetry so that well-defined ERDDAP datasets can be produced from it.
+
+
 `ERDDAP_datasets.ipynb`_
 -------------------------
 
