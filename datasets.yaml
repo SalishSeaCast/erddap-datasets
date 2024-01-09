@@ -28,6 +28,7 @@ datasets:
   # SalishSeaCast NEMO v2021-11 results
   # hour-averaged fields
   - ssc-nemo-202111/ubcSSg3DuGridFields1hV21-11.xml
+  - ssc-nemo-202111/ubcSSg3DvGridFields1hV21-11.xml
   # SalishSeaCast NEMO v2019-05 results
   # hour-averaged fields
   - ssc-nemo-201905/ubcSSg3DuGridFields1hV19-05.xml
