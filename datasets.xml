@@ -19,1035 +19,6 @@
 <subscriptionEmailBlacklist>
 </subscriptionEmailBlacklist>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnBathymetryV17-02" active="true">
-  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/SalishSeaCast/grid/</fileDir>
-  <recursive>false</recursive>
-  <fileNameRegex>.*bathymetry_201702\.nc$</fileNameRegex>
-  <metadataFrom>last</metadataFrom>
-  <matchAxisNDigits>20</matchAxisNDigits>
-  <fileTableInMemory>false</fileTableInMemory>
-  <accessibleViaFiles>false</accessibleViaFiles>
-  <!-- sourceAttributes>
-        <att name="_NCProperties">version=1|netcdflibversion=4.4.1|hdf5libversion=1.8.17</att>
-        <att name="comment">Bathymetry processed from Michaels New Full River Bathymetry</att>
-        <att name="Conventions">CF-1.6</att>
-        <att name="history">[2017-02-28 18:55:52] Created netCDF4 zlib=True dataset.</att>
-        <att name="institution">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-        <att name="references">REQUIRED</att>
-        <att name="source">https://bitbucket.org/salishsea/analysis-susan/src/tip/notebooks/bathymetry/ProcessNewRiverBathymetry.ipynb</att>
-        <att name="title">Bathymetry 201702</att>
-    </sourceAttributes -->
-  <addAttributes>
-    <att name="cdm_data_type">Grid</att>
-    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
-    <att name="creator_name">SalishSeaCast Project Contributors</att>
-    <att name="creator_email">sallen@eoas.ubc.ca</att>
-    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
-National Ocean and Atmospheric Administration (NOAA), 
-United States Geological Service (USGS), 
-Digital Research Alliance of Canada
-
-This product has been produced by the University of British Columbia based in part on 
-Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
-No. 2016-0504-1260-U.
-
-The incorporation of data sourced from CHS in this product shall not be construed as
-constituting an endorsement of CHS of this product.
-
-This product does not meet the requirements of Charts and Nautical Publications Regulations,
-1995 under the Canadian Shipping Act, 2001.
-Official charts and publications, corrected and up-to-data,
-must be used to meet the requirements of those regulations.</att>
-    <att name="drawLandMask">over</att>
-    <att name="institution">UBC EOAS</att>
-    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
-    <att name="keywords">bathymetry, depth, latitude, longitude, nav_lat, nav_lon, ocean, oceans,
-Oceans &gt; Bathymetry/Seafloor Topography &gt; Bathymetry,
-Salish Sea, sea floor, sea_floor_depth, seafloor, topography</att>
-    <att name="keywords_vocabulary">GCMD Science Keywords</att>
-    <att name="license">The SalishSeaCast NEMO model results are copyright
-by the SalishSeaCast Project Contributors and The University of British Columbia.
-
-They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">SalishSeaCast NEMO Model Grid, Geo-location and Bathymetry, v17-02
-
-Longitude, latitude, and bathymetry of the SalishSeaCast NEMO model grid.
-The bathymetry values are those calculated by NEMO from the input bathymetry file.
-NEMO modifies the input bathymetry to remove isolated holes, and too-small partial steps;
-See the ubcSSn2DMeshMaskV17-02 dataset for the complete details of the calculation grid.
-The model grid includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
-and Johnstone Strait on the coasts of Washington State and British Columbia.
-
-v1: longitude, latitude and bathymetry variables
-v16-07: same variables,
-        bathymetry uniformly deepened by 1 grid level,
-        smoothed at Juan de Fuca &amp; Johnstone Strait open boundaries,
-        Fraser River lengthened,
-        bathymetry deepened near mouth of Fraser River
-v17-02: same variables,
-        Bathymetry composed from 3 datasets:
-        * USGS Digital elevation model (DEM) of Cascadia, latitude 39N-53N, longitude 116W-133W, Open-File Report 99-369, https://pubs.er.usgs.gov/publication/ofr99369
-        * NOAA British Columbia, 3 arc-second MSL DEM, https://www.ngdc.noaa.gov/dem/squareCellGrid/download/4956
-        * CHS Multibeam data and all point cloud data for the Salish Sea.
-        Smoothed at Juan de Fuca &amp; Johnstone Strait open boundaries.
-        Proxy channel for Fraser River upstream of confluence with the Pitt River.
-        Adjustments by Michael Dunphy to make increase resolution of Fraser River channels downstream of confluence with the Pitt River.
-</att>
-    <att name="title">SalishSeaCast NEMO Model Grid, Geo-location and Bathymetry, v17-02</att>
-    <att name="project">SalishSeaCast NEMO Model</att>
-    <att name="references">https://github.com/SalishSeaCast/grid/blob/main/bathymetry_201702.nc</att>
-    <att name="source">https://github.com/SalishSeaCast/tools/blob/main/bathymetry/ProcessNewRiverBathymetry.ipynb</att>
-    <att name="NCO">null</att>
-    <att name="comment">null</att>
-  </addAttributes>
-  <axisVariable>
-    <sourceName>y</sourceName>
-    <destinationName>gridY</destinationName>
-    <!-- sourceAttributes>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="long_name">Grid Y</att>
-      <att name="standard_name">y</att>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="comment">y values are grid indices in the model y-direction.</att>
-      <att name="ioos_category">location</att>
-    </addAttributes>
-  </axisVariable>
-  <axisVariable>
-    <sourceName>x</sourceName>
-    <destinationName>gridX</destinationName>
-    <!-- sourceAttributes>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="long_name">Grid X</att>
-      <att name="standard_name">x</att>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="comment">x values are grid indices in the model x-direction.</att>
-      <att name="ioos_category">location</att>
-    </addAttributes>
-  </axisVariable>
-  <dataVariable>
-    <sourceName>Bathymetry</sourceName>
-    <destinationName>bathymetry</destinationName>
-    <dataType>double</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">898 398</att>
-            <att name="_FillValue" type="double">0.0</att>
-            <att name="least_significant_digit" type="double">0.1</att>
-            <att name="units">metres</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSizes">null</att>
-      <att name="colorBarMaximum" type="double">450.0</att>
-      <att name="colorBarMinimum" type="double">0.0</att>
-      <att name="colorBarPalette">OceanDepth</att>
-      <att name="long_name">Sea Floor Depth</att>
-      <att name="standard_name">sea_floor_depth</att>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-      <att name="ioos_category">bathymetry</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>nav_lat</sourceName>
-    <destinationName>latitude</destinationName>
-    <dataType>double</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">898 398</att>
-            <att name="units">degrees_north</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSizes">null</att>
-      <att name="colorBarMaximum" type="double">52.0</att>
-      <att name="colorBarMinimum" type="double">46.0</att>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-      <att name="ioos_category">location</att>
-      <att name="standard_name">latitude</att>
-      <att name="long_name">Latitude</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>nav_lon</sourceName>
-    <destinationName>longitude</destinationName>
-    <dataType>double</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">898 398</att>
-            <att name="units">degrees_east</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="_ChunkSizes">null</att>
-      <att name="colorBarMaximum" type="double">-121.0</att>
-      <att name="colorBarMinimum" type="double">-127.0</att>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-      <att name="ioos_category">location</att>
-      <att name="standard_name">longitude</att>
-      <att name="long_name">Longitude</att>
-    </addAttributes>
-  </dataVariable>
-</dataset>
-
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMaskV17-02" active="true">
-  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/SalishSeaCast/grid/</fileDir>
-  <recursive>false</recursive>
-  <fileNameRegex>.*mesh_mask201702\.nc$</fileNameRegex>
-  <metadataFrom>last</metadataFrom>
-  <matchAxisNDigits>20</matchAxisNDigits>
-  <fileTableInMemory>false</fileTableInMemory>
-  <accessibleViaFiles>false</accessibleViaFiles>
-  <!-- sourceAttributes>
-        <att name="Conventions">CF-1.6</att>
-        <att name="file_name">NEMO-forcing/grid/mesh_mask201702.nc</att>
-        <att name="history">[2017-04-13 22:37] ncks -4 -L4 -O mesh_mask.nc mesh_mask201702.nc
-[2017-05-15 12:41] Added metadata to variable in preparation for creation of ERDDAP datasets.</att>
-        <att name="institution">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-        <att name="references">https://salishsea.eos.ubc.ca/erddap/info/
-https://bitbucket.org/salishsea/nemo-forcing/src/tip/grid/bathymetery_201702.nc
-</att>
-        <att name="source">NEMO-3.6 Salish Sea configuration</att>
-        <att name="TimeStamp">13/04/2017 22:37:31 -0700</att>
-        <att name="title">Salish Sea NEMO bathymetry_201702 Bathymetry Mesh Mask</att>
-    </sourceAttributes -->
-  <addAttributes>
-    <att name="cdm_data_type">Grid</att>
-    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
-    <att name="creator_name">SalishSeaCast Project Contributors</att>
-    <att name="creator_email">sallen@eoas.ubc.ca</att>
-    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
-National Ocean and Atmospheric Administration (NOAA), 
-United States Geological Service (USGS), 
-Digital Research Alliance of Canada
-
-This product has been produced by the University of British Columbia based in part on 
-Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
-No. 2016-0504-1260-U.
-
-The incorporation of data sourced from CHS in this product shall not be construed as
-constituting an endorsement of CHS of this product.
-
-This product does not meet the requirements of Charts and Nautical Publications Regulations,
-1995 under the Canadian Shipping Act, 2001.
-Official charts and publications, corrected and up-to-data,
-must be used to meet the requirements of those regulations.</att>
-    <att name="drawLandMask">over</att>
-    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
-    <att name="institution">UBC EOAS</att>
-    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-    <att name="keywords">bathymetry, coordinates, depth, e1t, e1u, e1v, e1f, e2t, e2u, e2v, e2f, ff, f-grid, fmaskutil,
-glamt, glamu, glamv, glamf, gphit, gphiu, gphiv, gphif, grid, grid parameters, mbathy, mesh mask, NEMO, ocean,
-Salish Sea, sea, spacing, t-grid, tmaskutil, u-grid, umaskutil, v-grid, vmaskutil, vorticity-grid</att>
-    <att name="license">The SalishSeaCast NEMO model results are copyright
-by the SalishSeaCast Project Contributors and The University of British Columbia.
-
-They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">SalishSeaCast NEMO Model Grid, 2D Mesh Mask, v17-02
-
-NEMO grid variable value for the u-v plane of the
-SalishSeaCast NEMO model Arakawa-C grid.
-The values are those calculated by NEMO from the input coordinates and bathymetry files.
-The variable names are those used by NEMO-3.6,
-see the NEMO-3.6 book (http://www.nemo-ocean.eu/Media/Files/NEMO_book_V3_6.pdf) for details,
-or the long_name attributes of the variables for succinct descriptions of the variables.
-The model grid includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
-and Johnstone Strait on the coasts of Washington State and British Columbia.
-
-v1: e1t, e2t, e1u, e2u, e1v, e2v, e1f, e2f, glamt, gphit, glamu, gphiu, glamv, gphiv,
-    tmaskutil, umaskutil, vmaskutil, fmaskutil, ff, mbathy variables
-v16-07: e1t, e2t, e1u, e2u, e1v, e2v, e1f, e2f, glamt, gphit, glamu, gphiu, glamv, gphiv,
-        glamf, gphif, tmaskutil, umaskutil, vmaskutil, fmaskutil, ff, mbathy variables
-v17-02: tmaskutil, umaskutil, vmaskutil, fmaskutil, glamt, glamu, glamv, glamf, gphit, gphiu, gphiv, gphif,
-        e1t, e1u, e1v, e1f, e2t, e2u, e2v, e2f, ff, mbathy variables</att>
-    <att name="title">SalishSeaCast NEMO Model Grid, 2D Mesh Mask, v17-02</att>
-    <att name="project">SalishSeaCast NEMO Model</att>
-    <att name="references">https://github.com/SalishSeaCast/grid/blob/main/mesh_mask201702.nc</att>
-    <att name="NCO">null</att>
-    <att name="history">null</att>
-    <att name="name">null</att>
-    <att name="comment">null</att>
-  </addAttributes>
-  <axisVariable>
-    <sourceName>t</sourceName>
-    <destinationName>time</destinationName>
-    <!-- sourceAttributes>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Time Axis</att>
-      <att name="standard_name">time</att>
-      <att name="calendar">proleptic_gregorian</att>
-      <att name="time_origin">2014-09-12 00:30:00</att>
-      <att name="units">seconds since 2014-09-12 00:30:00</att>
-    </addAttributes>
-  </axisVariable>
-  <axisVariable>
-    <sourceName>y</sourceName>
-    <destinationName>gridY</destinationName>
-    <!-- sourceAttributes>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Grid Y</att>
-      <att name="standard_name">y</att>
-      <att name="units">count</att>
-      <att name="comment">gridY values are grid indices in the model y-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
-      <att name="ioos_category">location</att>
-    </addAttributes>
-  </axisVariable>
-  <axisVariable>
-    <sourceName>x</sourceName>
-    <destinationName>gridX</destinationName>
-    <!-- sourceAttributes>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Grid X</att>
-      <att name="standard_name">x</att>
-      <att name="units">count</att>
-      <att name="comment">gridX values are grid indices in the model x-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
-      <att name="ioos_category">location</att>
-    </addAttributes>
-  </axisVariable>
-  <dataVariable>
-    <sourceName>tmaskutil</sourceName>
-    <destinationName>tmaskutil</destinationName>
-    <dataType>byte</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Dry Land Mask for T-grid and W-grid</att>
-      <att name="standard_name">tmaskutil</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="flag_meanings">land, water</att>
-      <att name="flag_values">0, 1</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>umaskutil</sourceName>
-    <destinationName>umaskutil</destinationName>
-    <dataType>byte</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Dry Land Mask for U-grid</att>
-      <att name="standard_name">umaskutil</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="flag_meanings">land, water</att>
-      <att name="flag_values">0, 1</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>vmaskutil</sourceName>
-    <destinationName>vmaskutil</destinationName>
-    <dataType>byte</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Dry Land Mask for V-grid</att>
-      <att name="standard_name">vmaskutil</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="flag_meanings">land, water</att>
-      <att name="flag_values">0, 1</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>fmaskutil</sourceName>
-    <destinationName>fmaskutil</destinationName>
-    <dataType>byte</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Dry Land Mask for vorticity-grid</att>
-      <att name="standard_name">fmaskutil</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="flag_meanings">land, water</att>
-      <att name="flag_values">0, 1</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>glamt</sourceName>
-    <destinationName>glamt</destinationName>
-    <dataType>float</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Longitude of T-grid Points</att>
-      <att name="standard_name">glamt</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">degrees_east</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>glamu</sourceName>
-    <destinationName>glamu</destinationName>
-    <dataType>float</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Longitude of U-grid Points</att>
-      <att name="standard_name">glamu</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">degrees_east</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>glamv</sourceName>
-    <destinationName>glamv</destinationName>
-    <dataType>float</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Longitude of V-grid Points</att>
-      <att name="standard_name">glamv</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">degrees_east</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>glamf</sourceName>
-    <destinationName>glamf</destinationName>
-    <dataType>float</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Longitude of Vorticity-grid Points</att>
-      <att name="standard_name">glamf</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">degrees_east</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>gphit</sourceName>
-    <destinationName>gphit</destinationName>
-    <dataType>float</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Latitude of T-grid Points</att>
-      <att name="standard_name">gphit</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">degrees_north</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>gphiu</sourceName>
-    <destinationName>gphiu</destinationName>
-    <dataType>float</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Latitude of U-grid Points</att>
-      <att name="standard_name">gphiu</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">degrees_north</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>gphiv</sourceName>
-    <destinationName>gphiv</destinationName>
-    <dataType>float</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Latitude of V-grid Points</att>
-      <att name="standard_name">gphiv</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">degrees_north</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>gphif</sourceName>
-    <destinationName>gphif</destinationName>
-    <dataType>float</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Latitude of Vorticity-grid Points</att>
-      <att name="standard_name">gphif</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">degrees_north</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e1t</sourceName>
-    <destinationName>e1t</destinationName>
-    <dataType>double</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Grid Spacing on T-grid in u Direction</att>
-      <att name="standard_name">e1t</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e1u</sourceName>
-    <destinationName>e1u</destinationName>
-    <dataType>double</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Grid Spacing on U-grid in u Direction</att>
-      <att name="standard_name">e1u</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e1v</sourceName>
-    <destinationName>e1v</destinationName>
-    <dataType>double</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Grid Spacing on V-grid in u Direction</att>
-      <att name="standard_name">e1v</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e1f</sourceName>
-    <destinationName>e1f</destinationName>
-    <dataType>double</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Grid Spacing on Vorticity-grid in u Direction</att>
-      <att name="standard_name">e1f</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e2t</sourceName>
-    <destinationName>e2t</destinationName>
-    <dataType>double</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Grid Spacing on T-grid in v Direction</att>
-      <att name="standard_name">e2t</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e2u</sourceName>
-    <destinationName>e2u</destinationName>
-    <dataType>double</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Grid Spacing on U-grid in v Direction</att>
-      <att name="standard_name">e2u</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e2v</sourceName>
-    <destinationName>e2v</destinationName>
-    <dataType>double</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Grid Spacing on V-grid in v Direction</att>
-      <att name="standard_name">e2v</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e2f</sourceName>
-    <destinationName>e2f</destinationName>
-    <dataType>double</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Grid Spacing on Vorticity-grid in v Direction</att>
-      <att name="standard_name">e2f</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>ff</sourceName>
-    <destinationName>ff</destinationName>
-    <dataType>double</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Coriolis parameter on Vorticity-grid</att>
-      <att name="standard_name">ff</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">s-1</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>mbathy</sourceName>
-    <destinationName>mbathy</destinationName>
-    <dataType>short</dataType>
-    <addAttributes>
-      <att name="content_coverage_type">modelResult</att>
-      <att name="long_name">Fortran Index of Deepest Water Cell, T-grid</att>
-      <att name="standard_name">mbathy</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">count</att>
-    </addAttributes>
-  </dataVariable>
-</dataset>
-
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DMeshMaskV17-02" active="true">
-  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
-  <fileDir>/SalishSeaCast/grid/</fileDir>
-  <recursive>false</recursive>
-  <fileNameRegex>.*mesh_mask201702\.nc$</fileNameRegex>
-  <metadataFrom>last</metadataFrom>
-  <matchAxisNDigits>20</matchAxisNDigits>
-  <fileTableInMemory>false</fileTableInMemory>
-  <accessibleViaFiles>false</accessibleViaFiles>
-  <!-- sourceAttributes>
-        <att name="Conventions">CF-1.6</att>
-        <att name="file_name">NEMO-forcing/grid/mesh_mask201702.nc</att>
-        <att name="history">[2017-04-13 22:37] ncks -4 -L4 -O mesh_mask.nc mesh_mask201702.nc
-[2017-05-15 12:41] Added metadata to variable in preparation for creation of ERDDAP datasets.</att>
-        <att name="institution">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-        <att name="references">https://salishsea.eos.ubc.ca/erddap/info/
-https://bitbucket.org/salishsea/nemo-forcing/src/tip/grid/bathymetery_201702.nc
-</att>
-        <att name="source">NEMO-3.6 Salish Sea configuration</att>
-        <att name="TimeStamp">13/04/2017 22:37:31 -0700</att>
-        <att name="title">SalishSeaCast NEMO bathymetry_201702 Bathymetry Mesh Mask</att>
-    </sourceAttributes -->
-  <addAttributes>
-    <att name="cdm_data_type">Grid</att>
-    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
-    <att name="creator_name">SalishSeaCast Project Contributors</att>
-    <att name="creator_email">sallen@eoas.ubc.ca</att>
-    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
-National Ocean and Atmospheric Administration (NOAA), 
-United States Geological Service (USGS), 
-Digital Research Alliance of Canada
-
-This product has been produced by the University of British Columbia based in part on 
-Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
-No. 2016-0504-1260-U.
-
-The incorporation of data sourced from CHS in this product shall not be construed as
-constituting an endorsement of CHS of this product.
-
-This product does not meet the requirements of Charts and Nautical Publications Regulations,
-1995 under the Canadian Shipping Act, 2001.
-Official charts and publications, corrected and up-to-data,
-must be used to meet the requirements of those regulations.</att>
-    <att name="drawLandMask">over</att>
-    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
-    <att name="institution">UBC EOAS</att>
-    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-    <att name="keywords">bathymetry, coordinates, depth, e3t_0, e3u_0, e3v_0, e3w_0, f-grid, fmask, gdept_0, gdepu, gdepv,
-gdepw_0, grid, grid parameters, mesh mask, NEMO, ocean, Salish Sea, sea, spacing, t-grid, tmask, u-grid, umask,
-v-grid, vmask, vorticity-grid, w-grid</att>
-    <att name="license">The SalishSeaCast NEMO model results are copyright
-by the SalishSeaCast Project Contributors and The University of British Columbia.
-
-They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">SalishSeaCast NEMO Model Grid, 3D Mesh Mask, v17-02
-
-NEMO grid variable value for the SalishSeaCast NEMO model Arakawa-C grid.
-The values are those calculated by NEMO from the input coordinates and bathymetry files.
-The variable names are those used by NEMO-3.6,
-see the NEMO-3.6 book (http://www.nemo-ocean.eu/Media/Files/NEMO_book_V3_6.pdf) for details,
-or the long_name attributes of the variables for succinct descriptions of the variables.
-The model grid includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
-and Johnstone Strait on the coasts of Washington State and British Columbia.
-
-v1: e3t_0, e3u_0, e3v_0, e3w_0, gdept_0, gdepu, gdepv, gdepw_0, tmask, umask, vmask, fmask variables
-v16-07: e3t, e3u, e3v, e3w, gdept, gdepu, gdepv, gdepw, tmask, umask, vmask, fmask variables
-
-v17-02: tmask, umask, vmask, fmask, e3t_0, e3u_0, e3v_0, e3w_0, gdept_0, gdepu, gdepv, gdepw_0 variables</att>
-    <att name="title">SalishSeaCast NEMO Model Grid, 3D Mesh Mask, v17-02</att>
-    <att name="project">SalishSeaCast NEMO Model</att>
-    <att name="references">https://github.com/SalishSeaCast/grid/blob/main/mesh_mask201702.nc</att>
-    <att name="NCO">null</att>
-    <att name="history">null</att>
-    <att name="name">null</att>
-    <att name="comment">null</att>
-  </addAttributes>
-  <axisVariable>
-    <sourceName>t</sourceName>
-    <destinationName>time</destinationName>
-    <!-- sourceAttributes>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Time Axis</att>
-      <att name="standard_name">time</att>
-      <att name="calendar">proleptic_gregorian</att>
-      <att name="time_origin">2014-09-12 00:30:00</att>
-      <att name="units">seconds since 2014-09-12 00:30:00</att>
-    </addAttributes>
-  </axisVariable>
-  <axisVariable>
-    <sourceName>z</sourceName>
-    <destinationName>gridZ</destinationName>
-    <!-- sourceAttributes>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Grid Z</att>
-      <att name="standard_name">z</att>
-      <att name="units">count</att>
-      <att name="comment">gridZ values are grid indices of the model depth levels.</att>
-      <att name="ioos_category">location</att>
-    </addAttributes>
-  </axisVariable>
-  <axisVariable>
-    <sourceName>y</sourceName>
-    <destinationName>gridY</destinationName>
-    <!-- sourceAttributes>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Grid Y</att>
-      <att name="standard_name">y</att>
-      <att name="units">count</att>
-      <att name="comment">gridY values are grid indices in the model y-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
-      <att name="ioos_category">location</att>
-    </addAttributes>
-  </axisVariable>
-  <axisVariable>
-    <sourceName>x</sourceName>
-    <destinationName>gridX</destinationName>
-    <!-- sourceAttributes>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Grid X</att>
-      <att name="standard_name">x</att>
-      <att name="units">count</att>
-      <att name="comment">gridX values are grid indices in the model x-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
-      <att name="ioos_category">location</att>
-    </addAttributes>
-  </axisVariable>
-  <dataVariable>
-    <sourceName>tmask</sourceName>
-    <destinationName>tmask</destinationName>
-    <dataType>byte</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 20 449 199</att>
-            <att name="flag_meanings">land, water</att>
-            <att name="flag_values">0, 1</att>
-            <att name="long_name">mask for T-grid and W-grid</att>
-            <att name="standard_name">tmask</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Land Mask for T-grid and W-grid</att>
-      <att name="standard_name">tmask</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="flag_meanings">land, water</att>
-      <att name="flag_values">0, 1</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>umask</sourceName>
-    <destinationName>umask</destinationName>
-    <dataType>byte</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 20 449 199</att>
-            <att name="flag_meanings">land, water</att>
-            <att name="flag_values">0, 1</att>
-            <att name="long_name">mask for U-grid</att>
-            <att name="standard_name">umask</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Land Mask for U-grid</att>
-      <att name="standard_name">umask</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="flag_meanings">land, water</att>
-      <att name="flag_values">0, 1</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>vmask</sourceName>
-    <destinationName>vmask</destinationName>
-    <dataType>byte</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 20 449 199</att>
-            <att name="flag_meanings">land, water</att>
-            <att name="flag_values">0, 1</att>
-            <att name="long_name">mask for V-grid</att>
-            <att name="standard_name">vmask</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Land Mask for V-grid</att>
-      <att name="standard_name">vmask</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="flag_meanings">land, water</att>
-      <att name="flag_values">0, 1</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>fmask</sourceName>
-    <destinationName>fmask</destinationName>
-    <dataType>byte</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 20 449 199</att>
-            <att name="flag_meanings">land, water</att>
-            <att name="flag_values">0, 1</att>
-            <att name="long_name">mask for vorticity-grid</att>
-            <att name="standard_name">fmask</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Land Mask for vorticity-grid</att>
-      <att name="standard_name">fmask</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="flag_meanings">land, water</att>
-      <att name="flag_values">0, 1</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e3t_0</sourceName>
-    <destinationName>e3t_0</destinationName>
-    <dataType>double</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 10 225 100</att>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="long_name">grid spacing on T-grid in w direction</att>
-            <att name="standard_name">e3t_0</att>
-            <att name="units">m</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Grid Spacing on T-grid in w Direction</att>
-      <att name="standard_name">e3t_0</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e3u_0</sourceName>
-    <destinationName>e3u_0</destinationName>
-    <dataType>double</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 10 225 100</att>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="long_name">grid spacing on U-grid in w direction</att>
-            <att name="standard_name">e3u_0</att>
-            <att name="units">m</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Grid Spacing on U-grid in w Direction</att>
-      <att name="standard_name">e3u_0</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e3v_0</sourceName>
-    <destinationName>e3v_0</destinationName>
-    <dataType>double</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 10 225 100</att>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="long_name">grid spacing on V-grid in w direction</att>
-            <att name="standard_name">e3v_0</att>
-            <att name="units">m</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Grid Spacing on V-grid in w Direction</att>
-      <att name="standard_name">e3v_0</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>e3w_0</sourceName>
-    <destinationName>e3w_0</destinationName>
-    <dataType>double</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 10 225 100</att>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="long_name">grid spacing on W-grid in w direction</att>
-            <att name="standard_name">e3w_0</att>
-            <att name="units">m</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Grid Spacing on W-grid in w Direction</att>
-      <att name="standard_name">e3w_0</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>gdept_0</sourceName>
-    <destinationName>gdept_0</destinationName>
-    <dataType>float</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 14 300 133</att>
-            <att name="_FillValue" type="float">NaN</att>
-            <att name="long_name">depth of T-grid points</att>
-            <att name="positive">down</att>
-            <att name="standard_name">gdept_0</att>
-            <att name="units">m</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Depth of T-grid Points</att>
-      <att name="positive">down</att>
-      <att name="standard_name">gdept_0</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>gdepu</sourceName>
-    <destinationName>gdepu</destinationName>
-    <dataType>float</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 14 300 133</att>
-            <att name="_FillValue" type="float">NaN</att>
-            <att name="long_name">depth of U-grid points</att>
-            <att name="positive">down</att>
-            <att name="standard_name">gdepu</att>
-            <att name="units">m</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Depth of U-grid Points</att>
-      <att name="positive">down</att>
-      <att name="standard_name">gdepu</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>gdepv</sourceName>
-    <destinationName>gdepv</destinationName>
-    <dataType>float</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 14 300 133</att>
-            <att name="_FillValue" type="float">NaN</att>
-            <att name="long_name">depth of V-grid points</att>
-            <att name="positive">down</att>
-            <att name="standard_name">gdepv</att>
-            <att name="units">m</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Depth of V-grid Points</att>
-      <att name="positive">down</att>
-      <att name="standard_name">gdepv</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-  <dataVariable>
-    <sourceName>gdepw_0</sourceName>
-    <destinationName>gdepw_0</destinationName>
-    <dataType>float</dataType>
-    <!-- sourceAttributes>
-            <att name="_ChunkSize" type="intList">1 14 300 133</att>
-            <att name="_FillValue" type="float">NaN</att>
-            <att name="long_name">depth of W-grid points</att>
-            <att name="positive">down</att>
-            <att name="standard_name">gdepw_0</att>
-            <att name="units">m</att>
-        </sourceAttributes -->
-    <addAttributes>
-      <att name="coverage_content_type">modelResult</att>
-      <att name="long_name">Depth of W-grid Points</att>
-      <att name="positive">down</att>
-      <att name="standard_name">gdepw_0</att>
-      <att name="ioos_category">grid_parameter</att>
-      <att name="units">m</att>
-      <att name="_ChunkSizes">null</att>
-      <att name="cell_measures">null</att>
-      <att name="cell_methods">null</att>
-      <att name="interval_operation">null</att>
-      <att name="interval_write">null</att>
-      <att name="online_operation">null</att>
-    </addAttributes>
-  </dataVariable>
-</dataset>
-
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnBathymetryV21-08" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
@@ -2114,6 +1085,1035 @@ v21-08: tmask, umask, vmask, fmask, e3t_0, e3u_0, e3v_0, e3w_0, gdept_0, gdepu, 
   </dataVariable>
 </dataset>
 
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSnBathymetryV17-02" active="true">
+  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
+  <fileDir>/SalishSeaCast/grid/</fileDir>
+  <recursive>false</recursive>
+  <fileNameRegex>.*bathymetry_201702\.nc$</fileNameRegex>
+  <metadataFrom>last</metadataFrom>
+  <matchAxisNDigits>20</matchAxisNDigits>
+  <fileTableInMemory>false</fileTableInMemory>
+  <accessibleViaFiles>false</accessibleViaFiles>
+  <!-- sourceAttributes>
+        <att name="_NCProperties">version=1|netcdflibversion=4.4.1|hdf5libversion=1.8.17</att>
+        <att name="comment">Bathymetry processed from Michaels New Full River Bathymetry</att>
+        <att name="Conventions">CF-1.6</att>
+        <att name="history">[2017-02-28 18:55:52] Created netCDF4 zlib=True dataset.</att>
+        <att name="institution">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+        <att name="references">REQUIRED</att>
+        <att name="source">https://bitbucket.org/salishsea/analysis-susan/src/tip/notebooks/bathymetry/ProcessNewRiverBathymetry.ipynb</att>
+        <att name="title">Bathymetry 201702</att>
+    </sourceAttributes -->
+  <addAttributes>
+    <att name="cdm_data_type">Grid</att>
+    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="creator_name">SalishSeaCast Project Contributors</att>
+    <att name="creator_email">sallen@eoas.ubc.ca</att>
+    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
+National Ocean and Atmospheric Administration (NOAA), 
+United States Geological Service (USGS), 
+Digital Research Alliance of Canada
+
+This product has been produced by the University of British Columbia based in part on 
+Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
+No. 2016-0504-1260-U.
+
+The incorporation of data sourced from CHS in this product shall not be construed as
+constituting an endorsement of CHS of this product.
+
+This product does not meet the requirements of Charts and Nautical Publications Regulations,
+1995 under the Canadian Shipping Act, 2001.
+Official charts and publications, corrected and up-to-data,
+must be used to meet the requirements of those regulations.</att>
+    <att name="drawLandMask">over</att>
+    <att name="institution">UBC EOAS</att>
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
+    <att name="keywords">bathymetry, depth, latitude, longitude, nav_lat, nav_lon, ocean, oceans,
+Oceans &gt; Bathymetry/Seafloor Topography &gt; Bathymetry,
+Salish Sea, sea floor, sea_floor_depth, seafloor, topography</att>
+    <att name="keywords_vocabulary">GCMD Science Keywords</att>
+    <att name="license">The SalishSeaCast NEMO model results are copyright
+by the SalishSeaCast Project Contributors and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="summary">SalishSeaCast NEMO Model Grid, Geo-location and Bathymetry, v17-02
+
+Longitude, latitude, and bathymetry of the SalishSeaCast NEMO model grid.
+The bathymetry values are those calculated by NEMO from the input bathymetry file.
+NEMO modifies the input bathymetry to remove isolated holes, and too-small partial steps;
+See the ubcSSn2DMeshMaskV17-02 dataset for the complete details of the calculation grid.
+The model grid includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
+and Johnstone Strait on the coasts of Washington State and British Columbia.
+
+v1: longitude, latitude and bathymetry variables
+v16-07: same variables,
+        bathymetry uniformly deepened by 1 grid level,
+        smoothed at Juan de Fuca &amp; Johnstone Strait open boundaries,
+        Fraser River lengthened,
+        bathymetry deepened near mouth of Fraser River
+v17-02: same variables,
+        Bathymetry composed from 3 datasets:
+        * USGS Digital elevation model (DEM) of Cascadia, latitude 39N-53N, longitude 116W-133W, Open-File Report 99-369, https://pubs.er.usgs.gov/publication/ofr99369
+        * NOAA British Columbia, 3 arc-second MSL DEM, https://www.ngdc.noaa.gov/dem/squareCellGrid/download/4956
+        * CHS Multibeam data and all point cloud data for the Salish Sea.
+        Smoothed at Juan de Fuca &amp; Johnstone Strait open boundaries.
+        Proxy channel for Fraser River upstream of confluence with the Pitt River.
+        Adjustments by Michael Dunphy to make increase resolution of Fraser River channels downstream of confluence with the Pitt River.
+</att>
+    <att name="title">SalishSeaCast NEMO Model Grid, Geo-location and Bathymetry, v17-02</att>
+    <att name="project">SalishSeaCast NEMO Model</att>
+    <att name="references">https://github.com/SalishSeaCast/grid/blob/main/bathymetry_201702.nc</att>
+    <att name="source">https://github.com/SalishSeaCast/tools/blob/main/bathymetry/ProcessNewRiverBathymetry.ipynb</att>
+    <att name="NCO">null</att>
+    <att name="comment">null</att>
+  </addAttributes>
+  <axisVariable>
+    <sourceName>y</sourceName>
+    <destinationName>gridY</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Grid Y</att>
+      <att name="standard_name">y</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="comment">y values are grid indices in the model y-direction.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>x</sourceName>
+    <destinationName>gridX</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Grid X</att>
+      <att name="standard_name">x</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="comment">x values are grid indices in the model x-direction.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <dataVariable>
+    <sourceName>Bathymetry</sourceName>
+    <destinationName>bathymetry</destinationName>
+    <dataType>double</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">898 398</att>
+            <att name="_FillValue" type="double">0.0</att>
+            <att name="least_significant_digit" type="double">0.1</att>
+            <att name="units">metres</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="colorBarMaximum" type="double">450.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="colorBarPalette">OceanDepth</att>
+      <att name="long_name">Sea Floor Depth</att>
+      <att name="standard_name">sea_floor_depth</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">bathymetry</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>nav_lat</sourceName>
+    <destinationName>latitude</destinationName>
+    <dataType>double</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">898 398</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="colorBarMaximum" type="double">52.0</att>
+      <att name="colorBarMinimum" type="double">46.0</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">location</att>
+      <att name="standard_name">latitude</att>
+      <att name="long_name">Latitude</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>nav_lon</sourceName>
+    <destinationName>longitude</destinationName>
+    <dataType>double</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">898 398</att>
+            <att name="units">degrees_east</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="colorBarMaximum" type="double">-121.0</att>
+      <att name="colorBarMinimum" type="double">-127.0</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">location</att>
+      <att name="standard_name">longitude</att>
+      <att name="long_name">Longitude</att>
+    </addAttributes>
+  </dataVariable>
+</dataset>
+
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMaskV17-02" active="true">
+  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
+  <fileDir>/SalishSeaCast/grid/</fileDir>
+  <recursive>false</recursive>
+  <fileNameRegex>.*mesh_mask201702\.nc$</fileNameRegex>
+  <metadataFrom>last</metadataFrom>
+  <matchAxisNDigits>20</matchAxisNDigits>
+  <fileTableInMemory>false</fileTableInMemory>
+  <accessibleViaFiles>false</accessibleViaFiles>
+  <!-- sourceAttributes>
+        <att name="Conventions">CF-1.6</att>
+        <att name="file_name">NEMO-forcing/grid/mesh_mask201702.nc</att>
+        <att name="history">[2017-04-13 22:37] ncks -4 -L4 -O mesh_mask.nc mesh_mask201702.nc
+[2017-05-15 12:41] Added metadata to variable in preparation for creation of ERDDAP datasets.</att>
+        <att name="institution">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+        <att name="references">https://salishsea.eos.ubc.ca/erddap/info/
+https://bitbucket.org/salishsea/nemo-forcing/src/tip/grid/bathymetery_201702.nc
+</att>
+        <att name="source">NEMO-3.6 Salish Sea configuration</att>
+        <att name="TimeStamp">13/04/2017 22:37:31 -0700</att>
+        <att name="title">Salish Sea NEMO bathymetry_201702 Bathymetry Mesh Mask</att>
+    </sourceAttributes -->
+  <addAttributes>
+    <att name="cdm_data_type">Grid</att>
+    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="creator_name">SalishSeaCast Project Contributors</att>
+    <att name="creator_email">sallen@eoas.ubc.ca</att>
+    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
+National Ocean and Atmospheric Administration (NOAA), 
+United States Geological Service (USGS), 
+Digital Research Alliance of Canada
+
+This product has been produced by the University of British Columbia based in part on 
+Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
+No. 2016-0504-1260-U.
+
+The incorporation of data sourced from CHS in this product shall not be construed as
+constituting an endorsement of CHS of this product.
+
+This product does not meet the requirements of Charts and Nautical Publications Regulations,
+1995 under the Canadian Shipping Act, 2001.
+Official charts and publications, corrected and up-to-data,
+must be used to meet the requirements of those regulations.</att>
+    <att name="drawLandMask">over</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
+    <att name="institution">UBC EOAS</att>
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+    <att name="keywords">bathymetry, coordinates, depth, e1t, e1u, e1v, e1f, e2t, e2u, e2v, e2f, ff, f-grid, fmaskutil,
+glamt, glamu, glamv, glamf, gphit, gphiu, gphiv, gphif, grid, grid parameters, mbathy, mesh mask, NEMO, ocean,
+Salish Sea, sea, spacing, t-grid, tmaskutil, u-grid, umaskutil, v-grid, vmaskutil, vorticity-grid</att>
+    <att name="license">The SalishSeaCast NEMO model results are copyright
+by the SalishSeaCast Project Contributors and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="summary">SalishSeaCast NEMO Model Grid, 2D Mesh Mask, v17-02
+
+NEMO grid variable value for the u-v plane of the
+SalishSeaCast NEMO model Arakawa-C grid.
+The values are those calculated by NEMO from the input coordinates and bathymetry files.
+The variable names are those used by NEMO-3.6,
+see the NEMO-3.6 book (http://www.nemo-ocean.eu/Media/Files/NEMO_book_V3_6.pdf) for details,
+or the long_name attributes of the variables for succinct descriptions of the variables.
+The model grid includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
+and Johnstone Strait on the coasts of Washington State and British Columbia.
+
+v1: e1t, e2t, e1u, e2u, e1v, e2v, e1f, e2f, glamt, gphit, glamu, gphiu, glamv, gphiv,
+    tmaskutil, umaskutil, vmaskutil, fmaskutil, ff, mbathy variables
+v16-07: e1t, e2t, e1u, e2u, e1v, e2v, e1f, e2f, glamt, gphit, glamu, gphiu, glamv, gphiv,
+        glamf, gphif, tmaskutil, umaskutil, vmaskutil, fmaskutil, ff, mbathy variables
+v17-02: tmaskutil, umaskutil, vmaskutil, fmaskutil, glamt, glamu, glamv, glamf, gphit, gphiu, gphiv, gphif,
+        e1t, e1u, e1v, e1f, e2t, e2u, e2v, e2f, ff, mbathy variables</att>
+    <att name="title">SalishSeaCast NEMO Model Grid, 2D Mesh Mask, v17-02</att>
+    <att name="project">SalishSeaCast NEMO Model</att>
+    <att name="references">https://github.com/SalishSeaCast/grid/blob/main/mesh_mask201702.nc</att>
+    <att name="NCO">null</att>
+    <att name="history">null</att>
+    <att name="name">null</att>
+    <att name="comment">null</att>
+  </addAttributes>
+  <axisVariable>
+    <sourceName>t</sourceName>
+    <destinationName>time</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Time Axis</att>
+      <att name="standard_name">time</att>
+      <att name="calendar">proleptic_gregorian</att>
+      <att name="time_origin">2014-09-12 00:30:00</att>
+      <att name="units">seconds since 2014-09-12 00:30:00</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>y</sourceName>
+    <destinationName>gridY</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Grid Y</att>
+      <att name="standard_name">y</att>
+      <att name="units">count</att>
+      <att name="comment">gridY values are grid indices in the model y-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>x</sourceName>
+    <destinationName>gridX</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Grid X</att>
+      <att name="standard_name">x</att>
+      <att name="units">count</att>
+      <att name="comment">gridX values are grid indices in the model x-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <dataVariable>
+    <sourceName>tmaskutil</sourceName>
+    <destinationName>tmaskutil</destinationName>
+    <dataType>byte</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Dry Land Mask for T-grid and W-grid</att>
+      <att name="standard_name">tmaskutil</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>umaskutil</sourceName>
+    <destinationName>umaskutil</destinationName>
+    <dataType>byte</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Dry Land Mask for U-grid</att>
+      <att name="standard_name">umaskutil</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>vmaskutil</sourceName>
+    <destinationName>vmaskutil</destinationName>
+    <dataType>byte</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Dry Land Mask for V-grid</att>
+      <att name="standard_name">vmaskutil</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>fmaskutil</sourceName>
+    <destinationName>fmaskutil</destinationName>
+    <dataType>byte</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Dry Land Mask for vorticity-grid</att>
+      <att name="standard_name">fmaskutil</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>glamt</sourceName>
+    <destinationName>glamt</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Longitude of T-grid Points</att>
+      <att name="standard_name">glamt</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_east</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>glamu</sourceName>
+    <destinationName>glamu</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Longitude of U-grid Points</att>
+      <att name="standard_name">glamu</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_east</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>glamv</sourceName>
+    <destinationName>glamv</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Longitude of V-grid Points</att>
+      <att name="standard_name">glamv</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_east</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>glamf</sourceName>
+    <destinationName>glamf</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Longitude of Vorticity-grid Points</att>
+      <att name="standard_name">glamf</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_east</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gphit</sourceName>
+    <destinationName>gphit</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Latitude of T-grid Points</att>
+      <att name="standard_name">gphit</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_north</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gphiu</sourceName>
+    <destinationName>gphiu</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Latitude of U-grid Points</att>
+      <att name="standard_name">gphiu</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_north</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gphiv</sourceName>
+    <destinationName>gphiv</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Latitude of V-grid Points</att>
+      <att name="standard_name">gphiv</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_north</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gphif</sourceName>
+    <destinationName>gphif</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Latitude of Vorticity-grid Points</att>
+      <att name="standard_name">gphif</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">degrees_north</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e1t</sourceName>
+    <destinationName>e1t</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on T-grid in u Direction</att>
+      <att name="standard_name">e1t</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e1u</sourceName>
+    <destinationName>e1u</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on U-grid in u Direction</att>
+      <att name="standard_name">e1u</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e1v</sourceName>
+    <destinationName>e1v</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on V-grid in u Direction</att>
+      <att name="standard_name">e1v</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e1f</sourceName>
+    <destinationName>e1f</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on Vorticity-grid in u Direction</att>
+      <att name="standard_name">e1f</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e2t</sourceName>
+    <destinationName>e2t</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on T-grid in v Direction</att>
+      <att name="standard_name">e2t</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e2u</sourceName>
+    <destinationName>e2u</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on U-grid in v Direction</att>
+      <att name="standard_name">e2u</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e2v</sourceName>
+    <destinationName>e2v</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on V-grid in v Direction</att>
+      <att name="standard_name">e2v</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e2f</sourceName>
+    <destinationName>e2f</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Grid Spacing on Vorticity-grid in v Direction</att>
+      <att name="standard_name">e2f</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>ff</sourceName>
+    <destinationName>ff</destinationName>
+    <dataType>double</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Coriolis parameter on Vorticity-grid</att>
+      <att name="standard_name">ff</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">s-1</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>mbathy</sourceName>
+    <destinationName>mbathy</destinationName>
+    <dataType>short</dataType>
+    <addAttributes>
+      <att name="content_coverage_type">modelResult</att>
+      <att name="long_name">Fortran Index of Deepest Water Cell, T-grid</att>
+      <att name="standard_name">mbathy</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">count</att>
+    </addAttributes>
+  </dataVariable>
+</dataset>
+
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DMeshMaskV17-02" active="true">
+  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
+  <fileDir>/SalishSeaCast/grid/</fileDir>
+  <recursive>false</recursive>
+  <fileNameRegex>.*mesh_mask201702\.nc$</fileNameRegex>
+  <metadataFrom>last</metadataFrom>
+  <matchAxisNDigits>20</matchAxisNDigits>
+  <fileTableInMemory>false</fileTableInMemory>
+  <accessibleViaFiles>false</accessibleViaFiles>
+  <!-- sourceAttributes>
+        <att name="Conventions">CF-1.6</att>
+        <att name="file_name">NEMO-forcing/grid/mesh_mask201702.nc</att>
+        <att name="history">[2017-04-13 22:37] ncks -4 -L4 -O mesh_mask.nc mesh_mask201702.nc
+[2017-05-15 12:41] Added metadata to variable in preparation for creation of ERDDAP datasets.</att>
+        <att name="institution">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+        <att name="references">https://salishsea.eos.ubc.ca/erddap/info/
+https://bitbucket.org/salishsea/nemo-forcing/src/tip/grid/bathymetery_201702.nc
+</att>
+        <att name="source">NEMO-3.6 Salish Sea configuration</att>
+        <att name="TimeStamp">13/04/2017 22:37:31 -0700</att>
+        <att name="title">SalishSeaCast NEMO bathymetry_201702 Bathymetry Mesh Mask</att>
+    </sourceAttributes -->
+  <addAttributes>
+    <att name="cdm_data_type">Grid</att>
+    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="creator_name">SalishSeaCast Project Contributors</att>
+    <att name="creator_email">sallen@eoas.ubc.ca</att>
+    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
+National Ocean and Atmospheric Administration (NOAA), 
+United States Geological Service (USGS), 
+Digital Research Alliance of Canada
+
+This product has been produced by the University of British Columbia based in part on 
+Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
+No. 2016-0504-1260-U.
+
+The incorporation of data sourced from CHS in this product shall not be construed as
+constituting an endorsement of CHS of this product.
+
+This product does not meet the requirements of Charts and Nautical Publications Regulations,
+1995 under the Canadian Shipping Act, 2001.
+Official charts and publications, corrected and up-to-data,
+must be used to meet the requirements of those regulations.</att>
+    <att name="drawLandMask">over</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
+    <att name="institution">UBC EOAS</att>
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+    <att name="keywords">bathymetry, coordinates, depth, e3t_0, e3u_0, e3v_0, e3w_0, f-grid, fmask, gdept_0, gdepu, gdepv,
+gdepw_0, grid, grid parameters, mesh mask, NEMO, ocean, Salish Sea, sea, spacing, t-grid, tmask, u-grid, umask,
+v-grid, vmask, vorticity-grid, w-grid</att>
+    <att name="license">The SalishSeaCast NEMO model results are copyright
+by the SalishSeaCast Project Contributors and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="summary">SalishSeaCast NEMO Model Grid, 3D Mesh Mask, v17-02
+
+NEMO grid variable value for the SalishSeaCast NEMO model Arakawa-C grid.
+The values are those calculated by NEMO from the input coordinates and bathymetry files.
+The variable names are those used by NEMO-3.6,
+see the NEMO-3.6 book (http://www.nemo-ocean.eu/Media/Files/NEMO_book_V3_6.pdf) for details,
+or the long_name attributes of the variables for succinct descriptions of the variables.
+The model grid includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
+and Johnstone Strait on the coasts of Washington State and British Columbia.
+
+v1: e3t_0, e3u_0, e3v_0, e3w_0, gdept_0, gdepu, gdepv, gdepw_0, tmask, umask, vmask, fmask variables
+v16-07: e3t, e3u, e3v, e3w, gdept, gdepu, gdepv, gdepw, tmask, umask, vmask, fmask variables
+
+v17-02: tmask, umask, vmask, fmask, e3t_0, e3u_0, e3v_0, e3w_0, gdept_0, gdepu, gdepv, gdepw_0 variables</att>
+    <att name="title">SalishSeaCast NEMO Model Grid, 3D Mesh Mask, v17-02</att>
+    <att name="project">SalishSeaCast NEMO Model</att>
+    <att name="references">https://github.com/SalishSeaCast/grid/blob/main/mesh_mask201702.nc</att>
+    <att name="NCO">null</att>
+    <att name="history">null</att>
+    <att name="name">null</att>
+    <att name="comment">null</att>
+  </addAttributes>
+  <axisVariable>
+    <sourceName>t</sourceName>
+    <destinationName>time</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Time Axis</att>
+      <att name="standard_name">time</att>
+      <att name="calendar">proleptic_gregorian</att>
+      <att name="time_origin">2014-09-12 00:30:00</att>
+      <att name="units">seconds since 2014-09-12 00:30:00</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>z</sourceName>
+    <destinationName>gridZ</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Grid Z</att>
+      <att name="standard_name">z</att>
+      <att name="units">count</att>
+      <att name="comment">gridZ values are grid indices of the model depth levels.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>y</sourceName>
+    <destinationName>gridY</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Grid Y</att>
+      <att name="standard_name">y</att>
+      <att name="units">count</att>
+      <att name="comment">gridY values are grid indices in the model y-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>x</sourceName>
+    <destinationName>gridX</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Grid X</att>
+      <att name="standard_name">x</att>
+      <att name="units">count</att>
+      <att name="comment">gridX values are grid indices in the model x-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <dataVariable>
+    <sourceName>tmask</sourceName>
+    <destinationName>tmask</destinationName>
+    <dataType>byte</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 20 449 199</att>
+            <att name="flag_meanings">land, water</att>
+            <att name="flag_values">0, 1</att>
+            <att name="long_name">mask for T-grid and W-grid</att>
+            <att name="standard_name">tmask</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Land Mask for T-grid and W-grid</att>
+      <att name="standard_name">tmask</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>umask</sourceName>
+    <destinationName>umask</destinationName>
+    <dataType>byte</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 20 449 199</att>
+            <att name="flag_meanings">land, water</att>
+            <att name="flag_values">0, 1</att>
+            <att name="long_name">mask for U-grid</att>
+            <att name="standard_name">umask</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Land Mask for U-grid</att>
+      <att name="standard_name">umask</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>vmask</sourceName>
+    <destinationName>vmask</destinationName>
+    <dataType>byte</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 20 449 199</att>
+            <att name="flag_meanings">land, water</att>
+            <att name="flag_values">0, 1</att>
+            <att name="long_name">mask for V-grid</att>
+            <att name="standard_name">vmask</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Land Mask for V-grid</att>
+      <att name="standard_name">vmask</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>fmask</sourceName>
+    <destinationName>fmask</destinationName>
+    <dataType>byte</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 20 449 199</att>
+            <att name="flag_meanings">land, water</att>
+            <att name="flag_values">0, 1</att>
+            <att name="long_name">mask for vorticity-grid</att>
+            <att name="standard_name">fmask</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Land Mask for vorticity-grid</att>
+      <att name="standard_name">fmask</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="flag_meanings">land, water</att>
+      <att name="flag_values">0, 1</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e3t_0</sourceName>
+    <destinationName>e3t_0</destinationName>
+    <dataType>double</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 10 225 100</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="long_name">grid spacing on T-grid in w direction</att>
+            <att name="standard_name">e3t_0</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Grid Spacing on T-grid in w Direction</att>
+      <att name="standard_name">e3t_0</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e3u_0</sourceName>
+    <destinationName>e3u_0</destinationName>
+    <dataType>double</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 10 225 100</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="long_name">grid spacing on U-grid in w direction</att>
+            <att name="standard_name">e3u_0</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Grid Spacing on U-grid in w Direction</att>
+      <att name="standard_name">e3u_0</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e3v_0</sourceName>
+    <destinationName>e3v_0</destinationName>
+    <dataType>double</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 10 225 100</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="long_name">grid spacing on V-grid in w direction</att>
+            <att name="standard_name">e3v_0</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Grid Spacing on V-grid in w Direction</att>
+      <att name="standard_name">e3v_0</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>e3w_0</sourceName>
+    <destinationName>e3w_0</destinationName>
+    <dataType>double</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 10 225 100</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="long_name">grid spacing on W-grid in w direction</att>
+            <att name="standard_name">e3w_0</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Grid Spacing on W-grid in w Direction</att>
+      <att name="standard_name">e3w_0</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gdept_0</sourceName>
+    <destinationName>gdept_0</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 14 300 133</att>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="long_name">depth of T-grid points</att>
+            <att name="positive">down</att>
+            <att name="standard_name">gdept_0</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Depth of T-grid Points</att>
+      <att name="positive">down</att>
+      <att name="standard_name">gdept_0</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gdepu</sourceName>
+    <destinationName>gdepu</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 14 300 133</att>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="long_name">depth of U-grid points</att>
+            <att name="positive">down</att>
+            <att name="standard_name">gdepu</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Depth of U-grid Points</att>
+      <att name="positive">down</att>
+      <att name="standard_name">gdepu</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gdepv</sourceName>
+    <destinationName>gdepv</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 14 300 133</att>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="long_name">depth of V-grid points</att>
+            <att name="positive">down</att>
+            <att name="standard_name">gdepv</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Depth of V-grid Points</att>
+      <att name="positive">down</att>
+      <att name="standard_name">gdepv</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>gdepw_0</sourceName>
+    <destinationName>gdepw_0</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 14 300 133</att>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="long_name">depth of W-grid points</att>
+            <att name="positive">down</att>
+            <att name="standard_name">gdepw_0</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="long_name">Depth of W-grid Points</att>
+      <att name="positive">down</att>
+      <att name="standard_name">gdepw_0</att>
+      <att name="ioos_category">grid_parameter</att>
+      <att name="units">m</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+    </addAttributes>
+  </dataVariable>
+</dataset>
+
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSaAtmosphereGridV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
@@ -2704,6 +2704,200 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1hV21-11" active="true">
+  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
+  <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
+  <recursive>true</recursive>
+  <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_U\.nc$</fileNameRegex>
+  <metadataFrom>last</metadataFrom>
+  <matchAxisNDigits>20</matchAxisNDigits>
+  <fileTableInMemory>false</fileTableInMemory>
+  <accessibleViaFiles>false</accessibleViaFiles>
+  <!-- sourceAttributes>
+        <att name="Conventions">CF-1.6</att>
+        <att name="description">ocean U grid variables</att>
+        <att name="title">ocean U grid variables</att>
+    </sourceAttributes -->
+  <addAttributes>
+    <att name="testOutOfDate">now-16hours</att>
+    <att name="cdm_data_type">Grid</att>
+    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
+    <att name="institution">UBC EOAS</att>
+    <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+    <att name="keywords">circulation, current, currents, depthu, u grid, ocean, oceans,
+Oceans &gt; Ocean Circulation &gt; Ocean Currents,
+sea, sea_water_x_velocity, seawater, time_counter, u velocity component, velocity along x-axis, vozocrtx</att>
+    <att name="keywords_vocabulary">GCMD Science Keywords</att>
+    <att name="license">The SalishSeaCast NEMO model results are copyright
+by the SalishSeaCast Project Contributors and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="summary">Green, Salish Sea, 3d u Grid Variable Fields, Hourly, v21-11
+
+Variable values at the 3d zonal (u) component velocity grid points averaged over 1 hour intervals
+from SalishSeaCast NEMO model runs with physics, biology and chemistry. The values are calculated for the entire model grid
+that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
+and Johnstone Strait on the coasts of Washington State and British Columbia.
+The time values are UTC.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
+Geo-location and depth data for the SalishSeaCast NEMO model grid are available in the ubcSSnBathymetryV21-08 dataset.
+
+v1: uVelocity variable
+v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.
+v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v19-05: NEMO-3.6 SalishSeaCast-201905 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v21-11: NEMO-3.6 SalishSeaCast-202111 configuration; ubcSSnBathymetryV21-08 bathymetry;
+        see infoUrl link for full details.
+</att>
+    <att name="title">Green, Salish Sea, 3d u Grid Variable Fields, Hourly, v21-11</att>
+    <att name="project">SalishSeaCast NEMO Model</att>
+    <att name="creator_name">SalishSeaCast Project Contributors</att>
+    <att name="creator_email">sallen@eoas.ubc.ca</att>
+    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+    <att name="acknowledgement">MEOPAR, Ocean Networks Canada (ONC), Digital Research Alliance of Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include citations of the publications below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+3d zonal (u) component velocity fields from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSg3DuGridFields1hV21-11.
+
+Citations:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Soontiens, N. and Allen, S., 2017.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
+    <att name="drawLandMask">over</att>
+    <att name="history">null</att>
+    <att name="NCO">null</att>
+    <att name="name">null</att>
+  </addAttributes>
+  <axisVariable>
+    <sourceName>time_counter</sourceName>
+    <destinationName>time</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="int">1</att>
+            <att name="axis">T</att>
+            <att name="bounds">time_counter_bounds</att>
+            <att name="calendar">gregorian</att>
+            <att name="long_name">Time axis</att>
+            <att name="standard_name">time</att>
+            <att name="time_origin">1900-01-01 00:00:00</att>
+            <att name="units">seconds since 1900-01-01 00:00:00</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSize">null</att>
+      <att name="bounds">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
+      <att name="ioos_category">time</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>depthu</sourceName>
+    <destinationName>depth</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="int">40</att>
+            <att name="axis">Z</att>
+            <att name="bounds">depthu_bounds</att>
+            <att name="long_name">Vertical U levels</att>
+            <att name="name">depthu</att>
+            <att name="positive">down</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="bounds">null</att>
+      <att name="name">null</att>
+      <att name="long_name">Depth</att>
+      <att name="standard_name">depth</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>y</sourceName>
+    <destinationName>gridY</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Grid Y</att>
+      <att name="standard_name">y</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="comment">gridY values are grid indices in the model y-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V21-08 dataset.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>x</sourceName>
+    <destinationName>gridX</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Grid X</att>
+      <att name="standard_name">x</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="comment">gridX values are grid indices in the model x-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V21-08 dataset.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <dataVariable>
+    <sourceName>vozocrtx</sourceName>
+    <destinationName>uVelocity</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered depthu nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">ocean current along x-axis</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">sea_water_x_velocity</att>
+            <att name="units">m s-1</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Ocean Current Along x-axis</att>
+      <att name="standard_name">sea_water_x_velocity</att>
+      <att name="_ChunkSize">null</att>
+      <att name="colorBarMaximum" type="double">8.0</att>
+      <att name="colorBarMinimum" type="double">-8.0</att>
+      <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">currents</att>
+    </addAttributes>
+  </dataVariable>
+</dataset>
+
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1hV19-05" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
@@ -2720,7 +2914,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
         <att name="title">ocean U grid variables</att>
     </sourceAttributes -->
   <addAttributes>
-    <att name="testOutOfDate">now-16hours</att>
     <att name="cdm_data_type">Grid</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
