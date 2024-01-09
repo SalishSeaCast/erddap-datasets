@@ -42,7 +42,7 @@ and Johnstone Strait on the coasts of Washington State and British Columbia.
 The time values are UTC.
 They are the centre of the intervals over which the calculated model results are averaged;
 e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
-Geo-location and depth data for the SalishSeaCast NEMO model grid are available in the ubcSSnBathymetrV21-08 dataset.
+Geo-location and depth data for the SalishSeaCast NEMO model grid are available in the ubcSSnBathymetryV21-08 dataset.
 
 v1: wVelocity variable
 v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.

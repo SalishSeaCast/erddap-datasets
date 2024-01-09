@@ -1,0 +1,509 @@
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DBiologyFields1hV21-11" active="true">
+  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
+  <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
+  <recursive>true</recursive>
+  <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_biol_T\.nc$</fileNameRegex>
+  <metadataFrom>last</metadataFrom>
+  <matchAxisNDigits>20</matchAxisNDigits>
+  <fileTableInMemory>false</fileTableInMemory>
+  <accessibleViaFiles>false</accessibleViaFiles>
+  <!-- sourceAttributes>
+        <att name="Conventions">CF-1.6</att>
+        <att name="description">biogeochemical variables</att>
+        <att name="title">biogeochemical variables</att>
+    </sourceAttributes -->
+  <addAttributes>
+    <att name="testOutOfDate">now-16hours</att>
+    <att name="cdm_data_type">Grid</att>
+    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
+    <att name="institution">UBC EOAS</att>
+    <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+    <att name="keywords">ammonia, ammonium, aquatic, biogenic, biogenic_silicon, biological,
+Biological Classification &gt; Protists &gt; Diatoms,
+biosphere,
+Biosphere &gt; Aquatic Ecosystems &gt; Plankton &gt; Zooplankton,
+chemistry, concentration, deptht, detritus, diatoms, dissolved, dissolved_organic_nitrogen, ecosystems,
+flagellates, marine, zooplankton,
+mole_concentration_of_ammonium_in_sea_water,
+mole_concentration_of_diatoms_expressed_as_nitrogen_in_sea_water,
+mole_concentration_of_flagellates_expressed_as_nitrogen_in_sea_water,
+mole_concentration_of_z1_zooplankton_expressed_as_nitrogen_in_sea_water,
+mole_concentration_of_z2_zooplankton_expressed_as_nitrogen_in_sea_water,
+mole_concentration_of_nitrate_in_sea_water, mole_concentration_of_organic_detritus_expressed_as_nitrogen_in_sea_water,
+mole_concentration_of_organic_detritus_expressed_as_silicon_in_sea_water,
+mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water,
+mole_concentration_of_silicate_in_sea_water, n02, nh4, nitrate, nitrogen, no3, ocean, oceans,
+Oceans &gt; Ocean Chemistry &gt; Ammonia,
+Oceans &gt; Ocean Chemistry &gt; Nitrate,
+Oceans &gt; Ocean Chemistry &gt; Nitrogen,
+Oceans &gt; Ocean Chemistry &gt; Organic Matter,
+Oceans &gt; Ocean Chemistry &gt; Silicate,
+organic, particulate, particulate_organic_nitrogen, plankton, protists, river, sea, seawater,
+silicate, silicon, time_counter, tracer, water, zooplankton
+</att>
+    <att name="keywords_vocabulary">GCMD Science Keywords</att>
+    <att name="license">The SalishSeaCast NEMO model results are copyright
+by the SalishSeaCast Project Contributors and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="summary">Green, Salish Sea, 3d Biology Fields, Hourly, v21-11
+
+3d SMELT biological model field values averaged over 1 hour intervals
+from SalishSeaCast NEMO model runs with physics, biology and chemistry. The values are calculated for the entire model grid
+that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
+and Johnstone Strait on the coasts of Washington State and British Columbia.
+The time values are UTC.
+They are the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
+Geo-location and depth data for the SalishSeaCast NEMO model grid are available in the ubcSSnBathymetry21-08 dataset.
+
+v17-02: Micromolar concentrations of ammonium, biogenic silicon, ciliates (mesodinium rubrum),
+        diatoms, dissolved organic nitrogen, flagellates (nanophytoplankton), mesozooplankton, microzooplankton,
+        nitrate, particulate organic nitrogen, silicon.
+        Fraser River water turbidity tracer.
+        NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v19-05: NEMO-3.6 SalishSeaCast-201905 configuration; ubcSSnBathymetryV17-02 bathymetry;
+        see infoUrl link for full details.
+v21-11: NEMO-3.6 SalishSeaCast-202111 configuration; ubcSSnBathymetryV21-08 bathymetry;
+        see infoUrl link for full details.
+    </att>
+    <att name="title">Green, Salish Sea, 3d Biology Fields, Hourly, v21-11</att>
+    <att name="project">SalishSeaCast NEMO Model</att>
+    <att name="creator_name">SalishSeaCast Project Contributors</att>
+    <att name="creator_email">sallen@eoas.ubc.ca</att>
+    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+    <att name="acknowledgement">MEOPAR, Ocean Networks Canada (ONC), Digital Research Alliance of Canada</att>
+    <att name="comment">If you use this dataset in your research,
+please reference it with wording similar to the example below,
+and include citations of the publications below.
+Inclusion of the date(s) when you downloaded the dataset,
+and the dataset id help to ensure reproducibility of your work.
+
+Reference wording:
+
+3d SMELT biological model field values from the SalishSeaCast NEMO model
+(Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017, Olson et al, 2020)
+were downloaded from their ERDDAP server
+(https://salishsea.eos.ubc.ca/erddap/)
+on DATE from dataset ubcSSg3DBiologyFields1hV21-11.
+
+Citations:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+https://dx.doi.org/10.1080/07055900.2015.1108899
+
+Moore-Maley, B. L., Allen, S. E., and IansonD., 2016.
+Locally-driven interannual variability of near-surface pH and ΩA in the Strait of Georgia.
+J. Geophys. Res. Oceans, 121(3), 1600–1625.
+https://dx.doi.org/10.1002/2015JC011118
+
+Soontiens, N. and Allen, S., 2017.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008
+
+Olson, E. M., Allen, S. E., Do, Vy, Dunphy, M., and Ianson, D., 2020.
+Assessment of Nutrient Supply by a Tidal Jet in the Northern Strait of Georgia Based on a Biogeochemical Model.
+J. Geophys. Res. Oceans, 125(8).
+https://doi.org/10.1029/2019JC015766
+    </att>
+    <att name="drawLandMask">over</att>
+    <att name="history">null</att>
+    <att name="NCO">null</att>
+    <att name="name">null</att>
+  </addAttributes>
+  <axisVariable>
+    <sourceName>time_counter</sourceName>
+    <destinationName>time</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="int">1</att>
+            <att name="axis">T</att>
+            <att name="bounds">time_counter_bounds</att>
+            <att name="calendar">gregorian</att>
+            <att name="long_name">Time axis</att>
+            <att name="standard_name">time</att>
+            <att name="time_origin">1900-01-01 00:00:00</att>
+            <att name="units">seconds since 1900-01-01 00:00:00</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="bounds">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
+      <att name="ioos_category">time</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>deptht</sourceName>
+    <destinationName>depth</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="int">40</att>
+            <att name="axis">Z</att>
+            <att name="bounds">deptht_bounds</att>
+            <att name="long_name">Vertical T levels</att>
+            <att name="name">deptht</att>
+            <att name="positive">down</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="bounds">null</att>
+      <att name="long_name">Depth</att>
+      <att name="standard_name">depth</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>y</sourceName>
+    <destinationName>gridY</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Grid Y</att>
+      <att name="standard_name">y</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="comment">gridY values are grid indices in the model y-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>x</sourceName>
+    <destinationName>gridX</destinationName>
+    <!-- sourceAttributes>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Grid X</att>
+      <att name="standard_name">x</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="comment">gridX values are grid indices in the model x-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <dataVariable>
+    <sourceName>ammonium</sourceName>
+    <destinationName>ammonium</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Ammonium Concentration</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">mole_concentration_of_ammonium_in_sea_water</att>
+            <att name="units">mmol m-3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="colorBarMaximum" type="double">5.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">dissolved_nutrients</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>biogenic_silicon</sourceName>
+    <destinationName>biogenic_silicon</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Biogenic Silicon Concentration</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">mole_concentration_of_organic_detritus_expressed_as_silicon_in_sea_water</att>
+            <att name="units">mmol m-3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="coordinates">null</att>
+      <att name="colorBarMinimum" type="double">0</att>
+      <att name="colorBarMaximum" type="double">70.0</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">dissolved_nutrients</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>diatoms</sourceName>
+    <destinationName>diatoms</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Diatoms Concentration</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">mole_concentration_of_diatoms_expressed_as_nitrogen_in_sea_water</att>
+            <att name="units">mmol m-3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="coordinates">null</att>
+      <att name="colorBarMinimum" type="double">0</att>
+      <att name="colorBarMaximum" type="double">20.0</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">biology</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>dissolved_organic_nitrogen</sourceName>
+    <destinationName>dissolved_organic_nitrogen</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Dissolved Organic N Concentration</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">mole_concentration_of_organic_detritus_expressed_as_nitrogen_in_sea_water</att>
+            <att name="units">mmol m-3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">dissolved_nutrients</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>flagellates</sourceName>
+    <destinationName>flagellates</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Flagellates Concentration</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">mole_concentration_of_flagellates_expressed_as_nitrogen_in_sea_water</att>
+            <att name="units">mmol m-3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="colorBarMaximum" type="double">128.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">biology</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>mesozooplankton</sourceName>
+    <destinationName>z2_zooplankton</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Mesozooplankton Concentration</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">mole_concentration_of_mesozooplankton_expressed_as_nitrogen_in_sea_water</att>
+            <att name="units">mmol m-3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Z2 Zooplankton Concentration</att>
+      <att name="standard_name">mole_concentration_of_z2_zooplankton_expressed_as_nitrogen_in_sea_water</att>
+      <att name="units">mmol m-3</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">biology</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>microzooplankton</sourceName>
+    <destinationName>z1_zooplankton</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Microzooplankton Concentration</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">mole_concentration_of_microzooplankton_expressed_as_nitrogen_in_sea_water</att>
+            <att name="units">mmol m-3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="long_name">Z1 Zooplankton Concentration</att>
+      <att name="standard_name">mole_concentration_of_z1_zooplankton_expressed_as_nitrogen_in_sea_water</att>
+      <att name="units">mmol m-3</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">biology</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>nitrate</sourceName>
+    <destinationName>nitrate</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Nitrate Concentration</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">mole_concentration_of_nitrate_in_sea_water</att>
+            <att name="units">mmol m-3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="colorBarMaximum" type="double">40.0</att>
+      <att name="colorBarMinimum" type="double">0</att>
+      <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">dissolved_nutrients</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>particulate_organic_nitrogen</sourceName>
+    <destinationName>particulate_organic_nitrogen</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Particulate Organic N Concentration</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water</att>
+            <att name="units">mmol m-3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">dissolved_nutrients</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>silicon</sourceName>
+    <destinationName>silicon</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 40 898 398</att>
+            <att name="_FillValue" type="float">1.0E20</att>
+            <att name="cell_measures">area: area</att>
+            <att name="cell_methods">time: mean (interval: 40 s)</att>
+            <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
+            <att name="interval_operation">40 s</att>
+            <att name="interval_write">1 h</att>
+            <att name="long_name">Silicon Concentration</att>
+            <att name="missing_value" type="float">1.0E20</att>
+            <att name="online_operation">average</att>
+            <att name="standard_name">mole_concentration_of_silicate_in_sea_water</att>
+            <att name="units">mmol m-3</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSizes">null</att>
+      <att name="colorBarMaximum" type="double">70.0</att>
+      <att name="colorBarMinimum" type="double">0</att>
+      <att name="coordinates">null</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="cell_measures">null</att>
+      <att name="cell_methods">null</att>
+      <att name="interval_operation">null</att>
+      <att name="interval_write">null</att>
+      <att name="online_operation">null</att>
+      <att name="ioos_category">dissolved_nutrients</att>
+    </addAttributes>
+  </dataVariable>
+</dataset>
