@@ -100,7 +100,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
             <att name="units">seconds since 1900-01-01 00:00:00</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
@@ -177,7 +177,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <addAttributes>
       <att name="long_name">Ocean Current Along x-axis</att>
       <att name="standard_name">sea_water_x_velocity</att>
-      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
       <att name="colorBarMaximum" type="double">8.0</att>
       <att name="colorBarMinimum" type="double">-8.0</att>
       <att name="coordinates">null</att>
