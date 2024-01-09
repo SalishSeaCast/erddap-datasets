@@ -139,7 +139,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Grid Y</att>
       <att name="standard_name">y</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">gridY values are grid indices in the model y-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V21-08 dataset.</att>
+      <att name="comment">gridY values are grid indices in the model y-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.</att>
       <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
@@ -152,7 +152,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Grid X</att>
       <att name="standard_name">x</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">gridX values are grid indices in the model x-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V21-08 dataset.</att>
+      <att name="comment">gridX values are grid indices in the model x-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.</att>
       <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
