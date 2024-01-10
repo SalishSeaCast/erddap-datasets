@@ -80,16 +80,17 @@ v21-11: NEMO-3.6 SalishSeaCast-202111 configuration; ubcSSnBathymetryV21-08 bath
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">MEOPAR, Ocean Networks Canada (ONC), Digital Research Alliance of Canada</att>
-    <att name="comment">If you use this dataset in your research,
+    <att name="comment">
+If you use this dataset in your research,
 please reference it with wording similar to the example below,
 and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
-Reference wording:
+Example wording:
 
 3d SMELT biological model field values from the SalishSeaCast NEMO model
-(Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017, Olson et al, 2020)
+(Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020; Suchy et al, 2023)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSg3DBiologyFields1hV21-11.
@@ -97,22 +98,29 @@ on DATE from dataset ubcSSg3DBiologyFields1hV21-11.
 Citations:
 
 Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
-Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean 54 1-21.
+Storm surges in the Strait of Georgia simulated with a regional model.
+Atmosphere-Ocean 54 1-21.
 https://dx.doi.org/10.1080/07055900.2015.1108899
 
 Moore-Maley, B. L., Allen, S. E., and IansonD., 2016.
-Locally-driven interannual variability of near-surface pH and ΩA in the Strait of Georgia.
-J. Geophys. Res. Oceans, 121(3), 1600–1625.
+Locally-driven interannual variability of near-surface pH and Î©A in the Strait of Georgia.
+J. Geophys. Res. Oceans, 121(3), 1600â€"1625.
 https://dx.doi.org/10.1002/2015JC011118
 
 Soontiens, N. and Allen, S., 2017.
-Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
+Modelling sensitivities to mixing and advection in a sill-basin estuarine system.
+Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008
 
 Olson, E. M., Allen, S. E., Do, Vy, Dunphy, M., and Ianson, D., 2020.
 Assessment of Nutrient Supply by a Tidal Jet in the Northern Strait of Georgia Based on a Biogeochemical Model.
 J. Geophys. Res. Oceans, 125(8).
 https://doi.org/10.1029/2019JC015766
+
+Suchy, K. D., Olson, E. M., Allen, S. E., Galbraith, M., Herrmann, B., Keister, J.E., Perry, R.I., Sastri, A. R., Young, K., 2023.
+Seasonal and regional variability of model-based zooplankton biomass in the Salish Sea and evaluation against observations.
+Progress in Oceanography, 219, 103171.
+https://doi.org/10.1016/j.pocean.2023.103171
     </att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
