@@ -144,7 +144,10 @@ https://doi.org/10.1016/j.pocean.2023.103171
       <att name="_ChunkSizes">null</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
+      <att name="comment">
+time values are UTC at the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
+      </att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -179,7 +182,10 @@ https://doi.org/10.1016/j.pocean.2023.103171
       <att name="long_name">Grid Y</att>
       <att name="standard_name">y</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">gridY values are grid indices in the model y-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.</att>
+      <att name="comment">
+gridY values are grid indices in the model y-direction;
+geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.
+      </att>
       <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
@@ -192,7 +198,10 @@ https://doi.org/10.1016/j.pocean.2023.103171
       <att name="long_name">Grid X</att>
       <att name="standard_name">x</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">gridX values are grid indices in the model x-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.</att>
+      <att name="comment">
+gridX values are grid indices in the model x-direction;
+geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.
+      </att>
       <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
@@ -376,6 +385,14 @@ https://doi.org/10.1016/j.pocean.2023.103171
       <att name="long_name">Z2 Zooplankton Concentration</att>
       <att name="standard_name">mole_concentration_of_z2_zooplankton_expressed_as_nitrogen_in_sea_water</att>
       <att name="units">mmol m-3</att>
+      <att name="ioos_category">biology</att>
+      <att name="comment">
+The Z2 zooplankton class is the highest trophic level whose grazing impact is included in the model
+and represents groups with larger body size,
+longer life cycles,
+and slower grazing rates
+(e.g., diapausing copepod species, euphausiids, amphipods and hydrozoan jellies).
+</att>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
       <att name="coverage_content_type">modelResult</att>
@@ -384,7 +401,6 @@ https://doi.org/10.1016/j.pocean.2023.103171
       <att name="interval_operation">null</att>
       <att name="interval_write">null</att>
       <att name="online_operation">null</att>
-      <att name="ioos_category">biology</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
@@ -409,6 +425,14 @@ https://doi.org/10.1016/j.pocean.2023.103171
       <att name="long_name">Z1 Zooplankton Concentration</att>
       <att name="standard_name">mole_concentration_of_z1_zooplankton_expressed_as_nitrogen_in_sea_water</att>
       <att name="units">mmol m-3</att>
+      <att name="ioos_category">biology</att>
+      <att name="comment">
+The Z1 zooplankton class freely evolves based on model dynamics and includes groups with relatively small body size,
+short life cycles,
+high grazing rates,
+or some combination of the three
+(e.g., non-diapausing copepods, all copepod nauplii, dinoflagellates, foraminiferans, and larvaceans).
+      </att>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
       <att name="coverage_content_type">modelResult</att>
@@ -417,7 +441,6 @@ https://doi.org/10.1016/j.pocean.2023.103171
       <att name="interval_operation">null</att>
       <att name="interval_write">null</att>
       <att name="online_operation">null</att>
-      <att name="ioos_category">biology</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
