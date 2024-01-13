@@ -33,6 +33,7 @@ datasets:
   - ssc-nemo-202111/ubcSSg3DPhysicsFields1hV21-11.xml
   - ssc-nemo-202111/ubcSSgSeaSurfaceHeightField1hV21-11.xml
   - ssc-nemo-202111/ubcSSg3DBiologyFields1hV21-11.xml
+  - ssc-nemo-202111/ubcSSg3DChemistryFields1hV21-11.xml
   # SalishSeaCast NEMO v2019-05 results
   # hour-averaged fields
   - ssc-nemo-201905/ubcSSg3DuGridFields1hV19-05.xml
