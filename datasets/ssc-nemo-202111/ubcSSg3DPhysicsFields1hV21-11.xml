@@ -20,11 +20,13 @@
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-    <att name="keywords">deptht, grid, ocean, oceans,
+    <att name="keywords">conservative temperature, density, deptht, grid, ocean, oceans,
 Oceans &gt; Ocean Temperature &gt; Conservative Temperature,
 Oceans &gt; Salinity,
-reference salinity, sea water, sea_water_conservative_temperature, sea_water_reference_salinity, seawater,
-conservative temperature, time_counter, vosaline, votemper, water</att>
+Oceans &gt; Salinity/Density &gt; Density,
+reference salinity, sea water, sea_water_conservative_temperature, sea_water_reference_salinity,
+seawater, sea_water_sigma_theta, sigma, sigma_theta, time_counter, vosaline, votemper, water
+</att>
     <att name="license">The SalishSeaCast NEMO model results are copyright
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
@@ -72,11 +74,11 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Temperature and salinity fields from the SalishSeaCast model
+3d potential temperature, reference salinity, and potential density fields from the SalishSeaCast NEMO model
 (Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
-on DATE from dataset ubcSSg3DTracerFields1hV21-11.
+on DATE from dataset ubcSSg3DPhysicsFields1hV21-11.
 
 Citations:
 
@@ -86,7 +88,8 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
-https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008
+    </att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
@@ -109,7 +112,9 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="_ChunkSizes">null</att>
       <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged; e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z</att>
+      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged;
+e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z
+      </att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
@@ -144,7 +149,9 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Grid Y</att>
       <att name="standard_name">y</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">gridY values are grid indices in the model y-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.</att>
+      <att name="comment">gridY values are grid indices in the model y-direction;
+geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.
+      </att>
       <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
@@ -157,7 +164,9 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Grid X</att>
       <att name="standard_name">x</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">gridX values are grid indices in the model x-direction; geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.</att>
+      <att name="comment">gridX values are grid indices in the model x-direction;
+geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetryV21-08 dataset.
+      </att>
       <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
