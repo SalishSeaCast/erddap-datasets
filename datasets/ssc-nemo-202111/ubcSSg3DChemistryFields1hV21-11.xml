@@ -93,6 +93,7 @@ https://doi.org/10.1029/2021GB007024
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
+    <att name="description">biogeochemical variables</att>
   </addAttributes>
   <axisVariable>
     <sourceName>time_counter</sourceName>

@@ -88,7 +88,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
-    <att name="description">ocean surface T grid variables</att>
+    <att name="description">ocean surface water level variable</att>
   </addAttributes>
   <axisVariable>
     <sourceName>time_counter</sourceName>
