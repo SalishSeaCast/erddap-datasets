@@ -4802,8 +4802,8 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
     </addAttributes>
   </axisVariable>
   <dataVariable>
-    <sourceName>sossheig</sourceName>
-    <destinationName>ssh</destinationName>
+    <sourceName>CO2_flux</sourceName>
+    <destinationName>co2_flux</destinationName>
     <dataType>float</dataType>
     <addAttributes>
       <att name="long_name">Flux of CO2 from Atmosphere to Ocean</att>
