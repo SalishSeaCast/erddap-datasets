@@ -1,9 +1,9 @@
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgSeaSurfaceHeightField1hV21-11" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgSeaSurfaceCO2FluxField1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201905/</fileDir>
   <recursive>true</recursive>
-  <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
+  <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_chem_T\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
   <matchAxisNDigits>20</matchAxisNDigits>
   <fileTableInMemory>false</fileTableInMemory>
@@ -20,18 +20,19 @@
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-    <att name="keywords">deptht, grid, ocean, oceans,
-Oceans &gt; Ocean Circulation &gt; Sea Surface Topography &gt; Sea Surface Height,
-sea surface height, sea_surface_height_above_geoid, sea water, seawater, ssh,
-sossheig, time_counter, water</att>
+    <att name="keywords">CO2, CO2 flux, deptht, grid, ocean, oceans,
+Earth Science &gt; Climate Indicators &gt; Carbon Flux,
+sea surface CO2 flux, surface_downward_mole_flux_of_carbon_dioxide, sea water, seawater, CO2 flux,
+co2_flux, time_counter
+    </att>
     <att name="license">The SalishSeaCast NEMO model results are copyright
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="summary">Green, Salish Sea, Sea Surface Height Field, Hourly, v21-11
+    <att name="summary">Green, Salish Sea, Sea Surface CO2 Flux Field, Hourly, v21-11
 
-2d sea surface height values averaged over 1 hour intervals from SalishSeaCast NEMO model runs with
+2d sea surface CO2 flux values averaged over 1 hour intervals from SalishSeaCast NEMO model runs with
 physics, biology and chemistry. The values are calculated for the surface of the model grid
 that includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
 and Johnstone Strait on the coasts of Washington State and British Columbia.
@@ -40,22 +41,11 @@ They are the centre of the intervals over which the calculated model results are
 e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
 Geo-location and depth data for the SalishSeaCast NEMO model grid are available in the ubcSSnBathymetryV21-08 dataset.
 
-v1: sea surface height and rainfall rate variables
-v16-10: NEMO-3.6; ubcSSnBathymetry2V16-07 bathymetry; see infoUrl link for full details.
-        Deleted rainfall rate variable.
-v17-02: NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
-        Added mixed layer depth variable (dsigma = 0.01 wrt 10m)
-v18-06: NEMO-3.6 SalishSeaCast-201806 configuration; ubcSSnBathymetryV17-02 bathymetry;
-        see infoUrl link for full details.
-        Removed mixed layer depth variable
-v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; changed biology;
-        see infoUrl link for full details.
-v19-05: NEMO-3.6 SalishSeaCast-201905 configuration; ubcSSnBathymetryV17-02 bathymetry;
-        see infoUrl link for full details.
 v21-11: NEMO-3.6 SalishSeaCast-202111 configuration; ubcSSnBathymetryV21-08 bathymetry;
         see infoUrl link for full details.
+        Downward surface CO2 flux variable.
 </att>
-    <att name="title">Green, Salish Sea, Sea Surface Height Field, Hourly, v21-11</att>
+    <att name="title">Green, Salish Sea, Sea Surface CO2 Flux Field, Hourly, v21-11</att>
     <att name="project">SalishSeaCast NEMO Model</att>
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
@@ -69,8 +59,8 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Sea surface height fields from the SalishSeaCast model
-(Soontiens et al, 2016; Soontiens and Allen, 2017)
+Sea surface CO2 flux fields from the SalishSeaCast model
+(Soontiens et al, 2016; Soontiens and Allen, 2017, Jarníková et al, 2022)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)
 on DATE from dataset ubcSSgSeaSurfaceHeightField1hV21-11.
@@ -83,7 +73,13 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
-https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
+https://dx.doi.org/10.1016/j.ocemod.2017.02.008
+
+Jarníková T., Ianson D., Allen S.E., Shao A.E., Olson E.M.. 2022.
+Anthropogenic carbon increase has caused critical shifts in aragonite saturation across a sensitive coastal system.
+Global Biogeochemical Cycles, 36(7).
+https://doi.org/10.1029/2021GB007024
+    </att>
     <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
@@ -149,19 +145,20 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
     <destinationName>ssh</destinationName>
     <dataType>float</dataType>
     <addAttributes>
-      <att name="long_name">Sea Surface Height</att>
-      <att name="standard_name">sea_surface_height_above_geoid</att>
+      <att name="long_name">Flux of CO2 from Atmosphere to Ocean</att>
+      <att name="standard_name">surface_downward_mole_flux_of_carbon_dioxide</att>
+      <att name="units">mmol m-2 s-1</att>
+      <att name="ioos_category">co2</att>
+      <att name="colorBarMinimum" type="double">-0.001</att>
+      <att name="colorBarMaximum" type="double">0.001</att>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
-      <att name="colorBarMinimum" type="double">-4.0</att>
-      <att name="colorBarMaximum" type="double">4.0</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
       <att name="cell_methods">null</att>
       <att name="interval_operation">null</att>
       <att name="interval_write">null</att>
       <att name="online_operation">null</att>
-      <att name="ioos_category">sea_level</att>
     </addAttributes>
   </dataVariable>
 </dataset>
