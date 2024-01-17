@@ -21,7 +21,7 @@
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
     <att name="keywords">
-deptht, grid, ocean, oceans,
+cell_thickness, deptht, e3t,, grid, ocean, oceans,
 nonlinear free surface, vvl, variable volume layers, variable volume layer thicknesses,
 sea water, seawater, time_counter
     </att>
@@ -59,7 +59,7 @@ and the dataset id help to ensure reproducibility of your work.
 
 Reference wording:
 
-Variable volume layers (VVL) thikcnesses field from the SalishSeaCast model
+Variable volume layers (VVL) thicknesses field from the SalishSeaCast model
 (Soontiens et al, 2016; Soontiens and Allen, 2017)
 were downloaded from their ERDDAP server
 (https://salishsea.eos.ubc.ca/erddap/)

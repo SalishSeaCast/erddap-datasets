@@ -33,6 +33,7 @@ datasets:
   - ssc-nemo-202111/ubcSSg3DPhysicsFields1hV21-11.xml
   - ssc-nemo-202111/ubcSSgSeaSurfaceHeightField1hV21-11.xml
   - ssc-nemo-202111/ubcSSg3DBiologyFields1hV21-11.xml
+  - ssc-nemo-202111/ubcSSg3DLightFields1hV21-11.xml
   - ssc-nemo-202111/ubcSSg3DChemistryFields1hV21-11.xml
   - ssc-nemo-202111/ubcSSgSeaSurfaceCO2FluxField1hV21-11.xml
   - ssc-nemo-202111/ubcSSgVariableVolumeLayers1hV21-11.xml
