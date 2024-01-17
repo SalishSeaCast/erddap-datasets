@@ -4379,7 +4379,7 @@ or some combination of the three
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgLightFields1hV21-11" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DLightFields1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
@@ -5078,7 +5078,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSgVariableVolumeLayers1hV21-11" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DVariableVolumeLayers1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
