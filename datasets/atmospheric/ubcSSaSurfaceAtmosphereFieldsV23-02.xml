@@ -145,6 +145,8 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">110000.0</att>
+      <att name="colorBarMinimum" type="double">87000.0</att>
       <att name="coordinates">null</att>
       <att name="_ChunkSize">null</att>
       <att name="_ChunkSizes">null</att>
@@ -224,8 +226,8 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
-      <att name="colorBarMaximum" type="double">500.0</att>
-      <att name="colorBarMinimum" type="double">-500.0</att>
+      <att name="colorBarMaximum" type="double">700.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
       <att name="_ChunkSize">null</att>
       <att name="_ChunkSizes">null</att>
@@ -246,8 +248,8 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
-      <att name="colorBarMaximum" type="double">313.0</att>
-      <att name="colorBarMinimum" type="double">263.0</att>
+      <att name="colorBarMaximum" type="double">323.0</att>
+      <att name="colorBarMinimum" type="double">253.0</att>
       <att name="coordinates">null</att>
       <att name="_ChunkSize">null</att>
       <att name="_ChunkSizes">null</att>
@@ -268,6 +270,8 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">500.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
       <att name="_ChunkSize">null</att>
       <att name="_ChunkSizes">null</att>
@@ -279,6 +283,8 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
     <dataType>float</dataType>
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">600.0</att>
+      <att name="colorBarMinimum" type="double">-100.0</att>
       <att name="coordinates">null</att>
       <att name="_ChunkSize">null</att>
       <att name="_ChunkSizes">null</att>
@@ -299,6 +305,8 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">120.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
       <att name="_ChunkSize">null</att>
       <att name="_ChunkSizes">null</att>
@@ -319,6 +327,8 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">120.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
       <att name="_ChunkSize">null</att>
       <att name="_ChunkSizes">null</att>
