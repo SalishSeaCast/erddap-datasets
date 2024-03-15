@@ -19,6 +19,7 @@ datasets:
 
   # Atmospheric forcing
   - atmospheric/ubcSSaAtmosphereGridV23-02.xml
+  - atmospheric/ubcSSaSurfaceAtmosphereFieldsV23-02.xml
   - atmospheric/ubcSSaAtmosphereGridV1.xml
   - atmospheric/ubcSSaSurfaceAtmosphereFieldsV1.xml
 

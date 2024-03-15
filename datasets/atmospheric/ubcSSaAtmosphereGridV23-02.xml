@@ -10,14 +10,14 @@
   <accessibleViaFiles>false</accessibleViaFiles>
   <!-- sourceAttributes>
       <att name="Conventions">CF-1.7</att>
-      <att name="History">[Mon 2023-03-13 19:39:47 -07:00] python3 -m nowcast.workers.grib_to_netcdf $NOWCAST_YAML nowcast+</att>
+      <att name="History">[Mon 2023-03-13 19:39:47 -07:00] python -m nowcast.workers.grib_to_netcdf $NOWCAST_YAML nowcast+</att>
   </sourceAttributes -->
   <addAttributes>
     <att name="cdm_data_type">Grid</att>
     <att name="coverage_content_type">modelResult</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="History">null</att>
-    <att name="history">[Mon 2023-03-13 19:39:47 -07:00] python3 -m nowcast.workers.grib_to_netcdf $NOWCAST_YAML nowcast+</att>
+    <att name="history">[Mon 2023-03-13 19:39:47 -07:00] python -m nowcast.workers.grib_to_netcdf $NOWCAST_YAML nowcast+</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
