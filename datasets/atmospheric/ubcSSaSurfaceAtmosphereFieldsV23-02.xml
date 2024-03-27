@@ -1,0 +1,337 @@
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSaSurfaceAtmosphereFieldsV23-02" active="true">
+  <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
+  <fileDir>/results/forcing/atmospheric/continental2.5/nemo_forcing/</fileDir>
+  <recursive>false</recursive>
+  <fileNameRegex>hrdps_y\d{4}m\d{2}d\d{2}\.nc$</fileNameRegex>
+  <metadataFrom>last</metadataFrom>
+  <matchAxisNDigits>20</matchAxisNDigits>
+  <fileTableInMemory>false</fileTableInMemory>
+  <accessibleViaFiles>false</accessibleViaFiles>
+  <!-- sourceAttributes>
+        <att name="Conventions">CF-1.7</att>
+        <att name="History">python -m nowcast.workers.grib_to_netcdf $NOWCAST_YAML nowcast+</att>
+    </sourceAttributes -->
+  <addAttributes>
+    <att name="testOutOfDate">now-12hours</att>
+    <att name="cdm_data_type">Grid</att>
+    <att name="coverage_content_type">modelResult</att>
+    <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+    <att name="History">null</att>
+    <att name="history">Files generated daily by
+`python -m nowcast.workers.grib_to_netcdf $NOWCAST_YAML nowcast+`</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
+    <att name="institution">UBC EOAS</att>
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
+    <att name="keywords">model results, atmosphere,
+Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure,
+Earth Science &gt; Atmosphere &gt; Precipitation &gt; Precipitation Rate &gt; Surface Precipitation,
+Earth Science &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Water Vapor Indicators &gt; Humidity &gt; Specific Humidity,
+Earth Science &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Water Vapor Indicators &gt; Humidity &gt; Relative Humidity,
+Earth Science &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Temperature &gt; Air Temperature,
+Earth Science &gt; Atmosphere &gt; Atmospheric Radiation &gt; Shortwave Radiation &gt; Downwelling Shortwave Radiation,
+Earth Science &gt; Atmosphere &gt; Atmospheric Radiation &gt; Longwave Radiation &gt; Downwelling Longwave Radiation,
+Earth Science &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds &gt; U/V Wind Components,
+atmospheric, atmpres, humidity, latent heat, long-wave, precipitation, pressure, qair, rad, radiation,
+rain, rainfall, relative_humidity, short-wave, solar, specific_humidity, tair, temperature, therm_rad,
+time, time_counter, u-component, u_wind, v-component, v_wind, vapor, wind</att>
+    <att name="keywords_vocabulary">GCMD Science Keywords</att>
+    <att name="license">The SalishSeaCast NEMO model results are copyright
+by the SalishSeaCast Project Contributors and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+This dataset was derived from a product of the Environment and Climate Change Canada HRDPS
+(High Resolution Deterministic Prediction System) continental rotated lat-lon model grid product.
+The Terms and conditions of use of Meteorological Data from Environment and Climate Change Canada
+are available at http://dd.weather.gc.ca/doc/LICENCE_GENERAL.txt.</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="summary">HRDPS, SalishSeaCast, Atmospheric Forcing Fields, Hourly, v23-02
+
+2d hourly atmospheric field values from the Environment and Climate Change Canada HRDPS
+continental rotated lat-lon grid atmospheric forcing model that were used to force the
+SalishSeaCast NEMO model from 2023-02-23 onward.
+The model grid includes the Juan de Fuca Strait, the Strait of Georgia, Puget Sound,
+and Johnstone Strait on the coasts of Washington State and British Columbia.
+Geo-location data for the atmospheric forcing grid are available in the ubcSSaAtmosphereGridV23-02 dataset.
+Atmospheric field values are interpolated on to the SalishSeaCast NEMO model grid on-the-fly by NEMO.
+
+v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relative humidity,
+2m air temperature, short-wave radiation flux, long-wave radiation flux, latent heat net flux,
+10m u wind component, 10m v wind component variables</att>
+    <att name="title">HRDPS, SalishSeaCast, Atmospheric Forcing Fields, Hourly, v23-02</att>
+    <att name="project">SalishSeaCast NEMO Model</att>
+    <att name="creator_name">SalishSeaCast Project Contributors</att>
+    <att name="creator_email">sallen@eoas.ubc.ca</att>
+    <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
+    <att name="acknowledgement">Environment and Climate Change Canada</att>
+    <att name="drawLandMask">over</att>
+  </addAttributes>
+  <axisVariable>
+    <sourceName>time_counter</sourceName>
+    <destinationName>time</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="int">1</att>
+            <att name="long_name">verification time generated by wgrib2 function verftime()</att>
+            <att name="reference_date">2016.03.09 18:00:00 UTC</att>
+            <att name="reference_time" type="double">1.4575464E9</att>
+            <att name="reference_time_description">kind of product unclear, reference date is variable, min found reference date is given</att>
+            <att name="reference_time_type" type="int">0</att>
+            <att name="time_origin">1970-Jan-01 00:00:00</att>
+            <att name="time_step" type="double">3600.0</att>
+            <att name="time_step_setting">auto</att>
+            <att name="units">seconds since 1970-01-01 00:00:00.0 0:00</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="standard_name">time</att>
+      <att name="ioos_category">time</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>y</sourceName>
+    <destinationName>gridY</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="int">266</att>
+            <att name="grid_spacing" type="double">2500.0</att>
+            <att name="long_name">y coordinate of projection</att>
+            <att name="standard_name">projection_y_coordinate</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="grid_spacing">null</att>
+      <att name="units">count</att>
+      <att name="long_name">Y</att>
+      <att name="standard_name">y</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
+    <sourceName>x</sourceName>
+    <destinationName>gridX</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="int">256</att>
+            <att name="grid_spacing" type="double">2500.0</att>
+            <att name="long_name">x coordinate of projection</att>
+            <att name="standard_name">projection_x_coordinate</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="grid_spacing">null</att>
+      <att name="units">null</att>
+      <att name="long_name">X</att>
+      <att name="standard_name">x</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </axisVariable>
+  <dataVariable>
+    <sourceName>atmpres</sourceName>
+    <destinationName>atmpres</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 266 256</att>
+            <att name="_FillValue" type="float">9.999E20</att>
+            <att name="coordinates">longitude latitude</att>
+            <att name="level">mean sea level</att>
+            <att name="long_name">Pressure Reduced to MSL</att>
+            <att name="short_name">PRMSL_meansealevel</att>
+            <att name="units">Pa</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">110000.0</att>
+      <att name="colorBarMinimum" type="double">87000.0</att>
+      <att name="coordinates">null</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>precip</sourceName>
+    <destinationName>precip</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 266 256</att>
+            <att name="_FillValue" type="float">9.999E20</att>
+            <att name="coordinates">longitude latitude</att>
+            <att name="level">surface</att>
+            <att name="long_name">Total Precipitation</att>
+            <att name="short_name">APCP_surface</att>
+            <att name="units">kg/m^2</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">200.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="coordinates">null</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>qair</sourceName>
+    <destinationName>qair</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 266 256</att>
+            <att name="_FillValue" type="float">9.999E20</att>
+            <att name="coordinates">longitude latitude</att>
+            <att name="level">2 m above ground</att>
+            <att name="long_name">Specific Humidity</att>
+            <att name="short_name">SPFH_2maboveground</att>
+            <att name="units">kg/kg</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">128.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="coordinates">null</att>
+      <att name="standard_name">specific_humidity</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>RH_2maboveground</sourceName>
+    <destinationName>rhair</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">100.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="coordinates">null</att>
+      <att name="standard_name">relative_humidity</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>solar</sourceName>
+    <destinationName>solar</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 266 256</att>
+            <att name="_FillValue" type="float">9.999E20</att>
+            <att name="coordinates">longitude latitude</att>
+            <att name="level">surface</att>
+            <att name="long_name">Downward Short-Wave Radiation Flux</att>
+            <att name="short_name">DSWRF_surface</att>
+            <att name="units">W/m^2</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">700.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="coordinates">null</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>tair</sourceName>
+    <destinationName>tair</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 266 256</att>
+            <att name="_FillValue" type="float">9.999E20</att>
+            <att name="coordinates">longitude latitude</att>
+            <att name="level">2 m above ground</att>
+            <att name="long_name">Temperature</att>
+            <att name="short_name">TMP_2maboveground</att>
+            <att name="units">K</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">323.0</att>
+      <att name="colorBarMinimum" type="double">253.0</att>
+      <att name="coordinates">null</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>therm_rad</sourceName>
+    <destinationName>therm_rad</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 266 256</att>
+            <att name="_FillValue" type="float">9.999E20</att>
+            <att name="coordinates">longitude latitude</att>
+            <att name="level">surface</att>
+            <att name="long_name">Downward Long-Wave Rad. Flux</att>
+            <att name="short_name">DLWRF_surface</att>
+            <att name="units">W/m^2</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">500.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="coordinates">null</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>LHTFL_surface</sourceName>
+    <destinationName>lhtfl</destinationName>
+    <dataType>float</dataType>
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">600.0</att>
+      <att name="colorBarMinimum" type="double">-100.0</att>
+      <att name="coordinates">null</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>u_wind</sourceName>
+    <destinationName>u_wind</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 266 256</att>
+            <att name="_FillValue" type="float">9.999E20</att>
+            <att name="coordinates">longitude latitude</att>
+            <att name="level">10 m above ground</att>
+            <att name="long_name">U-Component of Wind</att>
+            <att name="short_name">UGRD_10maboveground</att>
+            <att name="units">m/s</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">120.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="coordinates">null</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </dataVariable>
+  <dataVariable>
+    <sourceName>v_wind</sourceName>
+    <destinationName>v_wind</destinationName>
+    <dataType>float</dataType>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="intList">1 266 256</att>
+            <att name="_FillValue" type="float">9.999E20</att>
+            <att name="coordinates">longitude latitude</att>
+            <att name="level">10 m above ground</att>
+            <att name="long_name">V-Component of Wind</att>
+            <att name="short_name">VGRD_10maboveground</att>
+            <att name="units">m/s</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarMaximum" type="double">120.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
+      <att name="coordinates">null</att>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+    </addAttributes>
+  </dataVariable>
+</dataset>
