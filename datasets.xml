@@ -5646,6 +5646,28 @@ e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have
     </addAttributes>
   </axisVariable>
   <axisVariable>
+    <sourceName>deptht</sourceName>
+    <destinationName>depth</destinationName>
+    <!-- sourceAttributes>
+            <att name="_ChunkSize" type="int">40</att>
+            <att name="axis">Z</att>
+            <att name="bounds">deptht_bounds</att>
+            <att name="long_name">Vertical T levels</att>
+            <att name="name">deptht</att>
+            <att name="positive">down</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+    <addAttributes>
+      <att name="_ChunkSize">null</att>
+      <att name="_ChunkSizes">null</att>
+      <att name="bounds">null</att>
+      <att name="long_name">Depth</att>
+      <att name="standard_name">depth</att>
+      <att name="coverage_content_type">modelResult</att>
+      <att name="ioos_category">location</att>
+    </addAttributes>
+  </axisVariable>
+  <axisVariable>
     <sourceName>y</sourceName>
     <destinationName>gridY</destinationName>
     <!-- sourceAttributes>
