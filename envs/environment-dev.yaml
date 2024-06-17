@@ -2,7 +2,7 @@
 #
 # Use:
 #
-#   conda env create -f envs/environment-dev.yaml
+#   mamba env create -f envs/environment-dev.yaml
 
 name: erddap-datasets-dev
 

@@ -1,4 +1,4 @@
-# conda environment description file for Serddap-datasets testing environment
+# conda environment description file for erddap-datasets testing environment
 #
 # Creates a conda environment in which the check_datasets_xml module can be run.
 # Primarily intended for creation of a conda env for use in a GitHub Actions workflow.
