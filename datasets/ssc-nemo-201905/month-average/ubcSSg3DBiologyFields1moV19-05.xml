@@ -53,7 +53,7 @@ They are licensed under the Apache License, Version 2.0. https://www.apache.org/
     <att name="summary">Green, SalishSeaCast, 3d Biology Fields, Monthly, v19-05
 
 3d SMELT biological model field values averaged over 1 month intervals
-from SalishSeaCast NEMO model runs with physics, biology and chemistry. 
+from SalishSeaCast NEMO model runs with physics, biology and chemistry.
 The values are calculated for the entire model grid that includes the Juan de Fuca Strait, the Strait of Georgia,
 Puget Sound, and Johnstone Strait on the coasts of Washington State and British Columbia.
 The time values are UTC.

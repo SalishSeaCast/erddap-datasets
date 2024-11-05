@@ -27,6 +27,7 @@ import yaml
 
 logger = structlog.get_logger()
 
+
 def main(config_path, datasets_xml):
     with config_path.open("rt") as _config:
         config = yaml.safe_load(_config)
@@ -34,7 +35,7 @@ def main(config_path, datasets_xml):
     ds_tree = Path(config["datasets tree"])
     prefix = ds_tree / config["prefix"]
     postfix = ds_tree / config["postfix"]
-    ds_descs = [ds_tree/ds_desc for ds_desc in config["datasets"]]
+    ds_descs = [ds_tree / ds_desc for ds_desc in config["datasets"]]
 
     logger.info("starting to write", datasets_xml=os.fspath(datasets_xml))
     with datasets_xml.open("wt") as _datasets_xml:
@@ -43,6 +44,7 @@ def main(config_path, datasets_xml):
             _write_section(ds_desc, _datasets_xml)
         _write_section(postfix, _datasets_xml, end="")
     logger.info("finished writing", datasets_xml=os.fspath(datasets_xml))
+
 
 def _write_section(section, _datasets_xml, end="\n"):
     with section.open("rt") as _section:

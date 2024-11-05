@@ -46,13 +46,13 @@
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
-National Ocean and Atmospheric Administration (NOAA), 
-United States Geological Service (USGS), 
+    <att name="acknowledgement">Canadian Hydrographic Service (CHS),
+National Ocean and Atmospheric Administration (NOAA),
+United States Geological Service (USGS),
 Digital Research Alliance of Canada
 
-This product has been produced by the University of British Columbia based in part on 
-Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
+This product has been produced by the University of British Columbia based in part on
+Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence
 No. 2016-0504-1260-U.
 
 The incorporation of data sourced from CHS in this product shall not be construed as
@@ -97,7 +97,7 @@ v17-02: same variables,
         * CHS Multibeam data and all point cloud data for the Salish Sea.
         Straightened and smoothed Juan de Fuca &amp; Johnstone Strait open boundaries.
         Added proxy channel for Fraser River upstream of confluence with the Pitt River.
-        Adjustments by Michael Dunphy to increase resolution of Fraser River channels downstream of 
+        Adjustments by Michael Dunphy to increase resolution of Fraser River channels downstream of
         confluence with the Pitt River.
 v21-08: same variables,
         Bathymetry composed from 3 datasets:
@@ -106,7 +106,7 @@ v21-08: same variables,
         * CHS Multibeam data and all point cloud data for the Salish Sea.
         Straightened and smoothed Juan de Fuca &amp; Johnstone Strait open boundaries.
         Added proxy channel for Fraser River upstream of confluence with the Pitt River.
-        Adjustments by Michael Dunphy to increase resolution of Fraser River channels downstream of 
+        Adjustments by Michael Dunphy to increase resolution of Fraser River channels downstream of
         confluence with the Pitt River.
         Moved coastline to 2m isobath and set depth there to 4m; in contrast to 4m depth at 0m isobath;
         volume is approximately conserved.
@@ -250,13 +250,13 @@ v21-08: same variables,
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
-National Ocean and Atmospheric Administration (NOAA), 
-United States Geological Service (USGS), 
+    <att name="acknowledgement">Canadian Hydrographic Service (CHS),
+National Ocean and Atmospheric Administration (NOAA),
+United States Geological Service (USGS),
 Digital Research Alliance of Canada
 
-This product has been produced by the University of British Columbia based in part on 
-Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
+This product has been produced by the University of British Columbia based in part on
+Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence
 No. 2016-0504-1260-U.
 
 The incorporation of data sourced from CHS in this product shall not be construed as
@@ -666,13 +666,13 @@ v21-08: tmaskutil, umaskutil, vmaskutil, fmaskutil, glamt, glamu, glamv, glamf, 
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
-National Ocean and Atmospheric Administration (NOAA), 
-United States Geological Service (USGS), 
+    <att name="acknowledgement">Canadian Hydrographic Service (CHS),
+National Ocean and Atmospheric Administration (NOAA),
+United States Geological Service (USGS),
 Digital Research Alliance of Canada
 
-This product has been produced by the University of British Columbia based in part on 
-Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
+This product has been produced by the University of British Columbia based in part on
+Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence
 No. 2016-0504-1260-U.
 
 The incorporation of data sourced from CHS in this product shall not be construed as
@@ -1112,13 +1112,13 @@ v21-08: tmask, umask, vmask, fmask, e3t_0, e3u_0, e3v_0, e3w_0, gdept_0, gdepu, 
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
-National Ocean and Atmospheric Administration (NOAA), 
-United States Geological Service (USGS), 
+    <att name="acknowledgement">Canadian Hydrographic Service (CHS),
+National Ocean and Atmospheric Administration (NOAA),
+United States Geological Service (USGS),
 Digital Research Alliance of Canada
 
-This product has been produced by the University of British Columbia based in part on 
-Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
+This product has been produced by the University of British Columbia based in part on
+Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence
 No. 2016-0504-1260-U.
 
 The incorporation of data sourced from CHS in this product shall not be construed as
@@ -1301,13 +1301,13 @@ https://bitbucket.org/salishsea/nemo-forcing/src/tip/grid/bathymetery_201702.nc
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
-National Ocean and Atmospheric Administration (NOAA), 
-United States Geological Service (USGS), 
+    <att name="acknowledgement">Canadian Hydrographic Service (CHS),
+National Ocean and Atmospheric Administration (NOAA),
+United States Geological Service (USGS),
 Digital Research Alliance of Canada
 
-This product has been produced by the University of British Columbia based in part on 
-Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
+This product has been produced by the University of British Columbia based in part on
+Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence
 No. 2016-0504-1260-U.
 
 The incorporation of data sourced from CHS in this product shall not be construed as
@@ -1695,13 +1695,13 @@ https://bitbucket.org/salishsea/nemo-forcing/src/tip/grid/bathymetery_201702.nc
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Canadian Hydrographic Service (CHS), 
-National Ocean and Atmospheric Administration (NOAA), 
-United States Geological Service (USGS), 
+    <att name="acknowledgement">Canadian Hydrographic Service (CHS),
+National Ocean and Atmospheric Administration (NOAA),
+United States Geological Service (USGS),
 Digital Research Alliance of Canada
 
-This product has been produced by the University of British Columbia based in part on 
-Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence 
+This product has been produced by the University of British Columbia based in part on
+Canadian Hydrographic Service charts and/or data, pursuant to CHS Direct User Licence
 No. 2016-0504-1260-U.
 
 The incorporation of data sourced from CHS in this product shall not be construed as
@@ -2611,7 +2611,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 
 This dataset is derived from a product of the Environment and Climate Change Canada HRDPS
 (High Resolution Deterministic Prediction System) model.
-The Terms and conditions of use of Meteorological Data from Environment and Climate Change Canada 
+The Terms and conditions of use of Meteorological Data from Environment and Climate Change Canada
 are available at http://dd.weather.gc.ca/doc/LICENCE_GENERAL.txt.</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
     <att name="summary">HRDPS, SalishSeaCast, Atmospheric Forcing Grid, Geo-location, v1
@@ -3111,7 +3111,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Grid X</att>
       <att name="standard_name">x</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">gridX values are grid indices in the model x-direction; 
+      <att name="comment">gridX values are grid indices in the model x-direction;
       geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
       <att name="ioos_category">location</att>
     </addAttributes>
@@ -7659,7 +7659,7 @@ They are licensed under the Apache License, Version 2.0. https://www.apache.org/
 
 Variable values at the 3d zonal (u) component velocity grid points averaged over 1 month intervals
 from SalishSeaCast NEMO model runs with physics, biology and chemistry.
-The values are calculated for the entire model grid that includes the Juan de Fuca Strait, the Strait of Georgia, 
+The values are calculated for the entire model grid that includes the Juan de Fuca Strait, the Strait of Georgia,
 Puget Sound, and Johnstone Strait on the coasts of Washington State and British Columbia.
 The time values are UTC.
 They are the centre of the intervals over which the calculated model results are averaged;
@@ -8339,7 +8339,7 @@ They are licensed under the Apache License, Version 2.0. https://www.apache.org/
     <att name="summary">Green, SalishSeaCast, 3d Biology Fields, Monthly, v19-05
 
 3d SMELT biological model field values averaged over 1 month intervals
-from SalishSeaCast NEMO model runs with physics, biology and chemistry. 
+from SalishSeaCast NEMO model runs with physics, biology and chemistry.
 The values are calculated for the entire model grid that includes the Juan de Fuca Strait, the Strait of Georgia,
 Puget Sound, and Johnstone Strait on the coasts of Washington State and British Columbia.
 The time values are UTC.
@@ -12695,7 +12695,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
     <att name="easternmost_longitude">null</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS &amp; DFO IOS</att>
-    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia, 
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia,
     Fisheries and Oceans Canada, Institute of Ocean Sciences</att>
     <att name="keywords">atmosphere,
 Atmosphere &amp;gt; Atmospheric Winds &amp;gt; Surface Winds,
@@ -12755,8 +12755,8 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; 
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">gemmrich@uvic.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Fisheries &amp; Oceans CanadaCast, 
-Ocean Networks Canada (ONC), 
+    <att name="acknowledgement">Fisheries &amp; Oceans CanadaCast,
+Ocean Networks Canada (ONC),
 Digital Research Alliance of Canada</att>
     <att name="drawLandMask">over</att>
     <att name="westernmost_longitude">null</att>
@@ -13271,7 +13271,7 @@ Digital Research Alliance of Canada</att>
     <att name="subsetVariables">fileType</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS &amp; DFO IOS</att>
-    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia, 
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia,
     Fisheries and Oceans Canada, Institute of Ocean Sciences</att>
     <att name="keywords">model results, file, identifier, lastModified, modified, name, size, time</att>
     <att name="license">The SalishSeaCast model results are copyright
@@ -13295,8 +13295,8 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; 
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">gemmrish@uvic.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Fisheries &amp; Oceans CanadaCast, 
-Ocean Networks Canada (ONC), 
+    <att name="acknowledgement">Fisheries &amp; Oceans CanadaCast,
+Ocean Networks Canada (ONC),
 Digital Research Alliance of Canada</att>
     <att name="history">null</att>
   </addAttributes>
@@ -13374,7 +13374,7 @@ Digital Research Alliance of Canada</att>
     <att name="subsetVariables">fileType</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS &amp; DFO IOS</att>
-    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia, 
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia,
     Fisheries and Oceans Canada, Institute of Ocean Sciences</att>
     <att name="keywords">model results, file, identifier, lastModified, modified, name, size, time</att>
     <att name="license">The SalishSeaCast model results are copyright
@@ -13401,8 +13401,8 @@ V2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry.
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">Michael.Dunphy@dfo-mpo.gc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Fisheries &amp; Oceans Canada, 
-Ocean Networks Canada (ONC), 
+    <att name="acknowledgement">Fisheries &amp; Oceans Canada,
+Ocean Networks Canada (ONC),
 Digital Research Alliance of Canada</att>
     <att name="history">null</att>
   </addAttributes>
@@ -13480,7 +13480,7 @@ Digital Research Alliance of Canada</att>
     <att name="subsetVariables">fileType</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS &amp; DFO IOS</att>
-    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia, 
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia,
     Fisheries and Oceans Canada, Institute of Ocean Sciences</att>
     <att name="keywords">model results, file, identifier, lastModified, modified, name, size, time</att>
     <att name="license">The SalishSeaCast model results are copyright
@@ -13510,8 +13510,8 @@ X2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry.
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">Michael.Dunphy@dfo-mpo.gc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Fisheries &amp; Oceans Canada, 
-Ocean Networks Canada (ONC), 
+    <att name="acknowledgement">Fisheries &amp; Oceans Canada,
+Ocean Networks Canada (ONC),
 Digital Research Alliance of Canada</att>
     <att name="history">null</att>
   </addAttributes>
@@ -13589,7 +13589,7 @@ Digital Research Alliance of Canada</att>
     <att name="subsetVariables">fileType</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS &amp; DFO IOS</att>
-    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia, 
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia,
     Fisheries and Oceans Canada, Institute of Ocean Sciences</att>
     <att name="keywords">model results, file, identifier, lastModified, modified, name, size, time</att>
     <att name="license">The SalishSeaCast model results are copyright
@@ -13619,8 +13619,8 @@ R12: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry.
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">Michael.Dunphy@dfo-mpo.gc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Fisheries &amp; Oceans Canada, 
-Ocean Networks Canada (ONC), 
+    <att name="acknowledgement">Fisheries &amp; Oceans Canada,
+Ocean Networks Canada (ONC),
 Digital Research Alliance of Canada</att>
     <att name="history">null</att>
 </addAttributes>
@@ -16125,7 +16125,7 @@ Store as netCDF4 file.
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">sallen@eos.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Fisheries &amp; Oceans Canada, 
+    <att name="acknowledgement">Fisheries &amp; Oceans Canada,
 Vancouver Fraser Port Authority (VFPA)</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UCB EOAS, DFO IOS &amp; VFPA</att>

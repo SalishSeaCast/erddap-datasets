@@ -35,17 +35,23 @@ def main(config_path):
         config = yaml.safe_load(_config)
 
     ds_tree = Path(config["datasets tree"])
-    ds_descs = [ds_tree/ds_desc for ds_desc in config["datasets"]]
+    ds_descs = [ds_tree / ds_desc for ds_desc in config["datasets"]]
     # ds_descs = [Path("test_datasets.xml")]
 
     exit_code = 0
     for ds_desc in ds_descs:
         try:
             lxml.etree.parse(ds_desc)
-            logger.info("lxml parse", dataset_description=os.fspath(ds_desc), status="ok")
+            logger.info(
+                "lxml parse", dataset_description=os.fspath(ds_desc), status="ok"
+            )
         except lxml.etree.LxmlError as exc:
             exit_code = 2
-            logger.info("lxml parse", dataset_description=os.fspath(ds_desc), status="not well-formed XML!")
+            logger.info(
+                "lxml parse",
+                dataset_description=os.fspath(ds_desc),
+                status="not well-formed XML!",
+            )
             logger.exception(exc)
     raise SystemExit(exit_code)
 

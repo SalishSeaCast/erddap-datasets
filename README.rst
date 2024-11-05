@@ -17,7 +17,7 @@ Also in the repo are:
 * Python scripts to check that the XML fragments are well-formed,
   and to build ``datasets.xml`` from the dataset description fragments
 * Jupyter notebooks that are used to generate and maintain the dataset description fragments
-* conda environment description YAML files to build conda environment in which the above code 
+* conda environment description YAML files to build conda environment in which the above code
   can be executed
 
 

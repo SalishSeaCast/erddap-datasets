@@ -22,3 +22,6 @@ dependencies:
   - rich
   - structlog
   - xarray
+
+  # For coding style and repo QA
+  - pre-commit

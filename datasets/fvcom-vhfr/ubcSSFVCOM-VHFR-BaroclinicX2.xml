@@ -13,7 +13,7 @@
     <att name="subsetVariables">fileType</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS &amp; DFO IOS</att>
-    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia, 
+    <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia,
     Fisheries and Oceans Canada, Institute of Ocean Sciences</att>
     <att name="keywords">model results, file, identifier, lastModified, modified, name, size, time</att>
     <att name="license">The SalishSeaCast model results are copyright
@@ -43,8 +43,8 @@ X2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry.
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">Michael.Dunphy@dfo-mpo.gc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
-    <att name="acknowledgement">Fisheries &amp; Oceans Canada, 
-Ocean Networks Canada (ONC), 
+    <att name="acknowledgement">Fisheries &amp; Oceans Canada,
+Ocean Networks Canada (ONC),
 Digital Research Alliance of Canada</att>
     <att name="history">null</att>
   </addAttributes>
