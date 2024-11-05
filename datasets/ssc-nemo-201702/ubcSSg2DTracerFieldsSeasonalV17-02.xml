@@ -140,7 +140,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Grid X</att>
       <att name="standard_name">x</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">gridX values are grid indices in the model x-direction; 
+      <att name="comment">gridX values are grid indices in the model x-direction;
       geo-location data for the SalishSeaCast NEMO model grid is available in the ubcSSnBathymetry2V17-02 dataset.</att>
       <att name="ioos_category">location</att>
     </addAttributes>
