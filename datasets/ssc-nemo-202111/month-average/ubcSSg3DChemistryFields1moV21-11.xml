@@ -3,7 +3,7 @@
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/month-avg.202111/</fileDir>
   <recursive>true</recursive>
-  <fileNameRegex>.*SalishSea_1m_chem_T_\d{8}_\d{8}\.nc$</fileNameRegex>
+  <fileNameRegex>.*SalishSeaCast_1m_chem_T_\d{8}_\d{8}\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
   <matchAxisNDigits>20</matchAxisNDigits>
   <fileTableInMemory>false</fileTableInMemory>
