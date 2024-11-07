@@ -96,52 +96,46 @@ https://doi.org/10.1029/2021GB007024
     <att name="description">biogeochemical variables</att>
   </addAttributes>
   <axisVariable>
-    <sourceName>time_counter</sourceName>
+    <sourceName>time</sourceName>
     <destinationName>time</destinationName>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">1</att>
-            <att name="axis">T</att>
-            <att name="bounds">time_counter_bounds</att>
-            <att name="calendar">gregorian</att>
+            <att name="_ChunkSizes" type="int">1</att>
+            <att name="calendar">proleptic_gregorian</att>
             <att name="long_name">Time axis</att>
             <att name="standard_name">time</att>
-            <att name="time_origin">1900-01-01 00:00:00</att>
-            <att name="units">seconds since 1900-01-01 00:00:00</att>
+            <att name="time_origin">2007-01-01 12:00:00</att>
+            <att name="units">days since 2007-01-01T12:00:00</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
-      <att name="bounds">null</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged;
-e.g. the field average values for the 00:00 to 01:00 UTC hour on 2021-06-03 have a time value of 2021-06-03 00:30:00Z.
+e.g. the field average values for January 2007 have a time value of 2007-01-16 12:00:00Z
       </att>
       <att name="ioos_category">time</att>
     </addAttributes>
   </axisVariable>
   <axisVariable>
-    <sourceName>deptht</sourceName>
+    <sourceName>depth</sourceName>
     <destinationName>depth</destinationName>
     <!-- sourceAttributes>
-            <att name="_ChunkSize" type="int">40</att>
-            <att name="axis">Z</att>
-            <att name="bounds">deptht_bounds</att>
-            <att name="long_name">Vertical T levels</att>
-            <att name="name">deptht</att>
+            <att name="_ChunkSizes" type="int">40</att>
+            <att name="standard_name">sea_floor_depth</att>
+            <att name="long_name">Sea Floor Depth</att>
             <att name="positive">down</att>
-            <att name="units">m</att>
+            <att name="units">metres</att>
         </sourceAttributes -->
     <addAttributes>
-      <att name="_ChunkSize">null</att>
       <att name="_ChunkSizes">null</att>
-      <att name="bounds">null</att>
       <att name="long_name">Depth</att>
       <att name="standard_name">depth</att>
+      <att name="units">m</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="ioos_category">location</att>
     </addAttributes>
   </axisVariable>
   <axisVariable>
-    <sourceName>y</sourceName>
+    <sourceName>gridY</sourceName>
     <destinationName>gridY</destinationName>
     <!-- sourceAttributes>
         </sourceAttributes -->
@@ -156,7 +150,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
     </addAttributes>
   </axisVariable>
   <axisVariable>
-    <sourceName>x</sourceName>
+    <sourceName>gridX</sourceName>
     <destinationName>gridX</destinationName>
     <!-- sourceAttributes>
         </sourceAttributes -->
@@ -177,15 +171,8 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <dataType>float</dataType>
       <!-- sourceAttributes>
           <att name="_ChunkSizes" type="intList">1 40 898 398</att>
-          <att name="_FillValue" type="float">1.0E20</att>
-          <att name="cell_measures">area: area</att>
-          <att name="cell_methods">time: mean (interval: 40 s)</att>
-          <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-          <att name="interval_operation">40 s</att>
-          <att name="interval_write">1 h</att>
+          <att name="_FillValue" type="float">NaNf</att>
           <att name="long_name">Dissolved Inorganic C Concentration</att>
-          <att name="missing_value" type="float">1.0E20</att>
-          <att name="online_operation">average</att>
           <att name="standard_name">mole_concentration_of_dissolved_inorganic_carbon_in_sea_water</att>
           <att name="units">mmol m-3</att>
       </sourceAttributes -->
@@ -197,13 +184,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="colorBarMaximum" type="double">2400.0</att>
         <att name="colorBarMinimum" type="double">600.0</att>
         <att name="_ChunkSizes">null</att>
-        <att name="coordinates">null</att>
         <att name="coverage_content_type">modelResult</att>
-        <att name="cell_measures">null</att>
-        <att name="cell_methods">null</att>
-        <att name="interval_operation">null</att>
-        <att name="interval_write">null</att>
-        <att name="online_operation">null</att>
       </addAttributes>
   </dataVariable>
 
@@ -213,15 +194,8 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <dataType>float</dataType>
       <!-- sourceAttributes>
           <att name="_ChunkSizes" type="intList">1 40 898 398</att>
-          <att name="_FillValue" type="float">1.0E20</att>
-          <att name="cell_measures">area: area</att>
-          <att name="cell_methods">time: mean (interval: 40 s)</att>
-          <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-          <att name="interval_operation">40 s</att>
-          <att name="interval_write">1 h</att>
+          <att name="_FillValue" type="float">NaNf</att>
           <att name="long_name">Total Alkalinity Concentration</att>
-          <att name="missing_value" type="float">1.0E20</att>
-          <att name="online_operation">average</att>
           <att name="standard_name">sea_water_alkalinity_expressed_as_mole_equivalent</att>
           <att name="units">mmol m-3</att>
       </sourceAttributes -->
@@ -233,13 +207,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="colorBarMaximum" type="double">2400.0</att>
         <att name="colorBarMinimum" type="double">500.0</att>
         <att name="_ChunkSizes">null</att>
-        <att name="coordinates">null</att>
         <att name="coverage_content_type">modelResult</att>
-        <att name="cell_measures">null</att>
-        <att name="cell_methods">null</att>
-        <att name="interval_operation">null</att>
-        <att name="interval_write">null</att>
-        <att name="online_operation">null</att>
       </addAttributes>
   </dataVariable>
 
@@ -249,15 +217,8 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <dataType>float</dataType>
       <!-- sourceAttributes>
           <att name="_ChunkSizes" type="intList">1 40 898 398</att>
-          <att name="_FillValue" type="float">1.0E20</att>
-          <att name="cell_measures">area: area</att>
-          <att name="cell_methods">time: mean (interval: 40 s)</att>
-          <att name="coordinates">time_centered deptht nav_lat nav_lon</att>
-          <att name="interval_operation">40 s</att>
-          <att name="interval_write">1 h</att>
+          <att name="_FillValue" type="float">NaNf</att>
           <att name="long_name">Dissolved Oxygen Concentration</att>
-          <att name="missing_value" type="float">1.0E20</att>
-          <att name="online_operation">average</att>
           <att name="standard_name">mole_concentration_of_dissolved_molecular_oxygen_in_sea_water</att>
           <att name="units">mmol m-3</att>
       </sourceAttributes -->
@@ -269,13 +230,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="colorBarMaximum" type="double">500.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="_ChunkSizes">null</att>
-        <att name="coordinates">null</att>
         <att name="coverage_content_type">modelResult</att>
-        <att name="cell_measures">null</att>
-        <att name="cell_methods">null</att>
-        <att name="interval_operation">null</att>
-        <att name="interval_write">null</att>
-        <att name="online_operation">null</att>
       </addAttributes>
   </dataVariable>
 </dataset>
