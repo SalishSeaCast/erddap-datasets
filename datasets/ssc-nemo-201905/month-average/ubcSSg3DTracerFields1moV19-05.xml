@@ -14,7 +14,6 @@
         <att name="title">ocean T grid variables</att>
     </sourceAttributes -->
   <addAttributes>
-    <att name="testOutOfDate">now-36days</att>
     <att name="cdm_data_type">Grid</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
