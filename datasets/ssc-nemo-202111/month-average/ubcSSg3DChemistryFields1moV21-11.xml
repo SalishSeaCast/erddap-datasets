@@ -108,7 +108,8 @@ https://doi.org/10.1029/2021GB007024
     <addAttributes>
       <att name="_ChunkSizes">null</att>
       <att name="coverage_content_type">modelResult</att>
-      <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged;
+      <att name="comment">
+time values are UTC at the centre of the intervals over which the calculated model results are averaged;
 e.g. the field average values for January 2022 have a time value of 2022-01-15 12:00:00Z,
 and those for April 2022 have a time value of 2022-04-15 00:00:00Z
       </att>
