@@ -22,7 +22,7 @@
     <att name="institution_fullname">Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
     <att name="keywords">
 alkalinity,
-carbon, chemistry, concentration, deptht, dissolved, dissolved_inorganic_carbon, dissolved_oxygen,
+carbon, chemistry, concentration, depth, dissolved, dissolved_inorganic_carbon, dissolved_oxygen,
 Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Alkalinity,
 Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Carbon,
 Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Inorganic Carbon,
@@ -65,7 +65,7 @@ and include citations of the publications below.
 Inclusion of the date(s) when you downloaded the dataset,
 and the dataset id help to ensure reproducibility of your work.
 
-Reference wording:
+Example wording:
 
 3d SKOG carbon chemistry and oxygen fields from the SalishSeaCast NEMO model
 (Soontiens et al, 2016; Soontiens and Allen, 2017, Jarníková et al, 2022)
@@ -109,7 +109,8 @@ https://doi.org/10.1029/2021GB007024
       <att name="_ChunkSizes">null</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="comment">time values are UTC at the centre of the intervals over which the calculated model results are averaged;
-e.g. the field average values for January 2007 have a time value of 2007-01-16 12:00:00Z
+e.g. the field average values for January 2022 have a time value of 2022-01-15 12:00:00Z,
+and those for April 2022 have a time value of 2022-04-15 00:00:00Z
       </att>
       <att name="ioos_category">time</att>
     </addAttributes>

@@ -42,6 +42,7 @@ datasets:
   # month-averaged fields
   - ssc-nemo-202111/month-average/ubcSSg3DChemistryFields1moV21-11.xml
   - ssc-nemo-202111/month-average/ubcSSg3DPhysicsFields1moV21-11.xml
+  - ssc-nemo-202111/month-average/ubcSSg3DBiologyFields1moV21-11.xml
 
   # SalishSeaCast NEMO v2019-05 results
   # hour-averaged fields
