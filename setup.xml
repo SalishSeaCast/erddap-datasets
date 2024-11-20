@@ -582,9 +582,9 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   at the University of British Columbia (UBC).
   Available datasets include surface and 3D fields of currents, temperature, salinity,
   sea surface height, biological and chemical tracers from NEMO and FVCOM,
-  and wave fields WaveWatch3(TM),
+  and wave fields WaveWatch III®,
   as well as the Environment and Climate Change Canada (ECCC)
-  High Resolution Deterministic Preduction System (HRDPS)
+  High Resolution Deterministic Prediction System (HRDPS)
   atmospheric model fields used to force the models.
   Also available are aggregated datasets from selected Ocean Networks Canada (ONC) real-time sensors,
   and a real-time current dataset from a Vancouver Fraser Port Authority (VFPA) sensor at the 2nd Narrows railway bridge in Vancouver Harbour.
@@ -594,43 +594,99 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   for more information about the model and the SalishSeaCast system.
 </p>
 
-<h2>V19-05 NEMO Model is Live!</h2>
+<h2>V21-11 NEMO Model is Live!</h2>
 <p>
-  The <code>V19-05</code> version of the NEMO model went into daily production on 2020-02-16;
-  please see details below.
-  The <code>V18-12</code> datasets were removed from this ERDDAP on 31-Mar-20.
+  A new, improved version of the SalishSeaCast NEMO model has been running in near-real-time since 1-Jan-2024.
+  A hindcast from 1-Jan-2007 using that model configuration was completed in late 2023.
+  New NEMO datasets from that model configuration were added to this ERDDAP starting in December 2023.
+  They are identified with a <code>V21-11</code> version string in their dataset ids, titles, summaries, etc.
 </p>
 <p>
-  A hindcast using the <code>V19-05</code> model configuration starting from 2007-01-01 has been completed.
-  Results from that hindcast are included in the <code>V19-05</code> datasets.
+  The hindcast was spun up for 5 years with best available forcing and boundary conditions for 2002-2006.
+  The spin-up years are <em>not</em> included in the <code>V21-11</code> datasets.
 </p>
 <p>
-  The hindcast was spun up for 2 years with its first year's forcing and boundary conditions.
-  The spin-up years are <em>not</em> included in the <code>V19-05</code> datasets.
+  Time series datasets like hourly physics, biology, and chemistry variables will have
+  co-existing <code>V19-05</code> and <code>V21-11</code> versions until at least 31-Dec-2024,
+  after which time the <code>V19-05</code> datasets will be removed.
 </p>
 <p>
-  The rolling forecast datasets have transitioned to results from the <code>V19-05</code> model configuration.
+  The rolling forecast datasets are from the <code>V21-11</code> model configuration.
   The version part of the rolling forecast dataset ids was dropped on 2-Jul-2019 to reflect the fact that those datasets transition smoothly from one model version to the next.
   Please see the summary metadata item to learn what model version is producing the most recent fields in the rolling forecast datasets.
 </p>
 
-<h3>Changes Between <code>V18-12</code> and <code>V19-05</code></h3>
+<h3>Changes Between <code>V19-05</code> and <code>V21-11</code></h3>
+<h4>Physics</h4>
+<p>
+  From Stang and Allen, 2024:
+</p>
 <ul>
   <li>
-    Improved parameter tuning of biological model parameter
+    Daily river flows are calculated using continuous gauge records fitted to monthly watersheds from Morrison et al. (2012), which allows for inter-annual variability like winter storms and summer droughts.
   </li>
   <li>
-    Correction applied to deep nitrate on western open boundary
+    The bathymetry was improved by adjusting the coastline to the 2-m isobath
+    (previously set to the mean sea level isobath)
+    and then deepening the minimum water depth to 4 m.
+    These changes align the extent of the Fraser River plume more closely with observations.
+    The bathymetry is available in the
+    <a href="https://salishsea.eos.ubc.ca/erddap/info/ubcSSnBathymetryV21-08/index.html">ubcSSnBathymetryV21-08</a>
+    dataset.
   </li>
   <li>
-    New bottom boundary condition for dissolved silica
-  </li>
-  <li>
-    Addition of carbon model based on dissolved inorganic carbon (DIC),
-    total alkalinity (TA),
-    and dissolved oxygen (DO) tracer variables
+    Coastal wave characterization was improved using WaveWatch III® model results,
+    addressing the small fetch and waves in the Salish Sea (Moore-Maley, 2022).
+    The new parameterization reduces mixing by adjusting the turbulence parameterization surface boundary condition,
+    partially correcting the too salty surface salinities in the Fraser River plume.
   </li>
 </ul>
+
+<h4>Biology</h4>
+<p>
+  From Suchy, et al, in preparation:
+</p>
+<ul>
+  <li>
+    <em>Mesodinium rubrum</em> removed as evaluation showed the model was not reproducing the small number of observations available.
+  </li>
+  <li>
+    Functional light dependence was switched to a PE-curve style,
+    but tuned to closely match the <code>V19-05</code> response
+  </li>
+  <li>
+    Sinking for biological tracers was switched from upstream advection to being incorporated in the NEMO Flux-Corrected Transport scheme
+  </li>
+  <li>
+    River tracer inputs were updated
+  </li>
+  <li>
+    The N:O coupling for various processes was updated and a parameter for sediment oxygen
+    demand was added that effectively allows an oxygen flux into the sediments not coupled to an
+    outgoing nitrate flux.
+    It is proportional to the amount of organic matter sinking out of the domain.
+    Further improvements to oxygen in the model are ongoing.
+  </li>
+</ul>
+
+<h4>References</h4>
+<p>
+  Stang C. and Allen S.E., 2024.
+  Seasonably variable estuarine exchange through inter-connected channels in the Salish Sea.
+  ESS Open Archive, November 11, 2024.
+  DOI: <a href="https://doi.org/10.22541/essoar.173134323.35470755/v1">https://doi.org/10.22541/essoar.173134323.35470755/v1</a>
+</p>
+<p>
+  Morrison, J., Foreman, M. G. G., & Masson, D., 2012.
+  A Method for Estimating Monthly Freshwater Discharge Affecting British Columbia Coastal Waters. Atmosphere-Ocean, 50(1), 1–8.
+  <a href="https://doi.org/10.1080/07055900.2011.637667">https://doi.org/10.1080/07055900.2011.637667</a>
+</p>
+<p>
+  Moore-Maley, B. L., 2022.
+  Wind-driven upwelling and nutrient supply in a productive estuarine sea.
+  University of British Columbia.
+  <a href="https://open.library.ubc.ca/collections/ubctheses/24/items/1.0418447">https://open.library.ubc.ca/collections/ubctheses/24/items/1.0418447</a>
+</p>
 
 <h2>Citing SalishSeaCast Datasets</h2>
 <p>
@@ -645,33 +701,54 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   Velocity, temperature, and salinity fields from the SalishSeaCast model (Soontiens et al, 2016; Soontiens and Allen, 2017) were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code> from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
 </blockquote>
 <p>
-  Example reference for biological datasets:
+  Example reference for biological and dissolved oxygen datasets:
 </p>
 <blockquote>
   Nitrate, silicon, and diatom fields from the SalishSeaCast model (Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020) were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code> from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
 </blockquote>
 <p>
-  In either case,
+  Example reference for carbon chemistry datasets:
+</p>
+<blockquote>
+  Dissolved inorganic carbon, total alkalinity, and surface CO2 flux fields from the SalishSeaCast model (Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020; Jarníková et al, 2022) were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code> from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
+</blockquote>
+<p>
+  In any of those cases,
   you substitute in the <code>DATE</code>(s) on which you downloaded the fields,
   and the <code>DATASETID</code>(s) you downloaded from.
   The <code>DATE</code>(s) and <code>DATASETID</code>(s) help to ensure reproducibility of your work.
-  <code>DATASETID</code>(s) look like <code>ubcSSg3DTracerFields1hV19-05</code> and are listed in the rightmost column of the table at <a href="https://salishsea.eos.ubc.ca/erddap/info/index.html">https://salishsea.eos.ubc.ca/erddap/info/index.html</a>
+  <code>DATASETID</code>(s) look like <code>ubcSSg3DTracerFields1hV21-11</code> and are listed in the rightmost column of the table at <a href="https://salishsea.eos.ubc.ca/erddap/info/index.html">https://salishsea.eos.ubc.ca/erddap/info/index.html</a>
 </p>
 
 <h3>Publications to Cite</h3>
 <p>
-  Olson, E. M., Allen, S. E., Do, Vy, Dunphy, M., and Ianson, D., 2020. Assessment of Nutrient Supply by a Tidal Jet in the Northern Strait of Georgia Based on a Biogeochemical Model. J. Geophys. Res. Oceans 125(8).
+  Jarníková T., Ianson D., Allen S.E., Shao A.E., Olson E.M., 2022.
+  Anthropogenic carbon increase has caused critical shifts in aragonite saturation across a sensitive coastal system.
+  Global Biogeochemical Cycles, 36(7).
+  <a href="https://doi.org/10.1029/2021GB007024">https://doi.org/10.1029/2021GB007024</a>
+</p>
+<p>
+  Olson, E. M., Allen, S. E., Do, Vy, Dunphy, M., and Ianson, D., 2020.
+  Assessment of Nutrient Supply by a Tidal Jet in the Northern Strait of Georgia Based on a Biogeochemical Model.
+  J. Geophys. Res. Oceans 125(8).
   <a href="https://doi.org/10.1029/2019JC015766">https://doi.org/10.1029/2019JC015766</a>
 </p>
 <p>
-  Soontiens, N. and Allen, S., 2017. Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32. <a href="https://dx.doi.org/10.1016/j.ocemod.2017.02.008">https://dx.doi.org/10.1016/j.ocemod.2017.02.008</a>
+  Soontiens, N. and Allen, S., 2017.
+  Modelling sensitivities to mixing and advection in a sill-basin estuarine system.
+  Ocean Modelling, 112, 17-32.
+  <a href="https://dx.doi.org/10.1016/j.ocemod.2017.02.008">https://dx.doi.org/10.1016/j.ocemod.2017.02.008</a>
 </p>
 <p>
-  Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016. Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean, 54, 1-21.
+  Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+  Storm surges in the Strait of Georgia simulated with a regional model.
+  Atmosphere-Ocean, 54, 1-21.
   <a href="https://dx.doi.org/10.1080/07055900.2015.1108899">https://dx.doi.org/10.1080/07055900.2015.1108899</a>
 </p>
 <p>
-  Moore-Maley, B. L., Allen, S. E., and Ianson, D., 2016. Locally-driven interannual variability of near-surface pH and ΩA in the Strait of Georgia. J. Geophys. Res. Oceans, 121(3), 1600–1625.
+  Moore-Maley, B. L., Allen, S. E., and Ianson, D., 2016.
+  Locally-driven interannual variability of near-surface pH and ΩA in the Strait of Georgia.
+  J. Geophys. Res. Oceans, 121(3), 1600–1625.
   <a href="https://dx.doi.org/10.1002/2015JC011118">https://dx.doi.org/10.1002/2015JC011118</a>
 </p>
 
