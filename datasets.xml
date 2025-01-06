@@ -10,10 +10,10 @@
 <requestBlacklist>
   <!-- dataforseo.com, an Estonian SEO company; swamped server with request failures on: -->
   <!-- 22sep23, 1apr24 -->
-  136.243.228.193,136.243.228.179,
+  136.243.228.193,136.243.228.179
   <!-- lcg-ce4.sfu.computecanada.ca; causing time outs due to high memory: -->
-  <!-- 01nov24-05nov24; blocked on 05nov24 -->
-  206.12.127.34
+  <!-- 01nov24-05nov24 and 12nov24; blocked on 12nov24 -->
+  <!-- 206.12.127.34 -->
 </requestBlacklist>
 
 <!-- If you want to prevent specific people from using the email/URL subscription
@@ -6836,7 +6836,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
   </dataVariable>
   </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1hV19-05" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1hV19-05" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201905/</fileDir>
@@ -7027,7 +7027,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DvGridFields1hV19-05" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DvGridFields1hV19-05" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201905/</fileDir>
@@ -7218,7 +7218,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1hV19-05" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1hV19-05" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201905/</fileDir>

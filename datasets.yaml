@@ -47,9 +47,9 @@ datasets:
 
   # SalishSeaCast NEMO v2019-05 results
   # hour-averaged fields
-  - ssc-nemo-201905/ubcSSg3DuGridFields1hV19-05.xml
-  - ssc-nemo-201905/ubcSSg3DvGridFields1hV19-05.xml
-  - ssc-nemo-201905/ubcSSg3DwGridFields1hV19-05.xml
+  - ssc-nemo-201905/ubcSSg3DuGridFields1hV19-05.xml  # disabled in prep for removal
+  - ssc-nemo-201905/ubcSSg3DvGridFields1hV19-05.xml  # disabled in prep for removal
+  - ssc-nemo-201905/ubcSSg3DwGridFields1hV19-05.xml  # disabled in prep for removal
   - ssc-nemo-201905/ubcSSgSurfaceTracerFields1hV19-05.xml
   - ssc-nemo-201905/ubcSSg3DBiologyFields1hV19-05.xml
   - ssc-nemo-201905/ubcSSg3DTracerFields1hV19-05.xml
