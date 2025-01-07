@@ -8725,7 +8725,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1moV19-05" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1moV19-05" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/month-avg.201905/</fileDir>
@@ -8910,7 +8910,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DvGridFields1moV19-05" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DvGridFields1moV19-05" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/month-avg.201905/</fileDir>
@@ -9095,7 +9095,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1moV19-05" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1moV19-05" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/month-avg.201905/</fileDir>
