@@ -8204,7 +8204,7 @@ https://doi.org/10.1029/2019JC015766
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DTracerFields1hV19-05" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DTracerFields1hV19-05" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.201905/</fileDir>
@@ -9910,7 +9910,7 @@ https://doi.org/10.1029/2019JC015766
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DTracerFields1moV19-05" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DTracerFields1moV19-05" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/month-avg.201905/</fileDir>
