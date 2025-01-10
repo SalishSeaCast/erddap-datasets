@@ -1275,7 +1275,7 @@ v17-02: same variables,
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMaskV17-02" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMaskV17-02" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/SalishSeaCast/grid/</fileDir>
@@ -1669,7 +1669,7 @@ v17-02: tmaskutil, umaskutil, vmaskutil, fmaskutil, glamt, glamu, glamv, glamf, 
   </dataVariable>
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DMeshMaskV17-02" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DMeshMaskV17-02" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/SalishSeaCast/grid/</fileDir>

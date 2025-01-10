@@ -1,4 +1,4 @@
-<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMaskV17-02" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMaskV17-02" active="false">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/SalishSeaCast/grid/</fileDir>
