@@ -52,8 +52,8 @@ datasets:
   - ssc-nemo-201905/ubcSSg3DwGridFields1hV19-05.xml  # disabled in prep for removal
   - ssc-nemo-201905/ubcSSgSurfaceTracerFields1hV19-05.xml  # disabled in prep for removal
   - ssc-nemo-201905/ubcSSg3DBiologyFields1hV19-05.xml  # disabled in prep for removal
-  - ssc-nemo-201905/ubcSSg3DTracerFields1hV19-05.xml
-  - ssc-nemo-201905/ubcSSg3DAuxiliaryFields1hV19-05.xml
+  - ssc-nemo-201905/ubcSSg3DTracerFields1hV19-05.xml  # disabled in prep for removal
+  - ssc-nemo-201905/ubcSSg3DAuxiliaryFields1hV19-05.xml  # disabled in prep for removal
   # month-averaged fields
   - ssc-nemo-201905/month-average/ubcSSg3DuGridFields1moV19-05.xml  # disabled in prep for removal
   - ssc-nemo-201905/month-average/ubcSSg3DvGridFields1moV19-05.xml  # disabled in prep for removal
