@@ -13845,7 +13845,7 @@ and extends to 11:30:00 UTC on the 2nd day after the forecast run date.
 So, for example, after completion of the 10-Nov-2017 forecast run,
 this dataset included data from 2017-11-05 00:00:00 UTC to 2017-11-12 11:30:00 UTC.
 
-v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; see infoUrl link for full details.
 </att>
     <att name="title">Forecast, Salish Sea, 2d Wave Fields, 30min, v17-02</att>
     <att name="project">SalishSeaCast NEMO Model</att>
@@ -14387,7 +14387,7 @@ by Johannes Gemmrich at the University of Victoria. The WaveWatch III&#174; mode
 is forced with currents from the SalishSeaCast NEMO model and the same ECCC HRDPS
 GEM 2.5km resolution winds that are used to force the NEMO model.
 
-v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; see infoUrl link for full details.
 </att>
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">gemmrish@uvic.ca</att>

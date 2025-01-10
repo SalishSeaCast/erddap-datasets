@@ -32,7 +32,7 @@ by Johannes Gemmrich at the University of Victoria. The WaveWatch III&#174; mode
 is forced with currents from the SalishSeaCast NEMO model and the same ECCC HRDPS
 GEM 2.5km resolution winds that are used to force the NEMO model.
 
-v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry; see infoUrl link for full details.
+v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; see infoUrl link for full details.
 </att>
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">gemmrish@uvic.ca</att>
