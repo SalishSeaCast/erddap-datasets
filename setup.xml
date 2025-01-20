@@ -703,7 +703,7 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   Example reference for biological and dissolved oxygen datasets:
 </p>
 <blockquote>
-  Nitrate, silicon, and diatom fields from the SalishSeaCast model
+  Nitrate, silicon, and phytoplankton fields from the SalishSeaCast model
   (Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020)
   were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code>
   from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
