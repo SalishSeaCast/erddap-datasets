@@ -606,11 +606,6 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   The spin-up years are <em>not</em> included in the <code>V21-11</code> datasets.
 </p>
 <p>
-  Time series datasets like hourly physics, biology, and chemistry variables will have
-  co-existing <code>V19-05</code> and <code>V21-11</code> versions until at least 31-Dec-2024,
-  after which time the <code>V19-05</code> datasets will be removed.
-</p>
-<p>
   The rolling forecast datasets are from the <code>V21-11</code> model configuration.
   The version part of the rolling forecast dataset ids was dropped on 2-Jul-2019 to reflect the fact that those datasets transition smoothly from one model version to the next.
   Please see the summary metadata item to learn what model version is producing the most recent fields in the rolling forecast datasets.
