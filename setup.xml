@@ -709,6 +709,15 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
 </blockquote>
 <p>
+  Example reference for zooplnakton datasets:
+</p>
+<blockquote>
+  Zooplankton fields from the SalishSeaCast model
+  (Soontiens et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020; Suchy et al, 2023)
+  were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code>
+  from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
+</blockquote>
+<p>
   Example reference for carbon chemistry datasets:
 </p>
 <blockquote>
@@ -729,7 +738,13 @@ All of the information in [standardShortDescriptionHtml] is also contained in
 
 <h3>Publications to Cite</h3>
 <p>
-  Jarníková T., Ianson D., Allen S.E., Shao A.E., Olson E.M., 2022.
+  Suchy, K.D., Olson, E.M., Allen, S.E., Galbraith, M., Herrmann, B., Keister, J.E., Perry, R.I., Sastri, A.R., Young, K., 2023.
+  Seasonal and regional variability of model-based zooplankton biomass in the Salish Sea and evaluation against observations.
+  Progress in Oceanography, 219, 103171.
+  <a href="https://doi.org/10.1016/j.pocean.2023.103171">https://doi.org/10.1016/j.pocean.2023.103171</a>
+</p>
+<p>
+  Jarníková, T., Ianson, D., Allen, S.E., Shao, A.E., Olson, E.M., 2022.
   Anthropogenic carbon increase has caused critical shifts in aragonite saturation across a sensitive coastal system.
   Global Biogeochemical Cycles, 36(7).
   <a href="https://doi.org/10.1029/2021GB007024">https://doi.org/10.1029/2021GB007024</a>
