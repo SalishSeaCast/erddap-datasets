@@ -16,8 +16,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 
-"""Check that datasets described in `datasets.yaml` file are well-formed XML.
-"""
+"""Check that datasets described in `datasets.yaml` file are well-formed XML."""
 import logging
 import os
 from pathlib import Path
