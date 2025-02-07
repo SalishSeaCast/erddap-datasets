@@ -35,7 +35,7 @@ The VHFR FVCOM model uses currents, sea surface height, temperature, and salinit
 from the SalishSeaCast NEMO model as boundary conditions, and the same ECCC HRDPS
 GEM 2.5km resolution winds that are used to force the NEMO model.
 
-V2: FVCOM-4.1; NEMO-3.6; ubcSSnBathymetryV17-02 bathymetry.
+V2: FVCOM-4.1; NEMO-3.6
 </att>
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">Michael.Dunphy@dfo-mpo.gc.ca</att>

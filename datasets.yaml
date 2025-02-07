@@ -12,20 +12,12 @@ datasets:
   - nemo-grid/ubcSSnBathymetryV21-08.xml
   - nemo-grid/ubcSSn2DMeshMaskV21-08.xml
   - nemo-grid/ubcSSn3DMeshMaskV21-08.xml
-  # v2017-02 bathymetry used for v2019-05 runs
-  - nemo-grid/ubcSSnBathymetryV17-02.xml
-  - nemo-grid/ubcSSn2DMeshMaskV17-02.xml
-  - nemo-grid/ubcSSn3DMeshMaskV17-02.xml
 
   # Atmospheric forcing
   - atmospheric/ubcSSaAtmosphereGridV23-02.xml
   - atmospheric/ubcSSaSurfaceAtmosphereFieldsV23-02.xml
   - atmospheric/ubcSSaAtmosphereGridV1.xml
   - atmospheric/ubcSSaSurfaceAtmosphereFieldsV1.xml
-
-  # SalishSeaCast NEMO v2017-02 results
-  # season-averaged fields
-  - ssc-nemo-201702/ubcSSg2DTracerFieldsSeasonalV17-02.xml
 
   # SalishSeaCast NEMO v2021-11 results
   # hour-averaged fields
@@ -44,22 +36,6 @@ datasets:
   - ssc-nemo-202111/month-average/ubcSSg3DPhysicsFields1moV21-11.xml
   - ssc-nemo-202111/month-average/ubcSSg3DBiologyFields1moV21-11.xml
   - ssc-nemo-202111/month-average/ubcSSg3DLightFields1moV21-11.xml
-
-  # SalishSeaCast NEMO v2019-05 results
-  # hour-averaged fields
-  - ssc-nemo-201905/ubcSSg3DuGridFields1hV19-05.xml
-  - ssc-nemo-201905/ubcSSg3DvGridFields1hV19-05.xml
-  - ssc-nemo-201905/ubcSSg3DwGridFields1hV19-05.xml
-  - ssc-nemo-201905/ubcSSgSurfaceTracerFields1hV19-05.xml
-  - ssc-nemo-201905/ubcSSg3DBiologyFields1hV19-05.xml
-  - ssc-nemo-201905/ubcSSg3DTracerFields1hV19-05.xml
-  - ssc-nemo-201905/ubcSSg3DAuxiliaryFields1hV19-05.xml
-  # month-averaged fields
-  - ssc-nemo-201905/month-average/ubcSSg3DuGridFields1moV19-05.xml
-  - ssc-nemo-201905/month-average/ubcSSg3DvGridFields1moV19-05.xml
-  - ssc-nemo-201905/month-average/ubcSSg3DwGridFields1moV19-05.xml
-  - ssc-nemo-201905/month-average/ubcSSg3DBiologyFields1moV19-05.xml
-  - ssc-nemo-201905/month-average/ubcSSg3DTracerFields1moV19-05.xml
 
   # SalishSeaCast NEMO non-versioned results
   # rolling forecasts for fields and tide gauge station water levels

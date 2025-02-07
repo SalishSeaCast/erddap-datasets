@@ -40,7 +40,7 @@ near New Westminster, British Columbia.
 The time values are UTC.
 They are the centres of the intervals over which the calculated model results are averaged;
 e.g. the field average values for the 00:00 to 0:10 UTC 10 minute period on 2021-06-03 have a time value of 2021-06-03 00:05:00Z.
-Geo-location and depth data for the SalishSeaCast NEMO model grid are available in the ubcSSnBathymetry2V17-02 dataset.
+Geo-location and depth data for the SalishSeaCast NEMO model grid are available in the ubcSSnBathymetryV21-08 dataset.
 
 This dataset is updated daily to move it forward 1 day in time.
 It starts at 00:05:00 UTC 5 days prior to the most recently completed forecast run,
@@ -56,6 +56,8 @@ v18-12: NEMO-3.6 SalishSeaCast-201812 configuration; ubcSSnBathymetryV17-02 bath
         see infoUrl link for full details.
 v19-05: NEMO-3.6 SalishSeaCast-201905 configuration; ubcSSnBathymetryV17-02 bathymetry;
         see infoUrl link for full details.
+This dataset is no longer versioned because it is derived from the hour-averaged fields if the NEMO configuration
+that is presently being run in near-real-time; see https://salishsea.eos.ubc.ca/erddap/index.html for details.
     </att>
     <att name="title">Forecast, New Westminster, Sea Surface Height, 10min</att>
     <att name="project">SalishSeaCast NEMO Model</att>

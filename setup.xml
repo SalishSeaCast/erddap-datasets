@@ -606,13 +606,9 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   The spin-up years are <em>not</em> included in the <code>V21-11</code> datasets.
 </p>
 <p>
-  Time series datasets like hourly physics, biology, and chemistry variables will have
-  co-existing <code>V19-05</code> and <code>V21-11</code> versions until at least 31-Dec-2024,
-  after which time the <code>V19-05</code> datasets will be removed.
-</p>
-<p>
   The rolling forecast datasets are from the <code>V21-11</code> model configuration.
-  The version part of the rolling forecast dataset ids was dropped on 2-Jul-2019 to reflect the fact that those datasets transition smoothly from one model version to the next.
+  The version part of the rolling forecast dataset ids was dropped on 2-Jul-2019 to reflect the fact
+  that those datasets transition smoothly from one model version to the next.
   Please see the summary metadata item to learn what model version is producing the most recent fields in the rolling forecast datasets.
 </p>
 
@@ -623,7 +619,8 @@ All of the information in [standardShortDescriptionHtml] is also contained in
 </p>
 <ul>
   <li>
-    Daily river flows are calculated using continuous gauge records fitted to monthly watersheds from Morrison et al. (2012), which allows for inter-annual variability like winter storms and summer droughts.
+    Daily river flows are calculated using continuous gauge records fitted to monthly watersheds
+    from Morrison et al. (2012), which allows for inter-annual variability like winter storms and summer droughts.
   </li>
   <li>
     The bathymetry was improved by adjusting the coastline to the 2-m isobath
@@ -698,31 +695,56 @@ All of the information in [standardShortDescriptionHtml] is also contained in
   Example reference for physics-only datasets:
 </p>
 <blockquote>
-  Velocity, temperature, and salinity fields from the SalishSeaCast model (Soontiens et al, 2016; Soontiens and Allen, 2017) were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code> from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
+  Velocity, temperature, and salinity fields from the SalishSeaCast model
+  (Soontiens et al, 2016; Soontiens and Allen, 2017) were downloaded from their ERDDAP server
+  (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code> from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
 </blockquote>
 <p>
   Example reference for biological and dissolved oxygen datasets:
 </p>
 <blockquote>
-  Nitrate, silicon, and diatom fields from the SalishSeaCast model (Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020) were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code> from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
+  Nitrate, silicon, and phytoplankton fields from the SalishSeaCast model
+  (Soontiens et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020)
+  were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code>
+  from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
+</blockquote>
+<p>
+  Example reference for zooplankton datasets:
+</p>
+<blockquote>
+  Zooplankton fields from the SalishSeaCast model
+  (Soontiens et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020; Suchy et al, 2023)
+  were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code>
+  from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
 </blockquote>
 <p>
   Example reference for carbon chemistry datasets:
 </p>
 <blockquote>
-  Dissolved inorganic carbon, total alkalinity, and surface CO2 flux fields from the SalishSeaCast model (Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020; Jarníková et al, 2022) were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code> from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
+  Dissolved inorganic carbon, total alkalinity, and surface CO2 flux fields from the SalishSeaCast
+  model (Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020; Jarníková et al, 2022)
+  were downloaded from their ERDDAP server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code>
+  from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
 </blockquote>
 <p>
   In any of those cases,
   you substitute in the <code>DATE</code>(s) on which you downloaded the fields,
   and the <code>DATASETID</code>(s) you downloaded from.
   The <code>DATE</code>(s) and <code>DATASETID</code>(s) help to ensure reproducibility of your work.
-  <code>DATASETID</code>(s) look like <code>ubcSSg3DTracerFields1hV21-11</code> and are listed in the rightmost column of the table at <a href="https://salishsea.eos.ubc.ca/erddap/info/index.html">https://salishsea.eos.ubc.ca/erddap/info/index.html</a>
+  <code>DATASETID</code>(s) look like <code>ubcSSg3DTracerFields1hV21-11</code> and are listed in
+  the rightmost column of the table at
+  <a href="https://salishsea.eos.ubc.ca/erddap/info/index.html">https://salishsea.eos.ubc.ca/erddap/info/index.html</a>
 </p>
 
 <h3>Publications to Cite</h3>
 <p>
-  Jarníková T., Ianson D., Allen S.E., Shao A.E., Olson E.M., 2022.
+  Suchy, K.D., Olson, E.M., Allen, S.E., Galbraith, M., Herrmann, B., Keister, J.E., Perry, R.I., Sastri, A.R., Young, K., 2023.
+  Seasonal and regional variability of model-based zooplankton biomass in the Salish Sea and evaluation against observations.
+  Progress in Oceanography, 219, 103171.
+  <a href="https://doi.org/10.1016/j.pocean.2023.103171">https://doi.org/10.1016/j.pocean.2023.103171</a>
+</p>
+<p>
+  Jarníková, T., Ianson, D., Allen, S.E., Shao, A.E., Olson, E.M., 2022.
   Anthropogenic carbon increase has caused critical shifts in aragonite saturation across a sensitive coastal system.
   Global Biogeochemical Cycles, 36(7).
   <a href="https://doi.org/10.1029/2021GB007024">https://doi.org/10.1029/2021GB007024</a>
