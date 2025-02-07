@@ -37,16 +37,6 @@ datasets:
   - ssc-nemo-202111/month-average/ubcSSg3DBiologyFields1moV21-11.xml
   - ssc-nemo-202111/month-average/ubcSSg3DLightFields1moV21-11.xml
 
-  # SalishSeaCast NEMO v2019-05 results
-  # hour-averaged fields
-  - ssc-nemo-201905/ubcSSg3DuGridFields1hV19-05.xml  # disabled in prep for removal
-  - ssc-nemo-201905/ubcSSg3DvGridFields1hV19-05.xml  # disabled in prep for removal
-  - ssc-nemo-201905/ubcSSg3DwGridFields1hV19-05.xml  # disabled in prep for removal
-  - ssc-nemo-201905/ubcSSgSurfaceTracerFields1hV19-05.xml  # disabled in prep for removal
-  - ssc-nemo-201905/ubcSSg3DBiologyFields1hV19-05.xml  # disabled in prep for removal
-  - ssc-nemo-201905/ubcSSg3DTracerFields1hV19-05.xml  # disabled in prep for removal
-  - ssc-nemo-201905/ubcSSg3DAuxiliaryFields1hV19-05.xml  # disabled in prep for removal
-
   # SalishSeaCast NEMO non-versioned results
   # rolling forecasts for fields and tide gauge station water levels
   - rolling-forecasts/ubcSSf3DuGridFields1h.xml
