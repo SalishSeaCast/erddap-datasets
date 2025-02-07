@@ -13,4 +13,3 @@ touch /results/erddap/flag/month-average/ubcSSg3DChemistryFields1moV21-11
 touch /results/erddap/flag/month-average/ubcSSg3DPhysicsFields1moV21-11
 touch /results/erddap/flag/month-average/ubcSSg3DBiologyFields1moV21-11
 touch /results/erddap/flag/month-average/ubcSSg3DLightFields1moV21-11
-
