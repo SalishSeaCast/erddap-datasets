@@ -1,5 +1,30 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <erddapDatasets>
+
+<!-- The tags below are described in setupDatasetsXml.html.
+      The defaults listed below are as of ERDDAP™ v2.00. -->
+<cacheMinutes>60</cacheMinutes>                                     <!-- default=60 -->
+<decompressedCacheMaxGB>10</decompressedCacheMaxGB>                 <!-- default=10 -->
+<decompressedCacheMaxMinutesOld>15</decompressedCacheMaxMinutesOld> <!-- default=15 -->
+<drawLandMask>over</drawLandMask>                                   <!-- "over" or "under" (default) -->
+<graphBackgroundColor></graphBackgroundColor>                       <!-- 0xAARRGGBB, default is 0xffccccff -->
+<loadDatasetsMinMinutes>15</loadDatasetsMinMinutes>                 <!-- usually=default=15 -->
+<loadDatasetsMaxMinutes>60</loadDatasetsMaxMinutes>                 <!-- default=60 -->
+<logLevel>info</logLevel>                                           <!-- "warning" (fewest messages), "info" (default), or "all" (most messages) -->
+<nGridThreads>1</nGridThreads>                                      <!-- default=1 -->
+<nTableThreads>1</nTableThreads>                                    <!-- default=1 -->
+<partialRequestMaxBytes>490000000</partialRequestMaxBytes>          <!-- default=490000000 -->
+<partialRequestMaxCells>10000000</partialRequestMaxCells>           <!-- default=10000000 -->
+<slowDownTroubleMillis>1000</slowDownTroubleMillis>                 <!-- default=1000 -->
+<unusualActivity>10000</unusualActivity>                            <!-- default=10000 -->
+<!-- The defaults for the following tags are in messages.xml. -->
+<standardLicense></standardLicense>
+<standardContact></standardContact>
+<standardDataLicenses></standardDataLicenses>
+<standardDisclaimerOfEndorsement></standardDisclaimerOfEndorsement>
+<standardDisclaimerOfExternalLinks></standardDisclaimerOfExternalLinks>
+<standardGeneralDisclaimer></standardGeneralDisclaimer>
+<standardPrivacyPolicy></standardPrivacyPolicy>
 
 <!-- If you want to refuse requests from certain clients
   (e.g., to fend off a Denial of Service attack or an overly zealous web robot),
@@ -10,7 +35,7 @@
 <requestBlacklist>
   <!-- dataforseo.com, an Estonian SEO company; swamped server with request failures on: -->
   <!-- 22sep23, 1apr24 -->
-  136.243.228.193,136.243.228.179
+  136.243.228.193, 136.243.228.179
 </requestBlacklist>
 
 <!-- If you want to prevent specific people from using the email/URL subscription
@@ -19,3 +44,278 @@
 -->
 <subscriptionEmailBlacklist>
 </subscriptionEmailBlacklist>
+
+<startHeadHtml5><![CDATA[
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>SalishSeaCast ERDDAP™</title>
+<link rel="shortcut icon" href="&erddapUrl;/images/favicon.ico">
+<link href="&erddapUrl;/images/erddap2.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+]]></startHeadHtml5>
+
+<startBodyHtml5><![CDATA[
+<body>
+<table class="compact nowrap" style="width:100%; background-color:#128CB5;">
+  <tr>
+    <td style="text-align:center; width:160px; padding-right: 20px;">
+      <a
+        rel="bookmark"
+        href="https://salishsea.eos.ubc.ca/">
+        <img
+          title="SalishSeaCast"
+          src="&erddapUrl;/images/UBC-MEOPAR-Logos.png" alt="UBC and MEOPAR Logos"
+          style="vertical-align:middle;"/>
+      </a>
+    </td>
+    <td style="text-align:left; font-size:x-large; color:#FFFFFF;">
+      <strong>SalishSeaCast ERDDAP™</strong>
+      <br><small><small><small>Public access to the SalishSeaCast model products</small></small></small>
+    </td>
+    <td style="text-align:right; font-size:small;">
+      &loginInfo; &nbsp; &nbsp;
+      <br>&BroughtToYouBy;
+      <a title="SalishSeaCast" rel="bookmark" href="https://salishsea.eos.ubc.ca/">SalishSeaCast</a>
+      <a title="UBC Earth, Ocean & Atmospheric Sciences" rel="bookmark" href="https://www.eoas.ubc.ca/">UBC EOAS</a>
+      <a title="Marine Environmental Observation Prediction and Response Network" rel="bookmark" href="http://meopar.ca/">MEOPAR</a>
+      <a title="National Oceanic and Atmospheric Administration" rel="bookmark" href="http://www.noaa.gov">NOAA</a>
+      &nbsp; &nbsp;
+    </td>
+  </tr>
+</table>
+]]></startBodyHtml5>
+
+<endBodyHtml5><![CDATA[
+<div class="standard_width">
+<br>&nbsp;
+<hr>
+ERDDAP™, Version &erddapVersion;
+<br><a rel="license" href="&erddapUrl;/legal.html">Disclaimers</a> |
+    <a rel="bookmark" href="&erddapUrl;/legal.html#privacyPolicy">Privacy Policy</a> |
+    <a rel="bookmark" href="&erddapUrl;/legal.html#contact">Contact</a>
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+<p>&nbsp;
+</div>
+</body>
+]]></endBodyHtml5>
+
+<theShortDescriptionHtml><![CDATA[
+<h1>SalishSeaCast ERDDAP™</h1>
+<p>
+  ERDDAP™ is a data server that gives you a simple, consistent way to download
+  subsets of scientific datasets in common file formats and make graphs and maps.
+</p>
+<p>
+  This particular ERDDAP™ installation has model product datasets from the SalishSeaCast
+  system run by the Mesoscale Ocean and Atmospheric Dynamics (MOAD)
+  group in the Department of Earth, Ocean, and Atmospheric Sciences (EOAS)
+  at the University of British Columbia (UBC).
+  Available datasets include surface and 3D fields of currents, temperature, salinity,
+  sea surface height, biological and chemical tracers from NEMO and FVCOM,
+  and wave fields WaveWatch III®,
+  as well as the Environment and Climate Change Canada (ECCC)
+  High Resolution Deterministic Prediction System (HRDPS)
+  atmospheric model fields used to force the models.
+  Also available are aggregated datasets from selected Ocean Networks Canada (ONC) real-time sensors,
+  and a real-time current dataset from a Vancouver Fraser Port Authority (VFPA) sensor at the 2nd Narrows railway bridge in Vancouver Harbour.
+</p>
+<p>
+  Please see <a href="https://salishsea.eos.ubc.ca/">https://salishsea.eos.ubc.ca/</a>
+  for more information about the model and the SalishSeaCast system.
+</p>
+
+<h2>V21-11 NEMO Model is Live!</h2>
+<p>
+  A new, improved version of the SalishSeaCast NEMO model has been running in near-real-time since 1-Jan-2024.
+  A hindcast from 1-Jan-2007 using that model configuration was completed in late 2023.
+  New NEMO datasets from that model configuration were added to this ERDDAP™ starting in December 2023.
+  They are identified with a <code>V21-11</code> version string in their dataset ids, titles, summaries, etc.
+</p>
+<p>
+  The hindcast was spun up for 5 years with best available forcing and boundary conditions for 2002-2006.
+  The spin-up years are <em>not</em> included in the <code>V21-11</code> datasets.
+</p>
+<p>
+  The rolling forecast datasets are from the <code>V21-11</code> model configuration.
+  The version part of the rolling forecast dataset ids was dropped on 2-Jul-2019 to reflect the fact
+  that those datasets transition smoothly from one model version to the next.
+  Please see the summary metadata item to learn what model version is producing the most recent fields in the rolling forecast datasets.
+</p>
+
+<h3>Changes Between <code>V19-05</code> and <code>V21-11</code></h3>
+<h4>Physics</h4>
+<p>
+  From Stang and Allen, 2024:
+</p>
+<ul>
+  <li>
+    Daily river flows are calculated using continuous gauge records fitted to monthly watersheds
+    from Morrison et al. (2012), which allows for inter-annual variability like winter storms and summer droughts.
+  </li>
+  <li>
+    The bathymetry was improved by adjusting the coastline to the 2-m isobath
+    (previously set to the mean sea level isobath)
+    and then deepening the minimum water depth to 4 m.
+    These changes align the extent of the Fraser River plume more closely with observations.
+    The bathymetry is available in the
+    <a href="https://salishsea.eos.ubc.ca/erddap/info/ubcSSnBathymetryV21-08/index.html">ubcSSnBathymetryV21-08</a>
+    dataset.
+  </li>
+  <li>
+    Coastal wave characterization was improved using WaveWatch III® model results,
+    addressing the small fetch and waves in the Salish Sea (Moore-Maley, 2022).
+    The new parameterization reduces mixing by adjusting the turbulence parameterization surface boundary condition,
+    partially correcting the too salty surface salinities in the Fraser River plume.
+  </li>
+</ul>
+
+<h4>Biology</h4>
+<p>
+  From Suchy, et al, in preparation:
+</p>
+<ul>
+  <li>
+    <em>Mesodinium rubrum</em> removed as evaluation showed the model was not reproducing the small number of observations available.
+  </li>
+  <li>
+    Functional light dependence was switched to a PE-curve style,
+    but tuned to closely match the <code>V19-05</code> response
+  </li>
+  <li>
+    Sinking for biological tracers was switched from upstream advection to being incorporated in the NEMO Flux-Corrected Transport scheme
+  </li>
+  <li>
+    River tracer inputs were updated
+  </li>
+  <li>
+    The N:O coupling for various processes was updated and a parameter for sediment oxygen
+    demand was added that effectively allows an oxygen flux into the sediments not coupled to an
+    outgoing nitrate flux.
+    It is proportional to the amount of organic matter sinking out of the domain.
+    Further improvements to oxygen in the model are ongoing.
+  </li>
+</ul>
+
+<h4>References</h4>
+<p>
+  Stang C. and Allen S.E., 2024.
+  Seasonably variable estuarine exchange through inter-connected channels in the Salish Sea.
+  ESS Open Archive, November 11, 2024.
+  DOI: <a href="https://doi.org/10.22541/essoar.173134323.35470755/v1">https://doi.org/10.22541/essoar.173134323.35470755/v1</a>
+</p>
+<p>
+  Morrison, J., Foreman, M. G. G., & Masson, D., 2012.
+  A Method for Estimating Monthly Freshwater Discharge Affecting British Columbia Coastal Waters. Atmosphere-Ocean, 50(1), 1–8.
+  <a href="https://doi.org/10.1080/07055900.2011.637667">https://doi.org/10.1080/07055900.2011.637667</a>
+</p>
+<p>
+  Moore-Maley, B. L., 2022.
+  Wind-driven upwelling and nutrient supply in a productive estuarine sea.
+  University of British Columbia.
+  <a href="https://open.library.ubc.ca/collections/ubctheses/24/items/1.0418447">https://open.library.ubc.ca/collections/ubctheses/24/items/1.0418447</a>
+</p>
+
+<h2>Citing SalishSeaCast Datasets</h2>
+<p>
+  If you use datasets from this ERDDAP™ server in your research,
+  please reference it with wording similar to these examples,
+  and include citations of the publications below.
+</p>
+<p>
+  Example reference for physics-only datasets:
+</p>
+<blockquote>
+  Velocity, temperature, and salinity fields from the SalishSeaCast model
+  (Soontiens et al, 2016; Soontiens and Allen, 2017) were downloaded from their ERDDAP™ server
+  (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code> from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
+</blockquote>
+<p>
+  Example reference for biological and dissolved oxygen datasets:
+</p>
+<blockquote>
+  Nitrate, silicon, and phytoplankton fields from the SalishSeaCast model
+  (Soontiens et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020)
+  were downloaded from their ERDDAP™ server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code>
+  from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
+</blockquote>
+<p>
+  Example reference for zooplankton datasets:
+</p>
+<blockquote>
+  Zooplankton fields from the SalishSeaCast model
+  (Soontiens et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020; Suchy et al, 2023)
+  were downloaded from their ERDDAP™ server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code>
+  from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
+</blockquote>
+<p>
+  Example reference for carbon chemistry datasets:
+</p>
+<blockquote>
+  Dissolved inorganic carbon, total alkalinity, and surface CO2 flux fields from the SalishSeaCast
+  model (Soontiens et al, 2016; Moore-Maley et al, 2016; Soontiens and Allen, 2017; Olson et al, 2020; Jarníková et al, 2022)
+  were downloaded from their ERDDAP™ server (https://salishsea.eos.ubc.ca/erddap/) on <code>DATE</code>
+  from datasets: <code>DATASETID</code>, <code>DATASETID</code>, ...
+</blockquote>
+<p>
+  In any of those cases,
+  you substitute in the <code>DATE</code>(s) on which you downloaded the fields,
+  and the <code>DATASETID</code>(s) you downloaded from.
+  The <code>DATE</code>(s) and <code>DATASETID</code>(s) help to ensure reproducibility of your work.
+  <code>DATASETID</code>(s) look like <code>ubcSSg3DTracerFields1hV21-11</code> and are listed in
+  the rightmost column of the table at
+  <a href="https://salishsea.eos.ubc.ca/erddap/info/index.html">https://salishsea.eos.ubc.ca/erddap/info/index.html</a>
+</p>
+
+<h3>Publications to Cite</h3>
+<p>
+  Suchy, K.D., Olson, E.M., Allen, S.E., Galbraith, M., Herrmann, B., Keister, J.E., Perry, R.I., Sastri, A.R., Young, K., 2023.
+  Seasonal and regional variability of model-based zooplankton biomass in the Salish Sea and evaluation against observations.
+  Progress in Oceanography, 219, 103171.
+  <a href="https://doi.org/10.1016/j.pocean.2023.103171">https://doi.org/10.1016/j.pocean.2023.103171</a>
+</p>
+<p>
+  Jarníková, T., Ianson, D., Allen, S.E., Shao, A.E., Olson, E.M., 2022.
+  Anthropogenic carbon increase has caused critical shifts in aragonite saturation across a sensitive coastal system.
+  Global Biogeochemical Cycles, 36(7).
+  <a href="https://doi.org/10.1029/2021GB007024">https://doi.org/10.1029/2021GB007024</a>
+</p>
+<p>
+  Olson, E. M., Allen, S. E., Do, Vy, Dunphy, M., and Ianson, D., 2020.
+  Assessment of Nutrient Supply by a Tidal Jet in the Northern Strait of Georgia Based on a Biogeochemical Model.
+  J. Geophys. Res. Oceans 125(8).
+  <a href="https://doi.org/10.1029/2019JC015766">https://doi.org/10.1029/2019JC015766</a>
+</p>
+<p>
+  Soontiens, N. and Allen, S., 2017.
+  Modelling sensitivities to mixing and advection in a sill-basin estuarine system.
+  Ocean Modelling, 112, 17-32.
+  <a href="https://dx.doi.org/10.1016/j.ocemod.2017.02.008">https://dx.doi.org/10.1016/j.ocemod.2017.02.008</a>
+</p>
+<p>
+  Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V., 2016.
+  Storm surges in the Strait of Georgia simulated with a regional model.
+  Atmosphere-Ocean, 54, 1-21.
+  <a href="https://dx.doi.org/10.1080/07055900.2015.1108899">https://dx.doi.org/10.1080/07055900.2015.1108899</a>
+</p>
+<p>
+  Moore-Maley, B. L., Allen, S. E., and Ianson, D., 2016.
+  Locally-driven interannual variability of near-surface pH and ΩA in the Strait of Georgia.
+  J. Geophys. Res. Oceans, 121(3), 1600–1625.
+  <a href="https://dx.doi.org/10.1002/2015JC011118">https://dx.doi.org/10.1002/2015JC011118</a>
+</p>
+
+[standardShortDescriptionHtml]
+
+]]>
+</theShortDescriptionHtml>
