@@ -47,7 +47,7 @@
 
 <startHeadHtml5><![CDATA[
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="&langCode;">
 <head>
 <meta charset="UTF-8">
 <title>SalishSeaCast ERDDAP™</title>
@@ -320,12 +320,10 @@ ERDDAP™, Version &erddapVersion;
 ]]>
 </theShortDescriptionHtml>
 
-
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnBathymetryV21-08" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <!-- <fileDir>/SalishSeaCast/grid/</fileDir> -->
-  <fileDir>/media/doug/warehouse/MEOPAR/grid/</fileDir>
+  <fileDir>/SalishSeaCast/grid/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*bathymetry_202108\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
@@ -527,8 +525,7 @@ v21-08: same variables,
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMaskV21-08" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <updateEveryNMillis>10000</updateEveryNMillis>
-  <!-- <fileDir>/SalishSeaCast/grid/</fileDir> -->
-  <fileDir>/media/doug/warehouse/MEOPAR/grid/</fileDir>
+  <fileDir>/SalishSeaCast/grid/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*mesh_mask202108\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>

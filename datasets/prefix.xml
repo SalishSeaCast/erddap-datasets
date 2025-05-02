@@ -47,7 +47,7 @@
 
 <startHeadHtml5><![CDATA[
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="&langCode;">
 <head>
 <meta charset="UTF-8">
 <title>SalishSeaCast ERDDAP™</title>
