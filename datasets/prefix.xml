@@ -8,6 +8,9 @@
 <decompressedCacheMaxMinutesOld>15</decompressedCacheMaxMinutesOld> <!-- default=15 -->
 <drawLandMask>over</drawLandMask>                                   <!-- "over" or "under" (default) -->
 <graphBackgroundColor></graphBackgroundColor>                       <!-- 0xAARRGGBB, default is 0xffccccff -->
+<ipAddressMaxRequests>15</ipAddressMaxRequests>                     <!-- current default=15 -->
+<ipAddressMaxRequestsActive>2</ipAddressMaxRequestsActive>          <!-- current default=2 -->
+<ipAddressUnlimited></ipAddressUnlimited>                           <!-- default=empty -->
 <loadDatasetsMinMinutes>15</loadDatasetsMinMinutes>                 <!-- usually=default=15 -->
 <loadDatasetsMaxMinutes>60</loadDatasetsMaxMinutes>                 <!-- default=60 -->
 <logLevel>info</logLevel>                                           <!-- "warning" (fewest messages), "info" (default), or "all" (most messages) -->
