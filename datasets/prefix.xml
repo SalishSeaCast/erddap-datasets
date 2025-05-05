@@ -11,8 +11,8 @@
 <loadDatasetsMinMinutes>15</loadDatasetsMinMinutes>                 <!-- usually=default=15 -->
 <loadDatasetsMaxMinutes>60</loadDatasetsMaxMinutes>                 <!-- default=60 -->
 <logLevel>info</logLevel>                                           <!-- "warning" (fewest messages), "info" (default), or "all" (most messages) -->
-<nGridThreads>1</nGridThreads>                                      <!-- default=1 -->
-<nTableThreads>1</nTableThreads>                                    <!-- default=1 -->
+<nGridThreads>3</nGridThreads>                                      <!-- default=1 -->
+<nTableThreads>3</nTableThreads>                                    <!-- default=1 -->
 <partialRequestMaxBytes>490000000</partialRequestMaxBytes>          <!-- default=490000000 -->
 <partialRequestMaxCells>10000000</partialRequestMaxCells>           <!-- default=10000000 -->
 <slowDownTroubleMillis>1000</slowDownTroubleMillis>                 <!-- default=1000 -->
