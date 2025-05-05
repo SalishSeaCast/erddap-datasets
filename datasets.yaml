@@ -8,7 +8,7 @@ postfix: postfix.xml
 # Dataset descriptions:
 datasets:
   # Bathymetry and NEMO mesh mask
-  # v221-08 bathymetry used for v2021-11 runs
+  # v21-08 bathymetry used for v2021-11 runs
   - nemo-grid/ubcSSnBathymetryV21-08.xml
   - nemo-grid/ubcSSn2DMeshMaskV21-08.xml
   - nemo-grid/ubcSSn3DMeshMaskV21-08.xml
