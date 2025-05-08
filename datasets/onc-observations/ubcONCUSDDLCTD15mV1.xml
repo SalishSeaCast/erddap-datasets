@@ -33,7 +33,7 @@
     -->
   <addAttributes>
     <att name="cdm_data_type">TimeSeries</att>
-    <att name="cdm_timeseries_variables">depth, longitude, latitude</att>
+    <att name="cdm_timeseries_variables">time, depth, longitude, latitude</att>
     <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
     <att name="creator_name">SalishSeaCast Project Contributors</att>
     <att name="creator_email">sallen@eos.ubc.ca</att>
