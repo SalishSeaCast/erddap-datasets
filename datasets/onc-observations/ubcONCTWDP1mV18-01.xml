@@ -155,7 +155,9 @@ Store as netCDF4 file.
       <att name="_ChunkSize">null</att>
       <att name="long_name">Time</att>
       <att name="standard_name">time</att>
+      <att name="units">minutes since 1970-01-01T00:00:00Z</att>
       <att name="cf_role">timeseries_id</att>
+      <att name="_FillValue" type="long">9223372036854775807</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
@@ -226,6 +228,7 @@ Store as netCDF4 file.
       <att name="long_name">NEMO Grid j Index</att>
       <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?deviceCategory=NAV</att>
       <att name="units">count</att>
+      <att name="_FillValue" type="short">-999</att>
       <att name="comment">-999 means a longitude outside of the SalishSeaCast NEMO grid; typically a NaN from the nav instrument</att>
     </addAttributes>
   </dataVariable>
@@ -249,6 +252,7 @@ Store as netCDF4 file.
       <att name="long_name">NEMO Grid i Index</att>
       <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?deviceCategory=NAV</att>
       <att name="units">count</att>
+      <att name="_FillValue" type="short">-999</att>
       <att name="comment">-999 means a latitude outside of the SalishSeaCast NEMO grid; typically a NaN from the nav instrument</att>
     </addAttributes>
   </dataVariable>
@@ -272,6 +276,7 @@ Store as netCDF4 file.
     <addAttributes>
       <att name="_ChunkSize">null</att>
       <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=TWDP</att>
+      <att name="_FillValue" type="byte">0</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
