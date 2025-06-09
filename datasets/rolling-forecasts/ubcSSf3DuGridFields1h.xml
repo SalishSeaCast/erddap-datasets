@@ -1,6 +1,5 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DuGridFields1h" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_U\.nc$</fileNameRegex>
   <recursive>true</recursive>

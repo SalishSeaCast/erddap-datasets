@@ -1,6 +1,5 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DMeshMaskV21-08" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/SalishSeaCast/grid/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*mesh_mask202108\.nc$</fileNameRegex>

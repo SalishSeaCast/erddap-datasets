@@ -1,6 +1,5 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSaSurfaceAtmosphereFieldsV23-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/forcing/atmospheric/continental2.5/nemo_forcing/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>hrdps_y\d{4}m\d{2}d\d{2}\.nc$</fileNameRegex>

@@ -1,6 +1,5 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSaAtmosphereGridV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/forcing/atmospheric/GEM2.5/operational/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>ops_y2016m03d07\.nc$</fileNameRegex>

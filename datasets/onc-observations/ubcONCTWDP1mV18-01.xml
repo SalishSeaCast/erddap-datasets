@@ -1,6 +1,5 @@
 <dataset type="EDDTableFromNcFiles" datasetID="ubcONCTWDP1mV18-01" active="true">
   <reloadEveryNMinutes>10800</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/observations/ONC/ferries/TWDP/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*TWDP_TSG_O2_TURBCHLFL_CO2_METEO_1m_\d{8}.nc$</fileNameRegex>

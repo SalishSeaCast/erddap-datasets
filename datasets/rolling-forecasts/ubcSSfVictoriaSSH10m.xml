@@ -1,6 +1,5 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfVictoriaSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*Victoria\.nc$</fileNameRegex>
