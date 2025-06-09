@@ -1,6 +1,5 @@
 <dataset type="EDDTableFromNcFiles" datasetID="ubcONCSEVIPCTD15mV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/observations/ONC/CTD/SEVIP/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*SEVIP_CTD_15m_\d{8}\.nc$</fileNameRegex>

@@ -1,6 +1,5 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfDepthAvgdCurrents1h" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <fileNameRegex>.*CHS_currents\.nc$</fileNameRegex>
     <recursive>true</recursive>

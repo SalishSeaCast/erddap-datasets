@@ -325,7 +325,6 @@ ERDDAP™, Version &erddapVersion;
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSnBathymetryV21-08" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/SalishSeaCast/grid/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*bathymetry_202108\.nc$</fileNameRegex>
@@ -528,7 +527,6 @@ v21-08: same variables,
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSn2DMeshMaskV21-08" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/SalishSeaCast/grid/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*mesh_mask202108\.nc$</fileNameRegex>
@@ -944,7 +942,6 @@ v21-08: tmaskutil, umaskutil, vmaskutil, fmaskutil, glamt, glamu, glamv, glamf, 
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSn3DMeshMaskV21-08" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/SalishSeaCast/grid/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*mesh_mask202108\.nc$</fileNameRegex>
@@ -1391,7 +1388,6 @@ v21-08: tmask, umask, vmask, fmask, e3t_0, e3u_0, e3v_0, e3w_0, gdept_0, gdepu, 
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSaAtmosphereGridV23-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/forcing/atmospheric/continental2.5/nemo_forcing/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>hrdps_y2023m02d23\.nc$</fileNameRegex>
@@ -1513,7 +1509,6 @@ v23-02: longitude and latitude variables</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSaSurfaceAtmosphereFieldsV23-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/forcing/atmospheric/continental2.5/nemo_forcing/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>hrdps_y\d{4}m\d{2}d\d{2}\.nc$</fileNameRegex>
@@ -1851,7 +1846,6 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSaAtmosphereGridV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/forcing/atmospheric/GEM2.5/operational/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>ops_y2016m03d07\.nc$</fileNameRegex>
@@ -1967,7 +1961,6 @@ v1: longitude and latitude variables</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSaSurfaceAtmosphereFieldsV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/forcing/atmospheric/GEM2.5/operational/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*ops_y\d{4}m\d{2}d\d{2}\.nc$</fileNameRegex>
@@ -2245,7 +2238,6 @@ polar-stereographic model grid is available in the ubcSSaAtmosphereGridV1 datase
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DuGridFields1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_U\.nc$</fileNameRegex>
@@ -2439,7 +2431,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DvGridFields1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_V\.nc$</fileNameRegex>
@@ -2633,7 +2624,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DwGridFields1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_W\.nc$</fileNameRegex>
@@ -2931,7 +2921,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DPhysicsFields1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
@@ -3210,7 +3199,6 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSgSeaSurfaceHeightField1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
@@ -3378,7 +3366,6 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DBiologyFields1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_biol_T\.nc$</fileNameRegex>
@@ -3922,7 +3909,6 @@ or some combination of the three
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DLightFields1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_chem_T\.nc$</fileNameRegex>
@@ -4174,7 +4160,6 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DChemistryFields1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_chem_T\.nc$</fileNameRegex>
@@ -4456,7 +4441,6 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSgSeaSurfaceCO2FluxField1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_chem_T\.nc$</fileNameRegex>
@@ -4621,7 +4605,6 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DVariableVolumeLayers1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
@@ -4817,7 +4800,6 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DChemistryFields1moV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/month-avg.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSeaCast_1m_chem_T_\d{8}_\d{8}\.nc$</fileNameRegex>
@@ -5055,7 +5037,6 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DPhysicsFields1moV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/month-avg.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSeaCast_1m_grid_T_\d{8}_\d{8}\.nc$</fileNameRegex>
@@ -5296,7 +5277,6 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DBiologyFields1moV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/month-avg.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSeaCast_1m_biol_T_\d{8}_\d{8}\.nc$</fileNameRegex>
@@ -5695,7 +5675,6 @@ or some combination of the three
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSg3DLightFields1moV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/month-avg.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSeaCast_1m_chem_T_\d{8}_\d{8}\.nc$</fileNameRegex>
@@ -5914,7 +5893,6 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DuGridFields1h" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_U\.nc$</fileNameRegex>
   <recursive>true</recursive>
@@ -6119,7 +6097,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSf3DvGridFields1h" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_V\.nc$</fileNameRegex>
   <recursive>true</recursive>
@@ -6323,7 +6300,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSurfaceTracerFields1h" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>
@@ -6499,7 +6475,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfDepthAvgdCurrents1h" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <fileNameRegex>.*CHS_currents\.nc$</fileNameRegex>
     <recursive>true</recursive>
@@ -6727,7 +6702,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfBoundaryBaySSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*BoundaryBay\.nc$</fileNameRegex>
@@ -6905,7 +6879,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfCampbellRiverSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*CampbellRiver\.nc$</fileNameRegex>
@@ -7083,7 +7056,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfCherryPointSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*CherryPoint\.nc$</fileNameRegex>
@@ -7261,7 +7233,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfFridayHarborSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*FridayHarbor\.nc$</fileNameRegex>
@@ -7440,7 +7411,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfHalfmoonBaySSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*HalfmoonBay\.nc$</fileNameRegex>
@@ -7618,7 +7588,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNanaimoSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*Nanaimo\.nc$</fileNameRegex>
@@ -7796,7 +7765,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNeahBaySSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*NeahBay\.nc$</fileNameRegex>
@@ -7974,7 +7942,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfNewWestminsterSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*NewWestminster\.nc$</fileNameRegex>
@@ -8152,7 +8119,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPatriciaBaySSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*PatriciaBay\.nc$</fileNameRegex>
@@ -8330,7 +8296,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPointAtkinsonSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*PointAtkinson\.nc$</fileNameRegex>
@@ -8511,7 +8476,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfPortRenfrewSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*PortRenfrew\.nc$</fileNameRegex>
@@ -8689,7 +8653,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSandHeadsSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*SandHeads\.nc$</fileNameRegex>
@@ -8867,7 +8830,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSandyCoveSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*SandyCove\.nc$</fileNameRegex>
@@ -9046,7 +9008,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfSquamishSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*Squamish\.nc$</fileNameRegex>
@@ -9225,7 +9186,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfVictoriaSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*Victoria\.nc$</fileNameRegex>
@@ -9403,7 +9363,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSfWoodwardsLandingSSH10m" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/results/SalishSea/rolling-forecasts/nemo/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>.*WoodwardsLanding\.nc$</fileNameRegex>
@@ -9581,7 +9540,6 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSf2DWaveFields30mV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/rolling-forecasts/</fileDir>
   <fileNameRegex>.*SoG_ww3_fields_\d{8}_\d{8}\.nc$</fileNameRegex>
   <recursive>true</recursive>
@@ -10607,7 +10565,6 @@ Digital Research Alliance of Canada</att>
 
 <dataset type="EDDTableFromNcFiles" datasetID="ubcONCSCVIPCTD15mV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/observations/ONC/CTD/SCVIP/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*SCVIP_CTD_15m_\d{8}\.nc$</fileNameRegex>
@@ -10859,7 +10816,6 @@ Store as netCDF4 file.
 
 <dataset type="EDDTableFromNcFiles" datasetID="ubcONCSEVIPCTD15mV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/observations/ONC/CTD/SEVIP/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*SEVIP_CTD_15m_\d{8}\.nc$</fileNameRegex>
@@ -11111,7 +11067,6 @@ Store as netCDF4 file.
 
 <dataset type="EDDTableFromNcFiles" datasetID="ubcONCLSBBLCTD15mV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/observations/ONC/CTD/LSBBL/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*LSBBL_CTD_15m_\d{8}\.nc$</fileNameRegex>
@@ -11360,7 +11315,6 @@ Store as netCDF4 file.
 
 <dataset type="EDDTableFromNcFiles" datasetID="ubcONCUSDDLCTD15mV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/observations/ONC/CTD/USDDL/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*USDDL_CTD_15m_\d{8}\.nc$</fileNameRegex>
@@ -11609,7 +11563,6 @@ Store as netCDF4 file.
 
 <dataset type="EDDTableFromNcFiles" datasetID="ubcONCTWDP1mV18-01" active="true">
   <reloadEveryNMinutes>10800</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/observations/ONC/ferries/TWDP/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*TWDP_TSG_O2_TURBCHLFL_CO2_METEO_1m_\d{8}.nc$</fileNameRegex>
@@ -13022,7 +12975,6 @@ Store as netCDF4 file.
 
 <dataset type="EDDTableFromNcFiles" datasetID="ubcVFPA2ndNarrowsCurrent2sV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/opp/observations/AISDATA/netcdf/</fileDir>
   <fileNameRegex>.*VFPA_2ND_NARROWS_HADCP_2s_\d{6}\.nc$</fileNameRegex>
   <recursive>true</recursive>

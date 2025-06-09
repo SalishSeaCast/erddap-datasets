@@ -1,6 +1,5 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSgSeaSurfaceHeightField1hV21-11" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results2/SalishSea/nowcast-green.202111/</fileDir>
   <recursive>true</recursive>
   <fileNameRegex>.*SalishSea_1h_\d{8}_\d{8}_grid_T\.nc$</fileNameRegex>

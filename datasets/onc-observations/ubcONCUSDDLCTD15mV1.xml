@@ -1,6 +1,5 @@
 <dataset type="EDDTableFromNcFiles" datasetID="ubcONCUSDDLCTD15mV1" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/observations/ONC/CTD/USDDL/</fileDir>
   <recursive>false</recursive>
   <fileNameRegex>.*USDDL_CTD_15m_\d{8}\.nc$</fileNameRegex>
