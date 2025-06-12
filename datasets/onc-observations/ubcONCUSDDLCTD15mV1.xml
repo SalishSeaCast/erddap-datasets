@@ -39,7 +39,6 @@
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Ocean Networks Canada (ONC)</att>
     <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=USDDL&amp;deviceCategory=CTD</att>
-    <att name="drawLandMask">over</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>

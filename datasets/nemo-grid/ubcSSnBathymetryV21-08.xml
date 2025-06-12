@@ -39,10 +39,9 @@ This product does not meet the requirements of Charts and Nautical Publications 
 1995 under the Canadian Shipping Act, 2001.
 Official charts and publications, corrected and up-to-data,
 must be used to meet the requirements of those regulations.</att>
-    <att name="drawLandMask">over</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="keywords">bathymetry, depth, latitude, longitude, nav_lat, nav_lon, ocean, oceans,
 Oceans &gt; Bathymetry/Seafloor Topography &gt; Bathymetry,
 Salish Sea, sea floor, sea_floor_depth, seafloor, topography</att>

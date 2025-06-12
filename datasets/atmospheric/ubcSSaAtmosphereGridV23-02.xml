@@ -49,7 +49,6 @@ v23-02: longitude and latitude variables</att>
     <att name="creator_email">sallen@eaos.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Environment and Climate Change Canada</att>
-    <att name="drawLandMask">over</att>
   </addAttributes>
   <axisVariable>
     <sourceName>y</sourceName>

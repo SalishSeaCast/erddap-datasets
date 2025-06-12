@@ -134,7 +134,6 @@ v18-01: Add air temperature, air temperature standard deviation, air temperature
     <att name="creator_email">sallen@eos.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.org/</att>
     <att name="acknowledgement">Ocean Networks Canada (ONC)</att>
-    <att name="drawLandMask">over</att>
     <att name="history">
 Download raw data from ONC scalardata API.
 Filter to exclude data with qaqcFlag != 1.

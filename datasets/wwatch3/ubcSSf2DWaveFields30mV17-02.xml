@@ -98,7 +98,6 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; see infoUrl link for full details.
     <att name="acknowledgement">Fisheries &amp; Oceans CanadaCast,
 Ocean Networks Canada (ONC),
 Digital Research Alliance of Canada</att>
-    <att name="drawLandMask">over</att>
     <att name="westernmost_longitude">null</att>
     <att name="NCO">null</att>
     <att name="history">null</att>

@@ -56,7 +56,6 @@ short-wave radiation flux, long-wave radiation flux, 10m u wind component, 10m v
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Environment and Climate Change Canada</att>
-    <att name="drawLandMask">over</att>
   </addAttributes>
   <axisVariable>
     <sourceName>time_counter</sourceName>
