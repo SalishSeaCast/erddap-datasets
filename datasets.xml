@@ -364,10 +364,9 @@ This product does not meet the requirements of Charts and Nautical Publications 
 1995 under the Canadian Shipping Act, 2001.
 Official charts and publications, corrected and up-to-data,
 must be used to meet the requirements of those regulations.</att>
-    <att name="drawLandMask">over</att>
+    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
-    <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="keywords">bathymetry, depth, latitude, longitude, nav_lat, nav_lon, ocean, oceans,
 Oceans &gt; Bathymetry/Seafloor Topography &gt; Bathymetry,
 Salish Sea, sea floor, sea_floor_depth, seafloor, topography</att>
@@ -567,7 +566,6 @@ This product does not meet the requirements of Charts and Nautical Publications 
 1995 under the Canadian Shipping Act, 2001.
 Official charts and publications, corrected and up-to-data,
 must be used to meet the requirements of those regulations.</att>
-    <att name="drawLandMask">over</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
@@ -982,7 +980,6 @@ This product does not meet the requirements of Charts and Nautical Publications 
 1995 under the Canadian Shipping Act, 2001.
 Official charts and publications, corrected and up-to-data,
 must be used to meet the requirements of those regulations.</att>
-    <att name="drawLandMask">over</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
@@ -1437,7 +1434,6 @@ v23-02: longitude and latitude variables</att>
     <att name="creator_email">sallen@eaos.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Environment and Climate Change Canada</att>
-    <att name="drawLandMask">over</att>
   </addAttributes>
   <axisVariable>
     <sourceName>y</sourceName>
@@ -1573,7 +1569,6 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Environment and Climate Change Canada</att>
-    <att name="drawLandMask">over</att>
   </addAttributes>
   <axisVariable>
     <sourceName>time_counter</sourceName>
@@ -1897,7 +1892,6 @@ v1: longitude and latitude variables</att>
     <att name="creator_email">sallen@eaos.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Environment and Climate Change Canada</att>
-    <att name="drawLandMask">over</att>
   </addAttributes>
   <axisVariable>
     <sourceName>y</sourceName>
@@ -2017,7 +2011,6 @@ short-wave radiation flux, long-wave radiation flux, 10m u wind component, 10m v
     <att name="creator_email">sallen@eoas.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Environment and Climate Change Canada</att>
-    <att name="drawLandMask">over</att>
   </addAttributes>
   <axisVariable>
     <sourceName>time_counter</sourceName>
@@ -2318,7 +2311,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -2511,7 +2503,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -2710,7 +2701,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -3010,7 +3000,6 @@ Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008
     </att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -3282,7 +3271,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -3487,7 +3475,6 @@ Seasonal and regional variability of model-based zooplankton biomass in the Sali
 Progress in Oceanography, 219, 103171.
 https://doi.org/10.1016/j.pocean.2023.103171
     </att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -4003,7 +3990,6 @@ Assessment of Nutrient Supply by a Tidal Jet in the Northern Strait of Georgia B
 J. Geophys. Res. Oceans, 125(8).
 https://doi.org/10.1029/2019JC015766
     </att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -4247,8 +4233,6 @@ Anthropogenic carbon increase has caused critical shifts in aragonite saturation
 Global Biogeochemical Cycles, 36(7).
 https://doi.org/10.1029/2021GB007024
     </att>
-
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -4520,7 +4504,6 @@ Anthropogenic carbon increase has caused critical shifts in aragonite saturation
 Global Biogeochemical Cycles, 36(7).
 https://doi.org/10.1029/2021GB007024
     </att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -4679,7 +4662,6 @@ Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008
     </att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -4887,7 +4869,6 @@ Anthropogenic carbon increase has caused critical shifts in aragonite saturation
 Global Biogeochemical Cycles, 36(7).
 https://doi.org/10.1029/2021GB007024
     </att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -5126,7 +5107,6 @@ Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008
     </att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -5398,7 +5378,6 @@ Seasonal and regional variability of model-based zooplankton biomass in the Sali
 Progress in Oceanography, 219, 103171.
 https://doi.org/10.1016/j.pocean.2023.103171
     </att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -5769,7 +5748,6 @@ Assessment of Nutrient Supply by a Tidal Jet in the Northern Strait of Georgia B
 J. Geophys. Res. Oceans, 125(8).
 https://doi.org/10.1029/2019JC015766
     </att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -5981,7 +5959,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="uuid">null</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -6185,7 +6162,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="uuid">null</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -6396,7 +6372,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
     <att name="NCO">null</att>
     <att name="name">null</att>
@@ -6565,7 +6540,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-        <att name="drawLandMask">over</att>
         <att name="creation_date">null</att>
     </addAttributes>
     <axisVariable>
@@ -6789,7 +6763,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -6966,7 +6939,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -7143,7 +7115,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -7321,7 +7292,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -7498,7 +7468,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -7675,7 +7644,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -7852,7 +7820,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -8029,7 +7996,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -8206,7 +8172,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -8386,7 +8351,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -8563,7 +8527,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -8740,7 +8703,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -8918,7 +8880,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -9095,7 +9056,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -9273,7 +9233,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -9450,7 +9409,6 @@ https://dx.doi.org/10.1080/07055900.2015.1108899
 Soontiens, N. and Allen, S., 2017.
 Modelling sensitivities to mixing and advection in a sill-basin estuarine system. Ocean Modelling, 112, 17-32.
 https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
-    <att name="drawLandMask">over</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
     <att name="name">null</att>
@@ -9638,7 +9596,6 @@ v17-02: WaveWatch III&#174; v5.16; NEMO-3.6; see infoUrl link for full details.
     <att name="acknowledgement">Fisheries &amp; Oceans CanadaCast,
 Ocean Networks Canada (ONC),
 Digital Research Alliance of Canada</att>
-    <att name="drawLandMask">over</att>
     <att name="westernmost_longitude">null</att>
     <att name="NCO">null</att>
     <att name="history">null</att>
@@ -10605,7 +10562,6 @@ Digital Research Alliance of Canada</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Ocean Networks Canada (ONC)</att>
     <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=SCVIP&amp;deviceCategory=CTD</att>
-    <att name="drawLandMask">over</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
@@ -10856,7 +10812,6 @@ Store as netCDF4 file.
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Ocean Networks Canada (ONC)</att>
     <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=SEVIP&amp;deviceCategory=CTD</att>
-    <att name="drawLandMask">over</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
@@ -11106,7 +11061,6 @@ Store as netCDF4 file.
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Ocean Networks Canada (ONC)</att>
     <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=LSBBL&amp;deviceCategory=CTD</att>
-    <att name="drawLandMask">over</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
@@ -11354,7 +11308,6 @@ Store as netCDF4 file.
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.io/</att>
     <att name="acknowledgement">Ocean Networks Canada (ONC)</att>
     <att name="ONC_data_product_url">https://data.oceannetworks.ca/DataSearch?location=USDDL&amp;deviceCategory=CTD</att>
-    <att name="drawLandMask">over</att>
     <att name="infoUrl">https://salishsea.eos.ubc.ca/</att>
     <att name="institution">UBC EOAS</att>
     <att name="institution_fullname">Dept of Earth, Ocean &amp; Atmospheric Sciences, University of British Columbia</att>
@@ -11697,7 +11650,6 @@ v18-01: Add air temperature, air temperature standard deviation, air temperature
     <att name="creator_email">sallen@eos.ubc.ca</att>
     <att name="creator_url">https://salishsea-meopar-docs.readthedocs.org/</att>
     <att name="acknowledgement">Ocean Networks Canada (ONC)</att>
-    <att name="drawLandMask">over</att>
     <att name="history">
 Download raw data from ONC scalardata API.
 Filter to exclude data with qaqcFlag != 1.
@@ -13036,7 +12988,6 @@ Current data from Vancouver Fraser Port Authority (VFPA) horizontal acoustic dop
 v1: current speed and direction variables</att>
     <att name="sourceUrl">(local files)</att>
     <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-    <att name="drawLandMask">over</att>
     <att name="history">null</att>
   </addAttributes>
   <dataVariable>
