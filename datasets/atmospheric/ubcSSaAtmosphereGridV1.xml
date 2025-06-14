@@ -2,7 +2,7 @@
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <fileDir>/results/forcing/atmospheric/GEM2.5/operational/</fileDir>
   <recursive>false</recursive>
-  <fileNameRegex>ops_y2016m03d07\.nc$</fileNameRegex>
+  <fileNameRegex>.*ops_y\d{4}m\d{2}d\d{2}\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
   <matchAxisNDigits>20</matchAxisNDigits>
   <fileTableInMemory>false</fileTableInMemory>

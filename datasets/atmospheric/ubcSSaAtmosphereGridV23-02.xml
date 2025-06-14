@@ -2,7 +2,7 @@
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <fileDir>/results/forcing/atmospheric/continental2.5/nemo_forcing/</fileDir>
   <recursive>false</recursive>
-  <fileNameRegex>hrdps_y2023m02d23\.nc$</fileNameRegex>
+  <fileNameRegex>.*hrdps_y\d{4}m\d{2}d\d{2}\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
   <matchAxisNDigits>20</matchAxisNDigits>
   <fileTableInMemory>false</fileTableInMemory>
