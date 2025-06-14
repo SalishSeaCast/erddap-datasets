@@ -1387,7 +1387,7 @@ v21-08: tmask, umask, vmask, fmask, e3t_0, e3u_0, e3v_0, e3w_0, gdept_0, gdepu, 
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <fileDir>/results/forcing/atmospheric/continental2.5/nemo_forcing/</fileDir>
   <recursive>false</recursive>
-  <fileNameRegex>hrdps_y2023m02d23\.nc$</fileNameRegex>
+  <fileNameRegex>.*hrdps_y\d{4}m\d{2}d\d{2}\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
   <matchAxisNDigits>20</matchAxisNDigits>
   <fileTableInMemory>false</fileTableInMemory>
@@ -1843,7 +1843,7 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
   <fileDir>/results/forcing/atmospheric/GEM2.5/operational/</fileDir>
   <recursive>false</recursive>
-  <fileNameRegex>ops_y2016m03d07\.nc$</fileNameRegex>
+  <fileNameRegex>.*ops_y\d{4}m\d{2}d\d{2}\.nc$</fileNameRegex>
   <metadataFrom>last</metadataFrom>
   <matchAxisNDigits>20</matchAxisNDigits>
   <fileTableInMemory>false</fileTableInMemory>
