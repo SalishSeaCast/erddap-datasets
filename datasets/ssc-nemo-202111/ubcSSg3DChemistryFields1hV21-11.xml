@@ -191,6 +191,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="standard_name">mole_concentration_of_dissolved_inorganic_carbon_in_sea_water</att>
         <att name="units">mmol m-3</att>
         <att name="ioos_category">co2</att>
+        <att name="colorBarPalette">KT_matter</att>
         <att name="colorBarMaximum" type="double">2400.0</att>
         <att name="colorBarMinimum" type="double">600.0</att>
         <att name="_ChunkSizes">null</att>
@@ -227,6 +228,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="standard_name">sea_water_alkalinity_expressed_as_mole_equivalent</att>
         <att name="units">mmol m-3</att>
         <att name="ioos_category">co2</att>
+        <att name="colorBarPalette">KT_ice</att>
         <att name="colorBarMaximum" type="double">2400.0</att>
         <att name="colorBarMinimum" type="double">500.0</att>
         <att name="_ChunkSizes">null</att>
@@ -263,6 +265,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="standard_name">mole_concentration_of_dissolved_molecular_oxygen_in_sea_water</att>
         <att name="units">mmol m-3</att>
         <att name="ioos_category">dissolved_o2</att>
+        <att name="colorBarPalette">KT_oxy</att>
         <att name="colorBarMaximum" type="double">500.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="_ChunkSizes">null</att>

@@ -187,6 +187,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Ocean Current Along x-axis</att>
       <att name="standard_name">sea_water_x_velocity</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">8.0</att>
       <att name="colorBarMinimum" type="double">-8.0</att>
       <att name="coordinates">null</att>

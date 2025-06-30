@@ -147,6 +147,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">surface_downward_mole_flux_of_carbon_dioxide</att>
       <att name="units">mmol m-2 s-1</att>
       <att name="ioos_category">co2</att>
+      <att name="colorBarPalette">KT_balance</att>
       <att name="colorBarMinimum" type="double">-0.001</att>
       <att name="colorBarMaximum" type="double">0.001</att>
       <att name="_ChunkSizes">null</att>

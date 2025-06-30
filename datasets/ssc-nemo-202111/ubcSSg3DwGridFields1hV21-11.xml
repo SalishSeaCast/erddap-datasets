@@ -180,6 +180,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Turbulent Kinetic Energy Dissipation Rate</att>
       <att name="standard_name">turbulent_kinetic_energy_dissipation_in_sea_water</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="coordinates">null</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
@@ -212,6 +213,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Vertical Eddy Diffusivity</att>
       <att name="standard_name">ocean_vertical_heat_diffusivity</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">0.1</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -246,6 +248,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Vertical Eddy Viscosity</att>
       <att name="standard_name">ocean_vertical_momentum_diffusivity</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">0.1</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -280,6 +283,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Ocean Vertical Velocity</att>
       <att name="standard_name">upward_sea_water_velocity</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">0.5</att>
       <att name="colorBarMinimum" type="double">-0.5</att>
       <att name="coordinates">null</att>

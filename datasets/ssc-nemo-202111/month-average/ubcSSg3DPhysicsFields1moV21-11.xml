@@ -178,6 +178,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">sea_water_reference_salinity</att>
       <att name="units">g kg-1</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_haline</att>
       <att name="colorBarMaximum" type="double">34.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coverage_content_type">modelResult</att>
@@ -200,6 +201,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">sea_water_conservative_temperature</att>
       <att name="units">degC</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_thermal</att>
       <att name="colorBarMaximum" type="double">20.0</att>
       <att name="colorBarMinimum" type="double">4.0</att>
       <att name="coverage_content_type">modelResult</att>
@@ -229,6 +231,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">sea_water_sigma_theta</att>
       <att name="units">kg m-3</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_dense</att>
       <att name="colorBarMaximum" type="double">27.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coverage_content_type">modelResult</att>
