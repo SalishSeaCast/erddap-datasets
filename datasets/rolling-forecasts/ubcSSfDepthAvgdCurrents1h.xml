@@ -157,6 +157,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="_ChunkSizes">null</att>
+            <att name="colorBarPalette">KT_curl</att>
             <att name="colorBarMaximum" type="double">8.0</att>
             <att name="colorBarMinimum" type="double">-8.0</att>
             <att name="ioos_category">currents</att>
@@ -177,6 +178,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="_ChunkSizes">null</att>
+            <att name="colorBarPalette">KT_curl</att>
             <att name="colorBarMaximum" type="double">8.0</att>
             <att name="colorBarMinimum" type="double">-8.0</att>
             <att name="ioos_category">currents</att>
@@ -197,6 +199,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="_ChunkSizes">null</att>
+            <att name="colorBarPalette">KT_curl</att>
             <att name="colorBarMaximum" type="double">8.0</att>
             <att name="colorBarMinimum" type="double">-8.0</att>
             <att name="ioos_category">currents</att>
@@ -217,6 +220,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="_ChunkSizes">null</att>
+            <att name="colorBarPalette">KT_curl</att>
             <att name="colorBarMaximum" type="double">8.0</att>
             <att name="colorBarMinimum" type="double">-8.0</att>
             <att name="ioos_category">currents</att>

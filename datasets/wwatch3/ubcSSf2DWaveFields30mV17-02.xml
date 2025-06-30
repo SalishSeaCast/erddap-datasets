@@ -179,6 +179,7 @@ Digital Research Alliance of Canada</att>
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
       <att name="long_name">Eastward Current</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">0.5</att>
       <att name="colorBarMinimum" type="double">-0.5</att>
       <att name="_ChunkSizes">null</att>
@@ -205,6 +206,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Northward Current</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">0.5</att>
       <att name="colorBarMinimum" type="double">-0.5</att>
       <att name="_ChunkSizes">null</att>
@@ -231,6 +233,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Eastward Wind</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">15.0</att>
       <att name="colorBarMinimum" type="double">-15.0</att>
       <att name="_ChunkSizes">null</att>
@@ -257,6 +260,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Northward Wind</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">15.0</att>
       <att name="colorBarMinimum" type="double">-15.0</att>
       <att name="_ChunkSizes">null</att>
@@ -282,6 +286,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Significant Height of Wind Waves</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">2.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -307,6 +312,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Mean Wave Length</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">4000.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -332,6 +338,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Mean Period T02</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">50.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -357,6 +364,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Wave Peak Frequency</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">15000.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -382,6 +390,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Wave Mean Direction</att>
+      <att name="colorBarPalette">KT_phase</att>
       <att name="colorBarMaximum" type="double">360.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -407,6 +416,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Peak Direction</att>
+      <att name="colorBarPalette">KT_phase</att>
       <att name="colorBarMaximum" type="double">360.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -432,6 +442,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Whitecap Coverage</att>
+      <att name="colorBarPalette">KT_ice</att>
       <att name="colorBarMaximum" type="double">1.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -457,6 +468,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Significant Breaking Wave Height</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">4.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -483,6 +495,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Eastward Wave to Ocean Stress</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">40000.0</att>
       <att name="colorBarMinimum" type="double">-40000.0</att>
       <att name="_ChunkSizes">null</att>
@@ -509,6 +522,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Northward Wave to Ocean Stress</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">40000.0</att>
       <att name="colorBarMinimum" type="double">-40000.0</att>
       <att name="_ChunkSizes">null</att>
@@ -534,6 +548,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Wave to Ocean Energy Flux</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">12000.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -560,6 +575,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Eastward Surface Stokes Drift</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">15000.0</att>
       <att name="colorBarMinimum" type="double">-15000.0</att>
       <att name="_ChunkSizes">null</att>
@@ -586,6 +602,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Northward Surface Stokes Drift</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">15000.0</att>
       <att name="colorBarMinimum" type="double">-15000.0</att>
       <att name="_ChunkSizes">null</att>

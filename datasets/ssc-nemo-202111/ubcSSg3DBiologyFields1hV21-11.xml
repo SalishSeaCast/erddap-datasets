@@ -224,6 +224,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_matter</att>
       <att name="colorBarMaximum" type="double">5.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -257,6 +258,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
     <addAttributes>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_turbid</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="colorBarMaximum" type="double">70.0</att>
       <att name="coverage_content_type">modelResult</att>
@@ -289,6 +291,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
     <addAttributes>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="colorBarMaximum" type="double">20.0</att>
       <att name="coverage_content_type">modelResult</att>
@@ -321,6 +324,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
     <addAttributes>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
       <att name="cell_methods">null</att>
@@ -350,6 +354,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="colorBarMaximum" type="double">128.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -394,6 +399,7 @@ and slower grazing rates
 </att>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
       <att name="cell_methods">null</att>
@@ -435,6 +441,7 @@ or some combination of the three
       </att>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
       <att name="cell_methods">null</att>
@@ -464,6 +471,7 @@ or some combination of the three
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">40.0</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="coordinates">null</att>
@@ -497,6 +505,7 @@ or some combination of the three
     <addAttributes>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
       <att name="cell_methods">null</att>
@@ -526,6 +535,7 @@ or some combination of the three
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_turbid</att>
       <att name="colorBarMaximum" type="double">70.0</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="coordinates">null</att>

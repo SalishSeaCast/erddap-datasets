@@ -464,7 +464,7 @@ v21-08: same variables,
       <att name="_ChunkSizes">null</att>
       <att name="colorBarMaximum" type="double">450.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
-      <att name="colorBarPalette">OceanDepth</att>
+      <att name="colorBarPalette">KT_deep</att>
       <att name="long_name">Sea Floor Depth</att>
       <att name="standard_name">sea_floor_depth</att>
       <att name="coverage_content_type">modelResult</att>
@@ -1648,6 +1648,7 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarPalette">KT_dense</att>
       <att name="colorBarMaximum" type="double">110000.0</att>
       <att name="colorBarMinimum" type="double">87000.0</att>
       <att name="coordinates">null</att>
@@ -1670,6 +1671,7 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">200.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -1692,6 +1694,7 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">128.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -1706,6 +1709,7 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
     <dataType>float</dataType>
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">100.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -1729,6 +1733,7 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarPalette">KT_solar</att>
       <att name="colorBarMaximum" type="double">700.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -1751,6 +1756,7 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarPalette">KT_thermal</att>
       <att name="colorBarMaximum" type="double">323.0</att>
       <att name="colorBarMinimum" type="double">253.0</att>
       <att name="coordinates">null</att>
@@ -1773,6 +1779,7 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarPalette">KT_solar</att>
       <att name="colorBarMaximum" type="double">500.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -1786,6 +1793,7 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
     <dataType>float</dataType>
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarPalette">KT_solar</att>
       <att name="colorBarMaximum" type="double">600.0</att>
       <att name="colorBarMinimum" type="double">-100.0</att>
       <att name="coordinates">null</att>
@@ -1808,6 +1816,7 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">120.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -1830,6 +1839,7 @@ v23-02: atmospheric pressure, precipitation rate, 2m specific humidity, 2m relat
         </sourceAttributes -->
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">120.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -2090,6 +2100,9 @@ polar-stereographic model grid is available in the ubcSSaAtmosphereGridV1 datase
     <addAttributes>
       <att name="_ChunkSize">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_dense</att>
+      <att name="colorBarMaximum" type="double">110000.0</att>
+      <att name="colorBarMinimum" type="double">87000.0</att>
     </addAttributes>
   </dataVariable>
   <dataVariable>
@@ -2107,6 +2120,7 @@ polar-stereographic model grid is available in the ubcSSaAtmosphereGridV1 datase
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSize">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">200.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -2127,6 +2141,7 @@ polar-stereographic model grid is available in the ubcSSaAtmosphereGridV1 datase
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSize">null</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">128.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -2148,6 +2163,7 @@ polar-stereographic model grid is available in the ubcSSaAtmosphereGridV1 datase
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSize">null</att>
+      <att name="colorBarPalette">KT_solar</att>
       <att name="colorBarMaximum" type="double">500.0</att>
       <att name="colorBarMinimum" type="double">-500.0</att>
       <att name="coordinates">null</att>
@@ -2168,6 +2184,7 @@ polar-stereographic model grid is available in the ubcSSaAtmosphereGridV1 datase
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSize">null</att>
+      <att name="colorBarPalette">KT_thermal</att>
       <att name="colorBarMaximum" type="double">313.0</att>
       <att name="colorBarMinimum" type="double">263.0</att>
       <att name="coordinates">null</att>
@@ -2188,6 +2205,9 @@ polar-stereographic model grid is available in the ubcSSaAtmosphereGridV1 datase
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSize">null</att>
+      <att name="colorBarPalette">KT_solar</att>
+      <att name="colorBarMaximum" type="double">500.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
     </addAttributes>
   </dataVariable>
@@ -2206,6 +2226,9 @@ polar-stereographic model grid is available in the ubcSSaAtmosphereGridV1 datase
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSize">null</att>
+      <att name="colorBarPalette">KT_curl</att>
+      <att name="colorBarMaximum" type="double">120.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
     </addAttributes>
   </dataVariable>
@@ -2224,6 +2247,9 @@ polar-stereographic model grid is available in the ubcSSaAtmosphereGridV1 datase
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSize">null</att>
+      <att name="colorBarPalette">KT_curl</att>
+      <att name="colorBarMaximum" type="double">120.0</att>
+      <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
     </addAttributes>
   </dataVariable>
@@ -2407,6 +2433,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Ocean Current Along x-axis</att>
       <att name="standard_name">sea_water_x_velocity</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">8.0</att>
       <att name="colorBarMinimum" type="double">-8.0</att>
       <att name="coordinates">null</att>
@@ -2599,6 +2626,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Ocean Current Along y-axis</att>
       <att name="standard_name">sea_water_y_velocity</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">8.0</att>
       <att name="colorBarMinimum" type="double">-8.0</att>
       <att name="coordinates">null</att>
@@ -2795,6 +2823,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Turbulent Kinetic Energy Dissipation Rate</att>
       <att name="standard_name">turbulent_kinetic_energy_dissipation_in_sea_water</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="coordinates">null</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
@@ -2827,6 +2856,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Vertical Eddy Diffusivity</att>
       <att name="standard_name">ocean_vertical_heat_diffusivity</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">0.1</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -2861,6 +2891,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Vertical Eddy Viscosity</att>
       <att name="standard_name">ocean_vertical_momentum_diffusivity</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">0.1</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -2895,6 +2926,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Ocean Vertical Velocity</att>
       <att name="standard_name">upward_sea_water_velocity</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">0.5</att>
       <att name="colorBarMinimum" type="double">-0.5</att>
       <att name="coordinates">null</att>
@@ -3102,6 +3134,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">sea_water_reference_salinity</att>
       <att name="units">g kg-1</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_haline</att>
       <att name="colorBarMaximum" type="double">34.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -3137,6 +3170,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">sea_water_conservative_temperature</att>
       <att name="units">degC</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_thermal</att>
       <att name="colorBarMaximum" type="double">20.0</att>
       <att name="colorBarMinimum" type="double">4.0</att>
       <att name="coordinates">null</att>
@@ -3172,6 +3206,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">sea_water_sigma_theta</att>
       <att name="units">kg m-3</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_dense</att>
       <att name="colorBarMaximum" type="double">27.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -3339,6 +3374,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">sea_surface_height_above_geoid</att>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_balance</att>
       <att name="colorBarMinimum" type="double">-4.0</att>
       <att name="colorBarMaximum" type="double">4.0</att>
       <att name="coverage_content_type">modelResult</att>
@@ -3578,6 +3614,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_matter</att>
       <att name="colorBarMaximum" type="double">5.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -3611,6 +3648,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
     <addAttributes>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_turbid</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="colorBarMaximum" type="double">70.0</att>
       <att name="coverage_content_type">modelResult</att>
@@ -3643,6 +3681,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
     <addAttributes>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="colorBarMaximum" type="double">20.0</att>
       <att name="coverage_content_type">modelResult</att>
@@ -3675,6 +3714,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
     <addAttributes>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
       <att name="cell_methods">null</att>
@@ -3704,6 +3744,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="colorBarMaximum" type="double">128.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coordinates">null</att>
@@ -3748,6 +3789,7 @@ and slower grazing rates
 </att>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
       <att name="cell_methods">null</att>
@@ -3789,6 +3831,7 @@ or some combination of the three
       </att>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
       <att name="cell_methods">null</att>
@@ -3818,6 +3861,7 @@ or some combination of the three
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">40.0</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="coordinates">null</att>
@@ -3851,6 +3895,7 @@ or some combination of the three
     <addAttributes>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="coverage_content_type">modelResult</att>
       <att name="cell_measures">null</att>
       <att name="cell_methods">null</att>
@@ -3880,6 +3925,7 @@ or some combination of the three
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_turbid</att>
       <att name="colorBarMaximum" type="double">70.0</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="coordinates">null</att>
@@ -4095,6 +4141,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">downwelling_photosynthetic_radiative_flux_in_sea_water</att>
       <att name="units">W m-2</att>
       <att name="ioos_category">optical_properties</att>
+      <att name="colorBarPalette">KT_solar</att>
       <att name="colorBarMaximum" type="double">350.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -4130,6 +4177,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">seawater_turbidity</att>
       <att name="units">NTU</att>
       <att name="ioos_category">optical_properties</att>
+      <att name="colorBarPalette">KT_turbid</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="colorBarMaximum" type="double">30.0</att>
       <att name="_ChunkSizes">null</att>
@@ -4337,6 +4385,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="standard_name">mole_concentration_of_dissolved_inorganic_carbon_in_sea_water</att>
         <att name="units">mmol m-3</att>
         <att name="ioos_category">co2</att>
+        <att name="colorBarPalette">KT_matter</att>
         <att name="colorBarMaximum" type="double">2400.0</att>
         <att name="colorBarMinimum" type="double">600.0</att>
         <att name="_ChunkSizes">null</att>
@@ -4373,6 +4422,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="standard_name">sea_water_alkalinity_expressed_as_mole_equivalent</att>
         <att name="units">mmol m-3</att>
         <att name="ioos_category">co2</att>
+        <att name="colorBarPalette">KT_ice</att>
         <att name="colorBarMaximum" type="double">2400.0</att>
         <att name="colorBarMinimum" type="double">500.0</att>
         <att name="_ChunkSizes">null</att>
@@ -4409,6 +4459,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="standard_name">mole_concentration_of_dissolved_molecular_oxygen_in_sea_water</att>
         <att name="units">mmol m-3</att>
         <att name="ioos_category">dissolved_o2</att>
+        <att name="colorBarPalette">KT_oxy</att>
         <att name="colorBarMaximum" type="double">500.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="_ChunkSizes">null</att>
@@ -4572,6 +4623,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">surface_downward_mole_flux_of_carbon_dioxide</att>
       <att name="units">mmol m-2 s-1</att>
       <att name="ioos_category">co2</att>
+      <att name="colorBarPalette">KT_balance</att>
       <att name="colorBarMinimum" type="double">-0.001</att>
       <att name="colorBarMaximum" type="double">0.001</att>
       <att name="_ChunkSizes">null</att>
@@ -4766,6 +4818,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">cell_thickness</att>
       <att name="units">m</att>
       <att name="ioos_category">numerics</att>
+      <att name="colorBarPalette">KT_deep</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="colorBarMaximum" type="double">30.0</att>
       <att name="_ChunkSizes">null</att>
@@ -4962,6 +5015,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="standard_name">mole_concentration_of_dissolved_inorganic_carbon_in_sea_water</att>
         <att name="units">mmol m-3</att>
         <att name="ioos_category">co2</att>
+        <att name="colorBarPalette">KT_matter</att>
         <att name="colorBarMaximum" type="double">2400.0</att>
         <att name="colorBarMinimum" type="double">600.0</att>
         <att name="_ChunkSizes">null</att>
@@ -4985,6 +5039,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="standard_name">sea_water_alkalinity_expressed_as_mole_equivalent</att>
         <att name="units">mmol m-3</att>
         <att name="ioos_category">co2</att>
+        <att name="colorBarPalette">KT_ice</att>
         <att name="colorBarMaximum" type="double">2400.0</att>
         <att name="colorBarMinimum" type="double">500.0</att>
         <att name="_ChunkSizes">null</att>
@@ -5008,6 +5063,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         <att name="standard_name">mole_concentration_of_dissolved_molecular_oxygen_in_sea_water</att>
         <att name="units">mmol m-3</att>
         <att name="ioos_category">dissolved_o2</att>
+        <att name="colorBarPalette">KT_oxy</att>
         <att name="colorBarMaximum" type="double">500.0</att>
         <att name="colorBarMinimum" type="double">0.0</att>
         <att name="_ChunkSizes">null</att>
@@ -5196,6 +5252,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">sea_water_reference_salinity</att>
       <att name="units">g kg-1</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_haline</att>
       <att name="colorBarMaximum" type="double">34.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coverage_content_type">modelResult</att>
@@ -5218,6 +5275,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">sea_water_conservative_temperature</att>
       <att name="units">degC</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_thermal</att>
       <att name="colorBarMaximum" type="double">20.0</att>
       <att name="colorBarMinimum" type="double">4.0</att>
       <att name="coverage_content_type">modelResult</att>
@@ -5247,6 +5305,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">sea_water_sigma_theta</att>
       <att name="units">kg m-3</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_dense</att>
       <att name="colorBarMaximum" type="double">27.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="coverage_content_type">modelResult</att>
@@ -5469,6 +5528,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_matter</att>
       <att name="colorBarMaximum" type="double">5.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="ioos_category">dissolved_nutrients</att>
@@ -5487,6 +5547,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_turbid</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="colorBarMaximum" type="double">70.0</att>
       <att name="ioos_category">dissolved_nutrients</att>
@@ -5505,6 +5566,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="colorBarMaximum" type="double">20.0</att>
       <att name="ioos_category">biology</att>
@@ -5523,6 +5585,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="ioos_category">dissolved_nutrients</att>
     </addAttributes>
   </dataVariable>
@@ -5539,6 +5602,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="colorBarMaximum" type="double">128.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="ioos_category">biology</att>
@@ -5559,7 +5623,6 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="long_name">Z2 Zooplankton Concentration</att>
       <att name="standard_name">mole_concentration_of_z2_zooplankton_expressed_as_nitrogen_in_sea_water</att>
       <att name="units">mmol m-3</att>
-      <att name="ioos_category">biology</att>
       <att name="comment">
 The Z2 zooplankton class is the highest trophic level whose grazing impact is included in the model
 and represents groups with larger body size,
@@ -5568,6 +5631,7 @@ and slower grazing rates
 (e.g., diapausing copepod species, euphausiids, amphipods and hydrozoan jellies).
 </att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="ioos_category">biology</att>
     </addAttributes>
   </dataVariable>
@@ -5586,7 +5650,6 @@ and slower grazing rates
       <att name="long_name">Z1 Zooplankton Concentration</att>
       <att name="standard_name">mole_concentration_of_z1_zooplankton_expressed_as_nitrogen_in_sea_water</att>
       <att name="units">mmol m-3</att>
-      <att name="ioos_category">biology</att>
       <att name="comment">
 The Z1 zooplankton class freely evolves based on model dynamics and includes groups with relatively small body size,
 short life cycles,
@@ -5595,6 +5658,7 @@ or some combination of the three
 (e.g., non-diapausing copepods, all copepod nauplii, dinoflagellates, foraminiferans, and larvaceans).
       </att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_algae</att>
       <att name="ioos_category">biology</att>
     </addAttributes>
   </dataVariable>
@@ -5611,6 +5675,7 @@ or some combination of the three
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">40.0</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="ioos_category">dissolved_nutrients</att>
@@ -5629,6 +5694,7 @@ or some combination of the three
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="ioos_category">dissolved_nutrients</att>
     </addAttributes>
   </dataVariable>
@@ -5645,6 +5711,7 @@ or some combination of the three
         </sourceAttributes -->
     <addAttributes>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_turbid</att>
       <att name="colorBarMaximum" type="double">70.0</att>
       <att name="colorBarMinimum" type="double">0</att>
       <att name="ioos_category">dissolved_nutrients</att>
@@ -5840,6 +5907,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">downwelling_photosynthetic_radiative_flux_in_sea_water</att>
       <att name="units">W m-2</att>
       <att name="ioos_category">optical_properties</att>
+      <att name="colorBarPalette">KT_solar</att>
       <att name="colorBarMaximum" type="double">350.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -5861,6 +5929,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">seawater_turbidity</att>
       <att name="units">NTU</att>
       <att name="ioos_category">optical_properties</att>
+      <att name="colorBarPalette">KT_turbid</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="colorBarMaximum" type="double">30.0</att>
       <att name="_ChunkSizes">null</att>
@@ -6058,6 +6127,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Ocean Current Along x-axis</att>
       <att name="standard_name">sea_water_x_velocity</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">8.0</att>
       <att name="colorBarMinimum" type="double">-8.0</att>
       <att name="coordinates">null</att>
@@ -6260,6 +6330,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="long_name">Ocean Current Along y-axis</att>
       <att name="standard_name">sea_water_y_velocity</att>
       <att name="_ChunkSizes">null</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">8.0</att>
       <att name="colorBarMinimum" type="double">-8.0</att>
       <att name="coordinates">null</att>
@@ -6435,6 +6506,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="_ChunkSize">null</att>
       <att name="coordinates">null</att>
       <att name="ioos_category">sea_level</att>
+      <att name="colorBarPalette">KT_balance</att>
       <att name="colorBarMinimum" type="double">-4.0</att>
       <att name="colorBarMaximum" type="double">4.0</att>
       <att name="coverage_content_type">modelResult</att>
@@ -6607,6 +6679,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="_ChunkSizes">null</att>
+            <att name="colorBarPalette">KT_curl</att>
             <att name="colorBarMaximum" type="double">8.0</att>
             <att name="colorBarMinimum" type="double">-8.0</att>
             <att name="ioos_category">currents</att>
@@ -6627,6 +6700,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="_ChunkSizes">null</att>
+            <att name="colorBarPalette">KT_curl</att>
             <att name="colorBarMaximum" type="double">8.0</att>
             <att name="colorBarMinimum" type="double">-8.0</att>
             <att name="ioos_category">currents</att>
@@ -6647,6 +6721,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="_ChunkSizes">null</att>
+            <att name="colorBarPalette">KT_curl</att>
             <att name="colorBarMaximum" type="double">8.0</att>
             <att name="colorBarMinimum" type="double">-8.0</att>
             <att name="ioos_category">currents</att>
@@ -6667,6 +6742,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="_ChunkSizes">null</att>
+            <att name="colorBarPalette">KT_curl</att>
             <att name="colorBarMaximum" type="double">8.0</att>
             <att name="colorBarMinimum" type="double">-8.0</att>
             <att name="ioos_category">currents</att>
@@ -9677,6 +9753,7 @@ Digital Research Alliance of Canada</att>
     <addAttributes>
       <att name="coverage_content_type">modelResult</att>
       <att name="long_name">Eastward Current</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">0.5</att>
       <att name="colorBarMinimum" type="double">-0.5</att>
       <att name="_ChunkSizes">null</att>
@@ -9703,6 +9780,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Northward Current</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">0.5</att>
       <att name="colorBarMinimum" type="double">-0.5</att>
       <att name="_ChunkSizes">null</att>
@@ -9729,6 +9807,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Eastward Wind</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">15.0</att>
       <att name="colorBarMinimum" type="double">-15.0</att>
       <att name="_ChunkSizes">null</att>
@@ -9755,6 +9834,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Northward Wind</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">15.0</att>
       <att name="colorBarMinimum" type="double">-15.0</att>
       <att name="_ChunkSizes">null</att>
@@ -9780,6 +9860,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Significant Height of Wind Waves</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">2.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -9805,6 +9886,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Mean Wave Length</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">4000.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -9830,6 +9912,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Mean Period T02</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">50.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -9855,6 +9938,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Wave Peak Frequency</att>
+      <att name="colorBarPalette">KT_tempo</att>
       <att name="colorBarMaximum" type="double">15000.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -9880,6 +9964,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Wave Mean Direction</att>
+      <att name="colorBarPalette">KT_phase</att>
       <att name="colorBarMaximum" type="double">360.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -9905,6 +9990,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Peak Direction</att>
+      <att name="colorBarPalette">KT_phase</att>
       <att name="colorBarMaximum" type="double">360.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -9930,6 +10016,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Whitecap Coverage</att>
+      <att name="colorBarPalette">KT_ice</att>
       <att name="colorBarMaximum" type="double">1.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -9955,6 +10042,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Significant Breaking Wave Height</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">4.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -9981,6 +10069,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Eastward Wave to Ocean Stress</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">40000.0</att>
       <att name="colorBarMinimum" type="double">-40000.0</att>
       <att name="_ChunkSizes">null</att>
@@ -10007,6 +10096,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Northward Wave to Ocean Stress</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">40000.0</att>
       <att name="colorBarMinimum" type="double">-40000.0</att>
       <att name="_ChunkSizes">null</att>
@@ -10032,6 +10122,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Wave to Ocean Energy Flux</att>
+      <att name="colorBarPalette">KT_amp</att>
       <att name="colorBarMaximum" type="double">12000.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -10058,6 +10149,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Eastward Surface Stokes Drift</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">15000.0</att>
       <att name="colorBarMinimum" type="double">-15000.0</att>
       <att name="_ChunkSizes">null</att>
@@ -10084,6 +10176,7 @@ Digital Research Alliance of Canada</att>
         </sourceAttributes -->
     <addAttributes>
       <att name="long_name">Northward Surface Stokes Drift</att>
+      <att name="colorBarPalette">KT_curl</att>
       <att name="colorBarMaximum" type="double">15000.0</att>
       <att name="colorBarMinimum" type="double">-15000.0</att>
       <att name="_ChunkSizes">null</att>

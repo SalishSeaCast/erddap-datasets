@@ -159,6 +159,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
       <att name="_ChunkSize">null</att>
       <att name="coordinates">null</att>
       <att name="ioos_category">sea_level</att>
+      <att name="colorBarPalette">KT_balance</att>
       <att name="colorBarMinimum" type="double">-4.0</att>
       <att name="colorBarMaximum" type="double">4.0</att>
       <att name="coverage_content_type">modelResult</att>

@@ -151,6 +151,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">sea_surface_height_above_geoid</att>
       <att name="_ChunkSizes">null</att>
       <att name="coordinates">null</att>
+      <att name="colorBarPalette">KT_balance</att>
       <att name="colorBarMinimum" type="double">-4.0</att>
       <att name="colorBarMaximum" type="double">4.0</att>
       <att name="coverage_content_type">modelResult</att>

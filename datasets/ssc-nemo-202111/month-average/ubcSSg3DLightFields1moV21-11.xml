@@ -186,6 +186,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">downwelling_photosynthetic_radiative_flux_in_sea_water</att>
       <att name="units">W m-2</att>
       <att name="ioos_category">optical_properties</att>
+      <att name="colorBarPalette">KT_solar</att>
       <att name="colorBarMaximum" type="double">350.0</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="_ChunkSizes">null</att>
@@ -207,6 +208,7 @@ geo-location data for the SalishSeaCast NEMO model grid is available in the ubcS
       <att name="standard_name">seawater_turbidity</att>
       <att name="units">NTU</att>
       <att name="ioos_category">optical_properties</att>
+      <att name="colorBarPalette">KT_turbid</att>
       <att name="colorBarMinimum" type="double">0.0</att>
       <att name="colorBarMaximum" type="double">30.0</att>
       <att name="_ChunkSizes">null</att>
