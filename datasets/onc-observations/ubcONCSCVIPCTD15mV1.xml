@@ -58,7 +58,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 
 Raw instrument data on which this dataset is based were provided by Ocean Networks Canada.</att>
     <att name="sourceUrl">(local files)</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">ONC, Strait of Georgia, Central Node, Salinity and Temperature, 15min, v1
 
 Temperature and salinity data from the Ocean Networks Canada (ONC)

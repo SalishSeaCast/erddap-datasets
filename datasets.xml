@@ -375,7 +375,7 @@ Salish Sea, sea floor, sea_floor_depth, seafloor, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">SalishSeaCast NEMO Model Grid, Geo-location and Bathymetry, v21-08
 
 Longitude, latitude, and bathymetry of the SalishSeaCast NEMO model grid.
@@ -576,7 +576,7 @@ Salish Sea, sea, spacing, t-grid, tmaskutil, u-grid, umaskutil, v-grid, vmaskuti
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">SalishSeaCast NEMO Model Grid, 2D Mesh Mask, v21-08
 
 NEMO grid variable value for the u-v plane of the
@@ -990,7 +990,7 @@ v-grid, vmask, vorticity-grid, w-grid</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">SalishSeaCast NEMO Model Grid, 3D Mesh Mask, v21-08
 
 NEMO grid variable value for the SalishSeaCast NEMO model Arakawa-C grid.
@@ -1417,7 +1417,7 @@ This dataset is derived from a product of the Environment and Climate Change Can
 (High Resolution Deterministic Prediction System) model.
 The Terms and conditions of use of Meteorological Data from Environment and Climate Change Canada
 are available at http://dd.weather.gc.ca/doc/LICENCE_GENERAL.txt.</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">HRDPS, SalishSeaCast, Atmospheric Forcing Grid, Geo-location, v23-02
 
 Longitude and latitude of the Environment and Climate Change Canada HRDPS continental rotated
@@ -1549,7 +1549,7 @@ This dataset was derived from a product of the Environment and Climate Change Ca
 (High Resolution Deterministic Prediction System) continental rotated lat-lon model grid product.
 The Terms and conditions of use of Meteorological Data from Environment and Climate Change Canada
 are available at http://dd.weather.gc.ca/doc/LICENCE_GENERAL.txt.</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">HRDPS, SalishSeaCast, Atmospheric Forcing Fields, Hourly, v23-02
 
 2d hourly atmospheric field values from the Environment and Climate Change Canada HRDPS
@@ -1886,7 +1886,7 @@ This dataset is derived from a product of the Environment and Climate Change Can
 (High Resolution Deterministic Prediction System) model.
 The Terms and conditions of use of Meteorological Data from Environment and Climate Change Canada
 are available at http://dd.weather.gc.ca/doc/LICENCE_GENERAL.txt.</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">HRDPS, SalishSeaCast, Atmospheric Forcing Grid, Geo-location, v1
 
 Longitude and latitude of the Environment and Climate Change Canada HRDPS West polar-stereographic model grid.
@@ -2002,7 +2002,7 @@ This dataset was derived from a product of the Environment and Climate Change Ca
 (High Resolution Deterministic Prediction System) West model polar-stereographic projection product.
 The Terms and conditions of use of Meteorological Data from Environment and Climate Change Canada
 are available at http://dd.weather.gc.ca/doc/LICENCE_GENERAL.txt.</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">HRDPS, Salish Sea, Atmospheric Forcing Fields, Hourly, v1
 
 2d hourly atmospheric field values from the Environment and Climate Change Canada HRDPS
@@ -2284,7 +2284,7 @@ sea, sea_water_x_velocity, seawater, time_counter, u velocity component, velocit
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d u Grid Variable Fields, Hourly, v21-11
 
 Variable values at the 3d zonal (u) component velocity grid points averaged over 1 hour intervals
@@ -2477,7 +2477,7 @@ sea, sea_water_y_velocity, seawater, time_counter, v velocity component, velocit
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d v Grid Variable Fields, Hourly, v21-11
 
 Variable values at the 3d meridional (v) component velocity grid points averaged over 1 hour intervals
@@ -2674,7 +2674,7 @@ vovecrtz</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d w Grid Variable Fields, Hourly, v21-11
 
 Variable values at the 3d vertical (w) component velocity grid points averaged over 1 hour intervals
@@ -2973,7 +2973,7 @@ seawater, sea_water_sigma_theta, sigma, sigma_theta, time_counter, vosaline, vot
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d Physics Fields, Hourly, v21-11
 
 3d salinity, water temperature, and density field values averaged over 1 hour intervals
@@ -3250,7 +3250,7 @@ sossheig, time_counter, water</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, Sea Surface Height Field, Hourly, v21-11
 
 2d sea surface height values averaged over 1 hour intervals from SalishSeaCast NEMO model runs with
@@ -3437,7 +3437,7 @@ silicate, silicon, time_counter, tracer, water, zooplankton
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d Biology Fields, Hourly, v21-11
 
 3d SMELT biological model field values averaged over 1 hour intervals
@@ -3977,7 +3977,7 @@ time_counter, tracer, water
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d PAR and Turbidity Fields, Hourly, v21-11
 
 3d photosynthetically available radiation (PAR) and Fraser River turbidity field values
@@ -4230,7 +4230,7 @@ seawater, time_counter, total_alkalinity, water
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d Chemistry Fields, Hourly, v21-11
 
 3d dissolved inorganic carbon, dissolved oxygen, and total alkalinity field values averaged over
@@ -4504,7 +4504,7 @@ co2_flux, time_counter
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, Sea Surface CO2 Flux Field, Hourly, v21-11
 
 2d sea surface CO2 flux values averaged over 1 hour intervals from SalishSeaCast NEMO model runs with
@@ -4668,7 +4668,7 @@ sea water, seawater, time_counter
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d Variable Volume Layers Field, Hourly, v21-11
 
 3d variable volume layers (VVL) thickness values averaged over 1 hour intervals from SalishSeaCast NEMO model runs with
@@ -4871,7 +4871,7 @@ seawater, time, total_alkalinity, water
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d Chemistry Fields, Monthly, v21-11
 
 3d dissolved inorganic carbon, dissolved oxygen, and total alkalinity field values averaged over
@@ -5104,7 +5104,7 @@ seawater, sea_water_sigma_theta, sigma, sigma_theta, time, vosaline, votemper, w
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d Physics Fields, Monthly, v21-11
 
 3d salinity, water temperature, and density field values averaged over 1 month intervals
@@ -5363,7 +5363,7 @@ silicate, silicon, time, tracer, water, zooplankton
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d Biology Fields, Monthly, v21-11
 
 3d SMELT biological model field values averaged over 1 month intervals
@@ -5756,7 +5756,7 @@ counter, tracer, water
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Green, Salish Sea, 3d PAR and Turbidity Fields, Monthly, v21-11
 
 3d photosynthetically available radiation (PAR) and Fraser River turbidity field values
@@ -5971,7 +5971,7 @@ sea, sea_water_x_velocity, seawater, time_counter, u velocity component, velocit
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Salish Sea, 3d u Grid Variable Fields, Hourly
 
 Forecasted 3d zonal (u) component velocity field values averaged over 1 hour intervals
@@ -6175,7 +6175,7 @@ sea, sea_water_y_velocity, seawater, time_counter, v velocity component, velocit
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Salish Sea, 3d v Grid Variable Fields, Hourly
 
 Forecasted 3d meridional (v) component velocity field values averaged over 1 hour intervals
@@ -6382,7 +6382,7 @@ sossheig, time_counter, water</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Salish Sea, Surface Tracer Fields, Hourly
 Rolling daily forecast of 2d sea surface height and mixed layer depth field values averaged over 1 hour intervals
 from SalishSeaCast NEMO model runs with physics and biology. The values are calculated for the surface of the model grid
@@ -6552,7 +6552,7 @@ VelEast10, VelEast5, VelNorth10, VelNorth5, velocity, water</att>
     by the SalishSeaCast Project Contributors and The University of British Columbia.
 
     They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-        <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
         <att name="summary">Forecast, Salish Sea, Near-surface Depth Averaged Currents, 1h
 
 Rolling daily forecast of eastward and northward water current component field values averaged over 1 hour
@@ -6781,7 +6781,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Boundary Bay, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -6957,7 +6957,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Campbell River, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -7133,7 +7133,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Cherry Point, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -7309,7 +7309,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Friday Harbor, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -7486,7 +7486,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Halfmoon Bay, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -7662,7 +7662,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Nanaimo, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -7838,7 +7838,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Neah Bay, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -8014,7 +8014,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, New Westminster, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -8190,7 +8190,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Patricia Bay, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -8369,7 +8369,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Point Atkinson, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -8545,7 +8545,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Port Renfrew, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -8721,7 +8721,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Sand Heads, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -8897,7 +8897,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Sandy Cove, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -9074,7 +9074,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Squamish, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -9251,7 +9251,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Victoria, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -9427,7 +9427,7 @@ sossheig, ssh, surface, tides, time_counter, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">Forecast, Woodwards Landing, Sea Surface Height, 10min
 
 Rolling daily forecast of sea surface height values averaged over 10 minute intervals from
@@ -9641,7 +9641,7 @@ They are licensed under the Apache License, Version 2.0. https://www.apache.org/
     <att name="northernmost_latitude">null</att>
     <att name="product_name">null</att>
     <att name="southernmost_latitude">null</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="start_date">null</att>
     <att name="stop_date">null</att>
     <att name="summary">Forecast, Salish Sea, 2d Wave Fields, 30min, v17-02
@@ -10673,7 +10673,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 
 Raw instrument data on which this dataset is based were provided by Ocean Networks Canada.</att>
     <att name="sourceUrl">(local files)</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">ONC, Strait of Georgia, Central Node, Salinity and Temperature, 15min, v1
 
 Temperature and salinity data from the Ocean Networks Canada (ONC)
@@ -10923,7 +10923,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 
 Raw instrument data on which this dataset is based were provided by Ocean Networks Canada.</att>
     <att name="sourceUrl">(local files)</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">ONC, Strait of Georgia, East Node, Salinity and Temperature, 15min, v1
 
 Temperature and salinity data from the Ocean Networks Canada (ONC)
@@ -11172,7 +11172,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 
 Raw instrument data on which this dataset is based were provided by Ocean Networks Canada.</att>
     <att name="sourceUrl">(local files)</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">ONC, Strait of Georgia, Fraser River Delta Lower Slope BBL Node, Salinity and Temperature, 15min, v1
 
 Temperature and salinity data from the Ocean Networks Canada (ONC)
@@ -11419,7 +11419,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 
 Raw instrument data on which this dataset is based were provided by Ocean Networks Canada.</att>
     <att name="sourceUrl">(local files)</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">ONC, Strait of Georgia, Fraser River Delta Upper Sloper DDL Node, Salinity and Temperature, 15min, v1
 
 Temperature and salinity data from the Ocean Networks Canada (ONC)
@@ -11708,7 +11708,7 @@ They are licensed under the Apache License, Version 2.0. http://www.apache.org/l
 
 Raw instrument data on which this dataset is based were provided by Ocean Networks Canada.</att>
     <att name="sourceUrl">(local files)</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">ONC, Strait of Georgia, BC Ferries, Tsawwassen - Duke Point, 1min, v18-01
 
 Data from the Ocean Networks Canada (ONC)
@@ -13080,7 +13080,7 @@ Current data from Vancouver Fraser Port Authority (VFPA) horizontal acoustic dop
 
 v1: current speed and direction variables</att>
     <att name="sourceUrl">(local files)</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="history">null</att>
   </addAttributes>
   <dataVariable>

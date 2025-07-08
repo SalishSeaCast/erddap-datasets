@@ -50,7 +50,7 @@ Salish Sea, sea floor, sea_floor_depth, seafloor, topography</att>
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">SalishSeaCast NEMO Model Grid, Geo-location and Bathymetry, v21-08
 
 Longitude, latitude, and bathymetry of the SalishSeaCast NEMO model grid.
