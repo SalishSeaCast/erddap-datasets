@@ -35,7 +35,7 @@ This dataset is derived from a product of the Environment and Climate Change Can
 (High Resolution Deterministic Prediction System) model.
 The Terms and conditions of use of Meteorological Data from Environment and Climate Change Canada
 are available at http://dd.weather.gc.ca/doc/LICENCE_GENERAL.txt.</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">HRDPS, SalishSeaCast, Atmospheric Forcing Grid, Geo-location, v1
 
 Longitude and latitude of the Environment and Climate Change Canada HRDPS West polar-stereographic model grid.

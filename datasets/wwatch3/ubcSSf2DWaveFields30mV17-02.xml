@@ -67,7 +67,7 @@ They are licensed under the Apache License, Version 2.0. https://www.apache.org/
     <att name="northernmost_latitude">null</att>
     <att name="product_name">null</att>
     <att name="southernmost_latitude">null</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="start_date">null</att>
     <att name="stop_date">null</att>
     <att name="summary">Forecast, Salish Sea, 2d Wave Fields, 30min, v17-02

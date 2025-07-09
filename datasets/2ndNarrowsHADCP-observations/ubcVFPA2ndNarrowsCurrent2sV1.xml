@@ -60,7 +60,7 @@ Current data from Vancouver Fraser Port Authority (VFPA) horizontal acoustic dop
 
 v1: current speed and direction variables</att>
     <att name="sourceUrl">(local files)</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="history">null</att>
   </addAttributes>
   <dataVariable>

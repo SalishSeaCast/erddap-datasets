@@ -50,7 +50,7 @@ Salish Sea, sea, spacing, t-grid, tmaskutil, u-grid, umaskutil, v-grid, vmaskuti
 by the SalishSeaCast Project Contributors and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0</att>
-    <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v91</att>
     <att name="summary">SalishSeaCast NEMO Model Grid, 2D Mesh Mask, v21-08
 
 NEMO grid variable value for the u-v plane of the
