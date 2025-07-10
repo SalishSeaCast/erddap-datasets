@@ -17,7 +17,7 @@ dependencies:
   - lxml
   - netcdf4
   - pip
-  - python=3.12
+  - python=3.13
   - pyyaml
   - rich
   - structlog
