@@ -26,7 +26,7 @@ jobs:
            cache-environment: true
            cache-downloads: true
            # persist downloads cache for 1 day
-           cache-downloads-key: downloads-${{ steps.date.outputs.date }}
+           cache-downloads-key: downloads-${{ steps.date.outputs.date }}-check-datasets
            create-args: >-
              python=${{ inputs.python-version }}
 
