@@ -10,7 +10,7 @@
 <graphBackgroundColor></graphBackgroundColor>                       <!-- 0xAARRGGBB, default is 0xffccccff -->
 <ipAddressMaxRequests>15</ipAddressMaxRequests>                     <!-- current default=15 -->
 <ipAddressMaxRequestsActive>2</ipAddressMaxRequestsActive>          <!-- current default=2 -->
-<ipAddressUnlimited>206.12.127.34</ipAddressUnlimited>              <!-- default=empty -->
+<ipAddressUnlimited></ipAddressUnlimited>                           <!-- default=empty -->
 <loadDatasetsMinMinutes>15</loadDatasetsMinMinutes>                 <!-- usually=default=15 -->
 <loadDatasetsMaxMinutes>60</loadDatasetsMaxMinutes>                 <!-- default=60 -->
 <logLevel>info</logLevel>                                           <!-- "warning" (fewest messages), "info" (default), or "all" (most messages) -->
@@ -9574,6 +9574,7 @@ https://dx.doi.org/10.1016/j.ocemod.2017.02.008</att>
 
 <dataset type="EDDGridFromNcFiles" datasetID="ubcSSf2DWaveFields30mV17-02" active="true">
   <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+  <updateEveryNMillis>10000</updateEveryNMillis>
   <fileDir>/results/SalishSea/rolling-forecasts/</fileDir>
   <fileNameRegex>.*SoG_ww3_fields_\d{8}_\d{8}\.nc$</fileNameRegex>
   <recursive>true</recursive>
