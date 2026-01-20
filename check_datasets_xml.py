@@ -17,6 +17,7 @@
 
 
 """Check that datasets described in `datasets.yaml` file are well-formed XML."""
+
 import logging
 import os
 from pathlib import Path
