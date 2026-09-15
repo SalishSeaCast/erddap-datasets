@@ -8,6 +8,7 @@ on:
 
 jobs:
   check-datasets-xml:
+    name: Run check-datasets-xml.py
     permissions:
       contents: read  # Required to access repository contents to run the check-datasets-xml.py script
     strategy:
