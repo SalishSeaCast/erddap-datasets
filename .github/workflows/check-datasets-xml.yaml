@@ -1,14 +1,21 @@
 name: check-datasets-xml
 
+permissions: {}
+
 on:
   push:
     branches: [ '*' ]
 
+# Helps prevent parallel runs of the workflow from overlapping
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   check-datasets-xml:
+    name: Run check-datasets-xml.py
     permissions:
-      contents: read
-      pull-requests: write
+      contents: read  # Required to access repository contents to run the check-datasets-xml.py script
     strategy:
       fail-fast: false
       matrix:
@@ -16,7 +23,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@v7  # zizmor: ignore[unpinned-uses]
+        with:
+          persist-credentials: false  # Required to avoid exposing secrets to pytest run in forked PRs
 
       - name: Get current date for environments & downloads cache keys
         id: date
