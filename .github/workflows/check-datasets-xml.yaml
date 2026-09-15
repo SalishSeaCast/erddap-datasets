@@ -9,8 +9,7 @@ on:
 jobs:
   check-datasets-xml:
     permissions:
-      contents: read
-      pull-requests: write
+      contents: read  # Required to access repository contents to run the check-datasets-xml.py script
     strategy:
       fail-fast: false
       matrix:
