@@ -1,5 +1,7 @@
 name: check-datasets-xml
 
+permissions: {}
+
 on:
   push:
     branches: [ '*' ]
