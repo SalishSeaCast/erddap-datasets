@@ -6,6 +6,11 @@ on:
   push:
     branches: [ '*' ]
 
+# Helps prevent parallel runs of the workflow from overlapping
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   check-datasets-xml:
     name: Run check-datasets-xml.py
