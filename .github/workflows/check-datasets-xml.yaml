@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
+        with:
+          persist-credentials: false  # Required to avoid exposing secrets to pytest run in forked PRs
 
       - name: Get current date for environments & downloads cache keys
         id: date
