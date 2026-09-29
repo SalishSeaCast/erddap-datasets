@@ -3,7 +3,7 @@
 # Create/update this file with:
 #   (erddap-datasets-dev)$ python -m pip list --format=freeze >> envs/requirements.txt
 
-anyio==4.11.0
+anyio==4.14.2
 argon2-cffi==25.1.0
 argon2-cffi-bindings==25.1.0
 arrow==1.4.0
