@@ -16,7 +16,7 @@ dependencies:
   - jupyterlab
   - lxml
   - netcdf4
-  - pip
+  - pip>=26.2.2  # re: eMudhra intermediate CA certs issue
   - python=3.13
   - pyyaml
   - rich
