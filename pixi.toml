@@ -8,6 +8,8 @@ readme = "README.rst"
 repository = "https://github.com/erddap/erddap-datasets"
 
 [tasks]
+check-datasets-xml = "python -m check_datasets_xml"
+build-datasets-xml = "python -m build_datasets_xml"
 
 [dependencies]
 docutils = ">=0.23,<0.24"
