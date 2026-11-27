@@ -1,0 +1,25 @@
+[workspace]
+authors = ["Doug Latornell <dlatornell@eoas.ubc.ca>"]
+channels = ['conda-forge']
+name = "erddap-datasets-dev"
+platforms = ['linux-64', "osx-arm64"]
+version = "26.1"
+readme = "README.rst"
+repository = "https://github.com/erddap/erddap-datasets"
+
+[tasks]
+
+[dependencies]
+docutils = "*"
+jupyterlab = "*"
+lxml = "*"
+netcdf4 = "*"
+pip = ">=26.2.2"
+python = "3.13.*"
+pyyaml = "*"
+rich = "*"
+structlog = "*"
+xarray = "*"
+
+# For coding style and repo QA
+pre-commit = "*"
