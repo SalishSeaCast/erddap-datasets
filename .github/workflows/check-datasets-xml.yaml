@@ -14,37 +14,27 @@ concurrency:
 jobs:
   check-datasets-xml:
     name: Run check-datasets-xml.py
+    runs-on: ubuntu-latest
     permissions:
       contents: read  # Required to access repository contents to run the check-datasets-xml.py script
     strategy:
       fail-fast: false
       matrix:
-        python-version: [ '3.13' ]
-    runs-on: ubuntu-latest
+        environment: [ 'test' ]
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7  # zizmor: ignore[unpinned-uses]
         with:
           persist-credentials: false  # Required to avoid exposing secrets to pytest run in forked PRs
 
-      - name: Get current date for environments & downloads cache keys
-        id: date
-        run: echo "date=$(date +%Y-%m-%d)" >> "${GITHUB_OUTPUT}"
-
-      - name: Set up Conda environment with Micromamba
-        uses: mamba-org/setup-micromamba@f457c30a868e4760d3a6fcea5f25dc655b8edf39
+      - name: Set up Pixi
+        uses: prefix-dev/setup-pixi@ad1da6449d9e506fd127fd67ab2d054a769f6a94
         with:
-           environment-file: envs/environment-test.yaml
-           environment-name: erddap-datasets-test
-           cache-environment: true
-           # persist environment cache for 1 day
-           cache-environment-key: environment-${{ steps.date.outputs.date }}
-           cache-downloads: true
-           # persist downloads cache for 1 day
-           cache-downloads-key: downloads-${{ steps.date.outputs.date }}-check-datasets
-           create-args: >-
-             python=${{ matrix.python-version }}
+          cache: true
+          environments: ${{ matrix.environment }}
 
       - name: Run check_datasets_xml.py
-        run: python check_datasets_xml.py
-        shell: bash -el {0}
+        run: pixi run -e ${INPUTS_ENVIRONMENT} python -m check_datasets_xml
+        env:
+          INPUTS_ENVIRONMENT: ${{ matrix.environment }}
