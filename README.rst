@@ -17,8 +17,35 @@ Also in the repo are:
 * Python scripts to check that the XML fragments are well-formed,
   and to build ``datasets.xml`` from the dataset description fragments
 * Jupyter notebooks that are used to generate and maintain the dataset description fragments
-* conda environment description YAML files to build conda environment in which the above code
-  can be executed
+
+`erddap-datasets` uses Pixi_ for package and environment management.
+If you don't already have Pixi_ installed,
+please follow its `installation instructions`_ to do so.
+
+.. _Pixi: https://pixi.prefix.dev/latest/
+.. _`installation instructions`: https://pixi.prefix.dev/latest/installation/
+
+Use `pixi install` command to download the package dependencies and link them into the environment.
+
+Most commands are executed using `pixi run` in the `erddap-datasets/` directory
+(or a sub-directory).
+
+* The `default` environment has the packages installed that are required to run the
+  modules that check the dataset XML fragments and build the `datasets.xml` file.;
+  e.g. `pixi run check-datasets-xml` and `pixi run build-datasets-xml`.
+
+* If you are using an integrated development environment like VSCode or PyCharm
+  where you need a Python interpreter to support coding assistance features,
+  run development tasks,
+  etc.,
+  use the interpreter in the `default` environment.
+  You can get its full path with `pixi run which python`
+
+To get detailed information about the environments,
+the packages installed in them,
+`Pixi`_ tasks that are defined for them,
+etc.,
+use `pixi info`.
 
 
 Python Scripts
@@ -30,8 +57,8 @@ Python Scripts
 Script that checks that the datasets described in ``datasets.yaml`` file are well-formed XML.
 Execution::
 
-  conda activate erddap-datasets-dev
-  python -m check_datasets_xml
+  cd erddap-datasets
+  pixi run check-datasets-xml
 
 The ``check_datasets_xml.py`` is run by a `GitHub Action`_ whenever changes are pushed to the repo
 on GitHub.
@@ -47,8 +74,8 @@ https://github.com/SalishSeaCast/erddap-datasets/actions/workflows/check-dataset
 Script that builds the ERDDAP ``datasets.xml`` file described in the ``datasets.yaml`` file.
 Execution::
 
-  conda activate erddap-datasets-dev
-  python -m build_datasets_xml
+  cd erddap-datasets
+  pixi run build-datasets-xml
 
 
 Jupyter Notebooks
