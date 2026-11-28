@@ -1,7 +1,7 @@
 [workspace]
 authors = ["Doug Latornell <dlatornell@eoas.ubc.ca>"]
 channels = ['conda-forge']
-name = "erddap-datasets-dev"
+name = "erddap-datasets"
 platforms = ['linux-64', "osx-arm64"]
 version = "26.1"
 readme = "README.rst"
