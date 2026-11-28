@@ -11,6 +11,7 @@ repos:
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
+      - id: check-toml
       - id: check-yaml
       - id: check-xml
         exclude: ^datasets\/(prefix|postfix)\.xml$
